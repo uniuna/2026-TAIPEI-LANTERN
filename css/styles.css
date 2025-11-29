@@ -1,0 +1,371 @@
+/* --- 1. 變數設定 (可在此快速換色) --- */
+:root {
+    --bg-color: #050510;
+    --card-bg: #121225;
+    --primary-color: #FF0055;
+    --accent-color: #00E5FF;
+    --text-main: #FFFFFF;
+    --text-sub: #AAAAAA;
+    --header-height: 70px;
+}
+
+/* --- 2. 基礎設定 --- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+a { text-decoration: none; color: inherit; transition: 0.3s; }
+ul { list-style: none; }
+
+/* --- 3. 導覽列 (Sticky Header) --- */
+.navbar {
+    position: fixed;
+    top: 0; left: 0; width: 100%;
+    height: var(--header-height);
+    background: rgba(5, 5, 16, 0.9);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px var(--primary-color);
+}
+.logo span{
+    color: var(--text-main);
+    text-shadow: 0 0 10px var(--text-main);
+}
+.nav-links { display: flex; gap: 30px; }
+.nav-links a:hover { color: var(--accent-color); text-shadow: 0 0 8px var(--accent-color); }
+.hamburger { display: none; cursor: pointer; font-size: 1.5rem; }
+
+
+/* --- 下拉選單 (Dropdown) 樣式 - RWD 優化版 --- */
+
+/* 1. 設定父層定位基準 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 2. 電腦版：下拉選單容器 (預設隱藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    
+    /* --- 關鍵修改 Start --- */
+    left: 50%; /* 左側定位在正中間 */
+    width: 160px; /* 設定固定寬度 (必須要有明確寬度) */
+    margin-left: -80px; /* 往左拉回寬度的一半 (160 / 2 = 80) */
+    
+    /* 移除原本的 transform */
+    /* transform: translateX(-50%); <---這行刪掉 */
+    /* --- 關鍵修改 End --- */
+
+    background-color: rgba(5, 5, 16, 0.95);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 10px 0;
+    z-index: 1001;
+    backdrop-filter: blur(10px);
+}
+/* .dropdown-content {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(5, 5, 16, 0.95);
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 10px 0;
+    z-index: 1001;
+    backdrop-filter: blur(10px);
+} */
+
+
+/* 3. 連結樣式 */
+.dropdown-content li { width: 100%; text-align: center; }
+.dropdown-content a {
+    color: var(--text-main);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.95rem;
+    transition: 0.3s;
+}
+
+/* 4. 電腦版 Hover 效果：滑鼠移入顯示 */
+.dropdown:hover .dropdown-content {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--accent-color);
+}
+
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        margin-top: 20px; /* 起始狀態：距離上方按鈕遠一點 (看起來在下面) */
+    }
+    to { 
+        opacity: 1; 
+        margin-top: 0; /* 結束狀態：回到原本位置 */
+    }
+}
+/* @keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: translateX(-50%) translateY(10px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateX(-50%) translateY(0); 
+    }
+} */
+
+/* --- 手機版 RWD 特別調整 (關鍵修改) --- */
+@media (max-width: 768px) {
+    .dropdown {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px; /* 增加一點間距 */
+    }
+    
+    /* 父層連結 (燈區介紹 ▾) 的樣式微調 */
+    .dropbtn {
+        color: var(--accent-color) !important; /* 讓標題顏色稍微亮一點，表示它是分類 */
+        font-weight: bold;
+        pointer-events: none; /* (選用) 讓「燈區介紹」本身不能點擊，只作為標題 */
+    }
+
+    /* 手機版：強制直接顯示子選單 (關鍵屬性) */
+    /* --- 手機版下拉選單修正 --- */
+    .dropdown-content {
+        /* 1. 關鍵：歸零電腦版的定位設定 */
+        position: static;   /* 不再絕對定位，讓它自然堆疊 */
+        width: 90%;         /* 改為相對寬度 (或 100%) */
+        margin-left: auto;  /* 移除 -80px，改為自動 */
+        margin-right: auto; /* 左右自動 = 水平置中 */
+        left: auto;         /* 移除 left: 50% */
+        
+        /* 2. 手機版樣式優化 */
+        display: block !important; /* 強制顯示 */
+        background: rgba(255,255,255,0.05); /* 淡淡的背景區分 */
+        box-shadow: none;   /* 移除陰影 */
+        border: none;       /* 移除邊框 */
+        padding: 0;
+        margin-top: 10px;   /* 跟上方標題保持一點距離 */
+        border-radius: 10px;
+        animation: none;    /* 手機版不需要浮現動畫 */
+    }
+
+    /* 子選單文字置中 */
+    .dropdown-content li {
+        text-align: center;
+    }
+    .dropdown-content a {
+        padding: 10px;
+        color: var(--text-sub); /* 子項目顏色淡一點 */
+        font-size: 0.9rem;
+    }
+    .dropdown-content a:hover {
+        background: transparent;
+        color: white;
+    }
+}
+
+/* --- 語言切換按鈕樣式 --- */
+.lang-btn {
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 5px 15px !important; /* 強制覆蓋原本 nav a 的 padding */
+    font-size: 0.9rem !important;
+    margin-left: 10px;
+    transition: 0.3s;
+    background: rgba(255,255,255,0.05);
+    font-family: monospace; /* 使用等寬字體增加科技感 */
+}
+
+.lang-btn:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white !important;
+    box-shadow: 0 0 10px var(--primary-color);
+}
+
+/* 手機版調整 */
+@media (max-width: 768px) {
+    .lang-btn {
+        display: inline-block; /* 讓它不要滿版 */
+        width: auto !important;
+        margin-top: 10px;
+        padding: 8px 30px !important;
+        border-color: var(--accent-color);
+    }
+}
+
+/* --- 5. 通用區塊設定 --- */
+.container { max-width: 1200px; margin: 0 auto; padding: 80px 20px; }
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+}
+.section-title::after {
+    content: ''; display: block; width: 60px; height: 4px;
+    background: var(--accent-color); margin: 15px auto 0;
+    box-shadow: 0 0 10px var(--accent-color);
+}
+
+/* --- 6. 卡片區塊 --- */
+.highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+.card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+.card:hover { transform: translateY(-10px); border-color: var(--accent-color); }
+.card img { width: 100%; height: 200px; object-fit: cover; }
+.card-content { padding: 20px; }
+.card-title { font-size: 1.25rem; margin-bottom: 10px; color: var(--accent-color); }
+.card-text { font-size: 0.9rem; color: var(--text-sub); margin-bottom: 15px; }
+
+/* --- 按鈕樣式 --- */
+.btn-main {
+    padding: 15px 40px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(255, 0, 85, 0.4);
+    transition: 0.3s;
+}
+.btn-main:hover {
+    background: var(--accent-color);
+    box-shadow: 0 0 30px rgba(0, 229, 255, 0.6);
+    transform: translateY(-3px);
+}
+
+/* --- 7. 頁尾 --- */
+footer {
+    background: #020205;
+    padding: 50px 20px;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: var(--text-sub);
+}
+
+/* --- 動畫 --- */
+@keyframes glow {
+    from { filter: drop-shadow(0 0 5px rgba(255,0,85,0.3)); }
+    to { filter: drop-shadow(0 0 20px rgba(255,0,85,0.8)); }
+}
+
+/* --- RWD 手機版導覽列與選單優化 (請覆蓋舊有的手機版設定) --- */
+@media (max-width: 768px) {
+    
+    /* 1. 漢堡選單圖示加大 */
+    .hamburger {
+        display: block;
+        padding: 10px; /* 增加點擊範圍 */
+        font-size: 1.8rem; /* 圖示變大 */
+    }
+
+    /* 2. 選單容器調整 */
+    .nav-links {
+        position: fixed;
+        top: var(--header-height);
+        right: -100%;
+        width: 100%;
+        height: calc(100vh - var(--header-height));
+        background: var(--bg-color);
+        flex-direction: column;
+        align-items: center;
+        /* 改用 Flex start 讓內容從上面開始排，加上 padding 避免貼頂 */
+        justify-content: flex-start; 
+        padding-top: 40px; 
+        gap: 0; /* 由連結本身的 padding 來控制間距 */
+        transition: 0.3s;
+        overflow-y: auto; /* 如果手機很矮，選單太長可以捲動 */
+    }
+    .nav-links.active { right: 0; }
+
+    /* 3. 第一層主選單連結 (加大按鈕) */
+    .nav-links > li {
+        width: 100%; /* 寬度滿版 */
+        text-align: center;
+        border-bottom: 1px solid rgba(255,255,255,0.05); /* 增加分隔線，視覺更清楚 */
+    }
+    
+    .nav-links > li > a {
+        display: block; /* 讓整條橫向區域都能點擊 */
+        font-size: 1.4rem; /* 字體加大 */
+        padding: 20px 0;   /* 上下內距加大 (關鍵 UX 優化) */
+        width: 100%;
+    }
+
+    /* 4. 下拉選單處理 (維持展開) */
+    .dropdown {
+        display: block;
+        width: 100%;
+        border-bottom: none; /* 下拉選單本身不畫線 */
+        padding-bottom: 10px;
+    }
+
+    .dropbtn {
+        color: var(--accent-color) !important;
+        font-size: 1.4rem; /* 與其他主選單一致 */
+        padding: 20px 0 10px 0; /* 稍微調整下方間距 */
+        pointer-events: none; /* 標題不可點，只作為分類標籤 */
+    }
+
+    .dropdown-content {
+        display: block !important;
+        position: static;
+        transform: none;
+        background: rgba(255,255,255,0.03); /* 淡背景區分 */
+        box-shadow: none;
+        border: none;
+        margin: 0 20px; /* 左右內縮一點，做出層級感 */
+        border-radius: 10px;
+    }
+
+    /* 5. 第二層子選單連結 (加大按鈕) */
+    .dropdown-content a {
+        padding: 18px 0; /* 足夠大的點擊區域 */
+        font-size: 1.1rem; /* 比主選單小一點，但依然清晰 */
+        color: var(--text-sub);
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .dropdown-content a:last-child { border-bottom: none; }
+    
+    .dropdown-content a:hover, .dropdown-content a:active {
+        background: transparent;
+        color: white;
+    }
+}

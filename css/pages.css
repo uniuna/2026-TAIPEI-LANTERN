@@ -1,0 +1,580 @@
+/* --- Hero Section (index.html) --- */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.1) 50%, rgba(5,5,16,0.8) 100%), 
+                url('../images/hero-main-2026.png');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding-top: var(--header-height);
+    padding-bottom: 150px;
+}
+.hero h1, .hero p.date-text, .hero p.sub-text {
+    display: none;
+}
+.btn-main.hero-btn {
+    padding: 18px 50px;
+    font-size: 1.2rem;
+    box-shadow: 0 0 30px rgba(255, 0, 85, 0.6);
+    border: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(5px);
+}
+.btn-main.hero-btn:hover {
+    box-shadow: 0 0 50px rgba(0, 229, 255, 0.8);
+}
+
+/* --- 雙主場地圖區塊樣式 (index.html) --- */
+.map-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.map-card {
+    position: relative;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* 基礎邊框顏色 */
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    /* 加入轉場動畫，讓浮動效果平滑 */
+    transition: 0.3s; 
+}
+
+/* 新增 Hover 效果：與下方亮點區塊一致 */
+.map-card:hover {
+    transform: translateY(-10px); /* 往上浮動 */
+    border-color: var(--accent-color); /* 邊框變為科技藍 */
+}
+.map-card:active {
+    opacity: 0.8;
+    transform: scale(0.98);
+    transition: 0.1s;
+}
+
+/* (以下保持不變) 背景與文字設定 */
+.map-bg {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.6);
+}
+.map-overlay {
+    position: relative;
+    z-index: 2;
+    width: 100%; height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-icon { font-size: 3rem; margin-bottom: 10px; text-shadow: 0 0 10px rgba(0,0,0,0.5); }
+
+.map-card h3 {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+    text-shadow: 0 0 15px black;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.map-card p {
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    letter-spacing: 3px;
+    margin-top: 5px;
+    font-family: monospace;
+    background: rgba(0,0,0,0.5); /* 增加文字底色確保易讀 */
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+/* RWD 手機版 */
+@media (max-width: 768px) {
+    .map-selection { grid-template-columns: 1fr; }
+    .map-card { height: 200px; }
+}
+
+/* --- Scroll Down 按鈕動畫 (index.html) --- */
+html { scroll-behavior: smooth; } /* 讓點擊滑動時變平順 */
+
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.scroll-down span {
+    display: block;
+    width: 20px; height: 20px;
+    border-bottom: 2px solid var(--accent-color);
+    border-right: 2px solid var(--accent-color);
+    transform: rotate(45deg);
+    margin: 0 auto 5px;
+    animation: bounce 2s infinite;
+}
+.scroll-down:hover { opacity: 1; color: var(--accent-color); }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: rotate(45deg) translate(0, 0); }
+    40% { transform: rotate(45deg) translate(-10px, -10px); }
+    60% { transform: rotate(45deg) translate(-5px, -5px); }
+}
+
+/* --- 最新消息 (index.html) --- */
+.news-section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.news-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 10px;
+}
+.news-title {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-right: 20px;
+    font-weight: bold;
+}
+.news-more { font-size: 0.9rem; color: var(--text-sub); margin-left: auto; }
+
+.news-list { display: flex; flex-direction: column; gap: 15px; }
+
+.news-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255,255,255,0.03);
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 3px solid transparent;
+    transition: 0.3s;
+}
+.news-item:hover {
+    background: rgba(255,255,255,0.08);
+    border-left-color: var(--accent-color);
+    transform: translateX(5px);
+}
+.news-date {
+    font-family: monospace;
+    color: var(--accent-color);
+    margin-right: 20px;
+    font-size: 0.9rem;
+    min-width: 85px;
+}
+.news-text { color: white; flex: 1; font-size: 1rem; }
+
+/* --- 底部橫幅 (index.html)--- */
+.promo-banner {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.3)),
+                url('../images/Gemini_Generated_Image_f6pv1ff6pv1ff6pv.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* 視差捲動效果 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px; /* 與上方區塊拉開距離 */
+}
+.banner-content h2 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 0 0 20px var(--primary-color);
+    margin-bottom: 15px;
+}
+
+/* RWD 手機版調整 */
+@media (max-width: 768px) {
+    .news-item { flex-direction: column; align-items: flex-start; gap: 5px; }
+    .promo-banner { height: 250px; background-attachment: scroll; /* 手機版取消視差滾動以提升效能 */ }
+    .banner-content h2 { font-size: 1.8rem; }
+}
+
+/* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */ 
+
+/* --- 內頁 Header --- */
+.page-header {
+    height: 50vh;
+    background: linear-gradient(to bottom, rgba(5,5,16,0.3), var(--bg-color)), 
+                url('../images/page-header.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 60px;
+    text-align: center;
+    margin-top: var(--header-height);
+}
+.page-title {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0 0 20px rgba(0, 229, 255, 0.5);
+    border-bottom: 4px solid var(--primary-color);
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+/* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */ 
+
+/* --- 概念框 (about.html) --- */
+/* .concept-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--accent-color);
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.concept-box::before {
+    content: '"';
+    position: absolute; top: -30px; left: 20px;
+    font-size: 5rem; color: var(--primary-color); opacity: 0.5;
+    font-family: serif;
+} */
+
+/* --- 燈區項目 (about.html) --- */
+/* .zone-item {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.zone-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.zone-img {
+    flex: 1;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.zone-img img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.zone-img:hover img { transform: scale(1.1); }
+
+.zone-text { flex: 1; }
+
+.zone-title {
+    font-size: 1.8rem;
+    color: var(--accent-color);
+    margin-bottom: 15px;
+    display: flex; align-items: center; gap: 10px;
+}
+.zone-tag {
+    font-size: 0.8rem;
+    background: var(--primary-color);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+} */
+
+/* --- 西門展區 (ximen.html) --- */
+.zone-header-ximen {
+    height: 60vh;
+    background: linear-gradient(to bottom, rgba(5,5,16,0.2), var(--bg-color)),
+                url('../images/Gemini_Generated_Image_wudv3hwudv3hwudv.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: var(--header-height);
+}
+.zone-title-large {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 20px var(--accent-color);
+    border: 4px solid var(--accent-color);
+    padding: 20px 40px;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+}
+
+/* 作品列表格狀排列 */
+.art-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+.art-item {
+    position: relative;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;  
+}
+.art-item img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: 0.5s;
+}
+.art-item:hover img { transform: scale(1.1); }
+.art-info {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    padding: 15px;
+    background: linear-gradient(transparent, black);
+}
+
+/* --- 花博展區 (expo.html) --- */
+.zone-header-expo {
+    height: 60vh;
+    background: linear-gradient(to bottom, rgba(5,5,16,0.2), #050510),
+                url('../images/Gemini_Generated_Image_m1caxgm1caxgm1ca.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: var(--header-height);
+}
+
+/* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */
+
+/* --- 頁籤功能樣式 (event.html) --- */
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.tab-btn, .extra-btn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    /* 預設樣式 (未選中)：透明背景 + 邊框 */
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.tab-btn:hover, .extra-btn:hover {
+    background: rgba(255, 0, 85, 0.1);
+}
+
+/* 激活狀態 (Active)：實心背景 */
+.tab-btn.active, .extra-btn.active {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0 0 15px var(--primary-color);
+}
+
+/* 內容區塊控制 */
+.tab-content, .extra-content {
+    display: none; /* 預設全部隱藏 */
+    animation: fadeIn 0.5s;
+}
+
+/* 加上這行，讓有 active class 的內容顯示出來 */
+.tab-content.active, .extra-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- 活動亮點輪播 (Swiper) 樣式 (event.html) --- */
+.highlights-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* 關鍵：設定線性動畫，讓移動過程是等速的 (Smooth Marquee 效果) */
+.swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* 圖片卡片 */
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
+    /* 桌機版預設游標改為一般箭頭 (不要手掌) */
+    cursor: default; 
+}
+
+.swiper-slide img {
+    width: 100%; height: 100%; object-fit: cover; transition: transform 1s ease;
+}
+.swiper-slide:hover img { transform: scale(1.1); }
+
+.slide-caption {
+    position: absolute; bottom: 0; left: 0; width: 100%; padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+    color: white; font-size: 1.1rem; font-weight: bold;
+}
+
+/* --- 箭頭樣式 --- */
+.swiper-button-next, .swiper-button-prev {
+    color: var(--text-main);
+    text-shadow: 0 0 10px var(--text-main);
+    transition: 0.3s;
+    top: var(--swiper-navigation-top-offset, 45%);
+}
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    color: var(--accent-color); 
+    text-shadow: 0 0 20px var(--accent-color), 0 0 40px var(--accent-color);
+}
+
+@media (max-width: 768px) {
+        .swiper-slide { height: 300px; }
+}
+
+/* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */ 
+
+/* --- 一日賞燈遊程 (traffic.html) --- */
+
+/* 1. 時間軸樣式 */
+.itinerary-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.itinerary-box {
+    background: rgba(255,255,255,0.03);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+.itinerary-name {
+    color: var(--accent-color);
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 10px;
+}
+.timeline {
+    position: relative;
+    padding-left: 20px;
+    border-left: 2px solid rgba(255,255,255,0.1);
+}
+.time-slot {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.time-slot:last-child { margin-bottom: 0; }
+
+.dot {
+    position: absolute;
+    left: -26px; /* 對齊線條 */
+    top: 5px;
+    width: 10px; height: 10px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--accent-color);
+}
+
+.time {
+    font-size: 0.9rem;
+    color: var(--text-sub);
+    font-family: monospace;
+    display: block; margin-bottom: 5px;
+}
+
+.traffic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 電腦版：左右各半 */
+    gap: 40px;
+    align-items: start; /* 讓內容靠上對齊 */
+}
+
+/* 手機版 RWD 設定 */
+@media (max-width: 768px) {
+    .traffic-grid {
+        grid-template-columns: 1fr; /* 手機版：改為單欄 (上下堆疊) */
+        gap: 30px;
+    }
+
+    /* 讓地圖在手機版時，高度稍微拉高一點，比較好滑動查看 */
+    .traffic-map {
+        height: 350px !important; 
+        order: -1; /* 選項：如果您希望手機版「地圖」顯示在「文字」上面，請加上這一行；否則請刪除 */
+    }
+}
+
+/* 特別標註燈會時段 */
+.time-slot.highlight .content {
+    color: var(--primary-color);
+    font-weight: bold;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255,0,85,0.1);
+}
+
+/* 2. 景點標籤 Tag */
+.tag {
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 2px 8px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* --- RWD --- */
+@media (max-width: 768px) {
+    .zone-item, .zone-item:nth-child(even) { flex-direction: column; }
+    .zone-img { width: 100%; height: 250px; }
+    .page-title { font-size: 2rem; }
+    .map-selection { grid-template-columns: 1fr; }
+    .map-card { height: 200px; }
+}
+@media (max-width: 768px) {
+    
+    /* 1. 讓行程表變為上下堆疊 (關鍵設定) */
+    .itinerary-container {
+        grid-template-columns: 1fr; /* 強制改為一欄 */
+        gap: 30px; /* 上下堆疊時的間距 */
+    }
+
+}

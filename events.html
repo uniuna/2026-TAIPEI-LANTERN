@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 臺北燈會 | 光之未來</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html"><span>2026</span> TAIPEI LANTERN</a></div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navLinks">
+            <li class="dropdown">
+                <a href="#" class="dropbtn">燈區介紹 ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="ximen.html">西門展區</a></li>
+                    <li><a href="expo.html">花博展區</a></li>
+                </ul>
+            </li>
+            <li><a href="events.html">活動與展演</a></li>
+            <li><a href="traffic.html">交通資訊</a></li>
+            <li><a href="media.html">影音回顧</a></li>
+            <li>
+                <a href="en/index.html" class="lang-btn">EN</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container" style="padding-top: 120px; min-height: 80vh;">
+        
+        <section>
+            <h2 class="section-title">活動時刻表</h2>
+            
+            <div class="tab-buttons">
+                <button class="tab-btn active" onclick="openTab(event, 'day1')">2/01 開幕日</button>
+                <button class="tab-btn" onclick="openTab(event, 'day2')">2/08 週末狂歡</button>
+                <button class="tab-btn" onclick="openTab(event, 'day3')">2/16 閉幕式</button>
+            </div>
+
+            <div id="day1" class="tab-content active">
+                <h3 style="color:white; margin-bottom:20px; border-left:4px solid var(--primary-color); padding-left:10px;">2月01日 (六) 開幕活動</h3>
+                <div class="event-list">
+                    <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
+                        <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">18:00</div>
+                        <div style="flex: 1;">
+                            <h3 style="color: white; margin-bottom: 5px;">2026 臺北燈會 開幕點燈儀式</h3>
+                            <p style="color: var(--text-sub); font-size: 0.9rem;">地點：市民廣場主舞台</p>
+                        </div>
+                        <div><span class="tag">必看</span></div>
+                    </div>
+                    <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
+                        <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">19:00</div>
+                        <div style="flex: 1;">
+                            <h3 style="color: white; margin-bottom: 5px;">開幕煙火秀 & 無人機展演</h3>
+                            <p style="color: var(--text-sub); font-size: 0.9rem;">地點：全區夜空</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="day2" class="tab-content">
+                <h3 style="color:white; margin-bottom:20px; border-left:4px solid var(--primary-color); padding-left:10px;">2月08日 (六) 週末特別企劃</h3>
+                <div class="event-list">
+                    <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
+                        <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">15:00</div>
+                        <div style="flex: 1;">
+                            <h3 style="color: white; margin-bottom: 5px;">花燈彩繪 DIY 親子工作坊</h3>
+                            <p style="color: var(--text-sub); font-size: 0.9rem;">地點：花博公園展區</p>
+                        </div>
+                        <div><span class="tag" style="border-color:var(--accent-color); color:var(--accent-color);">報名</span></div>
+                    </div>
+                    <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
+                        <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">20:00</div>
+                        <div style="flex: 1;">
+                            <h3 style="color: white; margin-bottom: 5px;">告五人 城市星空演唱會</h3>
+                            <p style="color: var(--text-sub); font-size: 0.9rem;">地點：西門紅樓廣場</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="day3" class="tab-content">
+                <h3 style="color:white; margin-bottom:20px; border-left:4px solid var(--primary-color); padding-left:10px;">2月16日 (日) 閉幕感恩夜</h3>
+                <div class="event-list">
+                    <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
+                        <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">21:00</div>
+                        <div style="flex: 1;">
+                            <h3 style="color: white; margin-bottom: 5px;">光之未來 熄燈儀式</h3>
+                            <p style="color: var(--text-sub); font-size: 0.9rem;">地點：市民廣場</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="highlights-section">
+            <div class="swiper swiper-container highlight-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=600&auto=format&fit=crop" alt="亮點1">
+                        <div class="slide-caption">璀璨開幕煙火</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/800/600" alt="亮點2">
+                        <div class="slide-caption">城市光影藝術節</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600&auto=format&fit=crop" alt="亮點3">
+                        <div class="slide-caption">人氣樂團現場演出</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/600/400" alt="亮點4">
+                        <div class="slide-caption">傳統燈藝大師作品</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=600&auto=format&fit=crop" alt="亮點5">
+                        <div class="slide-caption">水岸夢幻倒影</div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section>
+            <div style="margin-top: 80px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 50px;">
+                <h2 class="section-title">同場加映</h2>
+
+                <div class="tab-buttons">
+                    <button class="extra-btn active" onclick="openExtraTab(event, 'extra1')">街頭藝人</button>
+                    <button class="extra-btn" onclick="openExtraTab(event, 'extra2')">光之市集</button>
+                    <button class="extra-btn" onclick="openExtraTab(event, 'extra3')">線上抽獎</button>
+                </div>
+
+                <div id="extra1" class="extra-content active">
+                    <div class="event-list">
+                        <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
+                            <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">每日</div>
+                            <div style="flex: 1;">
+                                <h3 style="color: white; margin-bottom: 5px;">花博入口廣場 - 魔術氣球秀</h3>
+                                <p style="color: var(--text-sub); font-size: 0.9rem;">演出者：魔術師 Alex (18:30 / 20:30)</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
+                            <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">週末</div>
+                            <div style="flex: 1;">
+                                <h3 style="color: white; margin-bottom: 5px;">西門徒步區 - 水晶球雜耍</h3>
+                                <p style="color: var(--text-sub); font-size: 0.9rem;">演出者：虎劇團 (19:00 - 21:00 整點演出)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="extra2" class="extra-content">
+                    <div class="event-list">
+                        <div style="text-align:center; padding: 40px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+                            <h3 style="color: var(--primary-color); margin-bottom: 15px;">🛍️ 光之市集 Market</h3>
+                            <p style="color: white;">集結 50 家在地文創與特色美食，逛燈會也能享受購物樂趣！</p>
+                            <ul style="color: var(--text-sub); margin-top: 20px; list-style: none;">
+                                <li>📍 地點：花博公園長廊廣場</li>
+                                <li>⏰ 時間：平日 16:00-22:00 / 假日 14:00-22:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="extra3" class="extra-content">
+                    <div class="event-list">
+                        <div style="text-align:center; padding: 40px; background: rgba(255,255,255,0.05); border-radius: 10px;">
+                            <h3 style="color: var(--accent-color); margin-bottom: 15px;">📱 拍照打卡抽 iPhone</h3>
+                            <p style="color: white;">只要與任一燈飾合照，上傳 Instagram 並標記 #2026臺北燈會，即可參加抽獎。</p>
+                            <a href="#" class="btn-main" style="display:inline-block; margin-top:20px; font-size:0.9rem; padding:10px 30px;">前往官方 IG 查看詳情</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+  
+   <footer>
+        <p>© 2026 臺北燈會 All Rights Reserved.</p>
+        <p>主辦單位：臺北市政府觀光傳播局</p>
+        <div style="margin-top: 15px; font-size: 1.5rem;">
+            <i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i class="fab fa-youtube"></i>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
