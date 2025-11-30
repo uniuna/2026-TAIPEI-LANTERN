@@ -1,3 +1,65 @@
+/* --- 懸浮直播按鈕 Live Widget (index.html) --- */
+.live-widget {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999; /* 確保在最上層 */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 20px rgba(255, 0, 85, 0.3);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Hover 效果：變亮、稍微往上浮 */
+.live-widget:hover {
+    background: var(--primary-color);
+    box-shadow: 0 0 30px var(--primary-color);
+    transform: translateY(-5px);
+}
+
+/* 文字樣式 */
+.live-text {
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* 紅點閃爍動畫 */
+.recording-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ff0000;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+/* 手機版位置調整 */
+@media (max-width: 768px) {
+    .live-widget {
+        bottom: 20px;
+        right: 20px;
+        padding: 8px 15px;
+    }
+    .live-text { font-size: 0.9rem; }
+}
+
 /* --- Hero Section (index.html) --- */
 .hero {
     height: 100vh;
@@ -468,6 +530,76 @@ html { scroll-behavior: smooth; } /* 讓點擊滑動時變平順 */
 }
 
 /* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */ 
+
+/* --- 雙展區交通並列樣式 (traffic.html) --- */
+
+.dual-traffic-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.traffic-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+    /* 統一頂部邊框顏色 (科技藍) */
+    border-top: 4px solid var(--accent-color); 
+}
+
+/* 標題與標籤 */
+.traffic-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.traffic-header h3 { font-size: 1.5rem; color: white; margin: 0; }
+
+.traffic-badge {
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-left: 15px;
+    font-weight: bold;
+    color: #000;
+    /* 統一標籤背景色 (科技藍) */
+    background: var(--accent-color);
+}
+
+/* 列表與 Icon 樣式 */
+.traffic-details li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.t-icon {
+    font-size: 1.2rem; margin-right: 15px; min-width: 25px; text-align: center;
+    /* 統一 Icon 顏色 (科技藍) */
+    color: var(--accent-color);
+}
+
+/* Hover 效果 (選用：滑鼠移過去會更亮) */
+.traffic-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.1);
+}
+
+/* 手機版堆疊 */
+@media (max-width: 768px) {
+    .dual-traffic-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
 
 /* --- 一日賞燈遊程 (traffic.html) --- */
 
