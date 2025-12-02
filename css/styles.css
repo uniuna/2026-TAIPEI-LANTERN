@@ -154,7 +154,8 @@ ul { list-style: none; }
     .dropbtn {
         color: var(--accent-color) !important; /* 讓標題顏色稍微亮一點，表示它是分類 */
         font-weight: bold;
-        pointer-events: none; /* (選用) 讓「燈區介紹」本身不能點擊，只作為標題 */
+        /* pointer-events: none;  */
+        /* (選用) 讓「燈區介紹」本身不能點擊，只作為標題 */
     }
 
     /* 手機版：強制直接顯示子選單 (關鍵屬性) */
@@ -185,9 +186,96 @@ ul { list-style: none; }
     .dropdown-content a {
         padding: 10px;
         color: var(--text-sub); /* 子項目顏色淡一點 */
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .dropdown-content a:hover {
+        background: transparent;
+        color: white;
+    }
+}
+
+/* --- RWD 手機版導覽列與選單優化 (請覆蓋舊有的手機版設定) --- */
+@media (max-width: 768px) {
+    
+    /* 1. 漢堡選單圖示加大 */
+    .hamburger {
+        display: block;
+        padding: 10px; /* 增加點擊範圍 */
+        font-size: 1.8rem; /* 圖示變大 */
+    }
+
+    /* 2. 選單容器調整 */
+    .nav-links {
+        position: fixed;
+        top: var(--header-height);
+        right: -100%;
+        width: 100%;
+        height: calc(100vh - var(--header-height));
+        background: var(--bg-color);
+        flex-direction: column;
+        align-items: center;
+        /* 改用 Flex start 讓內容從上面開始排，加上 padding 避免貼頂 */
+        justify-content: flex-start; 
+        padding-top: 40px; 
+        gap: 0; /* 由連結本身的 padding 來控制間距 */
+        transition: 0.3s;
+        overflow-y: auto; /* 如果手機很矮，選單太長可以捲動 */
+    }
+    .nav-links.active { right: 0; }
+
+    /* 3. 第一層主選單連結 (加大按鈕) */
+    .nav-links > li {
+        width: 100%; /* 寬度滿版 */
+        text-align: center;
+        border-bottom: 1px solid rgba(255,255,255,0.05); /* 增加分隔線，視覺更清楚 */
+    }
+    
+    .nav-links > li > a {
+        display: block; /* 讓整條橫向區域都能點擊 */
+        font-size: 1.4rem; /* 字體加大 */
+        padding: 20px 0;   /* 上下內距加大 (關鍵 UX 優化) */
+        width: 100%;
+    }
+
+    /* 4. 下拉選單處理 (維持展開) */
+    .dropdown {
+        display: block;
+        width: 100%;
+        border-bottom: none; /* 下拉選單本身不畫線 */
+        padding-bottom: 10px;
+    }
+
+    .dropbtn {
+        color: var(--accent-color) !important;
+        font-size: 1.4rem; /* 與其他主選單一致 */
+        padding: 20px 0 10px 0; /* 稍微調整下方間距 */
+        pointer-events: none; /* 標題不可點，只作為分類標籤 */
+    }
+
+    .dropdown-content {
+        display: block !important;
+        position: static;
+        transform: none;
+        background: rgba(255,255,255,0.03); /* 淡背景區分 */
+        box-shadow: none;
+        border: none;
+        margin: 0 20px; /* 左右內縮一點，做出層級感 */
+        border-radius: 10px;
+    }
+
+    /* 5. 第二層子選單連結 (加大按鈕) */
+    .dropdown-content li {
+        text-align: center;
+    }
+    .dropdown-content a {
+        padding: 18px 0; /* 足夠大的點擊區域 */
+        font-size: 1.1rem; /* 比主選單小一點，但依然清晰 */
+        color: var(--text-sub);
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .dropdown-content a:last-child { border-bottom: none; }
+    
+    .dropdown-content a:hover, .dropdown-content a:active {
         background: transparent;
         color: white;
     }
@@ -285,90 +373,6 @@ footer {
 @keyframes glow {
     from { filter: drop-shadow(0 0 5px rgba(255,0,85,0.3)); }
     to { filter: drop-shadow(0 0 20px rgba(255,0,85,0.8)); }
-}
-
-/* --- RWD 手機版導覽列與選單優化 (請覆蓋舊有的手機版設定) --- */
-@media (max-width: 768px) {
-    
-    /* 1. 漢堡選單圖示加大 */
-    .hamburger {
-        display: block;
-        padding: 10px; /* 增加點擊範圍 */
-        font-size: 1.8rem; /* 圖示變大 */
-    }
-
-    /* 2. 選單容器調整 */
-    .nav-links {
-        position: fixed;
-        top: var(--header-height);
-        right: -100%;
-        width: 100%;
-        height: calc(100vh - var(--header-height));
-        background: var(--bg-color);
-        flex-direction: column;
-        align-items: center;
-        /* 改用 Flex start 讓內容從上面開始排，加上 padding 避免貼頂 */
-        justify-content: flex-start; 
-        padding-top: 40px; 
-        gap: 0; /* 由連結本身的 padding 來控制間距 */
-        transition: 0.3s;
-        overflow-y: auto; /* 如果手機很矮，選單太長可以捲動 */
-    }
-    .nav-links.active { right: 0; }
-
-    /* 3. 第一層主選單連結 (加大按鈕) */
-    .nav-links > li {
-        width: 100%; /* 寬度滿版 */
-        text-align: center;
-        border-bottom: 1px solid rgba(255,255,255,0.05); /* 增加分隔線，視覺更清楚 */
-    }
-    
-    .nav-links > li > a {
-        display: block; /* 讓整條橫向區域都能點擊 */
-        font-size: 1.4rem; /* 字體加大 */
-        padding: 20px 0;   /* 上下內距加大 (關鍵 UX 優化) */
-        width: 100%;
-    }
-
-    /* 4. 下拉選單處理 (維持展開) */
-    .dropdown {
-        display: block;
-        width: 100%;
-        border-bottom: none; /* 下拉選單本身不畫線 */
-        padding-bottom: 10px;
-    }
-
-    .dropbtn {
-        color: var(--accent-color) !important;
-        font-size: 1.4rem; /* 與其他主選單一致 */
-        padding: 20px 0 10px 0; /* 稍微調整下方間距 */
-        pointer-events: none; /* 標題不可點，只作為分類標籤 */
-    }
-
-    .dropdown-content {
-        display: block !important;
-        position: static;
-        transform: none;
-        background: rgba(255,255,255,0.03); /* 淡背景區分 */
-        box-shadow: none;
-        border: none;
-        margin: 0 20px; /* 左右內縮一點，做出層級感 */
-        border-radius: 10px;
-    }
-
-    /* 5. 第二層子選單連結 (加大按鈕) */
-    .dropdown-content a {
-        padding: 18px 0; /* 足夠大的點擊區域 */
-        font-size: 1.1rem; /* 比主選單小一點，但依然清晰 */
-        color: var(--text-sub);
-        border-bottom: 1px solid rgba(255,255,255,0.05);
-    }
-    .dropdown-content a:last-child { border-bottom: none; }
-    
-    .dropdown-content a:hover, .dropdown-content a:active {
-        background: transparent;
-        color: white;
-    }
 }
 
 /* --- 介紹區塊樣式 --- */
