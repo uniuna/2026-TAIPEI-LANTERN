@@ -266,3 +266,17 @@ function closeActualModal() {
         setTimeout(() => { modal.style.display = 'none'; }, 300);
     }
 }
+
+
+/* --- Loading 動畫控制腳本 --- */
+window.addEventListener('load', function() {
+    const preloader = document.getElementById('preloader');
+    
+    // 設定一個小延遲 (例如 0.5秒)，讓動畫至少跑一下，避免閃爍
+    // 如果想要載入完立刻消失，可以把 setTimeout 去掉，直接執行內部的 code
+    setTimeout(() => {
+        if(preloader) {
+            preloader.classList.add('hide');
+        }
+    }, 800); // 800毫秒後消失
+});

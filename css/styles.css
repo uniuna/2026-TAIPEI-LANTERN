@@ -333,6 +333,83 @@ footer {
     to { filter: drop-shadow(0 0 20px rgba(255,0,85,0.8)); }
 }
 
+/* --- Loading 動畫 (Preloader) --- */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color); /* 與背景色一致 */
+    z-index: 99999; /* 確保在最上層 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+/* 隱藏狀態 (由 JS 控制) */
+#preloader.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader-content {
+    text-align: center;
+    position: relative;
+}
+
+/* 霓虹旋轉圈圈 */
+.loader-circle {
+    width: 60px;
+    height: 60px;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-top: 4px solid var(--primary-color); /* 粉紅色主色 */
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    animation: spin 1s linear infinite;
+    position: relative;
+    box-shadow: 0 0 15px var(--primary-color); /* 發光效果 */
+}
+
+/* 內圈 (第二層旋轉，增加層次感) */
+.loader-circle::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top: 4px solid var(--accent-color); /* 藍色副色 */
+    animation: spin-reverse 1.5s linear infinite;
+}
+
+.loader-text {
+    color: white;
+    font-family: monospace;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+    animation: blink 1.5s infinite;
+}
+
+/* 旋轉動畫定義 */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes spin-reverse {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
 
 /* --- Tab頁籤按鈕樣式 (共用－紅) --- */
 .tab-buttons {
