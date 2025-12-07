@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2026 臺北燈節 | TAIPEI LANTERN FESTIVAL</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="apple-touch-icon" href="images/favicon.svg">
     <meta name="description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
     <meta name="keywords" content="台北燈節, 2026, 燈會, 展區, 活動, 交通, Taipei Lantern Festival, 光之未來">
     <meta name="author" content="臺北市政府觀光傳播局">
-    <link rel="canonical" href="https://2026lantern.taipei/">
+    <link rel="canonical" href="https://2026lanternfestival.travel.taipei/">
 
     <!-- Open Graph for Facebook -->
     <meta property="og:title" content="2026 臺北燈節 | TAIPEI LANTERN FESTIVAL">
     <meta property="og:description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://2026lantern.taipei/">
-    <meta property="og:image" content="https://2026lantern.taipei/images/og-image.jpg">
+    <meta property="og:url" content="https://2026lanternfestival.travel.taipei/">
+    <meta property="og:image" content="https://2026lanternfestival.travel.taipei/images/og-image.jpg">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="2026 臺北燈節 | TAIPEI LANTERN FESTIVAL">
     <meta name="twitter:description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
-    <meta name="twitter:image" content="https://2026lantern.taipei/images/og-image.jpg">
-
+    <meta name="twitter:image" content="https://2026lanternfestival.travel.taipei/images/og-image.jpg">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/pages.css">
 </head>
@@ -37,9 +40,15 @@
                     <li><a href="expo.html">花博展區</a></li>
                 </ul>
             </li>
-            <li><a href="events.html">精彩活動</a></li>
-            <li><a href="traffic.html">旅遊資訊</a></li>
-            <li><a href="media.html">交通方式</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">精彩活動 ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="events.html">台北燈節</a></li>
+                    <li><a href="plus.html">同場加映</a></li>
+                </ul>
+            </li>
+            <li><a href="travel.html">旅遊資訊</a></li>
+            <li><a href="traffic.html">交通方式</a></li>
             <li>
                 <a href="en/index.html" class="lang-btn">EN</a>
             </li>
@@ -114,9 +123,8 @@
         </div>
     </section>
 
-    <section class="quick-nav-section">
-        <h2 class="section-title" style="margin-bottom: 30px; font-size: 1.8rem;">探索更多</h2>
-        
+    <section class="container">
+        <h2 class="section-title">探索更多</h2>
         <div class="nav-grid">
 
             <a href="events.html" class="nav-card">
@@ -145,6 +153,36 @@
         </div>
     </section>
 
+    <section style="padding: 80px 0 40px;">
+        <h2 class="section-title">精彩回顧</h2>
+        <div class="swiper swiper-container highlight-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=600&auto=format&fit=crop" alt="亮點1">
+                    <div class="slide-caption">璀璨開幕煙火</div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://picsum.photos/800/600" alt="亮點2">
+                    <div class="slide-caption">城市光影藝術節</div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600&auto=format&fit=crop" alt="亮點3">
+                    <div class="slide-caption">人氣樂團現場演出</div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://picsum.photos/600/400" alt="亮點4">
+                    <div class="slide-caption">傳統燈藝大師作品</div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=600&auto=format&fit=crop" alt="亮點5">
+                    <div class="slide-caption">水岸夢幻倒影</div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
     <footer>
         <p>© 2026 臺北燈節 All Rights Reserved.</p>
         <p>主辦單位：臺北市政府觀光傳播局</p>
@@ -153,6 +191,7 @@
         </div>
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

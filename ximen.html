@@ -3,7 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>西門展區 | 2026 臺北燈會</title>
+    <title>2026 臺北燈節 | TAIPEI LANTERN FESTIVAL</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="apple-touch-icon" href="images/favicon.svg">
+    <meta name="description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
+    <meta name="keywords" content="台北燈節, 2026, 燈會, 展區, 活動, 交通, Taipei Lantern Festival, 光之未來">
+    <meta name="author" content="臺北市政府觀光傳播局">
+    <link rel="canonical" href="https://2026lanternfestival.travel.taipei/">
+
+    <!-- Open Graph for Facebook -->
+    <meta property="og:title" content="2026 臺北燈節 | TAIPEI LANTERN FESTIVAL">
+    <meta property="og:description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://2026lanternfestival.travel.taipei/">
+    <meta property="og:image" content="https://2026lanternfestival.travel.taipei/images/og-image.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="2026 臺北燈節 | TAIPEI LANTERN FESTIVAL">
+    <meta name="twitter:description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
+    <meta name="twitter:image" content="https://2026lanternfestival.travel.taipei/images/og-image.jpg">
+    
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/pages.css">
 </head>
@@ -13,15 +33,21 @@
         <div class="hamburger" onclick="toggleMenu()">☰</div>
         <ul class="nav-links" id="navLinks">
             <li class="dropdown">
-                <a href="#" class="dropbtn">燈區介紹 ▾</a>
+                <a href="#" class="dropbtn">展區介紹 ▾</a>
                 <ul class="dropdown-content">
                     <li><a href="ximen.html">西門展區</a></li>
                     <li><a href="expo.html">花博展區</a></li>
                 </ul>
             </li>
-            <li><a href="events.html">活動與展演</a></li>
-            <li><a href="traffic.html">交通資訊</a></li>
-            <li><a href="media.html">影音回顧</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">精彩活動 ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="events.html">台北燈節</a></li>
+                    <li><a href="plus.html">同場加映</a></li>
+                </ul>
+            </li>
+            <li><a href="travel.html">旅遊資訊</a></li>
+            <li><a href="traffic.html">交通方式</a></li>
             <li>
                 <a href="en/index.html" class="lang-btn">EN</a>
             </li>
@@ -31,55 +57,195 @@
     <header class="zone-header-ximen">
         <div>
             <h1 class="zone-title-large">西門展區</h1>
-            <p style="font-size:1.5rem; color:var(--accent-color); margin-top:10px; letter-spacing:5px;">FUTURE XIMEN</p>
+            <p style="
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            margin-top: 10px;
+            letter-spacing: 5px;
+          ">
+                FUTURE XIMEN
+            </p>
         </div>
     </header>
 
     <main class="container">
-        <div style="text-align: center; max-width: 800px; margin: 0 auto 60px;">
+        <div style="text-align: center; max-width: 800px; margin: 0 auto 60px">
             <h2 class="section-title">未來實驗室</h2>
-            <p style="color: var(--text-sub); font-size: 1.1rem;">
+            <p style="color: var(--text-sub); font-size: 1.1rem">
                 西門展區以「光之未來」為核心，將西門町的潮流文化與數位科技結合。
-                從捷運出口的 <strong style="color:white;">巨型機械主燈</strong> 開始，
+                從捷運出口的 <strong style="color: white">巨型機械主燈</strong> 開始，
                 沿著中華路展開一場賽博龐克式的光影冒險。
             </p>
-            <div style="margin-top: 30px;">
+            <div style="margin-top: 30px">
                 <span class="tag">捷運西門站</span>
                 <span class="tag">主燈區</span>
                 <span class="tag">街頭展演</span>
             </div>
         </div>
 
-        <div style="background: #222; height: 400px; border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-bottom: 80px; border: 1px solid var(--accent-color);">
-            <p style="color: var(--accent-color);">[ 這裡放置西門展區平面地圖(SVG/圖片)，點擊區域開啟全幅彈窗 ]</p>
+        <section class="container">
+            <h2 class="section-title">西門展區地圖</h2>
+            
+            <div class="tab-buttons">
+                <button class="map-tab-btn active" onclick="switchMapLayer(event, 'map-theme-1', 'info-theme-1')">🔴 主燈與主題燈</button>
+                <button class="map-tab-btn" onclick="switchMapLayer(event, 'map-theme-2', 'info-theme-2')">🟡 國內外藝術家</button>
+                <button class="map-tab-btn" onclick="switchMapLayer(event, 'map-theme-3', 'info-theme-3')">🟣 宮廟燈區</button>
+            </div>
+
+            <div id="map-theme-1" class="interactive-map-container map-layer active">
+                <img src="images/map_ximen_main.jpg" alt="主燈地圖">
+                
+                <div class="map-hotspot" style="top: 73%; left: 18%; border-color:#FF0055;" onclick="openMapModal('ximen-main')"></div>
+                <div class="map-hotspot" style="top: 35%; left: 42%; border-color:#FF0055;" onclick="openMapModal('ximen-ip1')"></div>
+            </div>
+
+            <div id="map-theme-2" class="interactive-map-container map-layer">
+                <img src="images/map_ximen_main.jpg" alt="藝術家地圖">
+
+                <div class="map-hotspot" style="top: 53%; left: 48%; border-color:#FFD700;" onclick="openMapModal('artist-1')"></div>
+                <div class="map-hotspot" style="top: 25%; left: 60%; border-color:#FFD700;" onclick="openMapModal('artist-2')"></div>
+            </div>
+
+            <div id="map-theme-3" class="interactive-map-container map-layer">
+                <img src="images/map_ximen_main.jpg" alt="宮廟地圖">
+
+                <div class="map-hotspot" style="top: 60%; left: 80%; border-color:#C000FF;" onclick="openMapModal('temple-1')"></div>
+            </div>
+
+            <div class="info-section">
+                <h3 style="color:white; margin-bottom:20px; border-left:5px solid var(--accent-color); padding-left:15px;">燈組簡介 Introduction</h3>
+
+                <div id="info-theme-1" class="info-layer active">
+                    <div class="lantern-item" onclick="openMapModal('ximen-main')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">No.01 光之巨人</h4>
+                                <span class="lantern-designer">李小明 Studio</span>
+                            </div>
+                            <p class="lantern-desc">位於紅樓廣場的核心地標。高達 10 公尺的巨型燈飾，結合機械手臂與 LED 螢幕...</p>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+
+                    <div class="lantern-item" onclick="openMapModal('ximen-ip1')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">No.02 萌虎下山</h4>
+                                <span class="lantern-designer">IP 聯名團隊</span>
+                            </div>
+                            <p class="lantern-desc">與知名插畫家合作，打造高 5 公尺的充氣燈組，表情呆萌可愛...</p>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                </div>
+
+                <div id="info-theme-2" class="info-layer">
+                    <div class="lantern-item" onclick="openMapModal('artist-1')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">No.03 城市縮影</h4>
+                                <span class="lantern-designer">Tom Dixon</span>
+                            </div>
+                            <p class="lantern-desc">利用廢棄建材重新組裝而成的環保燈飾...</p>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+
+                    <div class="lantern-item" onclick="openMapModal('artist-2')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">No.04 萌虎下山</h4>
+                                <span class="lantern-designer">IP 聯名團隊</span>
+                            </div>
+                            <p class="lantern-desc">與知名插畫家合作，打造高 5 公尺的充氣燈組，表情呆萌可愛...</p>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                </div>
+
+                <div id="info-theme-3" class="info-layer">
+                    <div class="lantern-item" onclick="openMapModal('temple-1')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">No.05 城市縮影</h4>
+                                <span class="lantern-designer">Tom Dixon</span>
+                            </div>
+                            <p class="lantern-desc">利用廢棄建材重新組裝而成的環保燈飾...</p>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal-overlay" id="mapModal" onclick="closeMapModal(event)">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeActualModal()">&times;</span>
+
+                <h2 id="modalTitle" style="color: var(--primary-color); margin-bottom: 15px">
+                    燈飾標題
+                </h2>
+                <img id="modalImg" src=""
+                    style="width: 100%; border-radius: 10px; margin-bottom: 20px; display: none;" />
+                <p id="modalDesc" style="color: var(--text-sub); line-height: 1.6">
+                    燈飾介紹內容...
+                </p>
+            </div>
         </div>
 
-        <h3 style="font-size: 2rem; border-left: 5px solid var(--accent-color); padding-left: 15px; margin-bottom: 30px; color: white;">重點作品 Artworks</h3>
-        
+        <section class="map-download-section">
+            <div class="map-download-content">
+                <h3>總覽全區 Map Download</h3>
+                <p>將完整的 2026 臺北燈會地圖帶著走，離線也能輕鬆導航。</p>
+                
+                <a href="info/map-all.pdf" target="_blank" class="btn-main">
+                    下載全展區地圖
+                    <span style="vertical-align: middle;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- <h3 style="font-size: 2rem; border-left: 5px solid var(--accent-color); padding-left: 15px; margin-bottom: 30px; color: white;">
+            重點作品 Artworks
+        </h3>
         <div class="art-grid">
             <div class="art-item">
-                <img src="https://picsum.photos/800/600" alt="主燈">
-                <div class="art-info"><h4 style="color:white;">No.01 光之巨人 (主燈)</h4></div>
+                <img src="https://picsum.photos/800/600" alt="主燈" />
+                <div class="art-info">
+                    <h4 style="color: white">No.01 光之巨人 (主燈)</h4>
+                </div>
             </div>
             <div class="art-item">
-                <img src="https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=600&auto=format&fit=crop" alt="紅樓">
-                <div class="art-info"><h4 style="color:white;">No.02 紅樓記憶 (光雕)</h4></div>
+                <img src="https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=600&auto=format&fit=crop"
+                    alt="紅樓" />
+                <div class="art-info">
+                    <h4 style="color: white">No.02 紅樓記憶 (光雕)</h4>
+                </div>
             </div>
             <div class="art-item">
-                <img src="https://picsum.photos/400/200" alt="塗鴉">
-                <div class="art-info"><h4 style="color:white;">No.03 街頭脈動</h4></div>
+                <img src="https://picsum.photos/400/200" alt="塗鴉" />
+                <div class="art-info">
+                    <h4 style="color: white">No.03 街頭脈動</h4>
+                </div>
             </div>
-        </div>
+        </div> -->
     </main>
-    
+
     <footer>
         <p>© 2026 臺北燈會 All Rights Reserved.</p>
         <p>主辦單位：臺北市政府觀光傳播局</p>
-        <div style="margin-top: 15px; font-size: 1.5rem;">
-            <i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i class="fab fa-youtube"></i>
+        <div style="margin-top: 15px; font-size: 1.5rem">
+            <i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
         </div>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
