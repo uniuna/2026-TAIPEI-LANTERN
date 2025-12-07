@@ -123,12 +123,12 @@ const mapData = {
     'ximen-main': {
         title: '變形金剛主題燈組：變形金剛柯博文',
         desc: '以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。',
-        img: '../../images/item_main01.jpg'
+        img: '../images/item_main01.jpg'
     },
     'ximen-ip1': {
         title: '變形金剛主題燈組：博派出擊',
         desc: '以變形金剛最夯角色「柯博文」製作大型燈式...',
-        img: '../../images/item_main02.jpg'
+        img: '../images/item_main02.jpg'
     },
 
     // --- 頁籤 B 的資料 ---
