@@ -1,4 +1,4 @@
-/* --- 變數設定 (可在此快速換色) --- */
+/* --- 1.變數設定 (可在此快速換色) --- */
 :root {
     --bg-color: #050510;
     --card-bg: #121225;
@@ -9,7 +9,7 @@
     --header-height: 70px;
 }
 
-/* --- 基礎設定 --- */
+/* --- 2.基礎設定 --- */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
     background-color: var(--bg-color);
@@ -21,7 +21,7 @@ body {
 a { text-decoration: none; color: inherit; transition: 0.3s; }
 ul { list-style: none; }
 
-/* --- 3. 導覽列 (Sticky Header) --- */
+/* --- 3.導覽列 (Sticky Header) --- */
 .navbar {
     position: fixed;
     top: 0; left: 0; width: 100%;
@@ -51,12 +51,15 @@ ul { list-style: none; }
 .hamburger { display: none; cursor: pointer; font-size: 1.5rem; }
 
 
-/* --- 下拉選單 (Dropdown) 樣式 - RWD 優化版 --- */
+/* --- 4.下拉選單 (Dropdown) 樣式 - RWD 優化版 --- */
 
 /* 1. 設定父層定位基準 */
 .dropdown {
     position: relative;
     display: inline-block;
+}
+.dropbtn {
+    cursor: default;
 }
 
 /* 2. 電腦版：下拉選單容器 (預設隱藏) */
@@ -110,62 +113,9 @@ ul { list-style: none; }
     }
 }
 
-/* --- 手機版 RWD 特別調整 (關鍵修改) --- */
+/* --- RWD 手機版導覽列與選單優化 --- */
 @media (max-width: 768px) {
-    .dropdown {
-        display: block;
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px; /* 增加一點間距 */
-    }
-    
-    /* 父層連結 (燈區介紹 ▾) 的樣式微調 */
-    .dropbtn {
-        color: var(--accent-color) !important; /* 讓標題顏色稍微亮一點，表示它是分類 */
-        font-weight: bold;
-        /* pointer-events: none;  */
-        /* (選用) 讓「燈區介紹」本身不能點擊，只作為標題 */
-    }
 
-    /* 手機版：強制直接顯示子選單 (關鍵屬性) */
-    /* --- 手機版下拉選單修正 --- */
-    .dropdown-content {
-        /* 1. 關鍵：歸零電腦版的定位設定 */
-        position: static;   /* 不再絕對定位，讓它自然堆疊 */
-        width: 90%;         /* 改為相對寬度 (或 100%) */
-        margin-left: auto;  /* 移除 -80px，改為自動 */
-        margin-right: auto; /* 左右自動 = 水平置中 */
-        left: auto;         /* 移除 left: 50% */
-        
-        /* 2. 手機版樣式優化 */
-        display: block !important; /* 強制顯示 */
-        background: rgba(255,255,255,0.05); /* 淡淡的背景區分 */
-        box-shadow: none;   /* 移除陰影 */
-        border: none;       /* 移除邊框 */
-        padding: 0;
-        margin-top: 10px;   /* 跟上方標題保持一點距離 */
-        border-radius: 10px;
-        animation: none;    /* 手機版不需要浮現動畫 */
-    }
-
-    /* 子選單文字置中 */
-    .dropdown-content li {
-        text-align: center;
-    }
-    .dropdown-content a {
-        padding: 10px;
-        color: var(--text-sub); /* 子項目顏色淡一點 */
-        font-size: 1rem;
-    }
-    .dropdown-content a:hover {
-        background: transparent;
-        color: white;
-    }
-}
-
-/* --- RWD 手機版導覽列與選單優化 (請覆蓋舊有的手機版設定) --- */
-@media (max-width: 768px) {
-    
     /* 1. 漢堡選單圖示加大 */
     .hamburger {
         display: block;
@@ -212,6 +162,7 @@ ul { list-style: none; }
         width: 100%;
         border-bottom: none; /* 下拉選單本身不畫線 */
         padding-bottom: 10px;
+        text-align: center;
     }
 
     .dropbtn {
@@ -222,14 +173,22 @@ ul { list-style: none; }
     }
 
     .dropdown-content {
-        display: block !important;
-        position: static;
-        transform: none;
-        background: rgba(255,255,255,0.03); /* 淡背景區分 */
-        box-shadow: none;
-        border: none;
-        margin: 0 20px; /* 左右內縮一點，做出層級感 */
+        /* 1. 關鍵：歸零電腦版的定位設定 */
+        position: static;   /* 不再絕對定位，讓它自然堆疊 */
+        width: 90%;         /* 改為相對寬度 (或 100%) */
+        margin-left: auto;  /* 移除 -80px，改為自動 */
+        margin-right: auto; /* 左右自動 = 水平置中 */
+        left: auto;         /* 移除 left: 50% */
+        
+        /* 2. 手機版樣式優化 */
+        display: block !important; /* 強制顯示 */
+        background: rgba(255,255,255,0.05); /* 淡淡的背景區分 */
+        box-shadow: none;   /* 移除陰影 */
+        border: none;       /* 移除邊框 */
+        padding: 0;
+        margin-top: 10px;   /* 跟上方標題保持一點距離 */
         border-radius: 10px;
+        animation: none;    /* 手機版不需要浮現動畫 */
     }
 
     /* 5. 第二層子選單連結 (加大按鈕) */
@@ -250,7 +209,7 @@ ul { list-style: none; }
     }
 }
 
-/* --- 語言切換按鈕樣式 --- */
+/* --- 5.語言切換按鈕樣式 --- */
 .lang-btn {
     border: 1px solid rgba(255,255,255,0.3);
     border-radius: 20px;
@@ -280,7 +239,7 @@ ul { list-style: none; }
     }
 }
 
-/* --- 5. 通用區塊設定 --- */
+/* --- 6.通用區塊設定 --- */
 .container { max-width: 1200px; margin: 0 auto; padding: 80px 20px; }
 .section-title {
     font-size: 2.5rem;
@@ -294,7 +253,36 @@ ul { list-style: none; }
     box-shadow: 0 0 10px var(--accent-color);
 }
 
-/* --- 6. 卡片區塊 --- */
+.section-intro {
+    max-width: 900px;
+    margin: 0 auto 30px;
+    padding: 18px 24px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+    border: 1px solid rgba(255,255,255,0.03);
+    border-radius: 12px;
+    color: var(--text-sub);
+}
+.section-description {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    letter-spacing: 0.2px;
+    color: var(--text-sub);
+}
+/* 手機優化 */
+@media (max-width: 768px) {
+    .section-intro {
+        padding: 14px 16px;
+        margin-bottom: 20px;
+    }
+    .section-description {
+        font-size: 0.98rem;
+        text-align: left;
+    }
+}
+
+/* --- 7.卡片區塊 --- */
 .highlights-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -329,7 +317,7 @@ ul { list-style: none; }
     transform: translateY(-3px);
 }
 
-/* --- 7. 頁尾 --- */
+/* --- 8.頁尾 --- */
 footer {
     background: #020205;
     padding: 50px 20px;
@@ -338,46 +326,15 @@ footer {
     color: var(--text-sub);
 }
 
-/* --- 動畫 --- */
+
+/* --- 動畫效果 --- */
 @keyframes glow {
     from { filter: drop-shadow(0 0 5px rgba(255,0,85,0.3)); }
     to { filter: drop-shadow(0 0 20px rgba(255,0,85,0.8)); }
 }
 
-/* --- 介紹區塊樣式 --- */
-.section-intro {
-    max-width: 900px;
-    margin: 0 auto 30px;
-    padding: 18px 24px;
-    text-align: center;
-    background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
-    border: 1px solid rgba(255,255,255,0.03);
-    border-radius: 12px;
-    color: var(--text-sub);
-}
 
-.section-description {
-    margin: 0;
-    font-size: 1.05rem;
-    line-height: 1.8;
-    letter-spacing: 0.2px;
-    color: var(--text-sub);
-}
-
-/* 手機優化 */
-@media (max-width: 768px) {
-    .section-intro {
-        padding: 14px 16px;
-        margin-bottom: 20px;
-    }
-    .section-description {
-        font-size: 0.98rem;
-        text-align: left;
-    }
-}
-
-
-/* --- Tab頁籤功能樣式 (共用－紅) --- */
+/* --- Tab頁籤按鈕樣式 (共用－紅) --- */
 .tab-buttons {
   display: flex;
   justify-content: center;
@@ -492,7 +449,7 @@ footer {
   font-weight: bold;
 }
 
-/* --- 箭頭樣式 --- */
+/* 箭頭樣式 */
 .swiper-button-next,
 .swiper-button-prev {
   color: var(--text-main);
