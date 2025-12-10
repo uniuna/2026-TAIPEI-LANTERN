@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 臺北燈節 | TAIPEI LANTERN FESTIVAL</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="apple-touch-icon" href="images/favicon.svg">
+    <meta name="description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
+    <meta name="keywords" content="台北燈節, 2026, 燈會, 展區, 活動, 交通, Taipei Lantern Festival, 光之未來">
+    <meta name="author" content="臺北市政府觀光傳播局">
+    <link rel="canonical" href="https://2026lanternfestival.travel.taipei/">
+
+    <!-- Open Graph for Facebook -->
+    <meta property="og:title" content="2026 臺北燈節 | TAIPEI LANTERN FESTIVAL">
+    <meta property="og:description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://2026lanternfestival.travel.taipei/">
+    <meta property="og:image" content="https://2026lanternfestival.travel.taipei/images/og-image.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="2026 臺北燈節 | TAIPEI LANTERN FESTIVAL">
+    <meta name="twitter:description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
+    <meta name="twitter:image" content="https://2026lanternfestival.travel.taipei/images/og-image.jpg">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html"><span>2026</span> TAIPEI LANTERN</a></div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navLinks">
+            <li class="dropdown">
+                <a class="dropbtn">展區介紹 ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="ximen.html">西門展區</a></li>
+                    <li><a href="expo.html">花博展區</a></li>
+                    <li><a href="remind.html">貼心提醒</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">精彩活動 ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="events.html">台北燈節</a></li>
+                    <li><a href="plus.html">同場加映</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">旅遊資訊 ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="travel.html">周邊商圈/景點</a></li>
+                    <li><a href="accommodation.html">旅宿資訊/優惠</a></li>
+                    <li><a href="itinerary.html">旅程推薦</a></li>
+                </ul>
+            </li>
+            <li><a href="traffic.html">交通方式</a></li>
+            <li>
+                <a href="en/index.html" class="lang-btn">EN</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container" style="padding-top: 120px; min-height: 80vh;">
+
+        <section>
+        <h2 class="section-title">旅程推薦</h2>
+    
+        <div class="tab-buttons">
+            <button class="tab-btn active" onclick="openTab(event, 'trip1')">一日遊</button>
+            <button class="tab-btn" onclick="openTab(event, 'trip2')">二日遊</button>
+            <button class="tab-btn" onclick="openTab(event, 'trip3')">三日遊</button>
+        </div>
+
+        <div id="trip1" class="tab-content active">
+            <div class="route-grid">
+                <div class="route-card">
+                    <div class="route-header">
+                        <h3>萬華時光漫步</h3>
+                        <span class="route-tag">懷舊之旅</span>
+                    </div>
+                    <div class="route-path">
+                        日善（防空洞）公園 <span>⟶</span> 糖廊文化園區 <span>⟶</span> 龍山文創基地 <span>⟶</span> 剝皮寮歷史街區 <span>⟶</span> 新富町文化市場 <span>⟶</span> 台北燈節西門展區 <span>⟶</span> 西門町萬年商業大樓
+                    </div>
+                </div>
+
+                <div class="route-card">
+                    <div class="route-header">
+                        <h3>在地美食圖鑑</h3>
+                        <span class="route-tag">吃貨必收</span>
+                    </div>
+                    <div class="route-path">
+                        二二八公園 <span>⟶</span> 國立臺灣博物館 <span>⟶</span> 公園號酸梅湯 <span>⟶</span> 桃源街牛肉麵 <span>⟶</span> 劉山東小吃店 <span>⟶</span> 雪王冰淇淋 <span>⟶</span> 主燈區（中山堂） <span>⟶</span> 天天利美食坊 <span>⟶</span> 阿宗麵線 <span>⟶</span> 西門町美食 <span>⟶</span> 台北燈節西門展區
+                    </div>
+                </div>
+
+                <div class="route-card">
+                    <div class="route-header">
+                        <h3>悠遊藝文角落</h3>
+                        <span class="route-tag">文青散策</span>
+                    </div>
+                    <div class="route-path">
+                        捷運中山站 <span>⟶</span> 赤峰街咖啡廳／選品店 <span>⟶</span> 光點台北（台北之家） <span>⟶</span> 新中山線形公園 <span>⟶</span> 中山地下街誠品書店 <span>⟶</span> 順益台灣美術館 <span>⟶</span> 台北燈節西門展區
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="trip2" class="tab-content">
+            <div class="route-grid">
+                <div class="route-card multi-day">
+                    <div class="route-header">
+                        <h3>台北順遊行 (經典二日遊)</h3>
+                        <span class="route-tag">推薦行程</span>
+                    </div>
+                    
+                    <div class="day-block">
+                        <h4 class="day-title">Day 1：萬華時光漫步</h4>
+                        <div class="route-path">
+                            日善（防空洞）公園 <span>⟶</span> 糖廊文化園區 <span>⟶</span> 龍山文創基地 <span>⟶</span> 剝皮寮歷史街區 <span>⟶</span> 新富町文化市場 <span>⟶</span> 台北燈節西門展區 <span>⟶</span> 西門町萬年商業大樓
+                        </div>
+                    </div>
+
+                    <div class="day-divider"></div>
+
+                    <div class="day-block">
+                        <h4 class="day-title">Day 2：在地美食圖鑑</h4>
+                        <div class="route-path">
+                            二二八公園 <span>⟶</span> 國立臺灣博物館 <span>⟶</span> 公園號酸梅湯 <span>⟶</span> 桃源街牛肉麵 <span>⟶</span> 劉山東小吃店 <span>⟶</span> 雪王冰淇淋 <span>⟶</span> 主燈區（中山堂） <span>⟶</span> 天天利美食坊 <span>⟶</span> 阿宗麵線 <span>⟶</span> 西門町美食 <span>⟶</span> 台北燈節西門展區
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="trip3" class="tab-content">
+            <div class="route-grid">
+                <div class="route-card multi-day">
+                    <div class="route-header">
+                        <h3>台北順遊行 (深度三日遊)</h3>
+                        <span class="route-tag">全攻略</span>
+                    </div>
+
+                    <div class="day-block">
+                        <h4 class="day-title">Day 1：萬華時光漫步</h4>
+                        <div class="route-path">
+                            日善（防空洞）公園 <span>⟶</span> 糖廊文化園區 <span>⟶</span> 龍山文創基地 <span>⟶</span> 剝皮寮歷史街區 <span>⟶</span> 新富町文化市場 <span>⟶</span> 台北燈節西門展區 <span>⟶</span> 西門町萬年商業大樓
+                        </div>
+                    </div>
+
+                    <div class="day-divider"></div>
+
+                    <div class="day-block">
+                        <h4 class="day-title">Day 2：在地美食圖鑑</h4>
+                        <div class="route-path">
+                            二二八公園 <span>⟶</span> 國立臺灣博物館 <span>⟶</span> 公園號酸梅湯 <span>⟶</span> 桃源街牛肉麵 <span>⟶</span> 劉山東小吃店 <span>⟶</span> 雪王冰淇淋 <span>⟶</span> 主燈區（中山堂） <span>⟶</span> 天天利美食坊 <span>⟶</span> 阿宗麵線 <span>⟶</span> 西門町美食 <span>⟶</span> 台北燈節西門展區
+                        </div>
+                    </div>
+
+                    <div class="day-divider"></div>
+
+                    <div class="day-block">
+                        <h4 class="day-title">Day 3：悠遊藝文角落</h4>
+                        <div class="route-path">
+                            捷運中山站 <span>⟶</span> 赤峰街咖啡廳／選品店 <span>⟶</span> 光點台北（台北之家） <span>⟶</span> 新中山線形公園 <span>⟶</span> 中山地下街誠品書店 <span>⟶</span> 順益台灣美術館 <span>⟶</span> 台北燈節西門展區
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 臺北燈會 All Rights Reserved.</p>
+        <p>主辦單位：臺北市政府觀光傳播局</p>
+        <div style="margin-top: 15px; font-size: 1.5rem;">
+            <i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i class="fab fa-youtube"></i>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

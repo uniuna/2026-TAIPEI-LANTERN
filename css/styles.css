@@ -169,7 +169,8 @@ ul { list-style: none; }
         color: var(--accent-color) !important;
         font-size: 1.4rem; /* 與其他主選單一致 */
         padding: 20px 0 10px 0; /* 稍微調整下方間距 */
-        pointer-events: none; /* 標題不可點，只作為分類標籤 */
+        /* pointer-events: none;  */
+        /* 標題不可點，只作為分類標籤 */
     }
 
     .dropdown-content {

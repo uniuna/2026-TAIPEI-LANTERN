@@ -729,6 +729,234 @@ html {
 }
 
 
+/* --- 商圈列表樣式 (5 Cards Layout) --- */
+.district-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.district-card {
+    flex: 1 1 300px;
+    max-width: 350px;
+    background: #121225;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.district-card:hover {
+    transform: translateY(-10px);
+    /* border-color: var(--primary-color); */
+    box-shadow: 0 10px 30px rgba(255, 0, 85, 0.2);
+}
+
+/* 圖片區塊 */
+.district-img-box {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.district-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.district-card:hover .district-img-box img {
+    transform: scale(1.1);
+}
+
+/* --- 新增：展區標籤 (Zone Badge) --- */
+.district-overlay {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.zone-badge {
+    font-size: 0.9rem;
+    padding: 5px 12px;
+    border-radius: 4px; /* 改為方角一點，比較像標籤 */
+    color: #000; /* 字體黑色比較清楚 */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    background: var(--accent-color);
+    /* border: var(--accent-color) 1px solid; */
+    /* box-shadow: 0 0 10px var(--accent-color); */
+}
+
+/* 內容區塊 */
+.district-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.district-content h3 {
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.district-content p {
+    color: var(--text-sub);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+/* --- 新增：了解更多按鈕 --- */
+.btn-more {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 50px;
+    color: white;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    background: rgba(255,255,255,0.05);
+}
+
+.btn-more:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color);
+    letter-spacing: 1px; /* Hover 時字距拉開一點的微特效 */
+    font-weight: bold;
+}
+
+/* 手機版優化 */
+@media (max-width: 600px) {
+    .district-card {
+        max-width: 100%;
+    }
+}
+
+/* --- 旅遊資訊頁：旅程推薦樣式 (travel.html) --- */
+.route-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.route-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 25px;
+    transition: 0.3s;
+    border-left: 4px solid var(--accent-color);
+}
+
+.route-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* 標題區域 */
+.route-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.route-header h3 {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.route-tag {
+    font-size: 0.8rem;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: rgba(255, 0, 85, 0.2);
+    color: white;
+    border: 1px solid var(--primary-color);
+    white-space: nowrap;
+}
+
+/* 路線箭頭 */
+.route-path {
+    color: #ddd;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+.route-path span {
+    color: var(--accent-color);
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+/* --- 多日遊專用樣式 --- */
+
+/* 每一天的區塊 */
+.day-block {
+    margin-bottom: 10px;
+}
+
+/* Day 1, Day 2 的小標題 */
+.day-title {
+    color: var(--accent-color); /* 科技藍 */
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+/* 小標題前的裝飾點 */
+.day-title::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 0 5px var(--accent-color);
+}
+
+/* 天數之間的分隔虛線 */
+.day-divider {
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255,255,255,0.2) 50%, transparent 50%);
+    background-size: 10px 1px; /* 製作虛線效果 */
+    margin: 20px 0 20px 9px; /* 左邊留空對齊裝飾點 */
+    width: calc(100% - 9px);
+}
+
+/* RWD 手機版調整 */
+@media (max-width: 768px) {
+    .route-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .day-divider {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+
 /* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */
 
 /* --- 雙展區交通並列樣式 (traffic.html) --- */
