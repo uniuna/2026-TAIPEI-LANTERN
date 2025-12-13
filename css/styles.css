@@ -30,26 +30,49 @@ ul { list-style: none; }
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
+    padding: 1rem 5%; /* 確認有足夠的 padding */
+    align-items: center; /* 確保 Logo 垂直置中 */
     z-index: 1000;
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
+
+/* Logo 容器 */
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--primary-color);
-    text-shadow: 0 0 10px var(--primary-color);
+    /* 移除原本的 font-size, font-weight, letter-spacing */
+    display: flex;
+    align-items: center;
 }
-.logo span{
-    color: var(--text-main);
-    text-shadow: 0 0 10px var(--text-main);
+.logo a {
+    /* 移除原本的 color, text-decoration */
+    display: flex; /* 讓連結包覆圖片 */
+    align-items: center;
 }
-.nav-links { display: flex; gap: 30px; }
+/* --- 新增：SVG Logo 圖片樣式 --- */
+.logo-img {
+    height: 60px; /* 設定 Logo 的高度，寬度會自動等比例調整 */
+    width: auto;  /* 確保比例正確 */
+    transition: transform 0.3s ease, filter 0.3s ease;
+    
+    /* 選用：如果您希望 Logo 預設就有更強的發光感，可以打開下面這行 */
+    /* filter: drop-shadow(0 0 5px rgba(0, 229, 255, 0.5)); */
+}
+/* 滑鼠移過 Logo 的效果 */
+.logo-img:hover {
+    transform: scale(1.05); /* 稍微放大 */
+    /* 增加發光效果 */
+    filter: drop-shadow(0 0 15px var(--primary-color));
+}
+/* 手機版調整 */
+@media (max-width: 768px) {
+    .logo-img {
+        height: 45px; /* 手機版稍微縮小一點 */
+    }
+}
+
+.nav-links { display: flex; gap: 28px; }
 .nav-links a { font-size: 1.1rem; }
 .nav-links a:hover { color: var(--accent-color); text-shadow: 0 0 8px var(--accent-color); }
 .hamburger { display: none; cursor: pointer; font-size: 1.5rem; }
-
 
 /* --- 4.下拉選單 (Dropdown) 樣式 - RWD 優化版 --- */
 
@@ -228,17 +251,50 @@ ul { list-style: none; }
     color: white !important;
     box-shadow: 0 0 10px var(--primary-color);
 }
-
 /* 手機版調整 */
 @media (max-width: 768px) {
     .lang-btn {
         display: inline-block; /* 讓它不要滿版 */
         width: auto !important;
-        margin-top: 10px;
+        margin: 0px 30px 30px;
         padding: 8px 30px !important;
         border-color: var(--accent-color);
     }
 }
+
+/* --- 台北旅遊網 Link --- */
+.t-travel {
+    border-radius: 20px;
+    border: #00E5FF 1px solid;
+    padding: 5px 15px !important; /* 強制覆蓋原本 nav a 的 padding */
+    font-size: 0.9rem !important;
+    color: #00E5FF;
+    transition: 0.3s;
+    font-family: monospace; /* 使用等寬字體增加科技感 */
+}
+.t-travel:hover {
+    color:black !important;
+    box-shadow: 0 0 10px var(--accent-color);
+    background: var(--accent-color);
+}
+@media (max-width: 768px) {
+    .t-travel {
+        display: inline-block; /* 讓它不要滿版 */
+        width: auto !important;
+        margin: 0px 30px 60px;
+        padding: 8px 30px !important;
+        border-color: var(--accent-color);
+    }
+}
+
+/* ipad air 平板調整 */
+@media (max-width: 978px) {
+    .navbar{ padding: 1rem 2%; }
+    .nav-links{ gap: 25px; }
+    .nav-links a {font-size: 0.9rem;}
+    .lang-btn, .t-travel{ font-size: 0.8rem !important;}
+}
+
 
 /* --- 6.通用區塊設定 --- */
 .container { max-width: 1200px; margin: 0 auto; padding: 80px 20px; }
@@ -266,10 +322,10 @@ ul { list-style: none; }
 }
 .section-description {
     margin: 0;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     line-height: 1.8;
     letter-spacing: 0.2px;
-    color: var(--text-sub);
+    color: var(--text-main);
 }
 /* 手機優化 */
 @media (max-width: 768px) {
@@ -304,6 +360,7 @@ ul { list-style: none; }
 
 /* --- 按鈕樣式 --- */
 .btn-main {
+    display: inline-block;
     padding: 15px 40px;
     background: var(--primary-color);
     color: white;
@@ -317,6 +374,32 @@ ul { list-style: none; }
     box-shadow: 0 0 30px rgba(0, 229, 255, 0.6);
     transform: translateY(-3px);
 }
+
+ .btn-view-detail {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    border: 1px solid var(--accent-color); /* 跟主題色一致的邊框 */
+    color: var(--accent-color);
+    background: transparent;
+    border-radius: 50px;
+    transition: 0.3s;
+    white-space: nowrap; /* 按鈕文字不換行 */
+    text-align: center;
+}
+.btn-view-detail:hover {
+    background: var(--accent-color);
+    color: #000;
+    box-shadow: 0 0 10px var(--accent-color);
+}
+/* RWD 手機版調整 */
+  @media (max-width: 768px) {
+      .btn-main, .btn-view-detail {
+          width: 100%; /* 按鈕變滿寬，好點擊 */
+          margin-top: 15px;
+          text-align: center;
+      }
+  }
 
 /* --- 8.頁尾 --- */
 footer {

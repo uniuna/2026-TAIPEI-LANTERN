@@ -24,8 +24,8 @@
 
     <main>
     <section id="news" class="news-section">
+        <h2 class="section-title">最新消息</h2>
         <div class="news-header">
-            <div class="news-title">最新消息</div>
             <a href="#" class="news-more">MORE +</a>
         </div>
         
@@ -53,25 +53,48 @@
             </p>
         </div>
         <div class="map-selection">
-            <a href="ximen.html" class="map-card" id="ximen-map">
+            <a href="ximen.php" class="map-card" id="ximen-map">
                 <div class="map-bg"
-                    style="background-image: url('images/Gemini_Generated_Image_wudv3hwudv3hwudv.png');">
+                    style="background-image: url('images/img-link/Link-ximen_1920x1080.jpg');">
                 </div>
                 <div class="map-overlay">
-                    <div class="map-icon">📍</div>
                     <h3>西門展區</h3>
-                    <p>XIMEN DISTRICT</p>
                     <span class="scan-line"></span>
                 </div>
             </a>
 
-            <a href="expo.html" class="map-card" id="expo-map">
-                <div class="map-bg" style="background-image: url('images/Gemini_Generated_Image_m1caxgm1caxgm1ca.png');"></div>
+            <a href="expo.php" class="map-card" id="expo-map">
+                <div class="map-bg" style="background-image: url('images/img-link/Link-expo_1920x1080.jpg');"></div>
                 <div class="map-overlay">
-                    <div class="map-icon">📍</div>
                     <h3>花博展區</h3>
-                    <p>EXPO PARK</p>
                     <span class="scan-line"></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="section-title">探索更多</h2>
+        <div class="nav-grid">
+
+            <a href="events.php" class="nav-card">
+                <div class="nav-bg" style="background-image: url('images/img-link/Link-img-01_800x600.jpg');"></div>
+                <div class="nav-text">
+                    <h3>精彩活動</h3>
+                </div>
+            </a>
+
+            <a href="travel.php" class="nav-card">
+                <div class="nav-bg" style="background-image: url('images/img-link/Link-img-02_800x600.jpg');"></div>
+                <div class="nav-text">
+                    <h3>旅遊資訊</h3>
+                </div>
+            </a>
+
+            <a href="traffic.php" class="nav-card">
+                <div class="nav-bg" style="background-image: url('images/img-link/Link-img-03_800x600.jpg');"></div>
+                <div class="nav-text">
+                    <h3>交通方式</h3>
                 </div>
             </a>
         </div>
@@ -81,36 +104,6 @@
         <h2 class="section-title">影音專區</h2>
         <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
             <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/gp7V4k_gLGc?si=lhhiHCpnIOEjL3Rg" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </section>
-
-    <section class="container">
-        <h2 class="section-title">探索更多</h2>
-        <div class="nav-grid">
-
-            <a href="events.html" class="nav-card">
-                <div class="nav-bg" style="background-image: url('https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=600&auto=format&fit=crop');"></div>
-                <div class="nav-text">
-                    <h3>精彩活動</h3>
-                    <span>Events</span>
-                </div>
-            </a>
-
-            <a href="traffic.html" class="nav-card">
-                <div class="nav-bg" style="background-image: url('https://picsum.photos/600/400');"></div>
-                <div class="nav-text">
-                    <h3>旅遊資訊</h3>
-                    <span>Travel Info</span>
-                </div>
-            </a>
-
-            <a href="traffic.html" class="nav-card">
-                <div class="nav-bg" style="background-image: url('https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?q=80&w=600&auto=format&fit=crop');"></div>
-                <div class="nav-text">
-                    <h3>交通方式</h3>
-                    <span>Traffic</span>
-                </div>
-            </a>
         </div>
     </section>
 
@@ -145,14 +138,7 @@
     </section>
     </main>
 
-    <footer>
-        <p>© 2026 臺北燈節 All Rights Reserved.</p>
-        <p>主辦單位：臺北市政府觀光傳播局</p>
-        <div style="margin-top: 15px; font-size: 1.5rem;">
-            <i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i class="fab fa-youtube"></i>
-        </div>
-    </footer>
-    
+    <?php include 'footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
