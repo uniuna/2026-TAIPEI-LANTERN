@@ -1,29 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026 臺北燈節 | TAIPEI LANTERN FESTIVAL</title>
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-    <link rel="apple-touch-icon" href="images/favicon.svg">
-    <meta name="description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
-    <meta name="keywords" content="台北燈節, 2026, 燈會, 展區, 活動, 交通, Taipei Lantern Festival, 光之未來">
-    <meta name="author" content="臺北市政府觀光傳播局">
-    <link rel="canonical" href="https://2026lanternfestival.travel.taipei/">
-
-    <!-- Open Graph for Facebook -->
-    <meta property="og:title" content="2026 臺北燈節 | TAIPEI LANTERN FESTIVAL">
-    <meta property="og:description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://2026lanternfestival.travel.taipei/">
-    <meta property="og:image" content="https://2026lanternfestival.travel.taipei/images/og-image.jpg">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="2026 臺北燈節 | TAIPEI LANTERN FESTIVAL">
-    <meta name="twitter:description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
-    <meta name="twitter:image" content="https://2026lanternfestival.travel.taipei/images/og-image.jpg">
-    
+    <?php include 'header.php'; ?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/pages.css">
@@ -35,39 +13,7 @@
             <!-- <div class="loader-text">LOADING...</div> -->
         </div>
     </div>
-    <nav class="navbar">
-        <div class="logo"><a href="index.html"><span>2026</span> TAIPEI LANTERN</a></div>
-        <div class="hamburger" onclick="toggleMenu()">☰</div>
-        <ul class="nav-links" id="navLinks">
-            <li class="dropdown">
-                <a class="dropbtn">展區介紹 ▾</a>
-                <ul class="dropdown-content">
-                    <li><a href="ximen.html">西門展區</a></li>
-                    <li><a href="expo.html">花博展區</a></li>
-                    <li><a href="remind.html">貼心提醒</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a class="dropbtn">精彩活動 ▾</a>
-                <ul class="dropdown-content">
-                    <li><a href="events.html">台北燈節</a></li>
-                    <li><a href="plus.html">同場加映</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a class="dropbtn">旅遊資訊 ▾</a>
-                <ul class="dropdown-content">
-                    <li><a href="travel.html">周邊商圈/景點</a></li>
-                    <li><a href="accommodation.html">旅宿資訊/優惠</a></li>
-                    <li><a href="itinerary.html">旅程推薦</a></li>
-                </ul>
-            </li>
-            <li><a href="traffic.html">交通方式</a></li>
-            <li>
-                <a href="en/index.html" class="lang-btn">EN</a>
-            </li>
-        </ul>
-    </nav>
+    <?php include 'nav.php'; ?>
 
     <header class="hero">
         <a href="#news" class="scroll-down">
