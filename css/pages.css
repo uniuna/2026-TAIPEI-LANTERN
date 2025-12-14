@@ -44,9 +44,8 @@
         rgba(0, 0, 0, 0.1) 50%,
         rgba(5, 5, 16, 0.8) 100%
       ),
-      url("../images/hero-mobile.jpg"); /* <-- 請確認這裡的檔名 */
+      url("../images/hero-mobile.jpg"); 
 
-    /* 2. 調整對齊位置 */
     /* 手機版人物或重點通常在上方，所以建議設為 center top */
     background-position: center top; 
   }
