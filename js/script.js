@@ -116,22 +116,34 @@ if (highlightContainer && typeof Swiper !== 'undefined') {
 
 /* --- 展區地圖彈窗資料庫 (ximen.html / expo.html) --- */
 
-/* --- 1. 先定義資料庫 (把這段移到最上面) --- */
+/* --- 1. 先定義資料庫 --- */
 const mapData = {
-    // --- 花博展區的資料 --- //
-    // --- 頁籤 A 的資料 ---
+
+    // --- 西門展區的資料 ------------ //
+    // --- 頁籤 主題IP燈組 的資料 ---
     'ximen-main': {
-        title: '變形金剛主題燈組：變形金剛柯博文',
-        desc: '以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。',
+        title: 'IP主題燈組：變形金剛柯博文',
+        name: 'IP聯名團隊',
+        desc: '以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。',
         img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/item_main01.jpg'
     },
     'ximen-ip1': {
-        title: '變形金剛主題燈組：博派出擊',
-        desc: '以變形金剛最夯角色「柯博文」製作大型燈式...',
+        title: 'IP主題燈組：博派出擊',
+        desc: '以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。',
+        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/item_main02.jpg'
+    },
+    'ximen-ip2': {
+        title: 'IP主題燈組：博派出擊',
+        desc: '以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。',
+        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/item_main02.jpg'
+    },
+    'ximen-ip3': {
+        title: 'IP主題燈組：博派出擊',
+        desc: '以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。',
         img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/item_main02.jpg'
     },
 
-    // --- 頁籤 B 的資料 ---
+    // --- 頁籤 藝術燈組 的資料 ---
     'artist-1': {
         title: '中山堂光雕',
         desc: '藝術家打造的光影秀...',
@@ -142,17 +154,60 @@ const mapData = {
         desc: '隱藏在巷弄中的驚喜...',
         img: 'https://picsum.photos/600/400'
     },
+    'artist-3': {
+        title: '街頭藝術裝置',
+        desc: '隱藏在巷弄中的驚喜...',
+        img: 'https://picsum.photos/600/400'
+    },
+    'artist-4': {
+        title: '街頭藝術裝置',
+        desc: '隱藏在巷弄中的驚喜...',
+        img: 'https://picsum.photos/600/400'
+    },
+    'artist-5': {
+        title: '街頭藝術裝置',
+        desc: '隱藏在巷弄中的驚喜...',
+        img: 'https://picsum.photos/600/400'
+    },
 
-    // --- 頁籤 C 的資料 ---
+    // --- 頁籤 企業燈組 的資料 ---
+    'enterprise-1': {
+        title: '台新燈組',
+        desc: '還沒有文案還沒有文案...',
+        img: 'https://picsum.photos/600/400'
+    },
+    'enterprise-2': {
+        title: '企業燈組',
+        desc: '還沒有文案還沒有文案...',
+        img: 'https://picsum.photos/600/400'
+    },
+    'enterprise-3': {
+        title: '企業燈組',
+        desc: '還沒有文案還沒有文案...',
+        img: 'https://picsum.photos/600/400'
+    },
+    
+
+    // --- 頁籤 宮廟燈組 的資料 ---
     'temple-1': {
-        title: '天后宮燈海',
+        title: '城隍廟燈組',
+        desc: '傳統祈福燈籠...',
+        img: 'https://picsum.photos/600/400'
+    },
+    'temple-1': {
+        title: '宮廟燈組',
+        desc: '傳統祈福燈籠...',
+        img: 'https://picsum.photos/600/400'
+    },
+    'temple-1': {
+        title: '宮廟燈組',
         desc: '傳統祈福燈籠...',
         img: 'https://picsum.photos/600/400'
     },
 
 
-    // --- 花博展區的資料 --- //
-    // --- 頁籤 D 的資料 ---
+    // --- 花博展區的資料 ------------ //
+    // --- 頁籤 IP主題燈組 的資料 ---
     'expo-main': {
         title: '花博展區主燈',
         desc: '花博展區主燈介紹...',
@@ -218,6 +273,15 @@ function openMapModal(id) {
     // --- 填充標題 ---
     const titleEl = document.getElementById('modalTitle');
     if (titleEl) titleEl.innerText = data.title;
+
+    // --- 填充作品名 (檢查點 A+) ---
+    const nameEl = document.getElementById('modalName');
+    if (nameEl) {
+        // 如果資料裡沒有 name，就顯示 "暫無作者名"
+        nameEl.innerText = data.name || "（暫無作者名）"; 
+    } else {
+        console.error("3. 錯誤！找不到 id='modalName' 的 HTML 元素");
+    }
 
     // --- 填充描述 (檢查點 A) ---
     const descEl = document.getElementById('modalDesc');
