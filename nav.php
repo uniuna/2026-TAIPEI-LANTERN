@@ -27,8 +27,7 @@
             <a class="dropbtn">旅遊資訊 ▾</a>
             <ul class="dropdown-content">
                 <li><a href="travel.php">周邊商圈/景點</a></li>
-                <li><a href="#">旅宿資訊/優惠</a></li>
-                <!-- <li><a href="accommodation.php">旅宿資訊/優惠</a></li> -->
+                <li><a href="accommodation.php">旅宿資訊/優惠</a></li>
                 <li><a href="itinerary.php">旅程推薦</a></li>
             </ul>
         </li>
