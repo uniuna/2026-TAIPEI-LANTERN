@@ -17,7 +17,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/travel-site/Dist_Monga.jpg" alt="艋舺商圈">
+                        <img src="images/sites/Dist_Monga.jpg" alt="艋舺商圈">
                         <div class="district-overlay">
                             <span class="zone-badge ximen">西門展區</span>
                         </div>
@@ -31,7 +31,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/travel-site/Dist_Ximen.jpg" alt="西門町商圈">
+                        <img src="images/sites/Dist_Ximen.jpg" alt="西門町商圈">
                         <div class="district-overlay">
                             <span class="zone-badge ximen">西門展區</span>
                         </div>
@@ -45,7 +45,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/travel-site/Dist_Dadaocheng.jpg" alt="大稻埕商圈">
+                        <img src="images/sites/Dist_Dadaocheng.jpg" alt="大稻埕商圈">
                         <div class="district-overlay">
                             <span class="zone-badge ximen">花博展區</span>
                         </div>
@@ -59,7 +59,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/travel-site/Dist_Shilin.jpg" alt="士林觀光夜市商圈">
+                        <img src="images/sites/Dist_Shilin.jpg" alt="士林觀光夜市商圈">
                         <div class="district-overlay">
                             <span class="zone-badge ximen">花博展區</span>
                         </div>
@@ -73,7 +73,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/travel-site/Dist_Zhongshan.jpg" alt="捷運中山站商圈">
+                        <img src="images/sites/Dist_Zhongshan.jpg" alt="捷運中山站商圈">
                         <div class="district-overlay">
                             <span class="zone-badge expo">花博展區</span>
                         </div>
@@ -95,7 +95,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/travel-site/Dist_Longshan.jpg" alt="龍山寺">
+                        <img src="images/sites/Dist_Longshan.jpg" alt="龍山寺">
                         <div class="district-overlay">
                             <span class="zone-badge ximen">西門展區</span>
                         </div>
@@ -109,7 +109,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/travel-site/Dist_Dihua.jpg" alt="迪化街年貨大街">
+                        <img src="images/sites/Dist_Dihua.jpg" alt="迪化街年貨大街">
                         <div class="district-overlay">
                             <span class="zone-badge ximen">花博展區</span>
                         </div>
@@ -123,7 +123,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/travel-site/Dist_Martyrs.jpg" alt="台北忠烈祠">
+                        <img src="images/sites/Dist_Martyrs.jpg" alt="台北忠烈祠">
                         <div class="district-overlay">
                             <span class="zone-badge ximen">花博展區</span>
                         </div>

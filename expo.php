@@ -39,7 +39,7 @@
             </div>
 
             <div id="map-theme-1" class="interactive-map-container map-layer active">
-                <img src="images/map-item/expo-zonemap-red.jpg" alt="IP燈組地圖">
+                <img src="images/maps/expo-zonemap-red.jpg" alt="IP燈組地圖">
 
                 <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
                     onclick="openMapModal('ximen-main')"></div>
@@ -52,7 +52,7 @@
             </div>
 
             <div id="map-theme-2" class="interactive-map-container map-layer">
-                <img src="images/map-item/expo-zonemap-yellow.jpg" alt="藝術燈組地圖">
+                <img src="images/maps/expo-zonemap-yellow.jpg" alt="藝術燈組地圖">
 
                 <div class="map-hotspot" style="top: 38%; left: 47.5%; border-color:#FFD700;"
                     onclick="openMapModal('artist-1')"></div>
@@ -69,7 +69,7 @@
             </div>
 
             <div id="map-theme-3" class="interactive-map-container map-layer">
-                <img src="images/map-item/expo-zonemap-blue.jpg" alt="友好城市地圖">
+                <img src="images/maps/expo-zonemap-blue.jpg" alt="友好城市地圖">
 
                 <div class="map-hotspot" style="top: 41.5%; left:46%; border-color:#00bae9;"
                     onclick="openMapModal('enterprise-1')"></div>

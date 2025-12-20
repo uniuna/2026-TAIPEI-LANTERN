@@ -1,10 +1,11 @@
-/* --- Hero Section (index.html) --- */
+/* --------- Hero Section (index.html) --------- */
 .hero {
-  height: 100vh;
+  height: 150vh;
+  /* 背景設定保持不變 */
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.6) 0%,
-      rgba(0, 0, 0, 0.1) 50%,
+      rgba(0, 0, 0, 0.1) 30%,
       rgba(5, 5, 16, 0.8) 100%
     ),
     url("../images/hero-main.jpg");
@@ -16,55 +17,28 @@
   align-items: center;
   text-align: center;
   padding-top: var(--header-height);
-  padding-bottom: 150px;
-}
-.hero h1,
-.hero p.date-text,
-.hero p.sub-text {
-  display: none;
-}
-.btn-main.hero-btn {
-  padding: 18px 50px;
-  font-size: 1.2rem;
-  box-shadow: 0 0 30px rgba(255, 0, 85, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(5px);
-}
-.btn-main.hero-btn:hover {
-  box-shadow: 0 0 50px rgba(0, 229, 255, 0.8);
+  
+  /* [修改] 增加底部內距，為了避免 Scroll 按鈕跟上浮的新聞重疊太近 */
+  padding-bottom: 200px; 
 }
 
-/* --- 首頁 Hero 手機版換圖設定 --- */
-@media (max-width: 768px) {
-  .hero {
-    /* 1. 這裡保留漸層遮罩，但把圖片路徑換成手機版專用的圖片 */
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.6) 0%,
-        rgba(0, 0, 0, 0.1) 50%,
-        rgba(5, 5, 16, 0.8) 100%
-      ),
-      url("../images/hero-mobile.jpg"); 
-
-    /* 手機版人物或重點通常在上方，所以建議設為 center top */
-    background-position: center top; 
-  }
-}
-
-/* --- Scroll Down 按鈕動畫 (index.html) --- */
+/* --- Scroll Down 按鈕動畫 --- */
 html {
   scroll-behavior: smooth;
 } /* 讓點擊滑動時變平順 */
 
 .scroll-down {
   position: absolute;
-  bottom: 30px;
+  bottom: 45px; 
+
   left: 50%;
   transform: translateX(-50%);
   color: white;
   text-align: center;
   opacity: 0.8;
   transition: 0.3s;
+  /* [新增] 確保按鈕層級，不會被不小心蓋住 */
+  z-index: 5;
 }
 .scroll-down span {
   display: block;
@@ -97,12 +71,28 @@ html {
   }
 }
 
-/* --- 最新消息 (index.html) --- */
+
+/* --------- 最新消息 (index.html) --------- */
 .news-section {
-  padding: 120px 20px 60px;
+  /* [新增] 關鍵設定：負邊距讓區塊往上拉 */
+  margin-top: -250px; 
+  position: relative; /* 必須設定相對定位 */
+  z-index: 10;        /* 確保層級比 Hero 高，這樣才能蓋在圖片上 */
+
+  /* [修改] 調整內距，讓內容看起來協調 (原本上方 padding 很大，現在因為上拉了可以稍微縮小) */
+  padding: 40px 20px 60px; 
+  
   max-width: 1000px;
-  margin: 0 auto;
+  
+  /* 保持原本的置中 */
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* [選用] 增加一個漸層背景，讓文字在圖片交界處更清楚 */
+  /* background: linear-gradient(to bottom, rgba(5,5,16,0.8), transparent); */
+  border-radius: 20px 20px 0 0; /* 讓頂部有圓角，視覺更柔和 */
 }
+
 .news-header {
   display: flex;
   align-items: center;
@@ -118,6 +108,7 @@ html {
 }
 .news-more {
   font-size: 1rem;
+  font-weight: bold;
   color: var(--text-sub);
   margin-left: auto;
 }
@@ -141,10 +132,10 @@ html {
   transform: translateX(5px);
 }
 .news-date {
-  font-family: monospace;
+  /* font-family: monospace; */
   color: var(--accent-color);
   margin-right: 20px;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   min-width: 85px;
 }
 .news-text {
@@ -153,15 +144,46 @@ html {
   font-size: 1.1rem;
 }
 
+/* --- 手機版 RWD 設定 (針對 Hero 延伸襯底 + 換圖) --- */
 @media (max-width: 768px) {
-  .news-item {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
+  
+  /* 1. Hero 區塊：換手機圖 + 預留底部延伸空間 */
+  .hero {
+    /* 設定手機版直式圖片 */
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.1) 30%,
+        rgba(5, 5, 16, 0.9) 100% 
+      ),
+      url("../images/hero-mobile.jpg"); 
+
+    background-position: center top; 
+    
+    /* [關鍵] 增加底部 padding，這塊空間就是用來當作最新消息的「襯底」 */
+    padding-bottom: 250px; 
+  }
+
+  /* 2. 最新消息區塊：往上拉，產生重疊效果 */
+  .news-section {
+    /* [關鍵] 負邊距：讓區塊往上浮蓋住 Hero 的底部 */
+    margin-top: -400px; 
+    padding-top: 30px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    z-index: 10; /* 確保浮在圖片上面 */
+  }
+
+  /* 3. Scroll Down 按鈕：位置微調 */
+  .scroll-down {
+    bottom: 330px; 
+    transform: translateX(-50%) scale(0.9); 
   }
 }
 
-/* --- 展區介紹 (index.html) --- */
+
+/* --------- 展區介紹 (index.html) --------- */
 .map-selection {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -267,7 +289,7 @@ html {
   }
 }
 
-/* --- 底部快速導覽 (index.html) --- */
+/* --------- 快速導覽卡片 (index.html) --------- */
 .nav-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -356,13 +378,135 @@ html {
 }
 
 
+/* --------- 歷年精彩回顧 Tab卡片列表 (index.html) --------- */
+
+/* 1. 年份頁籤按鈕 */
+.year-tabs {
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+}
+.year-tabs .tab-btn {
+    padding: 8px 20px;
+    margin: 5px;
+}
+/* 手機版橫向捲動 */
+@media (max-width: 768px) {
+    .year-tabs {
+        justify-content: flex-start;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 10px;
+        flex-wrap: nowrap;
+    }
+    .year-tabs .tab-btn {
+        flex: 0 0 auto;
+    }
+}
+
+/* 2. 內容顯示控制 */
+.year-content {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+.year-content.active {
+    display: block;
+}
+
+/* 3. 格狀佈局系統 (Gallery Grid) */
+.gallery-grid {
+    display: grid;
+    /* 電腦版：4欄 */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 4. 單張卡片樣式 */
+.gallery-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 圖片區塊 */
+.gallery-img {
+    width: 100%;
+    aspect-ratio: 4/3; /* 固定長寬比，確保整齊 */
+    overflow: hidden;
+}
+
+.gallery-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.gallery-card:hover .gallery-img img {
+    transform: scale(1.1); /* Hover 時圖片放大 */
+}
+
+/* 文字區塊 */
+.gallery-info {
+    padding: 15px;
+    flex: 1; /* 讓文字區塊填滿剩餘高度 */
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-info h4 {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.gallery-info p {
+    color: var(--text-sub);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* 5. RWD 響應式調整 */
+/* 平板 (1024px 以下)：改為 3 欄 */
+@media (max-width: 1024px) {
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* 手機 (768px 以下)：改為 2 欄 (像 Instagram) 或 1 欄 */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2欄比較豐富，若字多可改 1fr */
+        gap: 15px;
+    }
+    .gallery-info {
+        padding: 10px;
+    }
+    .gallery-info h4 {
+        font-size: 1rem;
+    }
+    .gallery-info p {
+        font-size: 0.8rem;
+    }
+}
+
+
 /* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */
 
-/* --- 西門展區 (ximen.html) --- */
+/* --------- 西門展區 (ximen.html) --------- */
 .zone-header-ximen {
   height: 60vh;
   background: linear-gradient(to bottom, rgba(5, 5, 16, 0.2), var(--bg-color)),
-    url("../images/img-link/Link-ximen_1920x1080.jpg");
+    url("../images/links/Link-ximen_1920x1080.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -413,11 +557,11 @@ html {
   background: linear-gradient(transparent, black);
 }
 
-/* --- 花博展區 (expo.html) --- */
+/* --------- 花博展區 (expo.html) --------- */
 .zone-header-expo {
   height: 60vh;
   background: linear-gradient(to bottom, rgba(5, 5, 16, 0.2), #050510),
-    url("../images/img-link/Link-expo_1920x1080.jpg");
+    url("../images/links/Link-expo_1920x1080.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -427,7 +571,8 @@ html {
   margin-top: var(--header-height);
 }
 
-/* --- Tab頁籤按鈕樣式 (展區地圖-藍) --- */
+
+/* --------- Tab頁籤按鈕樣式 (展區地圖-藍) ---------*/
 .tab-buttons {
     display: flex;
     justify-content: center;
@@ -602,7 +747,6 @@ html {
       display: block;
   }
 
-  /* 單個燈組項目 */
   /* --- 燈組簡介列表 (新版佈局) --- */
   .lantern-item {
       background: rgba(255, 255, 255, 0.03);
@@ -671,7 +815,8 @@ html {
       }
   }
 
-/* --- 底部下載地圖區塊 --- */
+
+/* --------- 底部下載地圖區塊 --------- */
 .map-download-section {
     width: 100%;
     padding: 60px 20px;
@@ -693,19 +838,7 @@ html {
 
 /* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */
 
-/* --- 周邊景點 (travel.html) --- */
-.tag {
-  display: inline-block;
-  font-size: 0.8rem;
-  padding: 2px 8px;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
-  border-radius: 4px;
-  margin-top: 10px;
-}
-
-
-/* --- 商圈列表樣式 (5 Cards Layout) --- */
+/* --------- 商圈列表樣式 (5 Cards Layout) --------- */
 .district-container {
     display: flex;
     flex-wrap: wrap;
@@ -819,7 +952,8 @@ html {
     }
 }
 
-/* --- 旅遊資訊頁：旅程推薦樣式 (travel.html) --- */
+
+/* --------- 旅遊資訊頁：旅程推薦樣式 (itinerary.html) --------- */
 .route-grid {
     display: grid;
     grid-template-columns: 1fr;

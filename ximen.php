@@ -11,17 +11,14 @@
     <header class="zone-header-ximen">
         <div>
             <h1 class="zone-title-large">西門展區</h1>
-            <p style="font-size: 1.5rem; color: var(--accent-color); margin-top: 10px; letter-spacing: 5px;">FUTURE XIMEN</p>
         </div>
     </header>
 
     <main>
         <div style="text-align: center; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
-            <h2 class="section-title">未來實驗室</h2>
-            <p style="color: var(--text-sub); font-size: 1.1rem">
-                西門展區以「光之未來」為核心，將西門町的潮流文化與數位科技結合。
-                從捷運出口的 <strong style="color: white">巨型機械主燈</strong> 開始，
-                沿著中華路展開一場賽博龐克式的光影冒險。
+            <!-- <h2 class="section-title">未來實驗室</h2> -->
+            <p style="color: var(--text-sub); font-size: 1.2rem">
+                <strong style="color: white">西門展區</strong> 位於歷史悠久的西門町，這裡將展現臺北的潮流生命力。當百年古蹟遇上幻彩燈飾，讓年輕活力與經典文化在燈光下交融，帶您穿梭於時空的廊道。
             </p>
         </div>
 
@@ -44,7 +41,7 @@
             </div>
 
             <div id="map-theme-1" class="interactive-map-container map-layer active">
-                <img src="images/map-item/ximen-zonemap-red.jpg" alt="IP燈組地圖">
+                <img src="images/maps/ximen-zonemap-red.jpg" alt="IP燈組地圖">
 
                 <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
                     onclick="openMapModal('ximen-main')"></div>
@@ -57,7 +54,7 @@
             </div>
 
             <div id="map-theme-2" class="interactive-map-container map-layer">
-                <img src="images/map-item/ximen-zonemap-yellow.jpg" alt="藝術燈組地圖">
+                <img src="images/maps/ximen-zonemap-yellow.jpg" alt="藝術燈組地圖">
 
                 <div class="map-hotspot" style="top: 38%; left: 47.5%; border-color:#FFD700;"
                     onclick="openMapModal('artist-1')"></div>
@@ -74,7 +71,7 @@
             </div>
 
             <div id="map-theme-3" class="interactive-map-container map-layer">
-                <img src="images/map-item/ximen-zonemap-blue.jpg" alt="企業燈組地圖">
+                <img src="images/maps/ximen-zonemap-blue.jpg" alt="企業燈組地圖">
 
                 <div class="map-hotspot" style="top: 41.5%; left:46%; border-color:#00bae9;"
                     onclick="openMapModal('enterprise-1')"></div>

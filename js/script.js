@@ -1,11 +1,15 @@
 
+/* --------- 手機版選單切換腳本 --------- */
 // 手機版選單切換腳本
 function toggleMenu() {
     const nav = document.getElementById('navLinks');
     nav.classList.toggle('active');
 }
 
-// 頁籤切換功能
+
+
+/* --------- Tab 頁籤切換功能 (event.html) --------- */
+
 function openTab(evt, tabName) {
     var i, tabContent, tabBtns;
 
@@ -59,7 +63,65 @@ function openExtraTab(evt, tabName) {
 }
 
 
-/* ---  Swiper輪播初始化 含防呆機制 (共用) --- */
+
+/* --------- 年份 Tab 頁籤切換功能 (index.html) --------- */
+
+function openYearTab(evt, tabId) {
+    // 1. 隱藏所有年份內容
+    const contents = document.getElementsByClassName("year-content");
+    for (let i = 0; i < contents.length; i++) {
+        contents[i].classList.remove("active");
+        contents[i].style.display = "none";
+    }
+
+    // 2. 移除所有按鈕 active 狀態
+    const buttons = document.querySelectorAll(".year-tabs .tab-btn");
+    buttons.forEach(btn => btn.classList.remove("active"));
+
+    // 3. 顯示選中的年份
+    const target = document.getElementById(tabId);
+    if (target) {
+        target.style.display = "block";
+        setTimeout(() => {
+            target.classList.add("active");
+        }, 10);
+    }
+
+    // 4. 按鈕設為 active
+    evt.currentTarget.classList.add("active");
+}
+
+
+
+/* --------- Footer 背景變色偵測 (Intersection Observer) --------- */
+
+document.addEventListener("DOMContentLoaded", function() {
+    
+    const footer = document.querySelector('footer');
+    
+    // 如果頁面上有 footer 才執行
+    if(footer) {
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                // entry.isIntersecting 代表「是否進入畫面」
+                if (entry.isIntersecting) {
+                    footer.classList.add('active-mode'); // 進入畫面 -> 變淺灰
+                } else {
+                    footer.classList.remove('active-mode'); // 離開畫面 -> 變回深色
+                }
+            });
+        }, { 
+            threshold: 0.5 // 設定門檻：當 Footer 出現 50% 的面積時觸發
+        });
+
+        observer.observe(footer);
+    }
+});
+
+
+
+/* --------- Swiper 輪播初始化 含防呆機制 (共用) --------- */
 
 // 1. 先嘗試抓取容器
 const highlightContainer = document.querySelector('.highlight-swiper');
@@ -114,7 +176,10 @@ if (highlightContainer && typeof Swiper !== 'undefined') {
 }
 
 
-/* --- 展區地圖彈窗資料庫 (ximen.html / expo.html) --- */
+
+
+
+/* --------- 展區地圖彈窗資料庫 (ximen.html / expo.html) --------- */
 
 /* --- 1. 先定義資料庫 --- */
 const mapData = {
@@ -122,25 +187,25 @@ const mapData = {
     // --- 西門展區的資料 ------------ //
     // --- 頁籤 主題IP燈組 的資料 ---
     'ximen-main': {
-        title: 'IP主題燈組：變形金剛柯博文',
+        title: '敬請期待！',
         name: 'IP聯名團隊',
-        desc: '以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。',
-        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/item_main01.jpg'
+        desc: '',
+        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
     },
     'ximen-ip1': {
-        title: 'IP主題燈組：博派出擊',
-        desc: '以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。',
-        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/item_main02.jpg'
+        title: '敬請期待！',
+        desc: '',
+        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
     },
     'ximen-ip2': {
-        title: 'IP主題燈組：博派出擊',
-        desc: '以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。',
-        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/item_main02.jpg'
+        title: '敬請期待！',
+        desc: '',
+        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
     },
     'ximen-ip3': {
-        title: 'IP主題燈組：博派出擊',
-        desc: '以變形金剛最夯角色「柯博文」製作大型燈式，搭配「大黃蜂」主題裝置，以及變形金剛光雕秀，花博即將成為變形金剛基地。',
-        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/item_main02.jpg'
+        title: '敬請期待！',
+        desc: '',
+        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
     },
 
     // --- 頁籤 藝術燈組 的資料 ---
@@ -332,7 +397,10 @@ function closeActualModal() {
 }
 
 
-/* --- Loading 動畫控制腳本 --- */
+
+
+
+/* --------- Loading 動畫控制腳本 --------- */
 window.addEventListener('load', function() {
     const preloader = document.getElementById('preloader');
     
@@ -344,3 +412,4 @@ window.addEventListener('load', function() {
         }
     }, 800); // 800毫秒後消失
 });
+

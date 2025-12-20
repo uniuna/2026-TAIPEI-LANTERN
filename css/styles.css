@@ -1,4 +1,4 @@
-/* --- 1.變數設定 (可在此快速換色) --- */
+/* --------- 1.變數設定 (可在此快速換色) --------- */
 :root {
     --bg-color: #050510;
     --card-bg: #121225;
@@ -9,7 +9,8 @@
     --header-height: 70px;
 }
 
-/* --- 2.基礎設定 --- */
+
+/* --------- 2.基礎設定 --------- */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
     background-color: var(--bg-color);
@@ -21,7 +22,8 @@ body {
 a { text-decoration: none; color: inherit; transition: 0.3s; }
 ul { list-style: none; }
 
-/* --- 3.導覽列 (Sticky Header) --- */
+
+/* --------- 3.導覽列 (Sticky Header) ---v--- */
 .navbar {
     position: fixed;
     top: 0; left: 0; width: 100%;
@@ -74,7 +76,8 @@ ul { list-style: none; }
 .nav-links a:hover { color: var(--accent-color); text-shadow: 0 0 8px var(--accent-color); }
 .hamburger { display: none; cursor: pointer; font-size: 1.5rem; }
 
-/* --- 4.下拉選單 (Dropdown) 樣式 - RWD 優化版 --- */
+
+/* --------- 4.下拉選單 (Dropdown) 樣式 - RWD 優化版 --------- */
 
 /* 1. 設定父層定位基準 */
 .dropdown {
@@ -136,7 +139,8 @@ ul { list-style: none; }
     }
 }
 
-/* --- RWD 手機版導覽列與選單優化 --- */
+
+/* --------- RWD 手機版導覽列與選單優化 --------- */
 @media (max-width: 768px) {
 
     /* 1. 漢堡選單圖示加大 */
@@ -233,7 +237,8 @@ ul { list-style: none; }
     }
 }
 
-/* --- 5.語言切換按鈕樣式 --- */
+
+/* --------- 5.語言切換按鈕樣式 --------- */
 .lang-btn {
     border: 1px solid rgba(255,255,255,0.3);
     border-radius: 20px;
@@ -261,7 +266,8 @@ ul { list-style: none; }
     }
 }
 
-/* --- 台北旅遊網 Link --- */
+
+/* --------- 台北旅遊網 Link --------- */
 .t-travel {
     border-radius: 20px;
     border: #00E5FF 1px solid;
@@ -286,7 +292,7 @@ ul { list-style: none; }
     }
 }
 
-/* ipad air 平板調整 */
+/* --- iPad Air 平板調整 --- */
 @media (max-width: 978px) {
     .navbar{ padding: 1rem 2%; }
     .nav-links{ gap: 25px; }
@@ -295,7 +301,7 @@ ul { list-style: none; }
 }
 
 
-/* --- 6.通用區塊設定 --- */
+/* --------- 6.通用區塊設定 --------- */
 .container { max-width: 1200px; margin: 0 auto; padding: 80px 20px; }
 .section-title {
     font-size: 2.5rem;
@@ -338,7 +344,7 @@ ul { list-style: none; }
     }
 }
 
-/* --- 7.卡片區塊 --- */
+/* --------- 7.卡片區塊 --------- */
 .highlights-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -357,7 +363,8 @@ ul { list-style: none; }
 .card-title { font-size: 1.25rem; margin-bottom: 10px; color: var(--accent-color); }
 .card-text { font-size: 0.9rem; color: var(--text-sub); margin-bottom: 15px; }
 
-/* --- 按鈕樣式 --- */
+
+/* --------- 8.按鈕樣式 --------- */
 .btn-main {
     display: inline-block;
     padding: 15px 40px;
@@ -386,11 +393,13 @@ ul { list-style: none; }
     white-space: nowrap; /* 按鈕文字不換行 */
     text-align: center;
 }
+
 .btn-view-detail:hover {
     background: var(--accent-color);
     color: #000;
     box-shadow: 0 0 10px var(--accent-color);
 }
+
 /* RWD 手機版調整 */
   @media (max-width: 768px) {
       .btn-main, .btn-view-detail {
@@ -400,17 +409,124 @@ ul { list-style: none; }
       }
   }
 
-/* --- 8.頁尾 --- */
+
+/* --------- 9.Footer 贊助商排版樣式 --------- */
 footer {
-    background: #020205;
-    padding: 50px 20px;
-    text-align: center;
-    border-top: 1px solid rgba(255,255,255,0.1);
+    /* 1. 初始狀態：深色背景 (與網站背景融合) */
+    background: var(--bg-color); 
     color: var(--text-sub);
+    
+    /* 2. 設定轉場動畫：讓顏色變化有呼吸感 (0.8秒) */
+    transition: background-color 1.5s ease, color 0.5s ease;
+    
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/* Logo 區塊容器 */
+.footer-sponsors {
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+}
+.sponsor-group {
+    margin-bottom: 40px;
+}
+
+/* 標題預設顏色 (深色模式下是白色或藍色) */
+.sponsor-group h4 {
+    font-size: 1.2rem;
+    color: var(--accent-color); /* 預設改用科技藍，比較跳 */
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.5s ease;
+}
+
+/* Logo 排列容器 (Flexbox) */
+.logo-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* 允許換行 */
+    gap: 9px; /* Logo 之間的間距 */
+}
+
+/* Logo 盒子優化 (確保在深淺背景都好看) */
+.logo-box {
+    background: #f9f9f9;
+    /* border: 1px solid rgba(0,0,0,0.05); */
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.05);  */
+    border-radius: 8px; 
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px; 
+    min-width: 120px;
+}
+
+/* Logo 圖片限制 */
+.logo-box img {
+    max-height: 100%; /* 限制圖片高度不超過框框 */
+    max-width: 140px; /* 限制最大寬度 */
+    width: auto;
+    object-fit: contain; /* 保持比例 */
+}
+
+/* --- 特殊調整：主辦單位 --- */
+.logo-row.main-organizer .logo-box {
+    height: 80px; 
+    min-width: 200px;
+    padding: 10px 30px;
+}
+.logo-row.main-organizer img {
+    max-width: 200px;
+}
+
+/* --- 當 Footer 進入畫面時追加的 Class --- */
+footer.active-mode {
+    background: #f6f6f6; /* 轉變為淺灰背景 */
+    color: #555;         /* 文字變深灰 */
+}
+
+/* 淺色模式下的標題顏色 */
+footer.active-mode .sponsor-group h4 {
+    color: #000; /* 標題變回黑色 */
+}
+
+/* 淺色模式下的分隔線顏色調整 */
+footer.active-mode .footer-bottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* --- 底部版權區 --- */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* --- 手機版 RWD 調整 --- */
+@media (max-width: 768px) {
+    .logo-box {
+        height: 50px; /* 手機版框框小一點 */
+        padding: 5px 15px;
+        flex: 1 1 40%; /* 讓 Logo 在手機版自動排成兩欄 */
+    }
+    .logo-row.main-organizer .logo-box {
+        height: 70px;
+    }
 }
 
 
-/* --- 動畫效果 --- */
+/* --------- 10.動畫效果 --------- */
 @keyframes glow {
     from { filter: drop-shadow(0 0 5px rgba(255,0,85,0.3)); }
     to { filter: drop-shadow(0 0 20px rgba(255,0,85,0.8)); }
@@ -494,7 +610,7 @@ footer {
 }
 
 
-/* --- Tab頁籤按鈕樣式 (共用－紅) --- */
+/* --------- 11.Tab頁籤按鈕樣式 (共用－紅) --------- */
 .tab-buttons {
   display: flex;
   justify-content: center;
@@ -554,7 +670,7 @@ footer {
 }
 
 
-/* --- Swiper 輪播樣式 (共用) --- */
+/* --------- 12.Swiper 輪播樣式 (共用) --------- */
 .highlights-section {
   margin-top: 80px;
   margin-bottom: 80px;
