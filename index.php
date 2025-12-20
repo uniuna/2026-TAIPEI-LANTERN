@@ -30,7 +30,7 @@
         </a>
     </header>
 
-    <main style="padding-bottom: 120px;">
+    <main style="padding-bottom: 150px;">
         <section id="news" class="news-section">
             <h2 class="section-title">最新消息</h2>
             <div class="news-header">
@@ -57,7 +57,7 @@
             <h2 class="section-title">展區介紹</h2>
             <div class="section-intro">
                 <p class="section-description">
-                    2026台北燈節跨出單一展區，同步於「西門展區」與「花博展區」盛大登場。我們以雙主燈、雙展區的規模，串聯了西門町的繁華與花博公園的愜意。透過光影的導引，民眾在賞燈之餘，也能穿梭於鄰近商圈，深度體驗臺北在地的美食與人文魅力，讓燈節成為推動城市觀光的亮點。
+                    2026 台北燈節跨出單一展區，同步於「西門展區」與「花博展區」盛大登場。我們以雙主燈、雙展區的規模，串聯了西門町的繁華與花博公園的愜意。透過光影的導引，民眾在賞燈之餘，也能穿梭於鄰近商圈，深度體驗臺北在地的美食與人文魅力，讓燈節成為推動城市觀光的亮點。
                 </p>
             </div>
             <div class="map-selection">
@@ -129,7 +129,9 @@
             <button class="tab-btn active" onclick="openYearTab(event, 'year-2024')">2024</button>
         </div>
 
-        <div id="year-2017" class="year-content active">
+        
+    
+        <div id="year-2024" class="year-content active">
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
@@ -176,21 +178,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div id="year-2023" class="year-content">
-            <div class="gallery-grid">
-                <div class="gallery-card">
-                    <div class="gallery-img">
-                        <img src="https://picsum.photos/600/400?random=9" alt="回顧">
-                    </div>
-                </div>
-                <div class="gallery-card">
-                    <div class="gallery-img">
-                        <img src="https://picsum.photos/600/400?random=10" alt="回顧">
-                    </div>
-                </div>
-                </div>
         </div>
         
         </section>

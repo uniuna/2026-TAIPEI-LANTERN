@@ -11,11 +11,10 @@
     <header class="zone-header-expo">
         <div>
             <h1 class="zone-title-large">花博展區</h1>
-            <p style="font-size:1.5rem; color:var(--accent-color); margin-top:10px; letter-spacing:5px;">CLASSIC EXPO</p>
         </div>
     </header>
 
-    <main>
+    <main style="padding-bottom: 150px;">
         <div style="text-align: center; max-width: 800px; margin: 0 auto 60px;">
             <h2 class="section-title">經典光之苑</h2>
             <p style="color: var(--text-sub); font-size: 1.1rem;">

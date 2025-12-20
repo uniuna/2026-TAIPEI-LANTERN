@@ -8,7 +8,7 @@
 <body>
     <?php include 'nav.php'; ?>
 
-    <main class="container" style="padding-top: 120px; min-height: 80vh;">
+    <main class="container" style="padding-top: 120px; min-height: 80vh; padding-bottom: 150px;">
         
         <section>
             <h2 class="section-title">旅宿資訊｜優惠</h2>

@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             });
         }, { 
-            threshold: 0.5 // 設定門檻：當 Footer 出現 50% 的面積時觸發
+            threshold: 0.7 // 設定門檻：當 Footer 出現 70% 的面積時觸發
         });
 
         observer.observe(footer);
@@ -174,8 +174,6 @@ if (highlightContainer && typeof Swiper !== 'undefined') {
     // (選用) 如果你想知道為什麼沒跑，可以打開這行
     // console.log("本頁面無 Swiper 區塊，或未引入 Swiper JS，故不執行輪播初始化。");
 }
-
-
 
 
 

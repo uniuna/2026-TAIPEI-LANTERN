@@ -14,7 +14,7 @@
         </div>
     </header>
 
-    <main>
+    <main style="padding-bottom: 150px;">
         <div style="text-align: center; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
             <!-- <h2 class="section-title">未來實驗室</h2> -->
             <p style="color: var(--text-sub); font-size: 1.2rem">
