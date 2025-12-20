@@ -97,14 +97,14 @@
                     <div class="lantern-item" onclick="openMapModal('ximen-main')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">MAIN</h4>
-                                <span class="lantern-designer">IP 聯名團隊</span>
+                                <h4 class="lantern-name">Coming Soon! 敬請期待！</h4>
+                                <!-- <span class="lantern-designer">IP 聯名團隊</span> -->
                             </div>
                             <!-- <p class="lantern-desc">位於紅樓廣場的核心地標。高達 10 公尺的巨型燈飾，結合機械手臂與 LED 螢幕...</p> -->
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <div class="lantern-item" onclick="openMapModal('ximen-ip1')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen-ip1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">No.01 </h4>
@@ -130,7 +130,7 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div id="info-theme-2" class="info-layer">

@@ -187,23 +187,23 @@ const mapData = {
     // --- 西門展區的資料 ------------ //
     // --- 頁籤 主題IP燈組 的資料 ---
     'ximen-main': {
-        title: '敬請期待！',
-        name: 'IP聯名團隊',
+        title: 'Coming Soon! 敬請期待！',
+        name: '',
         desc: '',
         img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
     },
     'ximen-ip1': {
-        title: '敬請期待！',
+        title: 'Coming Soon! 敬請期待！',
         desc: '',
         img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
     },
     'ximen-ip2': {
-        title: '敬請期待！',
+        title: 'Coming Soon! 敬請期待！',
         desc: '',
         img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
     },
     'ximen-ip3': {
-        title: '敬請期待！',
+        title: 'Coming Soon! 敬請期待！',
         desc: '',
         img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
     },
