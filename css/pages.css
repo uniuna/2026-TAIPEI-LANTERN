@@ -926,7 +926,7 @@ html {
 }
 
 .zone-badge {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 5px 12px;
     border-radius: 4px; /* 改為方角一點，比較像標籤 */
     color: #fff; /* 字體黑色比較清楚 */
@@ -934,6 +934,7 @@ html {
     backdrop-filter: blur(5px);
     background: rgba(0, 0, 0, 0.7); 
     border: var(--accent-color) 1px solid;
+    box-shadow: 0 0 8px var(--accent-color);
 }
 
 /* 內容區塊 */
