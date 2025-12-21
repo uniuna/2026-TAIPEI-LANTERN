@@ -196,47 +196,49 @@ ul { list-style: none; }
     .dropdown {
         display: block;
         width: 100%;
-        border-bottom: none; /* 下拉選單本身不畫線 */
+        border-bottom: none;
         padding-bottom: 10px;
         text-align: center;
     }
 
     .dropbtn {
         color: var(--accent-color) !important;
-        font-size: 1.4rem; /* 與其他主選單一致 */
-        padding: 20px 0 10px 0; /* 稍微調整下方間距 */
-        pointer-events: none; 
-        /* 標題不可點，只作為分類標籤 */
+        font-size: 1.4rem;
+        padding: 20px 0 10px 0;
+        cursor: default;
     }
 
     .dropdown-content {
-        /* 1. 關鍵：歸零電腦版的定位設定 */
-        position: static;   /* 不再絕對定位，讓它自然堆疊 */
-        width: 90%;         /* 改為相對寬度 (或 100%) */
-        margin-left: auto;  /* 移除 -80px，改為自動 */
-        margin-right: auto; /* 左右自動 = 水平置中 */
-        left: auto;         /* 移除 left: 50% */
-        
-        /* 2. 手機版樣式優化 */
+        /* [修正] 確保沒有任何 hover 或 transition 會擋住點擊 */
+        position: static;
+        width: 90%;
+        margin: 10px auto 0; /* 簡化寫法 */
         display: block !important; /* 強制顯示 */
-        background: rgba(255,255,255,0.05); /* 淡淡的背景區分 */
-        box-shadow: none;   /* 移除陰影 */
-        border: none;       /* 移除邊框 */
+        
+        background: rgba(255,255,255,0.05);
+        box-shadow: none;
+        border: none;
         padding: 0;
-        margin-top: 10px;   /* 跟上方標題保持一點距離 */
         border-radius: 10px;
-        animation: none;    /* 手機版不需要浮現動畫 */
+        animation: none;
+        opacity: 1; /* 確保不透明 */
+        visibility: visible; /* 確保可見 */
+        
+        /* [關鍵] 確保 z-index 足夠高 (雖然 static 通常不需要，但保險起見) */
+        z-index: 1002;
     }
+
 
     /* 5. 第二層子選單連結 (加大按鈕) */
     .dropdown-content li {
         text-align: center;
     }
+    
+    /* 確保連結本身是可點擊的 */
     .dropdown-content a {
-        padding: 15px 0; /* 足夠大的點擊區域 */
-        font-size: 1.1rem; /* 比主選單小一點，但依然清晰 */
-        color: var(--text-sub);
-        border-bottom: 1px solid rgba(255,255,255,0.05);
+        pointer-events: auto; /* 強制連結可點擊 */
+        padding: 15px 0;
+        display: block; /* 滿版點擊區域 */
     }
     .dropdown-content a:last-child { border-bottom: none; }
     
@@ -256,7 +258,6 @@ ul { list-style: none; }
     margin-left: 10px;
     transition: 0.3s;
     background: rgba(255,255,255,0.05);
-    font-family: monospace; /* 使用等寬字體增加科技感 */
 }
 
 .lang-btn:hover {
@@ -273,6 +274,7 @@ ul { list-style: none; }
         width: auto !important;
         margin: 30px;
         padding: 8px 30px !important;
+        color: var(--text-sub) !important;
     }
 }
 
