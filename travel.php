@@ -95,7 +95,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Dist_Longshan.jpg" alt="龍山寺">
+                        <img src="images/sites/Dist_Longshan.jpg" alt="龍山寺" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge ximen">西門展區</span>
                         </div>
@@ -109,7 +109,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Dist_Dihua.jpg" alt="迪化街年貨大街">
+                        <img src="images/sites/Dist_Dihua.jpg" alt="迪化街年貨大街" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge ximen">花博展區</span>
                         </div>
@@ -123,7 +123,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Dist_Martyrs.jpg" alt="台北忠烈祠">
+                        <img src="images/sites/Dist_Martyrs.jpg" alt="台北忠烈祠" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge ximen">花博展區</span>
                         </div>

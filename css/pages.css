@@ -482,11 +482,13 @@ html {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: brightness(0.8);
     transition: transform 0.5s ease;
 }
 
 .gallery-card:hover .gallery-img img {
-    transform: scale(1.1); /* Hover 時圖片放大 */
+    filter: brightness(1);
+    transform: scale(1.1); 
 }
 
 /* 文字區塊 */
@@ -912,10 +914,12 @@ html {
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
+    filter: brightness(0.8);
 }
 
 .district-card:hover .district-img-box img {
     transform: scale(1.1);
+    filter: brightness(1);
 }
 
 /* --- 新增：展區標籤 (Zone Badge) --- */

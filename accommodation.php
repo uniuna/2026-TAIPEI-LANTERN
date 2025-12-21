@@ -17,7 +17,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Acom-01.jpg" alt="">
+                        <img src="images/sites/AcomX-01.jpg" alt="來台北有好宿">
                     </div>
                     <div class="district-content">
                         <h3>來台北有好宿</h3>
@@ -28,7 +28,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Acom-02.jpg" alt="">
+                        <img src="images/sites/AcomX-02.jpg" alt="台灣旅宿網">
                     </div>
                     <div class="district-content">
                         <h3>台灣旅宿網</h3>
