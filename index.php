@@ -116,7 +116,7 @@
         </section>
 
         <section style="padding: 80px 0 40px;">
-        <h2 class="section-title">歷年精彩回顧</h2>
+        <h2 class="section-title">精彩回顧</h2>
         
         <div class="tab-buttons year-tabs">
             <button class="tab-btn" onclick="openYearTab(event, 'year-2017')">2017</button>
@@ -126,16 +126,15 @@
             <button class="tab-btn" onclick="openYearTab(event, 'year-2021')">2021</button>
             <button class="tab-btn" onclick="openYearTab(event, 'year-2022')">2022</button>
             <button class="tab-btn" onclick="openYearTab(event, 'year-2023')">2023</button>
-            <button class="tab-btn active" onclick="openYearTab(event, 'year-2024')">2024</button>
+            <button class="tab-btn" onclick="openYearTab(event, 'year-2024')">2024</button>
+            <button class="tab-btn active" onclick="openYearTab(event, 'year-2025')">2025</button>
         </div>
 
-        
-    
-        <div id="year-2024" class="year-content active">
+        <div id="year-2017" class="year-content">
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="https://picsum.photos/600/400?random=1" alt="回顧">
+                        <img src="images/gallery/2017/001.jpg" alt="回顧">
                     </div>
                     <!-- <div class="gallery-info">
                         <h4>龍躍光城主燈</h4>
@@ -144,37 +143,397 @@
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="https://picsum.photos/600/400?random=2" alt="回顧">
+                        <img src="images/gallery/2017/002.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="https://picsum.photos/600/400?random=3" alt="回顧">
+                        <img src="images/gallery/2017/003.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="https://picsum.photos/600/400?random=4" alt="回顧">
+                        <img src="images/gallery/2017/004.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="https://picsum.photos/600/400?random=5" alt="回顧">
+                        <img src="images/gallery/2017/005.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="https://picsum.photos/600/400?random=6" alt="回顧">
+                        <img src="images/gallery/2017/006.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="https://picsum.photos/600/400?random=7" alt="回顧">
+                        <img src="images/gallery/2017/007.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="https://picsum.photos/600/400?random=8" alt="回顧">
+                        <img src="images/gallery/2017/008.jpg" alt="回顧">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="year-2018" class="year-content">
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2018/001.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2018/002.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2018/003.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2018/004.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2018/005.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2018/006.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2018/007.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2018/008.jpg" alt="回顧">
+                    </div>
+                </div>
+            </div>
+        </div>         
+
+        <div id="year-2019" class="year-content">
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2019/001.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2019/002.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2019/003.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2019/004.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2019/005.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2019/006.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2019/007.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2019/008.jpg" alt="回顧">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="year-2020" class="year-content">
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2020/001.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2020/002.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2020/003.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2020/004.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2020/005.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2020/006.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2020/007.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2020/008.jpg" alt="回顧">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="year-2021" class="year-content">
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2021/001.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2021/002.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2021/003.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2021/004.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2021/005.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2021/006.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2021/007.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2021/008.jpg" alt="回顧">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="year-2022" class="year-content">
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2022/001.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2022/002.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2022/003.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2022/004.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2022/005.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2022/006.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2022/007.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2022/008.jpg" alt="回顧">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="year-2023" class="year-content">
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2023/001.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2023/002.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2023/003.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2023/004.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2023/005.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2023/006.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2023/007.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2023/008.jpg" alt="回顧">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="year-2024" class="year-content">
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2024/001.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2024/002.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2024/003.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2024/004.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2024/005.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2024/006.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2024/007.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2024/008.jpg" alt="回顧">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="year-2025" class="year-content active">
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2025/001.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2025/002.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2025/003.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2025/004.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2025/005.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2025/006.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2025/007.jpg" alt="回顧">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img">
+                        <img src="images/gallery/2025/008.jpg" alt="回顧">
                     </div>
                 </div>
             </div>

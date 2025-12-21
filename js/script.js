@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             });
         }, { 
-            threshold: 0.7 // 設定門檻：當 Footer 出現 70% 的面積時觸發
+            threshold: 0.6 // 設定門檻：當 Footer 出現 60% 的面積時觸發
         });
 
         observer.observe(footer);

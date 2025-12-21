@@ -417,7 +417,7 @@ footer {
     color: var(--text-sub);
     
     /* 2. 設定轉場動畫：讓顏色變化有呼吸感 (0.8秒) */
-    transition: background-color 1.5s ease, color 0.5s ease;
+    transition: background-color 1s ease, color 0.5s ease;
     
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 60px;

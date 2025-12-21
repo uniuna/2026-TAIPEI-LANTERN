@@ -16,10 +16,9 @@
 
     <main style="padding-bottom: 150px;">
         <div style="text-align: center; max-width: 800px; margin: 0 auto 60px;">
-            <h2 class="section-title">經典光之苑</h2>
+            <!-- <h2 class="section-title">經典光之苑</h2> -->
             <p style="color: var(--text-sub); font-size: 1.1rem;">
-                花博展區回歸燈會初心，邀請國寶級藝師打造千盞 <strong style="color:white;">手繪燈籠海</strong>。
-                結合美術公園的自然地景，創造出如夢似幻的夜間植物園，最適合闔家漫步。
+                <strong style="color:white;">花博展區</strong> 在廣闊的花博圓山園區，我們利用豐富的自然景觀，結合大型地景燈光藝術。這裡擁有充足的腹地與舒適的步行空間，最適合全家大小在夜間漫步，享受愜意的賞燈時光。
             </p>
         </div>
 
