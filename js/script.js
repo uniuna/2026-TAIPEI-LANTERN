@@ -6,6 +6,27 @@ function toggleMenu() {
     nav.classList.toggle('active');
 }
 
+/* 解決 iOS 手機版選單需要點兩次的問題 */
+document.addEventListener("DOMContentLoaded", function() {
+    // 偵測是否為觸控裝置
+    const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+    if (isTouch) {
+        // 針對選單內的連結，綁定 touchend 事件直接觸發跳轉
+        const navLinks = document.querySelectorAll('.nav-links a');
+        
+        navLinks.forEach(link => {
+            link.addEventListener('touchend', function(e) {
+                // 如果這個連結有 href 且不是空連結
+                if (this.href && this.href !== '#' && this.href !== 'javascript:void(0)') {
+                    // 稍微延遲一點點，讓視覺回饋跑完 (可選)
+                    // window.location.href = this.href; 
+                }
+            });
+        });
+    }
+});
+
 
 
 /* --------- Tab 頁籤切換功能 (event.html) --------- */

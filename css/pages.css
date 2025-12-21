@@ -896,7 +896,6 @@ html {
 
 .district-card:hover {
     transform: translateY(-10px);
-    /* border-color: var(--primary-color); */
     box-shadow: 0 10px 30px rgba(255, 0, 85, 0.2);
 }
 
@@ -931,11 +930,10 @@ html {
     padding: 5px 12px;
     border-radius: 4px; /* 改為方角一點，比較像標籤 */
     color: #fff; /* 字體黑色比較清楚 */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
     backdrop-filter: blur(5px);
     background: rgba(0, 0, 0, 0.7); 
-    border: var(--accent-color) 2px solid;
-    /* box-shadow: 0 0 10px var(--accent-color); */
+    border: var(--accent-color) 1px solid;
 }
 
 /* 內容區塊 */
@@ -973,11 +971,14 @@ html {
     background: rgba(255,255,255,0.05);
 }
 
-.btn-more:hover {
+.district-card:hover .btn-more {
     background: var(--primary-color);
     border-color: var(--primary-color);
     box-shadow: 0 0 10px var(--primary-color);
-    letter-spacing: 1px; /* Hover 時字距拉開一點的微特效 */
+}
+
+.btn-more:hover {
+    letter-spacing: 1px; 
     font-weight: bold;
 }
 

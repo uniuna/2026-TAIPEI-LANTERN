@@ -239,6 +239,7 @@ ul { list-style: none; }
         pointer-events: auto; /* 強制連結可點擊 */
         padding: 15px 0;
         display: block; /* 滿版點擊區域 */
+        font-size: 1.1rem;
     }
     .dropdown-content a:last-child { border-bottom: none; }
     
