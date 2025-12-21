@@ -21,18 +21,18 @@
             
             <div class="lantern-container l1">
                 <div class="lantern-body">
-                    <div class="lantern-text">春</div>
+                    <div class="lantern-text">燈</div>
                 </div>
                 <div class="lantern-tassel"></div>
             </div>
 
             <div class="lantern-container l2">
                 <div class="lantern-body">
-                    <div class="lantern-text">福</div>
+                    <div class="lantern-text">節</div>
                 </div>
                 <div class="lantern-tassel"></div>
             </div>
-            
+
             <div class="loading-text">Loading...</div>
         </div>
     </div>

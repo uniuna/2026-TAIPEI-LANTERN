@@ -139,6 +139,13 @@ ul { list-style: none; }
     }
 }
 
+/* --- iPad Air 平板調整 --- */
+@media (max-width: 978px) {
+    .navbar{ padding: 1rem 2%; }
+    .nav-links{ gap: 25px; }
+    .nav-links a {font-size: 0.9rem;}
+    .lang-btn, .t-travel{ font-size: 0.8rem !important;}
+}
 
 /* --------- RWD 手機版導覽列與選單優化 --------- */
 @media (max-width: 768px) {
@@ -224,7 +231,7 @@ ul { list-style: none; }
         text-align: center;
     }
     .dropdown-content a {
-        padding: 18px 0; /* 足夠大的點擊區域 */
+        padding: 15px 0; /* 足夠大的點擊區域 */
         font-size: 1.1rem; /* 比主選單小一點，但依然清晰 */
         color: var(--text-sub);
         border-bottom: 1px solid rgba(255,255,255,0.05);
@@ -256,12 +263,13 @@ ul { list-style: none; }
     color: white !important;
     box-shadow: 0 0 10px var(--primary-color);
 }
+
 /* 手機版調整 */
 @media (max-width: 768px) {
     .lang-btn {
         display: inline-block; /* 讓它不要滿版 */
         width: auto !important;
-        margin: 0px 30px 30px;
+        margin: 30px;
         padding: 8px 30px !important;
     }
 }
@@ -290,14 +298,6 @@ ul { list-style: none; }
         padding: 8px 30px !important;
         border-color: var(--accent-color);
     }
-}
-
-/* --- iPad Air 平板調整 --- */
-@media (max-width: 978px) {
-    .navbar{ padding: 1rem 2%; }
-    .nav-links{ gap: 25px; }
-    .nav-links a {font-size: 0.9rem;}
-    .lang-btn, .t-travel{ font-size: 0.8rem !important;}
 }
 
 
@@ -588,7 +588,7 @@ footer.active-mode .footer-bottom {
 }
 
 /* 燈籠的位置錯開 */
-.l1 { left: 20%; animation: swing 0.8s infinite ease-in-out alternate; }
+.l1 { left: 25%; animation: swing 0.8s infinite ease-in-out alternate; }
 .l2 { left: 50%; transform: translateX(-50%); animation: swing 1.2s infinite ease-in-out alternate-reverse; top: 60px; /* 中間這顆掛低一點 */ }
 
 /* 燈籠本體 */

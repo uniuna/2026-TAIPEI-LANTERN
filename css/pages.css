@@ -144,6 +144,45 @@ html {
   font-size: 1.1rem;
 }
 
+/* --- 平板版 RWD 設定 (針對 iPad/Tablet 直立或橫放) --- */
+/* 設定範圍：小於 1024px (平板) 但大於 768px (手機會吃下面的設定) */
+@media (max-width: 1024px) {
+  
+  /* 1. Hero 區塊：換平板專用圖 */
+  .hero {
+    /* 背景漸層維持，圖片換成 tablet 版 */
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.1) 30%,
+        rgba(5, 5, 16, 0.9) 100%
+      ),
+      url("../images/hero-tablet.jpg"); /* <--- 請準備這張圖片 */
+
+    background-position: center top; /* 平板直立時，重點通常在上方 */
+    
+    /* 調整底部延伸空間 (介於電腦 200px 與 手機 250px 之間) */
+    padding-bottom: 220px; 
+  }
+
+  /* 2. 最新消息區塊：調整上浮程度 */
+  .news-section {
+    /* 負邊距 (介於電腦 -250px 與 手機 -400px 之間) */
+    margin-top: -320px; 
+    
+    /* 內距微調 */
+    padding-top: 40px; 
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* 3. Scroll Down 按鈕：位置配合調整 */
+  .scroll-down {
+    /* 配合 News 上移，按鈕也要提上來 */
+    bottom: 280px; 
+  }
+}
+
 /* --- 手機版 RWD 設定 (針對 Hero 延伸襯底 + 換圖) --- */
 @media (max-width: 768px) {
   
