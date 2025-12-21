@@ -2,8 +2,8 @@
 <html lang="zh-TW">
 <head>
     <?php include 'header.php'; ?>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/pages.css">
 </head>
 <body>
     <?php include 'nav.php'; ?>
@@ -37,7 +37,7 @@
             </div>
 
             <div id="map-theme-1" class="interactive-map-container map-layer active">
-                <img src="images/maps/expo-zonemap-red.jpg" alt="IP燈組地圖">
+                <img src="../images/maps/expo-zonemap-red.jpg" alt="IP燈組地圖">
 
                 <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
                     onclick="openMapModal('ximen-main')"></div>
@@ -50,7 +50,7 @@
             </div>
 
             <div id="map-theme-2" class="interactive-map-container map-layer">
-                <img src="images/maps/expo-zonemap-yellow.jpg" alt="藝術燈組地圖">
+                <img src="../images/maps/expo-zonemap-yellow.jpg" alt="藝術燈組地圖">
 
                 <div class="map-hotspot" style="top: 38%; left: 47.5%; border-color:#FFD700;"
                     onclick="openMapModal('artist-1')"></div>
@@ -67,7 +67,7 @@
             </div>
 
             <div id="map-theme-3" class="interactive-map-container map-layer">
-                <img src="images/maps/expo-zonemap-blue.jpg" alt="友好城市地圖">
+                <img src="../images/maps/expo-zonemap-blue.jpg" alt="友好城市地圖">
 
                 <div class="map-hotspot" style="top: 41.5%; left:46%; border-color:#00bae9;"
                     onclick="openMapModal('enterprise-1')"></div>
@@ -186,7 +186,7 @@
                 <h3>總覽花博展區 Map Download</h3>
                 <p>將完整的2026台北燈節地圖帶著走，離線也能輕鬆導航。</p>
 
-                <a href="info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main">
+                <a href="../info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main">
                     下載 花博展區 全區導覽圖
                     <span style="vertical-align: middle;">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -200,6 +200,6 @@
     </main>
 
     <?php include 'footer.php'; ?>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>

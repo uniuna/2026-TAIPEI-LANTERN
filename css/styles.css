@@ -115,7 +115,7 @@ ul { list-style: none; }
     text-decoration: none;
     display: block;
     font-size: 1rem;
-    line-height: 1.2;
+    line-height: 1.1;
     transition: 0.3s;
 }
 
@@ -333,6 +333,7 @@ ul { list-style: none; }
     letter-spacing: 0.2px;
     color: var(--text-main);
 }
+
 /* 手機優化 */
 @media (max-width: 768px) {
     .section-intro {
@@ -344,6 +345,17 @@ ul { list-style: none; }
         text-align: left;
     }
 }
+
+.tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
 
 /* --------- 7.卡片區塊 --------- */
 .highlights-grid {
@@ -617,6 +629,7 @@ footer.active-mode .footer-bottom {
     color: #ffcc00; /* 金黃色字體 */
     font-weight: bold;
     font-family: "KaiTi", "BiauKai", serif; /* 楷體更有傳統味 */
+    letter-spacing: -0.5px;
     font-size: 1.2rem;
 }
 

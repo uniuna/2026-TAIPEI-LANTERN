@@ -3,8 +3,8 @@
 <head>
     <?php include 'header.php'; ?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/pages.css">
 </head>
 <body>
     <?php include 'nav.php'; ?>
@@ -108,6 +108,6 @@
   
     <?php include 'footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>

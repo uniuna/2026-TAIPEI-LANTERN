@@ -518,7 +518,7 @@ html {
     }
 }
 
-/* 手機 (768px 以下)：改為 2 欄 (像 Instagram) 或 1 欄 */
+/* 手機 (768px 以下) */
 @media (max-width: 768px) {
     .gallery-grid {
         grid-template-columns: repeat(2, 1fr); /* 2欄比較豐富，若字多可改 1fr */
