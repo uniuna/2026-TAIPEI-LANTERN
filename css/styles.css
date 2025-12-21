@@ -189,6 +189,7 @@ ul { list-style: none; }
         font-size: 1.4rem; /* 字體加大 */
         padding: 20px 0;   /* 上下內距加大 (關鍵 UX 優化) */
         width: 100%;
+        color: var(--accent-color);
     }
 
     /* 4. 下拉選單處理 (維持展開) */
@@ -204,7 +205,7 @@ ul { list-style: none; }
         color: var(--accent-color) !important;
         font-size: 1.4rem; /* 與其他主選單一致 */
         padding: 20px 0 10px 0; /* 稍微調整下方間距 */
-        /* pointer-events: none;  */
+        pointer-events: none; 
         /* 標題不可點，只作為分類標籤 */
     }
 
