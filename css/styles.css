@@ -473,9 +473,7 @@ footer {
 /* Logo 盒子優化 (確保在深淺背景都好看) */
 .logo-box {
     background: #f9f9f9;
-    /* border: 1px solid rgba(0,0,0,0.05); */
-    /* box-shadow: 0 4px 10px rgba(0,0,0,0.05);  */
-    border-radius: 8px; 
+    border-radius: 6px; 
     padding: 5px;
     display: flex;
     align-items: center;
