@@ -14,10 +14,10 @@
 <meta property="og:description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://2026lanternfestival.travel.taipei/">
-<meta property="og:image" content="https://2026lanternfestival.travel.taipei/images/og-image.jpg">
+<meta property="og:image" content="images/og-image.jpg">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="2026 臺北燈節 | TAIPEI LANTERN FESTIVAL">
 <meta name="twitter:description" content="2026 臺北燈節官方網站，掌握最新活動、展區介紹、交通資訊與精彩亮點，邀您共賞光之未來！">
-<meta name="twitter:image" content="https://2026lanternfestival.travel.taipei/images/og-image.jpg">
+<meta name="twitter:image" content="images/og-image.jpg">

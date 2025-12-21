@@ -16,9 +16,24 @@
 </head>
 <body>
     <div id="preloader">
-        <div class="loader-content">
-            <div class="loader-circle"></div>
-            <!-- <div class="loader-text">LOADING...</div> -->
+        <div class="festival-loader">
+            <div class="lantern-rope"></div>
+            
+            <div class="lantern-container l1">
+                <div class="lantern-body">
+                    <div class="lantern-text">春</div>
+                </div>
+                <div class="lantern-tassel"></div>
+            </div>
+
+            <div class="lantern-container l2">
+                <div class="lantern-body">
+                    <div class="lantern-text">福</div>
+                </div>
+                <div class="lantern-tassel"></div>
+            </div>
+            
+            <div class="loading-text">Loading...</div>
         </div>
     </div>
     <?php include 'nav.php'; ?>

@@ -175,10 +175,8 @@ html {
     z-index: 10; /* 確保浮在圖片上面 */
   }
 
-  /* 3. Scroll Down 按鈕：位置微調 */
   .scroll-down {
-    bottom: 330px; 
-    transform: translateX(-50%) scale(0.9); 
+    display: none; 
   }
 }
 

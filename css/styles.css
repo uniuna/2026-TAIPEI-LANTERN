@@ -532,6 +532,7 @@ footer.active-mode .footer-bottom {
     to { filter: drop-shadow(0 0 20px rgba(255,0,85,0.8)); }
 }
 
+
 /* --- Loading 動畫 (Preloader) --- */
 #preloader {
     position: fixed;
@@ -539,74 +540,141 @@ footer.active-mode .footer-bottom {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--bg-color); /* 與背景色一致 */
-    z-index: 99999; /* 確保在最上層 */
+    /* 使用深紅色漸層背景，更有節慶夜晚的氣氛 */
+    background: radial-gradient(circle at center, #2b0e0e 0%, #000000 100%);
+    z-index: 99999;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
+    transition: opacity 0.8s ease, visibility 0.8s ease;
 }
 
-/* 隱藏狀態 (由 JS 控制) */
 #preloader.hide {
     opacity: 0;
     visibility: hidden;
 }
 
-.loader-content {
-    text-align: center;
+.festival-loader {
     position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    /* 讓燈籠看起來是掛在畫面上方 */
+    align-items: flex-start; 
+    padding-top: 50px; 
 }
 
-/* 霓虹旋轉圈圈 */
-.loader-circle {
-    width: 60px;
-    height: 60px;
-    border: 4px solid rgba(255, 255, 255, 0.1);
-    border-top: 4px solid var(--primary-color); /* 粉紅色主色 */
-    border-radius: 50%;
-    margin: 0 auto 15px;
-    animation: spin 1s linear infinite;
-    position: relative;
-    box-shadow: 0 0 15px var(--primary-color); /* 發光效果 */
-}
-
-/* 內圈 (第二層旋轉，增加層次感) */
-.loader-circle::before {
-    content: "";
+/* 懸掛繩索 */
+.lantern-rope {
     position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-    border-radius: 50%;
-    border: 4px solid transparent;
-    border-top: 4px solid var(--accent-color); /* 藍色副色 */
-    animation: spin-reverse 1.5s linear infinite;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%; /* 讓線有一點弧度 */
+    transform: scaleY(0.5);
 }
 
-.loader-text {
-    color: white;
-    font-family: monospace;
-    letter-spacing: 3px;
+/* 燈籠容器 (負責搖擺動畫) */
+.lantern-container {
+    position: absolute;
+    top: 50px; /* 掛在線上 */
+    transform-origin: top center; /* 旋轉軸心在頂部 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 燈籠的位置錯開 */
+.l1 { left: 20%; animation: swing 0.8s infinite ease-in-out alternate; }
+.l2 { left: 50%; transform: translateX(-50%); animation: swing 1.2s infinite ease-in-out alternate-reverse; top: 60px; /* 中間這顆掛低一點 */ }
+
+/* 燈籠本體 */
+.lantern-body {
+    width: 60px;
+    height: 50px;
+    background-color: #ff3333; /* 大紅色 */
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(255, 51, 51, 0.6); /* 紅色光暈 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* 燈籠上下蓋 (金色) */
+    border-top: 4px solid #ffcc00;
+    border-bottom: 4px solid #ffcc00;
+    
+    /* 呼吸燈效果 */
+    animation: glow 2s infinite ease-in-out alternate;
+}
+
+/* 燈籠上的文字 */
+.lantern-text {
+    color: #ffcc00; /* 金黃色字體 */
+    font-weight: bold;
+    font-family: "KaiTi", "BiauKai", serif; /* 楷體更有傳統味 */
     font-size: 1.2rem;
-    animation: blink 1.5s infinite;
 }
 
-/* 旋轉動畫定義 */
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+/* 提線 (連接繩索跟燈籠的線) */
+.lantern-container::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    width: 2px;
+    height: 15px;
+    background-color: #cc9900;
 }
 
-@keyframes spin-reverse {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(-360deg); }
+/* 流蘇 (穗子) */
+.lantern-tassel {
+    width: 4px;
+    height: 30px;
+    background-color: #ff3333;
+    margin-top: 2px;
+    position: relative;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
 }
 
-@keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
+/* 底部文字 */
+.loading-text {
+    position: absolute;
+    bottom: 80px;
+    color: #ffcc00;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    text-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+    animation: fadeText 2s infinite;
+}
+
+/* --- 動畫關鍵影格 --- */
+
+/* 搖擺動畫 */
+@keyframes swing {
+    0% { transform: rotate(-5deg); }
+    100% { transform: rotate(5deg); }
+}
+
+/* 呼吸光暈動畫 */
+@keyframes glow {
+    0% { 
+        box-shadow: 0 0 15px rgba(255, 51, 51, 0.4); 
+        background-color: #d11a1a;
+    }
+    100% { 
+        box-shadow: 0 0 30px rgba(255, 51, 51, 0.9); 
+        background-color: #ff4d4d;
+    }
+}
+
+/* 文字忽明忽滅 */
+@keyframes fadeText {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
 }
 
 
