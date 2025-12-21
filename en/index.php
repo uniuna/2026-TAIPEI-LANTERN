@@ -2,8 +2,8 @@
 <html lang="zh-TW">
 <head>
     <?php include 'header.php'; ?>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/pages.css">
 </head>
 <body>
     <div id="preloader">
@@ -12,14 +12,14 @@
             
             <div class="lantern-container l1">
                 <div class="lantern-body">
-                    <div class="lantern-text">燈</div>
+                    <div class="lantern-text">Lantern</div>
                 </div>
                 <div class="lantern-tassel"></div>
             </div>
 
             <div class="lantern-container l2">
                 <div class="lantern-body">
-                    <div class="lantern-text">節</div>
+                    <div class="lantern-text">Festival</div>
                 </div>
                 <div class="lantern-tassel"></div>
             </div>
@@ -69,7 +69,7 @@
             <div class="map-selection">
                 <a href="ximen.php" class="map-card" id="ximen-map">
                     <div class="map-bg"
-                        style="background-image: url('images/links/Link-ximen_1920x1080.jpg');">
+                        style="background-image: url('../images/links/Link-ximen_1920x1080.jpg');">
                     </div>
                     <div class="map-overlay">
                         <h3>西門展區</h3>
@@ -78,7 +78,7 @@
                 </a>
 
                 <a href="expo.php" class="map-card" id="expo-map">
-                    <div class="map-bg" style="background-image: url('images/links/Link-expo_1920x1080.jpg');"></div>
+                    <div class="map-bg" style="background-image: url('../images/links/Link-expo_1920x1080.jpg');"></div>
                     <div class="map-overlay">
                         <h3>花博展區</h3>
                         <span class="scan-line"></span>
@@ -92,21 +92,21 @@
             <div class="nav-grid">
 
                 <a href="events.php" class="nav-card">
-                    <div class="nav-bg" style="background-image: url('images/links/Link-img-01_800x600.jpg');"></div>
+                    <div class="nav-bg" style="background-image: url('../images/links/Link-img-01_800x600.jpg');"></div>
                     <div class="nav-text">
                         <h3>精彩活動</h3>
                     </div>
                 </a>
 
                 <a href="travel.php" class="nav-card">
-                    <div class="nav-bg" style="background-image: url('images/links/Link-img-02_800x600.jpg');"></div>
+                    <div class="nav-bg" style="background-image: url('../images/links/Link-img-02_800x600.jpg');"></div>
                     <div class="nav-text">
                         <h3>旅遊資訊</h3>
                     </div>
                 </a>
 
                 <a href="traffic.php" class="nav-card">
-                    <div class="nav-bg" style="background-image: url('images/links/Link-img-03_800x600.jpg');"></div>
+                    <div class="nav-bg" style="background-image: url('../images/links/Link-img-03_800x600.jpg');"></div>
                     <div class="nav-text">
                         <h3>交通方式</h3>
                     </div>
@@ -140,7 +140,7 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2017/001.jpg" alt="回顧">
+                        <img src="../images/gallery/2017/001.jpg" alt="回顧">
                     </div>
                     <!-- <div class="gallery-info">
                         <h4>龍躍光城主燈</h4>
@@ -149,37 +149,37 @@
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2017/002.jpg" alt="回顧">
+                        <img src="../images/gallery/2017/002.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2017/003.jpg" alt="回顧">
+                        <img src="../images/gallery/2017/003.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2017/004.jpg" alt="回顧">
+                        <img src="../images/gallery/2017/004.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2017/005.jpg" alt="回顧">
+                        <img src="../images/gallery/2017/005.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2017/006.jpg" alt="回顧">
+                        <img src="../images/gallery/2017/006.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2017/007.jpg" alt="回顧">
+                        <img src="../images/gallery/2017/007.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2017/008.jpg" alt="回顧">
+                        <img src="../images/gallery/2017/008.jpg" alt="回顧">
                     </div>
                 </div>
             </div>
@@ -189,42 +189,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2018/001.jpg" alt="回顧">
+                        <img src="../images/gallery/2018/001.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2018/002.jpg" alt="回顧">
+                        <img src="../images/gallery/2018/002.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2018/003.jpg" alt="回顧">
+                        <img src="../images/gallery/2018/003.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2018/004.jpg" alt="回顧">
+                        <img src="../images/gallery/2018/004.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2018/005.jpg" alt="回顧">
+                        <img src="../images/gallery/2018/005.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2018/006.jpg" alt="回顧">
+                        <img src="../images/gallery/2018/006.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2018/007.jpg" alt="回顧">
+                        <img src="../images/gallery/2018/007.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2018/008.jpg" alt="回顧">
+                        <img src="../images/gallery/2018/008.jpg" alt="回顧">
                     </div>
                 </div>
             </div>
@@ -234,42 +234,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2019/001.jpg" alt="回顧">
+                        <img src="../images/gallery/2019/001.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2019/002.jpg" alt="回顧">
+                        <img src="../images/gallery/2019/002.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2019/003.jpg" alt="回顧">
+                        <img src="../images/gallery/2019/003.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2019/004.jpg" alt="回顧">
+                        <img src="../images/gallery/2019/004.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2019/005.jpg" alt="回顧">
+                        <img src="../images/gallery/2019/005.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2019/006.jpg" alt="回顧">
+                        <img src="../images/gallery/2019/006.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2019/007.jpg" alt="回顧">
+                        <img src="../images/gallery/2019/007.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2019/008.jpg" alt="回顧">
+                        <img src="../images/gallery/2019/008.jpg" alt="回顧">
                     </div>
                 </div>
             </div>
@@ -279,42 +279,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2020/001.jpg" alt="回顧">
+                        <img src="../images/gallery/2020/001.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2020/002.jpg" alt="回顧">
+                        <img src="../images/gallery/2020/002.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2020/003.jpg" alt="回顧">
+                        <img src="../images/gallery/2020/003.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2020/004.jpg" alt="回顧">
+                        <img src="../images/gallery/2020/004.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2020/005.jpg" alt="回顧">
+                        <img src="../images/gallery/2020/005.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2020/006.jpg" alt="回顧">
+                        <img src="../images/gallery/2020/006.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2020/007.jpg" alt="回顧">
+                        <img src="../images/gallery/2020/007.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2020/008.jpg" alt="回顧">
+                        <img src="../images/gallery/2020/008.jpg" alt="回顧">
                     </div>
                 </div>
             </div>
@@ -324,42 +324,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2021/001.jpg" alt="回顧">
+                        <img src="../images/gallery/2021/001.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2021/002.jpg" alt="回顧">
+                        <img src="../images/gallery/2021/002.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2021/003.jpg" alt="回顧">
+                        <img src="../images/gallery/2021/003.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2021/004.jpg" alt="回顧">
+                        <img src="../images/gallery/2021/004.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2021/005.jpg" alt="回顧">
+                        <img src="../images/gallery/2021/005.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2021/006.jpg" alt="回顧">
+                        <img src="../images/gallery/2021/006.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2021/007.jpg" alt="回顧">
+                        <img src="../images/gallery/2021/007.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2021/008.jpg" alt="回顧">
+                        <img src="../images/gallery/2021/008.jpg" alt="回顧">
                     </div>
                 </div>
             </div>
@@ -369,42 +369,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2022/001.jpg" alt="回顧">
+                        <img src="../images/gallery/2022/001.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2022/002.jpg" alt="回顧">
+                        <img src="../images/gallery/2022/002.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2022/003.jpg" alt="回顧">
+                        <img src="../images/gallery/2022/003.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2022/004.jpg" alt="回顧">
+                        <img src="../images/gallery/2022/004.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2022/005.jpg" alt="回顧">
+                        <img src="../images/gallery/2022/005.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2022/006.jpg" alt="回顧">
+                        <img src="../images/gallery/2022/006.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2022/007.jpg" alt="回顧">
+                        <img src="../images/gallery/2022/007.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2022/008.jpg" alt="回顧">
+                        <img src="../images/gallery/2022/008.jpg" alt="回顧">
                     </div>
                 </div>
             </div>
@@ -414,42 +414,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2023/001.jpg" alt="回顧">
+                        <img src="../images/gallery/2023/001.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2023/002.jpg" alt="回顧">
+                        <img src="../images/gallery/2023/002.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2023/003.jpg" alt="回顧">
+                        <img src="../images/gallery/2023/003.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2023/004.jpg" alt="回顧">
+                        <img src="../images/gallery/2023/004.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2023/005.jpg" alt="回顧">
+                        <img src="../images/gallery/2023/005.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2023/006.jpg" alt="回顧">
+                        <img src="../images/gallery/2023/006.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2023/007.jpg" alt="回顧">
+                        <img src="../images/gallery/2023/007.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2023/008.jpg" alt="回顧">
+                        <img src="../images/gallery/2023/008.jpg" alt="回顧">
                     </div>
                 </div>
             </div>
@@ -459,42 +459,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2024/001.jpg" alt="回顧">
+                        <img src="../images/gallery/2024/001.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2024/002.jpg" alt="回顧">
+                        <img src="../images/gallery/2024/002.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2024/003.jpg" alt="回顧">
+                        <img src="../images/gallery/2024/003.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2024/004.jpg" alt="回顧">
+                        <img src="../images/gallery/2024/004.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2024/005.jpg" alt="回顧">
+                        <img src="../images/gallery/2024/005.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2024/006.jpg" alt="回顧">
+                        <img src="../images/gallery/2024/006.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2024/007.jpg" alt="回顧">
+                        <img src="../images/gallery/2024/007.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2024/008.jpg" alt="回顧">
+                        <img src="../images/gallery/2024/008.jpg" alt="回顧">
                     </div>
                 </div>
             </div>
@@ -504,42 +504,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2025/001.jpg" alt="回顧">
+                        <img src="../images/gallery/2025/001.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2025/002.jpg" alt="回顧">
+                        <img src="../images/gallery/2025/002.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2025/003.jpg" alt="回顧">
+                        <img src="../images/gallery/2025/003.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2025/004.jpg" alt="回顧">
+                        <img src="../images/gallery/2025/004.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2025/005.jpg" alt="回顧">
+                        <img src="../images/gallery/2025/005.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2025/006.jpg" alt="回顧">
+                        <img src="../images/gallery/2025/006.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2025/007.jpg" alt="回顧">
+                        <img src="../images/gallery/2025/007.jpg" alt="回顧">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="images/gallery/2025/008.jpg" alt="回顧">
+                        <img src="../images/gallery/2025/008.jpg" alt="回顧">
                     </div>
                 </div>
             </div>
@@ -550,6 +550,6 @@
 
     <?php include 'footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
