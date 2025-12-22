@@ -39,29 +39,29 @@
             <div id="map-theme-1" class="interactive-map-container map-layer active">
                 <img src="images/maps/expo-zonemap-red.jpg" alt="IP燈組地圖">
 
-                <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
+                <!-- <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
                     onclick="openMapModal('ximen-main')"></div>
                 <div class="map-hotspot" style="top: 60%; left: 37%;border-color:#FF0055;"
                     onclick="openMapModal('ximen-ip1')"></div>
                 <div class="map-hotspot" style="top: 72%; left: 38.5%;border-color:#FF0055;"
                     onclick="openMapModal('ximen-ip2')"></div>
                 <div class="map-hotspot" style="top: 79.5%; left: 36.5%;border-color:#FF0055;"
-                    onclick="openMapModal('ximen-ip3')"></div>
+                    onclick="openMapModal('ximen-ip3')"></div> -->
             </div>
 
             <div id="map-theme-2" class="interactive-map-container map-layer">
                 <img src="images/maps/expo-zonemap-yellow.jpg" alt="藝術燈組地圖">
 
-                <div class="map-hotspot" style="top: 38%; left: 47.5%; border-color:#FFD700;"
-                    onclick="openMapModal('artist-1')"></div>
-                <div class="map-hotspot" style="top: 45.5%; left: 45.5%; border-color:#FFD700;"
+                <div class="map-hotspot" style="top: 41.5%; left: 46%; border-color:#FFD700;"
+                    onclick="openMapModal('ex-artist-1')"></div>
+                <!-- <div class="map-hotspot" style="top: 45.5%; left: 45.5%; border-color:#FFD700;"
                     onclick="openMapModal('artist-2')"></div>
                 <div class="map-hotspot" style="top: 52.5%; left: 44%; border-color:#FFD700;"
                     onclick="openMapModal('artist-3')"></div>
                 <div class="map-hotspot" style="top: 59%; left: 42%; border-color:#FFD700;"
                     onclick="openMapModal('artist-4')"></div>
                 <div class="map-hotspot" style="top: 83%; left: 36%; border-color:#FFD700;"
-                    onclick="openMapModal('artist-5')"></div>
+                    onclick="openMapModal('artist-5')"></div> -->
             </div>
             </div>
             </div>
@@ -69,12 +69,12 @@
             <div id="map-theme-3" class="interactive-map-container map-layer">
                 <img src="images/maps/expo-zonemap-blue.jpg" alt="友好城市地圖">
 
-                <div class="map-hotspot" style="top: 41.5%; left:46%; border-color:#00bae9;"
+                <!-- <div class="map-hotspot" style="top: 41.5%; left:46%; border-color:#00bae9;"
                     onclick="openMapModal('enterprise-1')"></div>
                 <div class="map-hotspot" style="top: 48.5%; left: 44.5%; border-color:#00bae9;"
                     onclick="openMapModal('enterprise-2')"></div>
                 <div class="map-hotspot" style="top: 56%; left: 42.5%; border-color:#00bae9;"
-                    onclick="openMapModal('enterprise-3')"></div>
+                    onclick="openMapModal('enterprise-3')"></div> -->
             </div>
 
             <div class="info-section">
@@ -92,7 +92,7 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <div class="lantern-item" onclick="openMapModal('ximen-ip1')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen-ip1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">No.01 </h4>
@@ -118,7 +118,7 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div id="info-theme-2" class="info-layer">
@@ -134,16 +134,7 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('artist-2')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.02 萌虎下山</h4>
-                                <span class="lantern-designer">Tom Dixon</span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
+                    
                 </div>
 
                 <div id="info-theme-3" class="info-layer">
@@ -159,6 +150,7 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -175,7 +167,11 @@
                 <div style="line-height: 1.6; font-size: 1rem; text-align: left;">
                     <p id="modalName" style="line-height: 2.4; font-size: 1.2rem; " >設計者名稱...
                     </p>
-                    <p id="modalDesc" >燈飾介紹內容...
+                    <p id="modalSize" style="line-height: 2.4; font-size: 1rem; color: #ccc; " >尺寸...
+                    </p>
+                    <p id="modalType" style="line-height: 2.4; font-size: 1rem; color: #ccc;  " >展演方式...
+                    </p><br>
+                    <p id="modalDesc" style="font-size: 1rem; " >燈飾介紹內容...
                     </p>
                 </div>
             </div>

@@ -302,6 +302,16 @@ const mapData = {
         desc: '主題燈組介紹...',
         img: 'https://picsum.photos/800/600'
     },
+
+    // --- 頁籤 藝術燈組 的資料 ---
+    'ex-artist-1': {
+        title: '藝術燈組 No.6：城市樓閣',
+        name: '作者：邱杰森',
+        size:'尺寸：長 250cm X 寬 250cm X 高 300cm',
+        type:'展演方式：靜態展出',
+        desc: '《 城市樓閣 》是一座以光構築的都市幻象。它延續了人類對「塔」的原型想像 — 從信仰、權力到記憶與歸屬 — 並以當代工業材料與數位燈光技術，轉化為一座介於現實與虛構之間的城市象徵。這片光域猶如台北夜景，也象徵城市內部錯綜的能量流動。',
+        img: '../images/items/item_sample.jpg'
+    },
     
 };
 
@@ -358,7 +368,7 @@ function openMapModal(id) {
     const titleEl = document.getElementById('modalTitle');
     if (titleEl) titleEl.innerText = data.title;
 
-    // --- 填充作品名 (檢查點 A+) ---
+    // --- 填充作者名 (檢查點) ---
     const nameEl = document.getElementById('modalName');
     if (nameEl) {
         // 如果資料裡沒有 name，就顯示 "暫無作者名"
@@ -367,7 +377,25 @@ function openMapModal(id) {
         console.error("3. 錯誤！找不到 id='modalName' 的 HTML 元素");
     }
 
-    // --- 填充描述 (檢查點 A) ---
+    // --- 填充尺寸 (檢查點) ---
+    const sizeEl = document.getElementById('modalSize');
+    if (sizeEl) {
+        // 如果資料裡沒有 size，就顯示 "暫無尺寸"
+        sizeEl.innerText = data.size || "（暫無尺寸）"; 
+    } else {
+        console.error("3. 錯誤！找不到 id='modalSize' 的 HTML 元素");
+    }
+
+    // --- 填充展演方式 (檢查點) ---
+    const typeEl = document.getElementById('modalType');
+    if (typeEl) {
+        // 如果資料裡沒有 type，就顯示 "暫無展演方式"
+        typeEl.innerText = data.type || "（暫無展演方式）"; 
+    } else {
+        console.error("3. 錯誤！找不到 id='modalType' 的 HTML 元素");
+    }
+
+    // --- 填充描述 (檢查點) ---
     const descEl = document.getElementById('modalDesc');
     if (descEl) {
         // 如果資料裡沒有 desc，就顯示 "暫無介紹"
@@ -376,7 +404,7 @@ function openMapModal(id) {
         console.error("3. 錯誤！找不到 id='modalDesc' 的 HTML 元素");
     }
 
-    // --- 填充圖片 (檢查點 B) ---
+    // --- 填充圖片 (檢查點) ---
     const imgEl = document.getElementById('modalImg');
     if (imgEl) {
         if (data.img) {
