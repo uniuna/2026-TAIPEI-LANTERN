@@ -35,7 +35,7 @@
     </div>
 
     <div class="footer-bottom">
-        <p>© 2026 臺北燈節 All Rights Reserved.</p>
+        <p>© 2026 台北燈節 All Rights Reserved.</p>
        
     </div>
 </footer>
