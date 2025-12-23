@@ -234,9 +234,12 @@ const mapData = {
         img: 'https://picsum.photos/600/400'
     },
     'artist-2': {
-        title: '街頭藝術裝置',
-        desc: '隱藏在巷弄中的驚喜...',
-        img: 'https://picsum.photos/600/400'
+        title: '燈波 Undulating Light',
+        name: '作者：台北燈節設計團隊',
+        size:'尺寸：3 x 2 x 1.3 cm',
+        type:'展演方式：靜態展出+感應變化燈光',
+        desc: '燈籠在臺北歷史場景中擁有鮮明而深厚的文化意涵。此創作取材自大稻埕的百年燈籠老店，以其歷經世代傳承的職人工藝與人文故事為靈感根基，突破對傳統紙燈籠的既定印象，透過材質與光的重新詮釋，探索傳統意象在當代語境中的延伸可能，讓歷史記憶在現代設計中持續發光。因此主體以玻璃透光材質構成，表現出虛實之間、懸浮不定的視覺語境。玻璃的透明與反射特性，使燈籠的輪廓在環境光中隨時間與視角變化，創造具動態性的觀看體驗。作品內部搭配七彩LED光源，透過程式控制，依照周遭環境音量切換燈光色彩與強度，呈現時間與文化記憶交錯的流動性。',
+        img: '../images/items/item-artist-02.jpg'
     },
     'artist-3': {
         title: '街頭藝術裝置',
@@ -302,6 +305,16 @@ const mapData = {
         desc: '主題燈組介紹...',
         img: 'https://picsum.photos/800/600'
     },
+
+    // --- 頁籤 藝術燈組 的資料 ---
+    'ex-artist-1': {
+        title: '藝術燈組 No.6：城市樓閣',
+        name: '作者：邱杰森',
+        size:'尺寸：長 250cm X 寬 250cm X 高 300cm',
+        type:'展演方式：靜態展出',
+        desc: '《 城市樓閣 》是一座以光構築的都市幻象。它延續了人類對「塔」的原型想像 — 從信仰、權力到記憶與歸屬 — 並以當代工業材料與數位燈光技術，轉化為一座介於現實與虛構之間的城市象徵。這片光域猶如台北夜景，也象徵城市內部錯綜的能量流動。',
+        img: '../images/items/item_sample.jpg'
+    },
     
 };
 
@@ -358,7 +371,7 @@ function openMapModal(id) {
     const titleEl = document.getElementById('modalTitle');
     if (titleEl) titleEl.innerText = data.title;
 
-    // --- 填充作品名 (檢查點 A+) ---
+    // --- 填充作者名 (檢查點) ---
     const nameEl = document.getElementById('modalName');
     if (nameEl) {
         // 如果資料裡沒有 name，就顯示 "暫無作者名"
@@ -367,7 +380,25 @@ function openMapModal(id) {
         console.error("3. 錯誤！找不到 id='modalName' 的 HTML 元素");
     }
 
-    // --- 填充描述 (檢查點 A) ---
+    // --- 填充尺寸 (檢查點) ---
+    const sizeEl = document.getElementById('modalSize');
+    if (sizeEl) {
+        // 如果資料裡沒有 size，就顯示 "暫無尺寸"
+        sizeEl.innerText = data.size || "（暫無尺寸）"; 
+    } else {
+        console.error("3. 錯誤！找不到 id='modalSize' 的 HTML 元素");
+    }
+
+    // --- 填充展演方式 (檢查點) ---
+    const typeEl = document.getElementById('modalType');
+    if (typeEl) {
+        // 如果資料裡沒有 type，就顯示 "暫無展演方式"
+        typeEl.innerText = data.type || "（暫無展演方式）"; 
+    } else {
+        console.error("3. 錯誤！找不到 id='modalType' 的 HTML 元素");
+    }
+
+    // --- 填充描述 (檢查點) ---
     const descEl = document.getElementById('modalDesc');
     if (descEl) {
         // 如果資料裡沒有 desc，就顯示 "暫無介紹"
@@ -376,7 +407,7 @@ function openMapModal(id) {
         console.error("3. 錯誤！找不到 id='modalDesc' 的 HTML 元素");
     }
 
-    // --- 填充圖片 (檢查點 B) ---
+    // --- 填充圖片 (檢查點) ---
     const imgEl = document.getElementById('modalImg');
     if (imgEl) {
         if (data.img) {

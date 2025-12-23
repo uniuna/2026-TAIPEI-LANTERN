@@ -133,8 +133,8 @@
                     <div class="lantern-item" onclick="openMapModal('artist-2')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.02 萌虎下山</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">燈波 Undulating Light</h4>
+                                <span class="lantern-designer">台北燈節設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -170,7 +170,11 @@
                 <div style="line-height: 1.6; font-size: 1rem; text-align: left;">
                     <p id="modalName" style="line-height: 2.4; font-size: 1.2rem; " >設計者名稱...
                     </p>
-                    <p id="modalDesc" >燈飾介紹內容...
+                    <p id="modalSize" style="line-height: 2.4; font-size: 1rem; color: #ccc; " >尺寸...
+                    </p>
+                    <p id="modalType" style="line-height: 2.4; font-size: 1rem; color: #ccc;  " >展演方式...
+                    </p><br>
+                    <p id="modalDesc" style="font-size: 1rem; " >燈飾介紹內容...
                     </p>
                 </div>
             </div>
