@@ -438,8 +438,7 @@ footer {
     /* 2. 設定轉場動畫：讓顏色變化有呼吸感 (0.8秒) */
     transition: background-color 0.8s ease, color 0.5s ease;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -495,7 +494,7 @@ footer {
 .logo-row.main-organizer .logo-box {
     height: 60px; 
     min-width: 120px;
-    padding: 10px;
+    padding: 5px;
 }
 .logo-row.main-organizer img {
     max-width: 200px;
@@ -696,11 +695,11 @@ footer.active-mode .footer-bottom {
 
 /* --------- 11.Tab頁籤按鈕樣式 (共用－紅) --------- */
 .tab-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 40px;
-  flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   margin-bottom: 30px;
+   flex-wrap: wrap;
 }
 
 .tab-btn,

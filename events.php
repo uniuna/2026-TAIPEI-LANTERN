@@ -14,35 +14,22 @@
             <h2 class="section-title">精彩活動列表</h2>
             
             <div class="tab-buttons">
-                <button class="tab-btn active" onclick="openTab(event, 'day1')">開幕日</button>
-                <button class="tab-btn" onclick="openTab(event, 'day2')">舞台活動</button>
-                <button class="tab-btn" onclick="openTab(event, 'day3')">主題日</button>
-                <button class="tab-btn" onclick="openTab(event, 'day3')">十二行政區活動</button>
-                <button class="tab-btn" onclick="openTab(event, 'day3')">小提燈活動</button>
+                <button class="tab-btn active" onclick="openTab(event, 'event1')">開幕日</button>
+                <button class="tab-btn" onclick="openTab(event, 'event2')">舞台活動</button>
+                <button class="tab-btn" onclick="openTab(event, 'event3')">主題日</button>
+                <button class="tab-btn" onclick="openTab(event, 'event4')">十二行政區活動</button>
+                <button class="tab-btn" onclick="openTab(event, 'event5')">小提燈活動</button>
             </div>
 
-            <div id="day1" class="tab-content active">
-                <h3 style="color:white; margin-bottom:20px; border-left:4px solid var(--primary-color); padding-left:10px;">2月01日 (六) 開幕活動</h3>
-                <div class="event-list">
-                    <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
-                        <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">18:00</div>
-                        <div style="flex: 1;">
-                            <h3 style="color: white; margin-bottom: 5px;">2026 臺北燈會 開幕點燈儀式</h3>
-                            <p style="color: var(--text-sub); font-size: 0.9rem;">地點：市民廣場主舞台</p>
-                        </div>
-                        <div><span class="tag">必看</span></div>
-                    </div>
-                    <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
-                        <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">19:00</div>
-                        <div style="flex: 1;">
-                            <h3 style="color: white; margin-bottom: 5px;">開幕煙火秀 & 無人機展演</h3>
-                            <p style="color: var(--text-sub); font-size: 0.9rem;">地點：全區夜空</p>
-                        </div>
-                    </div>
-                </div>
+            <div id="event1" class="tab-content active">
+                <section>
+                    <h3 style="color:white; margin:60px auto; text-align: center; font-size:30px; ">敬請期待...</h3>
+                    <img src="images/comingsoon.jpg" alt="敬請期待" style="width: 65%; display: block; margin: 20px auto;">
+                    
+                </section>
             </div>
 
-            <div id="day2" class="tab-content">
+            <div id="event2" class="tab-content">
                 <h3 style="color:white; margin-bottom:20px; border-left:4px solid var(--primary-color); padding-left:10px;">2月08日 (六) 週末特別企劃</h3>
                 <div class="event-list">
                     <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
@@ -63,7 +50,7 @@
                 </div>
             </div>
 
-            <div id="day3" class="tab-content">
+            <div id="event3" class="tab-content">
                 <h3 style="color:white; margin-bottom:20px; border-left:4px solid var(--primary-color); padding-left:10px;">2月16日 (日) 閉幕感恩夜</h3>
                 <div class="event-list">
                     <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
@@ -74,6 +61,22 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div id="event4" class="tab-content">
+                <section>
+                    <h3 style="color:white; margin:60px auto; text-align: center; font-size:30px; ">敬請期待...</h3>
+                    <img src="images/comingsoon.jpg" alt="敬請期待" style="width: 65%; display: block; margin: 20px auto;">
+                    
+                </section>
+            </div>
+
+            <div id="event5" class="tab-content">
+                <section>
+                    <h3 style="color:white; margin:60px auto; text-align: center; font-size:30px; ">敬請期待...</h3>
+                    <img src="images/comingsoon.jpg" alt="敬請期待" style="width: 65%; display: block; margin: 20px auto;">
+                    
+                </section>
             </div>
         </section>
 

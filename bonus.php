@@ -8,13 +8,20 @@
 <body>
     <?php include 'nav.php'; ?>
 
-    <main class="container" style="padding-top: 120px; min-height: 80vh; padding-bottom: 150px;">
+    <header class="reminder-header">
+        <div class="header-img-container">
+            <img src="images/main-bg.jpg" alt="Background" class="full-width-img">
+        </div>
+    </header>
+
+    <main class="container" style="padding-top: 150px;">
         
         <section>
-            <h2 class="section-title" >敬請期待</h2>
-            <img src="images/comingsoon.jpg" alt="敬請期待" style="width: 100%; display: block; margin: 20px auto;">
+            <h2 class="section-title reminder-intro" style="width:30%;">敬請期待</h2>
+            <!-- <img src="images/comingsoon.jpg" alt="敬請期待" style="width: 100%; display: block; margin: 20px auto;"> -->
             
         </section>
+
     </main>
 
     <?php include 'footer.php'; ?>

@@ -13,7 +13,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     
     <ul class="nav-links" id="navLinks">
         
-        <li class="dropdown <?php if(in_array($current_page, ['ximen.php', 'expo.php'])) echo 'active'; ?>">
+        <li class="dropdown <?php if(in_array($current_page, ['ximen.php', 'expo.php', 'reminder.php'])) echo 'active'; ?>">
             <a class="dropbtn">展區介紹 ▾</a>
             <ul class="dropdown-content">
                 <li><a href="ximen.php">西門展區</a></li>
@@ -22,7 +22,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             </ul>
         </li>
 
-        <li class="dropdown <?php if(in_array($current_page, ['events.php'])) echo 'active'; ?>">
+        <li class="dropdown <?php if(in_array($current_page, ['events.php', 'bonus.php'])) echo 'active'; ?>">
             <a class="dropbtn">精彩活動 ▾</a>
             <ul class="dropdown-content">
                 <li><a href="events.php">台北燈節</a></li>
@@ -39,7 +39,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             </ul>
         </li>
 
-        <li class="dropdown <?php if(in_array($current_page, ['traffic.php'])) echo 'active'; ?>">
+        <li class="dropdown <?php if(in_array($current_page, ['traffic.php', 'measures.php'])) echo 'active'; ?>">
             <a class="dropbtn">交通方式 ▾</a> 
             <ul class="dropdown-content">
                 <li><a href="traffic.php">如何抵達</a></li>

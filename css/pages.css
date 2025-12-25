@@ -611,13 +611,6 @@ html {
 
 
 /* --------- Tab頁籤按鈕樣式 (展區地圖-藍) ---------*/
-.tab-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-}
 .map-tab-btn {
     padding: 8px 25px;
     border-radius: 50px;
@@ -877,7 +870,6 @@ html {
       }
   }
 
-
 /* --------- 底部下載地圖區塊 --------- */
 .map-download-section {
     width: 100%;
@@ -900,7 +892,160 @@ html {
 
 /* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */
 
-/* --------- 商圈列表樣式 (5 Cards Layout) --------- */
+/* --- 貼心提醒 (reminder.php) --- */
+
+.reminder-header {
+    position: relative; /* 作為定位基準 */
+    width: 100%;
+    margin-top: var(--header-height);
+    background: #000; /* 圖片載入前的底色，避免閃爍 */
+    overflow: hidden;
+}
+
+/* 圖片容器 */
+.header-img-container {
+    width: 100%;
+    line-height: 0;
+    background: #000; /* 背景設為黑色，配合圖片變暗 */
+}
+
+.full-width-img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    /* [關鍵修改] 圖片壓暗：亮度降到 40% (原本是 0.7) */
+    filter: brightness(0.5); 
+    transition: opacity 0.5s;
+}
+
+/* 內容上浮區塊 (Intro) */
+.reminder-intro {
+    /* 使用 vw (視窗寬度) 單位，因為圖片高度是隨寬度等比縮放的 */
+    /* 16:9 圖片高度約為 56vw，我們上拉 45vw 讓它幾乎對齊圖片頂部 */
+    margin: -65vw auto 1vw;
+    position: relative;
+    z-index: 10;
+    
+    /* 毛玻璃背景保持，但透明度調低一點，讓它跟背景融合更好 */
+    background: rgba(5, 5, 16, 0.6); 
+    backdrop-filter: blur(5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    padding: 30px;
+    width: 60%;
+}
+
+/* 手機版 RWD 調整 */
+@media (max-width: 768px) {
+    .reminder-header {
+        /* 手機版 Header 不需要最小高度了，由圖片撐開即可 */
+        min-height: auto; 
+        display: block;
+    }
+
+    .full-width-img {
+        height: auto;
+        object-fit: cover;
+        /* 手機版圖片可以稍微亮一點點，因為字比較小 */
+        filter: brightness(0.5); 
+    }
+
+    .reminder-intro {
+        /* 手機版圖片通常比較高 (直式或接近正方形)，上拉幅度要調整 */
+        /* 這裡設為負的像素值比較保險，依據您手機版圖片高度而定 */
+        margin-top: -200px; 
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+}
+
+/* 卡片網格佈局 */
+.reminder-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* 單張卡片樣式 */
+.reminder-card {
+    background: rgba(5, 5, 16, 0.5); 
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hover 互動效果：浮起 + 發光 */
+.reminder-card:hover {
+    /* transform: translateY(-10px); */
+    /* background: rgba(255, 255, 255, 0.01); */
+    border-color: var(--accent-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 
+                0 0 20px rgba(0, 229, 255, 0.2); /* 藍色光暈 */
+}
+
+/* Icon 盒子樣式 */
+.reminder-icon-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    transition: 0.4s;
+}
+
+.reminder-card:hover .reminder-icon-box {
+    transform: scale(1.1) rotate(10deg);
+}
+
+/* 針對不同類別設定不同顏色 */
+.color-1 svg { stroke: #FF0055; } /* 紅色 (財物-警示) */
+.reminder-card:hover .color-1 { border-color: #FF0055; box-shadow: 0 0 15px rgba(255, 0, 85, 0.4); }
+
+.color-2 svg { stroke: #FFD700; } /* 金色 (孩童-溫暖) */
+.reminder-card:hover .color-2 { border-color: #FFD700; box-shadow: 0 0 15px rgba(255, 215, 0, 0.4); }
+
+.color-3 svg { stroke: #00E5FF; } /* 藍色 (求助-資訊) */
+.reminder-card:hover .color-3 { border-color: #00E5FF; box-shadow: 0 0 15px rgba(0, 229, 255, 0.4); }
+
+
+/* 文字排版 */
+.reminder-card h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.reminder-card p {
+    color: var(--text-sub);
+    line-height: 1.8;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.reminder-card:hover p {
+  color: #ddd;
+}
+
+
+/* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */
+
+/* --------- 商圈列表樣式 (treavel.php) --------- */
 .district-container {
     display: flex;
     flex-wrap: wrap;
@@ -1019,7 +1164,7 @@ html {
 }
 
 
-/* --------- 旅遊資訊頁：旅程推薦樣式 (itinerary.html) --------- */
+/* --------- 旅程推薦 (itinerary.php) --------- */
 .route-grid {
     display: grid;
     grid-template-columns: 1fr;
