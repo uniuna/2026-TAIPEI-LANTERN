@@ -129,6 +129,13 @@ ul { list-style: none; }
     color: var(--accent-color);
 }
 
+/* --- 導覽列 Active 狀態 (當前頁面高亮) --- */
+/* 當 li 有 active class 時，讓裡面的 .dropbtn 發光 */
+.dropdown.active .dropbtn {
+    color: var(--accent-color); /* 變為科技藍 */
+    text-shadow: 0 0 10px var(--accent-color); /* 加上發光效果 */
+}
+
 @keyframes fadeIn {
     from { 
         opacity: 0; 
@@ -322,13 +329,13 @@ ul { list-style: none; }
 
 .section-intro {
     max-width: 900px;
-    margin: 0 auto 30px;
-    padding: 18px 24px;
+    margin: 0 auto 60px;
     text-align: center;
     background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
     border: 1px solid rgba(255,255,255,0.03);
     border-radius: 12px;
     color: var(--text-sub);
+    text-align: left;
 }
 .section-description {
     margin: 0;
@@ -429,29 +436,27 @@ footer {
     color: var(--text-sub);
     
     /* 2. 設定轉場動畫：讓顏色變化有呼吸感 (0.8秒) */
-    transition: background-color 1s ease, color 0.5s ease;
-    
+    transition: background-color 0.8s ease, color 0.5s ease;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 30px;
     text-align: center;
 }
 
 /* Logo 區塊容器 */
 .footer-sponsors {
-    max-width: 1000px;
-    margin: 0 auto 40px;
+    max-width: 1200px;
+    margin: 0 auto 20px;
     padding: 0 20px;
 }
 .sponsor-group {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 /* 標題預設顏色 (深色模式下是白色或藍色) */
 .sponsor-group h4 {
     font-size: 1.2rem;
     color: var(--accent-color); /* 預設改用科技藍，比較跳 */
-    margin-bottom: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: bold;
@@ -474,8 +479,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px; 
-    min-width: 120px;
+    height: 40px; 
+    min-width: 100px;
 }
 
 /* Logo 圖片限制 */
@@ -488,9 +493,9 @@ footer {
 
 /* --- 特殊調整：主辦單位 --- */
 .logo-row.main-organizer .logo-box {
-    height: 80px; 
-    min-width: 200px;
-    padding: 10px 30px;
+    height: 60px; 
+    min-width: 120px;
+    padding: 10px;
 }
 .logo-row.main-organizer img {
     max-width: 200px;

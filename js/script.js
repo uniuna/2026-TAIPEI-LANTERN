@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             });
         }, { 
-            threshold: 0.5 // 設定門檻：當 Footer 出現 50% 的面積時觸發
+            threshold: 0.4 // 設定門檻：當 Footer 出現 40% 的面積時觸發
         });
 
         observer.observe(footer);
@@ -206,25 +206,25 @@ const mapData = {
     // --- 西門展區的資料 ------------ //
     // --- 頁籤 主題IP燈組 的資料 ---
     'ximen-main': {
-        title: 'Coming Soon! 敬請期待！',
+        title: '敬請期待！',
         name: '',
         desc: '',
-        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
+        img: '../images/comingsoon.jpg'
     },
     'ximen-ip1': {
-        title: 'Coming Soon! 敬請期待！',
+        title: '敬請期待！',
         desc: '',
-        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
+        img: '../images/comingsoon.jpg'
     },
     'ximen-ip2': {
-        title: 'Coming Soon! 敬請期待！',
+        title: '敬請期待！',
         desc: '',
-        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
+        img: '../images/comingsoon.jpg'
     },
     'ximen-ip3': {
-        title: 'Coming Soon! 敬請期待！',
+        title: '敬請期待！',
         desc: '',
-        img: 'https://uniuna.github.io/2026-TAIPEI-LANTERN/images/items/comingsoon.jpg'
+        img: '../images/comingsoon.jpg'
     },
 
     // --- 頁籤 藝術燈組 的資料 ---

@@ -11,12 +11,14 @@
 
     <main class="container" style="padding-top: 120px; min-height: 80vh;">
         <section>
-            <h2 class="section-title">活動時刻表</h2>
+            <h2 class="section-title">精彩活動列表</h2>
             
             <div class="tab-buttons">
-                <button class="tab-btn active" onclick="openTab(event, 'day1')">2/01 開幕日</button>
-                <button class="tab-btn" onclick="openTab(event, 'day2')">2/08 週末狂歡</button>
-                <button class="tab-btn" onclick="openTab(event, 'day3')">2/16 閉幕式</button>
+                <button class="tab-btn active" onclick="openTab(event, 'day1')">開幕日</button>
+                <button class="tab-btn" onclick="openTab(event, 'day2')">舞台活動</button>
+                <button class="tab-btn" onclick="openTab(event, 'day3')">主題日</button>
+                <button class="tab-btn" onclick="openTab(event, 'day3')">十二行政區活動</button>
+                <button class="tab-btn" onclick="openTab(event, 'day3')">小提燈活動</button>
             </div>
 
             <div id="day1" class="tab-content active">
@@ -75,34 +77,6 @@
             </div>
         </section>
 
-        <section class="highlights-section">
-            <div class="swiper swiper-container highlight-swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=600&auto=format&fit=crop" alt="亮點1">
-                        <div class="slide-caption">璀璨開幕煙火</div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://picsum.photos/800/600" alt="亮點2">
-                        <div class="slide-caption">城市光影藝術節</div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600&auto=format&fit=crop" alt="亮點3">
-                        <div class="slide-caption">人氣樂團現場演出</div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://picsum.photos/600/400" alt="亮點4">
-                        <div class="slide-caption">傳統燈藝大師作品</div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=600&auto=format&fit=crop" alt="亮點5">
-                        <div class="slide-caption">水岸夢幻倒影</div>
-                    </div>
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </section>
 
     </main>
   

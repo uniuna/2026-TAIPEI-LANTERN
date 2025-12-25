@@ -19,11 +19,12 @@
                 <div class="logo-box"><img src="images/logos/logo-CityGodTemple.png" alt="城隍廟" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="images/logos/logo-MazuTemple.png" alt="天后宮" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="images/logos/logo-CHPost.png" alt="台北郵局" loading="lazy" decoding="async"></div>
+                <div class="logo-box"><img src="images/logos/logo-MOTC.png" alt="觀光署" loading="lazy" decoding="async"></div>
             </div>
         </div>
 
         <div class="sponsor-group">
-            <h4>特別感謝</h4>
+            <h4>贊助單位</h4>
             <div class="logo-row">
                 <div class="logo-box"><img src="images/logos/logo-ShinKong.png" alt="台新新光" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="images/logos/logo-FarEastern.png" alt="遠東" loading="lazy" decoding="async"></div>

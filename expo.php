@@ -15,10 +15,12 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <div style="text-align: center; max-width: 800px; margin: 0 auto 60px;">
-            <!-- <h2 class="section-title">經典光之苑</h2> -->
+        <div style="text-align: left; max-width: 800px; margin: 0 auto 60px;">
             <p style="color: var(--text-sub); font-size: 1.1rem;">
-                <strong style="color:white;">花博展區</strong> 在廣闊的花博圓山園區，我們利用豐富的自然景觀，結合大型地景燈光藝術。這裡擁有充足的腹地與舒適的步行空間，最適合全家大小在夜間漫步，享受愜意的賞燈時光。
+                <strong style="color:white;">花博展區</strong> 位於廣闊的圓山園區，我們將自然景觀轉化為地景藝術的畫布，利用得天獨厚的植栽與起伏地形，結合大型燈光藝術，打造出
+一座彷彿從童話中走出的奇幻森林。這裡擁有充足的腹地與平緩的步道，是全家大小在夜間漫步的最佳選擇。<br><br>
+                您可以放慢腳步，在晚風吹拂下欣賞光影在草木間輕盈躍動，享受遠離喧囂的愜意時刻。從適合親子互動到氣勢磅礴的燈組，我們將光
+影美學融入大地，為您留下最溫馨的佳節回憶。
             </p>
         </div>
 
@@ -179,11 +181,11 @@
 
         <section class="map-download-section">
             <div class="map-download-content">
-                <h3>總覽花博展區 Map Download</h3>
-                <p>將完整的2026台北燈節地圖帶著走，離線也能輕鬆導航。</p>
+                <h3>總覽花博展區</h3>
+                <p>將花博展區地圖帶著走，離線也能輕鬆導航。</p>
 
                 <a href="info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main">
-                    下載 花博展區 全區導覽圖
+                    地圖下載
                     <span style="vertical-align: middle;">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>

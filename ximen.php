@@ -15,10 +15,15 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <div style="text-align: center; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
+        <div style="text-align: left; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
             <!-- <h2 class="section-title">未來實驗室</h2> -->
             <p style="color: var(--text-sub); font-size: 1.2rem">
-                <strong style="color: white">西門展區</strong> 位於歷史悠久的西門町，這裡將展現臺北的潮流生命力。當百年古蹟遇上幻彩燈飾，讓年輕活力與經典文化在燈光下交融，帶您穿梭於時空的廊道。
+                <strong style="color: white">西門展區</strong> 
+                坐落於歷史情懷與次文化交織的西門町。2026年，我們將整座潮流街區轉化為大型沉浸式光廊，讓經典的地景建築與前衛燈飾
+                交相輝映，呈現城市記憶與創新力的完美融合。當百年街道遇上幻彩燈飾，年輕活力與歷史底蘊在燈光下激盪，帶領您穿梭於跨越時空
+                的視覺饗宴。<br><br>
+                漫步於此，您將感受強烈的影音衝擊與街頭藝術生命力。這裡的每一條巷弄都藏著驚喜，不僅展現了台北兼容並蓄的潮流能量，更讓經
+                典文化在燈飾照射下再次重生。邀請您與好友一同前來，在西門街頭捕捉那抹最耀眼的光芒。
             </p>
         </div>
 
@@ -182,11 +187,11 @@
 
         <section class="map-download-section">
             <div class="map-download-content">
-                <h3>總覽西門展區 Map Download</h3>
-                <p>將完整的2026台北燈節地圖帶著走，離線也能輕鬆導航。</p>
+                <h3>總覽西門展區</h3>
+                <p>將西門展區地圖帶著走，離線也能輕鬆導航。</p>
 
                 <a href="info/2026-TAIPEI-LANTERN-XIMEN.jpg" target="_blank" class="btn-main">
-                    下載 西門展區 全區導覽圖
+                    地圖下載
                     <span style="vertical-align: middle;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
