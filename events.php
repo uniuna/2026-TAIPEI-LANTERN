@@ -9,11 +9,11 @@
 <body>
     <?php include 'nav.php'; ?>
 
-    <main class="container" style="padding-top: 120px; min-height: 80vh;">
+    <main class="container" style="padding-top: 120px; padding-bottom: 160px; min-height: 80vh;">
         <section>
             <h2 class="section-title">精彩活動列表</h2>
             
-            <div class="tab-buttons">
+            <div class="tab-buttons" style="margin-bottom: 80px;">
                 <button class="tab-btn active" onclick="openTab(event, 'event1')">開幕日</button>
                 <button class="tab-btn" onclick="openTab(event, 'event2')">舞台活動</button>
                 <button class="tab-btn" onclick="openTab(event, 'event3')">主題日</button>
