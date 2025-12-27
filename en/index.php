@@ -37,7 +37,7 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <section id="news" class="news-section">
+        <!-- <section id="news" class="news-section">
             <h2 class="section-title">最新消息</h2>
             <div class="news-header">
                 <a href="#" class="news-more">MORE +</a>
@@ -57,9 +57,9 @@
                     <span class="news-text">交通管制提醒：市民廣場周邊路段將於每日 17:00 進行封路。</span>
                 </a>
             </div>
-        </section>
+        </section> -->
 
-        <section class="container" style="padding-bottom: 20px;">
+        <section id="news" class="container" style="padding-bottom: 20px; margin-top: -250px; position: relative; z-index: 10;">
             <h2 class="section-title">展區介紹</h2>
             <div class="section-intro">
                 <p class="section-description">
@@ -114,12 +114,12 @@
             </div>
         </section>
 
-        <section class="container">
+        <!-- <section class="container">
             <h2 class="section-title">影音專區</h2>
             <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
                 <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/gp7V4k_gLGc?si=lhhiHCpnIOEjL3Rg" frameborder="0" allowfullscreen></iframe>
             </div>
-        </section>
+        </section> -->
 
         <section style="padding: 80px 0 40px;">
         <h2 class="section-title">精彩回顧</h2>

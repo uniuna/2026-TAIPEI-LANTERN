@@ -51,14 +51,40 @@
             </div>
 
             <div id="event3" class="tab-content">
-                <h3 style="color:white; margin-bottom:20px; border-left:4px solid var(--primary-color); padding-left:10px;">2月16日 (日) 閉幕感恩夜</h3>
+                <h3 style="color:white; margin-bottom:20px; border-left:4px solid var(--primary-color); padding-left:10px;">3月3日（二）元宵節主題日</h3>
                 <div class="event-list">
-                    <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; align-items: center;">
-                        <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">21:00</div>
+                    <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 20px 0; align-items: center; margin-bottom: 30px;">
+                        <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">16:30 ～ 20:40</div>
                         <div style="flex: 1;">
-                            <h3 style="color: white; margin-bottom: 5px;">光之未來 熄燈儀式</h3>
-                            <p style="color: var(--text-sub); font-size: 0.9rem;">地點：市民廣場</p>
+                            <h3 style="color: white; margin-bottom: 5px;">猜燈謎挑戰賽</h3>
+                            <p style="color: var(--text-sub); font-size: 1rem;">地點：圓山花博舞台</p>
+                            <p style="color: var(--text-sub); font-size: 1rem;">場次：16:30-17:40、18:00-19:10、19:30-20:40（共三場次）</p>
                         </div>
+                        <div><span class="tag" style="border-color:var(--accent-color); color:var(--accent-color);">現場報名</span></div>
+                    </div>
+                </div>
+                <h3 style="color:white; margin-bottom:20px; border-left:4px solid var(--primary-color); padding-left:10px;">3/13（五）～ 3/15（日）白色情人節主題日</h3>
+                <div class="event-list">
+                    <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 20px 0; align-items: center; margin-bottom: 30px;">
+                        <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">16:30 ～ 20:40</div>
+                        <div style="flex: 1;">
+                            <h3 style="color: white; margin-bottom: 5px;">快閃巧克力攤位</h3>
+                            <p style="color: var(--text-sub); font-size: 1rem;">地點：西門展區服務台旁搭設攤位</p>
+                            <p style="color: var(--text-sub); font-size: 1rem;">打卡發送 520 份巧克力！</p>
+                        </div>
+                        <div><span class="tag" style="border-color:var(--accent-color); color:var(--accent-color);">打卡發送</span></div>
+                    </div>
+                </div>
+                <h3 style="color:white; margin-bottom:20px; border-left:4px solid var(--primary-color); padding-left:10px;">3/2（一）～ 3/17（二）WBC主題日</h3>
+                <div class="event-list">
+                    <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 20px 0; align-items: center; margin-bottom: 30px;">
+                        <div style="width: 100px; color: var(--accent-color); font-weight: bold; font-size: 1.2rem;">17:00 ～ 21:00</div>
+                        <div style="flex: 1;">
+                            <h3 style="color: white; margin-bottom: 5px;">應援活動</h3>
+                            <p style="color: var(--text-sub); font-size: 1rem;">地點：西門展區</p>
+                            <p style="color: var(--text-sub); font-size: 1rem;">為中華隊應援加油 !</p>
+                        </div>
+                        <!-- <div><span class="tag" style="border-color:var(--accent-color); color:var(--accent-color);">打卡發送</span></div> -->
                     </div>
                 </div>
             </div>

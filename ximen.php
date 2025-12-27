@@ -185,7 +185,7 @@
             </div>
         </div>
 
-        <section class="map-download-section">
+        <!-- <section class="map-download-section">
             <div class="map-download-content">
                 <h3>總覽西門展區</h3>
                 <p>將西門展區地圖帶著走，離線也能輕鬆導航。</p>
@@ -201,7 +201,7 @@
                         </svg></span>
                 </a>
             </div>
-        </section>
+        </section> -->
     </main>
 
     <?php include 'footer.php'; ?>
