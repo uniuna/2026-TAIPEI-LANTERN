@@ -11,8 +11,7 @@
             <ul class="dropdown-content">
                 <li><a href="ximen.php">Ximen Area</a></li>
                 <li><a href="expo.php">Taipei EXPO Area</a></li>
-                <li><a href="#">Reminders</a></li>
-                <!-- <li><a href="remind.php">Reminders</a></li> -->
+                <li><a href="reminder.php">Reminders</a></li>
             </ul>
         </li>
         <li>
@@ -22,15 +21,14 @@
             <a class="dropbtn">Transportation ▾</a> 
             <ul class="dropdown-content">
                 <li><a href="traffic.php">Directions</a></li>
-                <li><a href="#">Traffic Control Measures</a></li>
-                <!-- <li><a href="measure.php">Traffic Control Measures</a></li> -->
+                <li><a href="measures.php">Traffic Control Measures</a></li>
             </ul>
         </li>
         <li>
             <a href="../index.php" class="lang-btn">中文</a>
         </li>
         <li>
-            <a href="https://www.travel.taipei/zh-tw" target="_blank" class="t-travel">Taipei Travel</a>
+            <a href="https://www.travel.taipei/en" target="_blank" class="t-travel">Taipei Travel</a>
         </li>
     </ul>
 </nav>

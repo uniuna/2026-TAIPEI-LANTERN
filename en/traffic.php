@@ -37,8 +37,6 @@
                                     <p style="color:white; font-size:1.1rem;">捷運 MRT</p>
                                     <p style="color:var(--text-sub); margin-top:5px;">
                                         板南線/松山新店線 - <strong>「西門站」</strong><br>
-                                        • 6號出口：西門町徒步區 (主入口)<br>
-                                        • 1號出口：西門紅樓、派出所
                                     </p>
                                 </div>
                             </li>
@@ -60,7 +58,7 @@
                                     </p>
                                 </div>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <span class="t-icon">
                                     <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5.5 12C3.567 12 2 13.567 2 15.5S3.567 19 5.5 19 9 17.433 9 15.5 7.433 12 5.5 12zM18.5 12C16.567 12 15 13.567 15 15.5S16.567 19 18.5 19 22 17.433 22 15.5 20.433 12 18.5 12z" stroke="#00E5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -79,19 +77,21 @@
                                         • 捷運西門站 5號出口 (近中山堂)
                                     </p>
                                 </div>
-                            </li>
+                            </li> -->
                         </ul>
                         
                         <a href="https://maps.app.goo.gl/MaEAJ51GtdFD6QnWA" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map 導航</a>
-                        <a href="../info/2026-TAIPEI-LANTERN-XIMEN.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
-                            西門展區簡易地圖
+                        
+                        <!-- <a href="" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">西門展區簡易地圖</a>
+                        <a href="info/2026-TAIPEI-LANTERN-XIMEN.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
+                            西門展區全地圖
                             <span style="vertical-align: middle;">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                                 <polyline points="7 10 12 15 17 10"></polyline>
                                 <line x1="12" y1="15" x2="12" y2="3"></line>
                             </svg></span>
-                        </a>
+                        </a> -->
                     </div>
 
                     <div class="traffic-card">
@@ -117,8 +117,6 @@
                                     <p style="color:white; font-size:1.1rem;">捷運 MRT</p>
                                     <p style="color:var(--text-sub); margin-top:5px;">
                                         淡水信義線 - <strong>「圓山站」</strong><br>
-                                        • 1號出口：花博圓山園區 (爭艷館)<br>
-                                        • 2號出口：往庫倫街方向
                                     </p>
                                 </div>
                             </li>
@@ -140,7 +138,7 @@
                                     </p>
                                 </div>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <span class="t-icon">
                                     <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5.5 12C3.567 12 2 13.567 2 15.5S3.567 19 5.5 19 9 17.433 9 15.5 7.433 12 5.5 12zM18.5 12C16.567 12 15 13.567 15 15.5S16.567 19 18.5 19 22 17.433 22 15.5 20.433 12 18.5 12z" stroke="#00E5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -159,19 +157,21 @@
                                         • 圓山線形公園站點
                                     </p>
                                 </div>
-                            </li>
+                            </li> -->
                         </ul>
-                    
+
                         <a href="https://maps.app.goo.gl/qk7E2XTo1zyJpR3h9" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map 導航</a>
-                        <a href="../info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
-                            花博展區簡易地圖
+                        
+                        <!-- <a href="" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">花博展區簡易地圖</a>
+                        <a href="info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
+                            花博展區全地圖
                             <span style="vertical-align: middle;">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                                 <polyline points="7 10 12 15 17 10"></polyline>
                                 <line x1="12" y1="15" x2="12" y2="3"></line>
                             </svg></span>
-                        </a>
+                        </a> -->
                     </div>
 
                 </div>
@@ -227,7 +227,7 @@
                             </div>
                         </div>
 
-                        <div style="display: flex; align-items: start;">
+                        <!-- <div style="display: flex; align-items: start;">
                             <span class="t-icon">
                                 <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5.5 12C3.567 12 2 13.567 2 15.5S3.567 19 5.5 19 9 17.433 9 15.5 7.433 12 5.5 12zM18.5 12C16.567 12 15 13.567 15 15.5S16.567 19 18.5 19 22 17.433 22 15.5 20.433 12 18.5 12z" stroke="#00E5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -245,7 +245,7 @@
                                     距離：約 4.2 公里
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>

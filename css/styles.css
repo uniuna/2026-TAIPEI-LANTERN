@@ -23,6 +23,7 @@ a { text-decoration: none; color: inherit; transition: 0.3s; }
 ul { list-style: none; }
 
 
+
 /* --------- 3.導覽列 (Sticky Header) ---v--- */
 .navbar {
     position: fixed;
@@ -358,6 +359,15 @@ ul { list-style: none; }
   padding: 2px 8px;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.tag-blue {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
   border-radius: 4px;
   margin-top: 10px;
 }
