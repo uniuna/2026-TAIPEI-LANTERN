@@ -563,38 +563,6 @@ html {
   backdrop-filter: blur(5px);
 }
 
-/* 作品列表格狀排列 */
-.art-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 40px;
-}
-.art-item {
-  position: relative;
-  height: 250px;
-  border-radius: 10px;
-  overflow: hidden;
-  cursor: pointer;
-}
-.art-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: 0.5s;
-}
-.art-item:hover img {
-  transform: scale(1.1);
-}
-.art-info {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 15px;
-  background: linear-gradient(transparent, black);
-}
-
 /* --------- 花博展區 (expo.html) --------- */
 .zone-header-expo {
   height: 60vh;
@@ -609,38 +577,7 @@ html {
   margin-top: var(--header-height);
 }
 
-
-/* --------- Tab頁籤按鈕樣式 (展區地圖-藍) ---------*/
-.map-tab-btn {
-    padding: 8px 25px;
-    border-radius: 50px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: 0.3s;
-    background: transparent;
-    border: 1px solid var(--accent-color); /* 西門是用藍色 */
-    color: var(--accent-color);
-}
-.map-tab-btn:hover {
-    background: rgba(0, 229, 255, 0.1);
-}
-.map-tab-btn.active {
-    background: var(--accent-color);
-    color: black; /* 藍底黑字比較清楚 */
-    box-shadow: 0 0 15px var(--accent-color);
-}
-
-/* 地圖內容切換控制 */
-.map-layer {
-    display: none; /* 預設隱藏 */
-    animation: fadeIn 0.5s;
-}
-.map-layer.active {
-    display: block; /* 加上 active 才顯示 */
-}
-
 /* --- 互動地圖專用樣式 --- */
-
 /* 1. 地圖容器 (必須是 relative，讓裡面的點可以定位) */
 .interactive-map-container {
   position: relative;
@@ -748,7 +685,7 @@ html {
   text-align: center;
 
   /* --- [新增] 捲動修正設定 Start --- */
-  max-height: 85vh;   /* 限制高度不超過螢幕的 85% */
+  max-height: 90vh;   /* 限制高度不超過螢幕的 90% */
   overflow-y: auto;   /* 內容超出時，開啟垂直捲軸 */
   
   /* (選用) 隱藏預設捲軸但保留捲動功能，視覺較美觀 */
@@ -1058,8 +995,8 @@ html {
 
 /* --- [新增] 上方活動介紹資訊卡 --- */
 .stage-intro-box {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.09);
     border-left: 5px solid var(--accent-color); /* 左側藍色飾條 */
     border-radius: 12px;
     padding: 30px;
@@ -1098,30 +1035,38 @@ html {
 .event-date-title:first-child { margin-top: 0; }
 
 
-/* --- [修改] 活動列表：改為兩欄式 Grid --- */
+/* --- [修改] 活動列表 (改為左右分欄容器) --- */
 .event-list {
-    display: grid;
-    /* 電腦版：兩欄，中間間距 20px */
-    grid-template-columns: 1fr 1fr; 
+    display: flex;
+    flex-direction: row; /* 橫向排列：左欄 + 右欄 */
     gap: 20px;
-    margin-bottom: 40px;
+    align-items: flex-start; /* 靠上對齊 */
+    margin-bottom: 60px;
 }
 
+/* --- [新增] 欄位樣式 --- */
+.event-list-col {
+    flex: 1; /* 左右均分寬度 */
+    display: flex;
+    flex-direction: column; /* 欄位內部垂直堆疊 */
+    gap: 15px; /* 卡片間距 */
+    min-width: 0; /* 防止內容過長撐爆版面 */
+}
 
 /* --- [修改] 單個活動卡片樣式 --- */
 .event-item {
     display: flex;
     align-items: center;
     /* 改成卡片式風格，原本只有底線 */
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.09);
     border-radius: 10px;
     padding: 20px;
     transition: 0.3s;
 }
 
 .event-item:hover {
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.1);
     /* transform: translateY(-5px); */
     border-color: var(--accent-color);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -1157,10 +1102,14 @@ html {
 
 /* --- RWD 手機版響應式調整 --- */
 @media (max-width: 768px) {
-    /* 手機版改回單欄 */
+    /* 手機版：列表改回垂直單欄 */
     .event-list {
-        grid-template-columns: 1fr; 
-        gap: 15px;
+        flex-direction: column;
+    }
+    
+    /* 欄位寬度佔滿 */
+    .event-list-col {
+        width: 100%;
     }
 
     .event-item {

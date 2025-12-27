@@ -204,7 +204,6 @@ if (highlightContainer && typeof Swiper !== 'undefined') {
 const mapData = {
 
     // --- 西門展區的資料 ------------ //
-    // --- 頁籤 主題IP燈組 的資料 ---
     'ximen-main': {
         title: '敬請期待！',
         name: '',
@@ -212,9 +211,12 @@ const mapData = {
         img: '../images/comingsoon.jpg'
     },
     'ximen-ip1': {
-        title: '敬請期待！',
-        desc: '',
-        img: '../images/comingsoon.jpg'
+        title: '燈波 Undulating Light',
+        name: '作者：台北燈節設計團隊',
+        size:'尺寸：3 x 2 x 1.3 cm',
+        type:'展演方式：靜態展出+感應變化燈光',
+        desc: '燈籠在臺北歷史場景中擁有鮮明而深厚的文化意涵。此創作取材自大稻埕的百年燈籠老店，以其歷經世代傳承的職人工藝與人文故事為靈感根基，突破對傳統紙燈籠的既定印象，透過材質與光的重新詮釋，探索傳統意象在當代語境中的延伸可能，讓歷史記憶在現代設計中持續發光。因此主體以玻璃透光材質構成，表現出虛實之間、懸浮不定的視覺語境。玻璃的透明與反射特性，使燈籠的輪廓在環境光中隨時間與視角變化，創造具動態性的觀看體驗。作品內部搭配七彩LED光源，透過程式控制，依照周遭環境音量切換燈光色彩與強度，呈現時間與文化記憶交錯的流動性。',
+        img: '../images/items/item-artist-02.jpg'
     },
     'ximen-ip2': {
         title: '敬請期待！',
@@ -226,8 +228,6 @@ const mapData = {
         desc: '',
         img: '../images/comingsoon.jpg'
     },
-
-    // --- 頁籤 藝術燈組 的資料 ---
     'artist-1': {
         title: '中山堂光雕',
         desc: '藝術家打造的光影秀...',
@@ -256,8 +256,6 @@ const mapData = {
         desc: '隱藏在巷弄中的驚喜...',
         img: 'https://picsum.photos/600/400'
     },
-
-    // --- 頁籤 企業燈組 的資料 ---
     'enterprise-1': {
         title: '台新燈組',
         desc: '還沒有文案還沒有文案...',
@@ -273,9 +271,6 @@ const mapData = {
         desc: '還沒有文案還沒有文案...',
         img: 'https://picsum.photos/600/400'
     },
-    
-
-    // --- 頁籤 宮廟燈組 的資料 ---
     'temple-1': {
         title: '城隍廟燈組',
         desc: '傳統祈福燈籠...',
@@ -294,7 +289,6 @@ const mapData = {
 
 
     // --- 花博展區的資料 ------------ //
-    // --- 頁籤 IP主題燈組 的資料 ---
     'expo-main': {
         title: '花博展區主燈',
         desc: '花博展區主燈介紹...',
@@ -305,8 +299,6 @@ const mapData = {
         desc: '主題燈組介紹...',
         img: 'https://picsum.photos/800/600'
     },
-
-    // --- 頁籤 藝術燈組 的資料 ---
     'ex-artist-1': {
         title: '藝術燈組 No.6：城市樓閣',
         name: '作者：邱杰森',
@@ -317,42 +309,6 @@ const mapData = {
     },
     
 };
-
-// --- 新版切換函式：同時切換地圖與簡介 ---
-function switchMapLayer(evt, mapId, infoId) {
-    
-    // 1. 處理地圖層 (Map Layer)
-    const mapLayers = document.getElementsByClassName("map-layer");
-    for (let i = 0; i < mapLayers.length; i++) {
-        mapLayers[i].style.display = "none";
-        mapLayers[i].classList.remove("active");
-    }
-    document.getElementById(mapId).style.display = "block";
-    setTimeout(() => {
-        document.getElementById(mapId).classList.add("active");
-    }, 10);
-
-    // 2. 處理簡介層 (Info Layer) - 新增的部分
-    const infoLayers = document.getElementsByClassName("info-layer");
-    for (let i = 0; i < infoLayers.length; i++) {
-        infoLayers[i].style.display = "none";
-        infoLayers[i].classList.remove("active");
-    }
-    // 如果有傳入 infoId 才執行 (防呆)
-    if (infoId) {
-        document.getElementById(infoId).style.display = "block";
-        setTimeout(() => {
-            document.getElementById(infoId).classList.add("active");
-        }, 10);
-    }
-
-    // 3. 處理按鈕樣式
-    const btns = document.getElementsByClassName("map-tab-btn");
-    for (let i = 0; i < btns.length; i++) {
-        btns[i].classList.remove("active");
-    }
-    evt.currentTarget.classList.add("active");
-}
 
 /* --- 2. 再定義功能函式 (放在資料下面) --- */
 function openMapModal(id) {
@@ -375,7 +331,7 @@ function openMapModal(id) {
     const nameEl = document.getElementById('modalName');
     if (nameEl) {
         // 如果資料裡沒有 name，就顯示 "暫無作者名"
-        nameEl.innerText = data.name || "（暫無作者名）"; 
+        nameEl.innerText = data.name || ""; 
     } else {
         console.error("3. 錯誤！找不到 id='modalName' 的 HTML 元素");
     }
@@ -384,7 +340,7 @@ function openMapModal(id) {
     const sizeEl = document.getElementById('modalSize');
     if (sizeEl) {
         // 如果資料裡沒有 size，就顯示 "暫無尺寸"
-        sizeEl.innerText = data.size || "（暫無尺寸）"; 
+        sizeEl.innerText = data.size || ""; 
     } else {
         console.error("3. 錯誤！找不到 id='modalSize' 的 HTML 元素");
     }
@@ -393,7 +349,7 @@ function openMapModal(id) {
     const typeEl = document.getElementById('modalType');
     if (typeEl) {
         // 如果資料裡沒有 type，就顯示 "暫無展演方式"
-        typeEl.innerText = data.type || "（暫無展演方式）"; 
+        typeEl.innerText = data.type || ""; 
     } else {
         console.error("3. 錯誤！找不到 id='modalType' 的 HTML 元素");
     }
@@ -402,7 +358,7 @@ function openMapModal(id) {
     const descEl = document.getElementById('modalDesc');
     if (descEl) {
         // 如果資料裡沒有 desc，就顯示 "暫無介紹"
-        descEl.innerText = data.desc || "（暫無介紹資料）"; 
+        descEl.innerText = data.desc || ""; 
     } else {
         console.error("3. 錯誤！找不到 id='modalDesc' 的 HTML 元素");
     }
