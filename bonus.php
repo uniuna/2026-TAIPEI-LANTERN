@@ -14,14 +14,14 @@
             
             <div class="tab-buttons events-tab-wrapper">
                 <button class="tab-btn active" onclick="openTab(event, 'event1')">漢衣相逢．榮町漫遊</button>
-                <!-- <button class="tab-btn" onclick="openTab(event, 'event2')">主題日</button> -->
+                <button class="tab-btn" onclick="openTab(event, 'event2')">來台北有購嗨</button>
                 </div>
 
             <div id="event1" class="tab-content active">
                 <div class="featured-event-card">
                     
                     <div class="featured-img-box">
-                        <img src="images/events/wandering_01.jpg" alt="漢衣相逢．榮町漫遊">
+                        <img src="images/events/wandering.jpg" alt="漢衣相逢．榮町漫遊">
                     </div>
 
                     <div class="featured-content">
@@ -44,7 +44,7 @@
 
                         <div class="featured-action">
                              <a href="https://www.accupass.com/event/2512240135302846817110" target="_blank" class="btn-main">
-                                立即前往報名
+                                立即報名 >
                              </a>
                              <span class="info-note">（詳細報名資訊陸續建置中）</span>
                         </div>
@@ -52,6 +52,28 @@
                 </div>
             </div>
 
+            <div id="event2" class="tab-content">
+                <div class="featured-event-card">
+                    
+                    <div class="featured-img-box">
+                        <img src="images/events/gohigh.jpg" alt="來台北有購嗨">
+                    </div>
+
+                    <div class="featured-content">
+                        <h3 class="featured-title">來台北有購嗨</h3>
+                        
+                        <p class="featured-desc">
+                            臺北市商業處為配合中央普發現金政策，辦理「來台北有購嗨 消費歡樂抽」消費登錄抽獎活動，活動自114年12月1日開始登錄，可登錄114年11月至115年3月的發票，並規劃推出週週抽iPhone 17 Pro、月月抽台積電、市民專屬加碼抽 及總抽大獎1,000萬現金等 活動，總計抽出超過萬名得獎者，總獎值超過新臺幣3,000萬元，消費200元即可獲得1次抽獎機會，單筆最高100次抽獎機會，友好特店消費抽獎機會再翻倍，消費越多中獎機會越高！
+                        </p>
+
+                        <div class="featured-action">
+                             <a href="https://2026newyear.taipei/event-05" target="_blank" class="btn-main">
+                                了解更多 >
+                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
 

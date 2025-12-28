@@ -115,62 +115,6 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Nanjichang.jpg" alt="南機場夜市">
-                        <div class="district-overlay">
-                            <span class="zone-badge">西門展區</span>
-                        </div>
-                    </div>
-                    <div class="district-content">
-                        <h3>南機場夜市</h3>
-                        <p>以在地美食聞名的庶民夜市，小吃種類豐富、人氣歷久不衰。</p>
-                        <a href="https://www.travel.taipei/zh-tw/attraction/details/1564" class="btn-more" target="_blank">了解更多</a>
-                    </div>
-                </article>
-
-                <article class="district-card">
-                    <div class="district-img-box">
-                        <img src="images/sites/HuaxiStreet.jpg" alt="華西街夜市">
-                        <div class="district-overlay">
-                            <span class="zone-badge">西門展區</span>
-                        </div>
-                    </div>
-                    <div class="district-content">
-                        <h3>華西街夜市</h3>
-                        <p>結合傳統小吃、老店與文化特色，展現台北早期夜市風貌。</p>
-                        <a href="https://www.travel.taipei/zh-tw/attraction/details/1535" class="btn-more" target="_blank">了解更多</a>
-                    </div>
-                </article>
-
-                <article class="district-card">
-                    <div class="district-img-box">
-                        <img src="images/sites/FarEastern.jpg" alt="遠東百貨">
-                        <div class="district-overlay">
-                            <span class="zone-badge">西門展區</span>
-                        </div>
-                    </div>
-                    <div class="district-content">
-                        <h3>遠東百貨</h3>
-                        <p>結合購物、餐飲與娛樂機能的百貨商場，滿足全齡層消費需求。</p>
-                        <a href="https://www.feds.com.tw/" class="btn-more" target="_blank">了解更多</a>
-                    </div>
-                </article>
-
-                <article class="district-card">
-                    <div class="district-img-box">
-                        <img src="images/sites/ShinKong.jpg" alt="新光百貨">
-                        <div class="district-overlay">
-                            <span class="zone-badge">西門展區</span>
-                        </div>
-                    </div>
-                    <div class="district-content">
-                        <h3>新光百貨</h3>
-                        <p>匯集國際品牌與美食餐廳，是台北指標性的百貨購物地標。</p>
-                        <a href="https://www.skm.com.tw/" class="btn-more" target="_blank">了解更多</a>
-                    </div>
-                </article>
-
-                <article class="district-card">
-                    <div class="district-img-box">
                         <img src="images/sites/Dist_Dadaocheng.jpg" alt="大稻埕商圈">
                         <div class="district-overlay">
                             <span class="zone-badge">花博展區</span>
@@ -185,27 +129,13 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Dist_Shilin.jpg" alt="士林觀光夜市商圈">
+                        <img src="images/sites/Dist_Zhongshan.jpg" alt="中山商圈">
                         <div class="district-overlay">
                             <span class="zone-badge">花博展區</span>
                         </div>
                     </div>
                     <div class="district-content">
-                        <h3>士林觀光夜市商圈</h3>
-                        <p>台北規模最大夜市，豪大雞排、藥燉排骨必吃！吃喝玩樂一站滿足，夜遊首選。</p>
-                        <a href="https://www.travel.taipei/zh-tw/attraction/all-regions?page=1&sortby=location&location=7" class="btn-more" target="_blank">了解更多</a>
-                    </div>
-                </article>
-
-                <article class="district-card">
-                    <div class="district-img-box">
-                        <img src="images/sites/Dist_Zhongshan.jpg" alt="捷運中山站商圈">
-                        <div class="district-overlay">
-                            <span class="zone-badge">花博展區</span>
-                        </div>
-                    </div>
-                    <div class="district-content">
-                        <h3>捷運中山站商圈</h3>
+                        <h3>中山商圈</h3>
                         <p>時尚百貨交織赤峰街文創，漫步心中山線形公園，感受台北最迷人的藝文潮流。</p>
                         <a href="https://www.travel.taipei/zh-tw/attraction/all-regions?page=1&sortby=location&location=2" class="btn-more" target="_blank">了解更多</a>
                     </div>
@@ -277,6 +207,48 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
+                        <img src="images/sites/Nanjichang.jpg" alt="南機場夜市">
+                        <div class="district-overlay">
+                            <span class="zone-badge">西門展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>南機場夜市</h3>
+                        <p>以在地美食聞名的庶民夜市，小吃種類豐富、人氣歷久不衰。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/1564" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/HuaxiStreet.jpg" alt="華西街夜市">
+                        <div class="district-overlay">
+                            <span class="zone-badge">西門展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>華西街夜市</h3>
+                        <p>結合傳統小吃、老店與文化特色，展現台北早期夜市風貌。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/1535" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/Dist_Shilin.jpg" alt="士林觀光夜市">
+                        <div class="district-overlay">
+                            <span class="zone-badge">花博展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>士林觀光夜市</h3>
+                        <p>台北規模最大夜市，豪大雞排、藥燉排骨必吃！吃喝玩樂一站滿足，夜遊首選。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/all-regions?page=1&sortby=location&location=7" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
                         <img src="images/sites/Dist_Dihua.jpg" alt="迪化街年貨大街" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge ximen">花博展區</span>
@@ -289,21 +261,6 @@
                     </div>
                 </article>
 
-                <article class="district-card">
-                    <div class="district-img-box">
-                        <img src="images/sites/Dist_Martyrs.jpg" alt="台北忠烈祠" loading="lazy" decoding="async">
-                        <div class="district-overlay">
-                            <span class="zone-badge ximen">花博展區</span>
-                        </div>
-                    </div>
-                    <div class="district-content">
-                        <h3>台北忠烈祠</h3>
-                        <p>國際遊客必訪！欣賞儀隊操槍英姿與壯麗建築。在靜謐氛圍中，感受獨特的歷史重量。</p>
-                        <a href="https://www.travel.taipei/zh-tw/attraction/all-regions?page=1&sortby=location&location=200" class="btn-more" target="_blank">了解更多</a>
-                    </div>
-                </article>
-
-                
             </div>
         </section>
     </main>

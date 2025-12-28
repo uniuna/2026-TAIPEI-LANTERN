@@ -22,13 +22,12 @@
             <div class="reminder-card">
                 <div class="reminder-icon-box color-1">
                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        <path d="M12 8v4"></path>
-                        <path d="M12 16h.01"></path>
+                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
                     </svg>
                 </div>
                 <h3>財物請自重</h3>
-                <p>人潮眾多，請提高警覺，妥善保管貴重物品，嚴防宵小。</p>
+                <p>人潮眾多，請提高警覺，妥善保管自身財物及貴重物品，嚴防宵小。</p>
             </div>
 
             <div class="reminder-card">
@@ -41,7 +40,7 @@
                     </svg>
                 </div>
                 <h3>孩童需照顧</h3>
-                <p>請家長隨時留意孩童動向，切勿讓孩子離開視線範圍，預防走失風險。</p>
+                <p>請家長隨時留意自家孩童動向，切勿讓孩子離開視線範圍，嚴防走失風險。</p>
             </div>
 
             <div class="reminder-card">
@@ -53,7 +52,7 @@
                     </svg>
                 </div>
                 <h3>求助有管道</h3>
-                <p>西門及花博展區皆設有服務台，若有任何需求請隨時洽詢工作人員。</p>
+                <p>西門及花博展區設有服務台，若有緊急需求請洽詢工作人員。</p>
             </div>
 
         </div>

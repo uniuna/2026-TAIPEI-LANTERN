@@ -221,6 +221,41 @@ html {
 
 
 /* --------- 展區介紹 (index.html) --------- */
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+}
+.section-title::after {
+    content: ''; display: block; width: 60px; height: 4px;
+    background: var(--accent-color); margin: 15px auto 0;
+    box-shadow: 0 0 10px var(--accent-color);
+}
+
+.section-intro {
+    max-width: 900px;
+    margin: 0 auto 60px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+    border: 1px solid rgba(255,255,255,0.03);
+    border-radius: 12px;
+}
+.section-description {
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    color: #dddddd;
+    text-align: left;
+}
+
+/* 手機優化 */
+@media (max-width: 768px) {
+    .section-intro {
+        padding: 14px 16px;
+        margin-bottom: 20px;
+    }
+}
+
 .map-selection {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -553,15 +588,6 @@ html {
   text-align: center;
   margin-top: var(--header-height);
 }
-.zone-title-large {
-  font-size: 4rem;
-  color: #fff;
-  /* text-shadow: 0 0 20px var(--accent-color); */
-  border: 4px solid var(--accent-color);
-  padding: 20px 40px;
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(5px);
-}
 
 /* --------- 花博展區 (expo.html) --------- */
 .zone-header-expo {
@@ -575,6 +601,16 @@ html {
   justify-content: center;
   text-align: center;
   margin-top: var(--header-height);
+}
+
+.zone-title-large {
+  font-size: 4rem;
+  color: #fff;
+  /* text-shadow: 0 0 20px var(--accent-color); */
+  border: 4px solid var(--accent-color);
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
 }
 
 /* --- 互動地圖專用樣式 --- */
@@ -912,7 +948,7 @@ html {
     backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;
-    padding: 40px 30px;
+    padding: 35px 15px;
     text-align: center;
     transition: 0.4s ease;
     position: relative;
@@ -959,7 +995,7 @@ html {
 
 /* 文字排版 */
 .reminder-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: white;
     margin-bottom: 15px;
     font-weight: bold;
@@ -967,14 +1003,14 @@ html {
 }
 
 .reminder-card p {
-    color: var(--text-sub);
+    color: #ddd;
     line-height: 1.8;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 0;
 }
 
 .reminder-card:hover p {
-  color: #ddd;
+    color: white;
 }
 
 
@@ -1108,20 +1144,15 @@ html {
     }
     
     /* 欄位寬度佔滿 */
-    .event-list-col {
-        width: 100%;
+    .event-list-col { width: 100%;
     }
-
-    .event-item {
-        padding: 15px;
+    .event-item { padding: 15px;
     }
-    
-    .stage-intro-box {
-        padding: 20px;
+    .event-item span{ display: none;
     }
-    
-    .stage-intro-row {
-        font-size: 1rem;
+    .stage-intro-box { padding: 20px;
+    }
+    .stage-intro-row { font-size: 1rem;
     }
 }
 
@@ -1196,7 +1227,7 @@ html {
 /* 4. 資訊列表 (維持左對齊比較好閱讀，但整體區塊置中) */
 .featured-info-list {
     list-style: none;
-    padding: 25px;
+    padding: 20px 0;
     margin-bottom: 40px;
     background: rgba(0,0,0,0.2);
     border-radius: 12px;

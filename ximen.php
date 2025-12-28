@@ -16,7 +16,7 @@
 
     <main style="padding-bottom: 150px;">
         <div style="text-align: left; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
-            <p style="color: var(--text-sub); font-size: 1.2rem">
+            <p style="color: var(--text-sub); font-size: 1.1rem">
                 <strong style="color: white">西門展區</strong> 
                 坐落於歷史情懷與次文化交織的西門町。2026年，我們將整座潮流街區轉化為大型沉浸式光廊，讓經典的地景建築與前衛燈飾
                 交相輝映，呈現城市記憶與創新力的完美融合。當百年街道遇上幻彩燈飾，年輕活力與歷史底蘊在燈光下激盪，帶領您穿梭於跨越時空
