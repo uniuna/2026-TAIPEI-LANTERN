@@ -12,7 +12,7 @@
             
             <div class="lantern-container l1">
                 <div class="lantern-body">
-                    <div class="lantern-text">Lantern</div>
+                    <div class="lantern-text">Festival</div>
                 </div>
                 <div class="lantern-tassel"></div>
             </div>
@@ -60,10 +60,10 @@
         </section> -->
 
         <section id="news" class="container" style="padding-bottom: 20px; margin-top: -250px; position: relative; z-index: 10;">
-            <h2 class="section-title">展區介紹</h2>
+            <h2 class="section-title">Introducing the Lantern Display Areas</h2>
             <div class="section-intro">
                 <p class="section-description">
-                    2026 台北燈節跨出單一展區，同步於「西門展區」與「花博展區」盛大登場。我們以雙主燈、雙展區的規模，串聯了西門町的繁華與花博公園的愜意。透過光影的導引，民眾在賞燈之餘，也能穿梭於鄰近商圈，深度體驗臺北在地的美食與人文魅力，讓燈節成為推動城市觀光的亮點。
+                    In 2026, the Taipei Lantern Festival expands beyond a single venue, taking place at the same time in Ximending and Taipei Expo Park. At double the scale, with two theme displays and lantern art areas, the festival connects the bustling streets of Ximending with the relaxed atmosphere of Taipei Expo Park. Illuminated by the brilliance of joyous lanterns, visitors can also explore the shops in the nearby commercial districts and find a deeper connection with Taipei’s local cuisine and cultural magnetism. This year, the Lantern Festival is transforming into a major highlight promoting tourism in Taipei City.
                 </p>
             </div>
             <div class="map-selection">
@@ -72,7 +72,7 @@
                         style="background-image: url('../images/links/Link-ximen_1920x1080.jpg');">
                     </div>
                     <div class="map-overlay">
-                        <h3>西門展區</h3>
+                        <h3 style="letter-spacing:0px;">Ximen Area</h3>
                         <span class="scan-line"></span>
                     </div>
                 </a>
@@ -80,7 +80,7 @@
                 <a href="expo.php" class="map-card" id="expo-map">
                     <div class="map-bg" style="background-image: url('../images/links/Link-expo_1920x1080.jpg');"></div>
                     <div class="map-overlay">
-                        <h3>花博展區</h3>
+                        <h3 style="letter-spacing:0px;">Taipei EXPO Area</h3>
                         <span class="scan-line"></span>
                     </div>
                 </a>
@@ -88,13 +88,13 @@
         </section>
 
         <section class="container">
-            <h2 class="section-title">探索更多</h2>
+            <h2 class="section-title">Explore More</h2>
             <div class="nav-grid">
 
                 <a href="events.php" class="nav-card">
                     <div class="nav-bg" style="background-image: url('../images/links/Link-img-01_800x600.jpg');"></div>
                     <div class="nav-text">
-                        <h3>精彩活動</h3>
+                        <h3>Event Program</h3>
                     </div>
                 </a>
 
@@ -108,21 +108,21 @@
                 <a href="traffic.php" class="nav-card">
                     <div class="nav-bg" style="background-image: url('../images/links/Link-img-03_800x600.jpg');"></div>
                     <div class="nav-text">
-                        <h3>交通方式</h3>
+                        <h3>Transportation</h3>
                     </div>
                 </a>
             </div>
         </section>
 
         <!-- <section class="container">
-            <h2 class="section-title">影音專區</h2>
+            <h2 class="section-title">Audiovisual Area</h2>
             <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
                 <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/gp7V4k_gLGc?si=lhhiHCpnIOEjL3Rg" frameborder="0" allowfullscreen></iframe>
             </div>
         </section> -->
 
         <section style="padding: 80px 0 40px;">
-        <h2 class="section-title">精彩回顧</h2>
+        <h2 class="section-title">Highlights from the Past</h2>
         
         <div class="tab-buttons year-tabs">
             <button class="tab-btn" onclick="openYearTab(event, 'year-2017')">2017</button>
@@ -142,10 +142,6 @@
                     <div class="gallery-img">
                         <img src="../images/gallery/2017/001.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
-                    <!-- <div class="gallery-info">
-                        <h4>龍躍光城主燈</h4>
-                        <p>西門展區核心地標，展現龍年氣勢。</p>
-                    </div> -->
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">

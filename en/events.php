@@ -15,7 +15,8 @@
             <h2 class="section-title">精彩活動列表</h2>
             
             <div class="tab-buttons events-tab-wrapper">
-                <button class="tab-btn active" onclick="openTab(event, 'event2')">舞台活動</button>
+                <!-- <button class="tab-btn active" onclick="openTab(event, 'event1')">Opening Ceremony</button> -->
+                <button class="tab-btn active" onclick="openTab(event, 'event2')">Stage Performances</button>
                 <button class="tab-btn" onclick="openTab(event, 'event3')">主題日</button>
             </div>
 
@@ -297,19 +298,6 @@
                 </div>
             </div>
 
-            <div id="event4" class="tab-content">
-                <section class="coming-soon-block">
-                    <h3 class="coming-soon-title">Coming Soon...</h3>
-                    <img src="../images/comingsoon.jpg" alt="Coming Soon" class="coming-soon-img">
-                </section>
-            </div>
-
-            <div id="event5" class="tab-content">
-                <section class="coming-soon-block">
-                    <h3 class="coming-soon-title">Coming Soon...</h3>
-                    <img src="../images/comingsoon.jpg" alt="Coming Soon" class="coming-soon-img">
-                </section>
-            </div>
         </section>
 
     </main>

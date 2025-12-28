@@ -17,7 +17,8 @@
     <main class="container" style="padding-top: 150px;">
         
         <section>
-            <h2 class="section-title reminder-intro" style="width:30%;">規劃中</h2>
+            
+            <h2 class="section-title reminder-intro">規劃中</h2>
             
         </section>
 

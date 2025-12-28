@@ -2,7 +2,7 @@
     <div class="footer-sponsors">
 
         <div class="sponsor-group">
-            <h4>主辦單位</h4>
+            <h4>Organizers</h4>
             <div class="logo-row main-organizer">
                 <div class="logo-box">
                     <img src="../images/logos/logo-DIT.png" alt="觀光傳播局" loading="lazy" decoding="async">
@@ -11,7 +11,7 @@
         </div>
 
         <div class="sponsor-group">
-            <h4>協力單位</h4>
+            <h4>Partners</h4>
             <div class="logo-row">
                 <div class="logo-box"><img src="../images/logos/logo-MOTC.png" alt="觀光署" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-TMRT.png" alt="台北捷運" loading="lazy" decoding="async"></div>
@@ -24,7 +24,7 @@
         </div>
 
         <div class="sponsor-group">
-            <h4>贊助單位</h4>
+            <h4>Sponsor</h4>
             <div class="logo-row">
                 <div class="logo-box"><img src="../images/logos/logo-ShinKong.png" alt="台新新光" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-FarEastern.png" alt="遠東" loading="lazy" decoding="async"></div>
@@ -36,7 +36,7 @@
     </div>
 
     <div class="footer-bottom">
-        <p>© 2026 台北燈節 All Rights Reserved.</p>
+        <p>© 2026 TAIPEI LANTERN FESTIVAL All Rights Reserved.</p>
        
     </div>
 </footer>

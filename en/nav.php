@@ -11,7 +11,7 @@
             <ul class="dropdown-content">
                 <li><a href="ximen.php">Ximen Area</a></li>
                 <li><a href="expo.php">Taipei EXPO Area</a></li>
-                <li><a href="reminder.php">Reminders</a></li>
+                <li><a href="reminder.php">Things You Should Know</a></li>
             </ul>
         </li>
         <li>
@@ -20,7 +20,7 @@
         <li class="dropdown">
             <a class="dropbtn">Transportation ▾</a> 
             <ul class="dropdown-content">
-                <li><a href="traffic.php">Directions</a></li>
+                <li><a href="traffic.php">How to Get There</a></li>
                 <li><a href="measures.php">Traffic Control Measures</a></li>
             </ul>
         </li>
