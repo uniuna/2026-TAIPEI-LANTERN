@@ -50,7 +50,7 @@
                                     </svg>
                                 </span>
                                 <div>
-                                    <p style="color:white; font-size:1.1rem;">機場捷運 Airport MRT</p>
+                                    <p style="color:white; font-size:1.1rem;">機場捷運</p>
                                     <p style="color:var(--text-sub); margin-top:5px;">
                                         1. 機場捷運抵達 <strong>「A1台北車站」</strong><br>
                                         2. 轉乘台北捷運板南線至 <strong>「西門站」</strong>
@@ -68,9 +68,9 @@
                                     </svg>
                                 </span>
                                 <div>
-                                    <p style="color:white; font-size:1.1rem;">公車 Bus</p>
+                                    <p style="color:white; font-size:1.1rem;">公車</p>
                                     <p style="color:var(--text-sub); margin-top:5px;">
-                                        <strong>捷運西門站 / 中華路北站</strong><br>
+                                        站牌：<strong>捷運西門站 / 中華路北站</strong><br>
                                         路線：12, 202, 205, 212, 218, 223, 260, 265, 302, 304, 307, 310, 601, 706...等
                                     </p>
                                 </div>
@@ -150,7 +150,7 @@
                                 <div>
                                     <p style="color:white; font-size:1.1rem;">公車 Bus</p>
                                     <p style="color:var(--text-sub); margin-top:5px;">
-                                        <strong>捷運圓山站 / 市立美術館</strong><br>
+                                        站牌：<strong>捷運圓山站 / 市立美術館</strong><br>
                                         路線：2, 21, 203, 208, 247, 260, 277, 287區, 310, 677, 936, 紅2...等
                                     </p>
                                 </div>

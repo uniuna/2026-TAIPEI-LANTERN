@@ -12,7 +12,7 @@
             
             <div class="lantern-container l1">
                 <div class="lantern-body">
-                    <div class="lantern-text">Festival</div>
+                    <div class="lantern-text">Lantern</div>
                 </div>
                 <div class="lantern-tassel"></div>
             </div>
