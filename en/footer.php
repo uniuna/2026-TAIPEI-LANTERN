@@ -16,10 +16,8 @@
                 <div class="logo-box"><img src="../images/logos/logo-MOTC.png" alt="觀光署" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-TMRT.png" alt="台北捷運" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-TWD.png" alt="自來水處" loading="lazy" decoding="async"></div>
-                <div class="logo-box"><img src="../images/logos/logo-CityGodTemple.png" alt="城隍廟" loading="lazy" decoding="async"></div>
-                <div class="logo-box"><img src="../images/logos/logo-MazuTemple.png" alt="天后宮" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-CHPost.png" alt="台北郵局" loading="lazy" decoding="async"></div>
-                <div class="logo-box"><img src="../images/logos/logo-MOTC.png" alt="觀光署" loading="lazy" decoding="async"></div>
+                <!-- <div class="logo-box"><img src="../images/logos/logo-MOTC.png" alt="觀光署" loading="lazy" decoding="async"></div> -->
             </div>
         </div>
 
@@ -31,6 +29,8 @@
                 <div class="logo-box"><img src="../images/logos/logo-Cathay.png" alt="國泰" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-TingHsin.png" alt="頂新" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo--Ci-Hui.png" alt="慈惠堂" loading="lazy" decoding="async"></div>
+                <div class="logo-box"><img src="../images/logos/logo-CityGodTemple.png" alt="省城隍廟" loading="lazy" decoding="async"></div>
+                <div class="logo-box"><img src="../images/logos/logo-MazuTemple.png" alt="天后宮" loading="lazy" decoding="async"></div>
             </div>
         </div>
     </div>
