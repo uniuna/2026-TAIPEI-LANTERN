@@ -1,13 +1,10 @@
 /* --------- Hero Section (index.html) --------- */
 .hero {
+  /* [新增] 加上這兩行，確保 Scroll 按鈕會定位在 Hero 裡面，而不是跑到底部 */
+  position: relative;
+  z-index: 1; 
   height: 150vh;
-  /* background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.6) 0%,
-      rgba(0, 0, 0, 0.1) 30%,
-      rgba(5, 5, 16, 0.8) 100%
-    ),
-    url("../images/hero-main.jpg"); */
+  /* background: ... (原本的背景設定保持不變) ... */
   background-image: url("../images/hero-main.jpg");
   background-size: cover;
   background-position: center center;
@@ -17,8 +14,24 @@
   align-items: center;
   text-align: center;
   padding-top: var(--header-height);
-  
-  /* [修改] 增加底部內距，為了避免 Scroll 按鈕跟上浮的新聞重疊太近 */
+  padding-bottom: 200px; 
+}
+
+.hero-en {
+  /* [新增] 加上這兩行，確保 Scroll 按鈕會定位在 Hero 裡面，而不是跑到底部 */
+  position: relative;
+  z-index: 1; 
+  height: 150vh;
+  /* background: ... (原本的背景設定保持不變) ... */
+  background-image: url("../images/hero-main-en.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding-top: var(--header-height);
   padding-bottom: 200px; 
 }
 
@@ -29,7 +42,7 @@ html {
 
 .scroll-down {
   position: absolute;
-  bottom: 45px; 
+  bottom: 400px; 
   left: 50%;
   transform: translateX(-50%);
   color: white;
@@ -164,6 +177,22 @@ html {
     padding-bottom: 220px; 
   }
 
+  .hero-en {
+    /* background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.1) 30%,
+        rgba(5, 5, 16, 0.9) 100%
+      ),
+      url("../images/hero-tablet.jpg"); */
+    background-image: url("../images/hero-tablet-en.jpg");;
+
+    background-position: center top; /* 平板直立時，重點通常在上方 */
+    
+    /* 調整底部延伸空間 (介於電腦 200px 與 手機 250px 之間) */
+    padding-bottom: 220px; 
+  }
+
   /* 2. 最新消息區塊：調整上浮程度 */
   .news-section {
     /* 負邊距 (介於電腦 -250px 與 手機 -400px 之間) */
@@ -195,6 +224,22 @@ html {
       ),
       url("../images/hero-mobile.jpg");  */
     background-image: url("../images/hero-mobile.jpg");
+
+    background-position: center top; 
+    
+    /* [關鍵] 增加底部 padding，這塊空間就是用來當作最新消息的「襯底」 */
+    padding-bottom: 250px; 
+  }
+
+  .hero-en {
+    /* background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.1) 30%,
+        rgba(5, 5, 16, 0.9) 100% 
+      ),
+      url("../images/hero-mobile.jpg");  */
+    background-image: url("../images/hero-mobile-en.jpg");
 
     background-position: center top; 
     
@@ -768,7 +813,7 @@ html {
 
 /* --- 燈組簡介列表樣式 --- */
   .info-section {
-      max-width: 1000px; /* 跟地圖一樣寬 */
+      max-width: 800px; /* 跟地圖一樣寬 */
       margin: 0 auto 80px;
   }
 

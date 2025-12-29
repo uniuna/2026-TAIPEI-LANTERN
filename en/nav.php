@@ -1,7 +1,7 @@
 <nav class="navbar">
     <div class="logo">
         <a href="index.php">
-            <img src="../images/Logo.svg" alt="2026 Lantern Festival" class="logo-img">
+            <img src="../images/Logo-en.svg" alt="2026 Lantern Festival" class="logo-img" >
         </a>
     </div>
     <div class="hamburger" onclick="toggleMenu()">☰</div>

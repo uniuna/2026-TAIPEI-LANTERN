@@ -29,7 +29,7 @@
     </div>
     <?php include 'nav.php'; ?>
 
-    <header class="hero">
+    <header class="hero-en">
         <a href="#news" class="scroll-down">
             <span></span>
             SCROLL
