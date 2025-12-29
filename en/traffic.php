@@ -172,10 +172,10 @@
 
                 <div class="traffic-card" style="margin-top: 40px;">
                     <div class="traffic-header">
-                        <h3>往返展區交通</h3>
+                        <h3>Transportation between the areas</h3>
                     </div>
                     <p style="color:var(--text-sub); margin-bottom:40px; font-size:1.1rem;">
-                        往返 <strong>花博公園（圓山站）</strong> 與 <strong>西門町（西門站）</strong> 的推薦方式
+                        Recommended transportation between Taipei Expo Park ,Yuanshan Station and Ximending ,Ximen station
                     </p>
                     
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
@@ -191,10 +191,10 @@
                                 </svg>
                             </span>
                             <div>
-                                <p style="color:white; font-size:1.1rem;">直達公車 (約20-30分)</p>
+                                <p style="color:white; font-size:1.1rem;">Direct bus (about 20-30mins)</p>
                                 <p style="color:var(--text-sub); margin-top:5px;">
-                                    推薦路線：<strong>218, 260, 310, 304(承德), 202</strong><br>
-                                    <span style="font-size:0.9rem; opacity:0.8;">※ 於「捷運圓山站」與「捷運西門站/中華路北站」之間往返。</span>
+                                    Recommended Routes:<strong>218, 260, 310, 304 (Chengde), 202</strong><br>
+                                    <span style="font-size:0.9rem; opacity:0.8;">※ Between Yuanshan Station and Ximen station & Zhonghua Rd. N. Stop</span>
                                 </p>
                             </div>
                         </div>
@@ -213,10 +213,10 @@
                                 </svg>
                             </span>
                             <div>
-                                <p style="color:white; font-size:1.1rem;">捷運轉乘 (約20-25分)</p>
+                                <p style="color:white; font-size:1.1rem;">MRT (about 20-25mins)</p>
                                 <p style="color:var(--text-sub); margin-top:5px;">
-                                    需於 <strong>台北車站</strong> 轉乘<br>
-                                    <span style="color:#FF0055;">● 紅線</span> ↔ <span style="color:#00E5FF;">● 藍線</span>
+                                    MRT Taipei Main Station ,
+                                    <span style="color:#FF0055;">● Xinyi Line</span> ↔ <span style="color:#00E5FF;">● Bannan Line</span>
                                 </p>
                             </div>
                         </div>

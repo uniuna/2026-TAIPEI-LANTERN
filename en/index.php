@@ -98,10 +98,10 @@
                     </div>
                 </a>
 
-                <a href="travel.php" class="nav-card">
+                <a href="https://www.travel.taipei/en" class="nav-card" target="_blank">
                     <div class="nav-bg" style="background-image: url('../images/links/Link-img-02_800x600.jpg');"></div>
                     <div class="nav-text">
-                        <h3>旅遊資訊</h3>
+                        <h3>Travel information</h3>
                     </div>
                 </a>
 

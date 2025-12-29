@@ -1355,7 +1355,48 @@ html {
 
 /* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */
 
-/* --------- 商圈/景點列表 (travelphp) --------- */
+/* --------- 商圈/景點列表 (travel.php) --------- */
+
+/* --- 上方雙圖並排區塊 --- */
+
+.travel-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 左右各一半 */
+    gap: 30px; /* 圖片間距 */
+    margin-bottom: 60px; /* 與下方標題的距離 */
+}
+
+.travel-hero-img {
+    width: 100%;
+    border-radius: 20px; /* 圓角 */
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    position: relative;
+    line-height: 0; /* 消除圖片底部空隙 */
+}
+
+.travel-hero-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+/* Hover 效果：滑鼠移過去微放大 */
+.travel-hero-img:hover img {
+    transform: scale(1.03);
+}
+
+/* 手機版：變為單欄上下排列 */
+@media (max-width: 768px) {
+    .travel-hero-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+
 .district-container {
     display: flex;
     flex-wrap: wrap;

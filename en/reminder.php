@@ -15,7 +15,7 @@
     </header>
 
     <main class="container">
-        <h2 class="section-title reminder-intro">2026 台北燈節 溫馨小叮嚀</h2>
+        <h2 class="section-title reminder-intro">2026 Taipei Lantern Festival</h2>
 
         <div class="reminder-grid">
             
@@ -26,8 +26,8 @@
                         <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
                     </svg>
                 </div>
-                <h3>財物請自重</h3>
-                <p>人潮眾多，請提高警覺，妥善保管自身財物及貴重物品，嚴防宵小。</p>
+                <h3>Safety of Belongings</h3>
+                <p>Due to the crowded, please keep your personal belongings and valuables secure at all times and beware of pickpockets.</p>
             </div>
 
             <div class="reminder-card">
@@ -39,8 +39,8 @@
                         <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     </svg>
                 </div>
-                <h3>孩童需照顧</h3>
-                <p>請家長隨時留意自家孩童動向，切勿讓孩子離開視線範圍，嚴防走失風險。</p>
+                <h3>Safety of Children</h3>
+                <p>Please keep an eyes on children. To prevent the risk of children getting lost, please ensure they remain in your sight.</p>
             </div>
 
             <div class="reminder-card">
@@ -51,8 +51,8 @@
                         <line x1="12" y1="17" x2="12.01" y2="17"></line>
                     </svg>
                 </div>
-                <h3>求助有管道</h3>
-                <p>西門及花博展區設有服務台，若有緊急需求請洽詢工作人員。</p>
+                <h3>Information desk</h3>
+                <p>Ximen Area and Taipei Expo Park Area has an information desk, if you have an emergency ,please contact the staff.</p>
             </div>
 
         </div>

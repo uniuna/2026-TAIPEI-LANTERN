@@ -10,6 +10,16 @@
 
     <main class="container" style="padding-top: 120px; min-height: 80vh; padding-bottom: 150px;">
         
+        <div class="travel-hero-grid">
+            <div class="travel-hero-img">
+                <img src="images/maps/emap-ximen.jpg" alt="西門展區簡易地圖">
+            </div>
+            
+            <div class="travel-hero-img">
+                <img src="images/maps/emap-expo.jpg" alt="花博展區簡易地圖">
+            </div>
+        </div>
+
         <section>
             <h2 class="section-title">周邊商圈</h2>
             
