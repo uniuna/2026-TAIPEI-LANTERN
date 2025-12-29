@@ -42,11 +42,11 @@
                 </div> -->
 
                 <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
-                    <div class="lantern-item" onclick="openMapModal('ximen-main')">
+                    <div class="lantern-item" onclick="openMapModal('item_01')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">Coming Soon! 敬請期待！</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">星樹之門</h4>
+                                <span class="lantern-designer">徐志銘</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
