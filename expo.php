@@ -15,7 +15,7 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <div style="text-align: left; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
+        <div style="text-align: left; max-width: 800px; margin: 0 auto; padding: 30px 20px 60px;">
             <p style="color: var(--text-sub); font-size: 1.1rem;">
                 <strong style="color: white;">花博展區</strong> 
                 位於廣闊的圓山園區，我們將自然景觀轉化為地景藝術的畫布，利用得天獨厚的植栽與起伏地形，結合大型燈光藝術，打造出一座彷彿從童話中走出的奇幻森林。

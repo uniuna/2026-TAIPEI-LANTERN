@@ -22,10 +22,11 @@
         </div>
 
         <section class="container">
-            <h2 class="section-title">Ximen Area Map</h2>
+            <h2 class="section-title">Coming Soon ...</h2>
+            <!-- <h2 class="section-title">Ximen Area Map</h2> -->
             <div class="zone-block" style="margin-bottom: 80px;">
                 
-                <div id="map-theme-1" class="interactive-map-container">
+                <!-- <div id="map-theme-1" class="interactive-map-container">
                     <img src="../images/maps/ximen-zonemap-red.jpg" alt="IP燈組地圖">
                     <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
                         onclick="openMapModal('ximen-main')"></div>
@@ -35,9 +36,9 @@
                         onclick="openMapModal('ximen-ip2')"></div>
                     <div class="map-hotspot" style="top: 79.5%; left: 36.5%;border-color:#FF0055;"
                         onclick="openMapModal('ximen-ip3')"></div>
-                </div>
+                </div> -->
 
-                <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
+                <!-- <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
                     <div class="lantern-item" onclick="openMapModal('ximen-main')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
@@ -56,7 +57,7 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
 

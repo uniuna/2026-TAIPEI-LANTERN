@@ -22,7 +22,8 @@
         </div>
 
         <section class="container">
-            <h2 class="section-title">Taipei Expo Park Area Map</h2>
+            <h2 class="section-title">Coming Soon ...</h2>
+            <!-- <h2 class="section-title">Taipei Expo Park Area Map</h2> -->
             <div class="zone-block" style="margin-bottom: 80px;">
                 
                 <!-- <div id="map-theme-1" class="interactive-map-container">
@@ -37,7 +38,7 @@
                         onclick="openMapModal('ximen-ip3')"></div>
                 </div> -->
 
-                <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
+                <!-- <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
                     <div class="lantern-item" onclick="openMapModal('ximen-main')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
@@ -56,7 +57,7 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
 

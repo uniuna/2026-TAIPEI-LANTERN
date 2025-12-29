@@ -99,8 +99,8 @@
                         
                         <a href="https://maps.app.goo.gl/MaEAJ51GtdFD6QnWA" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map 導航</a>
                         
-                        <!-- <a href="" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">西門展區簡易地圖</a>
-                        <a href="info/2026-TAIPEI-LANTERN-XIMEN.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
+                        <a href="/info/emap-ximen.jpg" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">西門展區簡易地圖</a>
+                        <!-- <a href="info/2026-TAIPEI-LANTERN-XIMEN.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
                             西門展區全地圖
                             <span style="vertical-align: middle;">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -196,15 +196,15 @@
 
                         <a href="https://maps.app.goo.gl/qk7E2XTo1zyJpR3h9" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map 導航</a>
                         
-                        <!-- <a href="" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">花博展區簡易地圖</a>
-                        <a href="info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
+                        <a href="/info/emap-expo.jpg" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">花博展區簡易地圖</a>
+                        <!-- <a href="info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
                             花博展區全地圖
                             <span style="vertical-align: middle;">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                                 <polyline points="7 10 12 15 17 10"></polyline>
-                                <line x1="12" y1="15" x2="12" y2="3"></line>
-                            </svg></span>
+                                <line x1="12" y1="15" x2="12" y2="3"></line> 
+                            </svg></span> 
                         </a> -->
                     </div>
 
