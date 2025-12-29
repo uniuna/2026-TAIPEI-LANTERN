@@ -22,7 +22,7 @@
         </div>
 
         <section class="container">
-            <h2 class="section-title">花博展區地圖</h2>
+            <h2 class="section-title">Taipei Expo Park Area Map</h2>
             <div class="zone-block" style="margin-bottom: 80px;">
                 
                 <!-- <div id="map-theme-1" class="interactive-map-container">

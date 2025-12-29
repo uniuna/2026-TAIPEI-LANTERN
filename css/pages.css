@@ -30,7 +30,6 @@ html {
 .scroll-down {
   position: absolute;
   bottom: 45px; 
-
   left: 50%;
   transform: translateX(-50%);
   color: white;

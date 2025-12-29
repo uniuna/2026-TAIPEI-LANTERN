@@ -95,9 +95,9 @@ ul { list-style: none; }
             radial-gradient(circle at 10% 70%, rgba(0, 229, 255, 0.6) 3px, transparent 20px),
             
             /* 右側光點群 */
-            radial-gradient(circle at 90% 20%, rgba(0, 200, 255, 0.6) 2px, transparent 20px),
+            radial-gradient(circle at 90% 20%, rgba(0, 200, 255, 0.6) 2px, transparent 15px),
             radial-gradient(circle at 96% 55%, rgba(255, 50, 100, 0.7) 5px, transparent 30px),
-            radial-gradient(circle at 92% 80%, rgba(255, 200, 0, 0.8) 3px, transparent 25px);
+            radial-gradient(circle at 92% 80%, rgba(255, 200, 0, 0.8) 3px, transparent 20px);
             
             
         /* 稍微模糊一點點，製造景深感 */

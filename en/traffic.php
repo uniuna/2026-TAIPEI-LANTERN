@@ -50,10 +50,10 @@
                                     </svg>
                                 </span>
                                 <div>
-                                    <p style="color:white; font-size:1.1rem;">機場捷運</p>
+                                    <p style="color:white; font-size:1.1rem;">Airport MRT</p>
                                     <p style="color:var(--text-sub); margin-top:5px;">
-                                        1. 機場捷運抵達 <strong>「A1台北車站」</strong><br>
-                                        2. 轉乘台北捷運板南線至 <strong>「西門站」</strong>
+                                        1. Airport MRT Taipei Main Station (A1) <br>
+                                        2. MRT Bannan Line , Ximen Station
                                     </p>
                                 </div>
                             </li>
@@ -77,10 +77,10 @@
                             </li>
                         </ul>
                         
-                        <a href="https://maps.app.goo.gl/MaEAJ51GtdFD6QnWA" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map 導航</a>
+                        <a href="https://maps.app.goo.gl/MaEAJ51GtdFD6QnWA" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map</a>
                         
-                        <!-- <a href=" " target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">西門展區簡易地圖</a>
-                        <a href="../info/2026-TAIPEI-LANTERN-XIMEN.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
+                        <a href="../info/emap-ximen.jpg" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">西門展區簡易地圖</a>
+                        <!-- <a href="../info/2026-TAIPEI-LANTERN-XIMEN.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
                             西門展區全地圖
                             <span style="vertical-align: middle;">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -127,10 +127,10 @@
                                     </svg>
                                 </span>
                                 <div>
-                                    <p style="color:white; font-size:1.1rem;">機場捷運</p>
+                                    <p style="color:white; font-size:1.1rem;">Airport MRT</p>
                                     <p style="color:var(--text-sub); margin-top:5px;">
-                                        1. 機場捷運抵達 <strong>「A1台北車站」</strong><br>
-                                        2. 轉乘台北捷運淡水信義線至 <strong>「圓山站」</strong>
+                                        1. Airport MRT Taipei Main Station (A1) <br>
+                                        2. MRT Tamsui–Xinyi Line, Yuanshan Station
                                     </p>
                                 </div>
                             </li>
@@ -154,10 +154,10 @@
                             </li>
                         </ul>
 
-                        <a href="https://maps.app.goo.gl/qk7E2XTo1zyJpR3h9" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map 導航</a>
+                        <a href="https://maps.app.goo.gl/qk7E2XTo1zyJpR3h9" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map</a>
                         
-                        <!-- <a href=" " target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">花博展區簡易地圖</a>
-                        <a href="../info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
+                        <a href="../info/emap-expo.jpg" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">花博展區簡易地圖</a>
+                        <!-- <a href="../info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
                             花博展區全地圖
                             <span style="vertical-align: middle;">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

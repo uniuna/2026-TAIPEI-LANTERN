@@ -12,12 +12,12 @@
 
     <main class="container events-main">
         <section>
-            <h2 class="section-title">精彩活動列表</h2>
+            <h2 class="section-title">Event Program List</h2>
             
             <div class="tab-buttons events-tab-wrapper">
                 <!-- <button class="tab-btn active" onclick="openTab(event, 'event1')">Opening Ceremony</button> -->
                 <button class="tab-btn active" onclick="openTab(event, 'event2')">Stage Performances</button>
-                <button class="tab-btn" onclick="openTab(event, 'event3')">主題日</button>
+                <button class="tab-btn" onclick="openTab(event, 'event3')">Theme Day</button>
             </div>
 
             <div id="event1" class="tab-content">
