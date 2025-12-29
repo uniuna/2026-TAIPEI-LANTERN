@@ -50,7 +50,7 @@
                                     </svg>
                                 </span>
                                 <div>
-                                    <p style="color:white; font-size:1.1rem;">機場捷運 Airport MRT</p>
+                                    <p style="color:white; font-size:1.1rem;">機場捷運</p>
                                     <p style="color:var(--text-sub); margin-top:5px;">
                                         1. 機場捷運抵達 <strong>「A1台北車站」</strong><br>
                                         2. 轉乘台北捷運板南線至 <strong>「西門站」</strong>
@@ -114,6 +114,23 @@
                                     <p style="color:white; font-size:1.1rem;">MRT</p>
                                     <p style="color:var(--text-sub); margin-top:5px;">
                                         Tamsui–Xinyi Line, <strong>Yuanshan Station</strong><br>
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="t-icon">
+                                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22 12L2 12" stroke="white" stroke-width="2" stroke-linecap="round" />
+                                        <path d="M12 12L17 4M12 12L17 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5 12L2 6M5 12L2 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="20" cy="12" r="1.5" fill="#00E5FF"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <p style="color:white; font-size:1.1rem;">機場捷運</p>
+                                    <p style="color:var(--text-sub); margin-top:5px;">
+                                        1. 機場捷運抵達 <strong>「A1台北車站」</strong><br>
+                                        2. 轉乘台北捷運淡水信義線至 <strong>「圓山站」</strong>
                                     </p>
                                 </div>
                             </li>

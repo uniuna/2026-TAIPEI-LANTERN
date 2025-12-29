@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/pages.css">
 </head>
-<body>
+<body class="no-ambient">
     <?php include 'nav.php'; ?>
 
     <header class="reminder-header">
