@@ -463,12 +463,19 @@ html {
 }
 /* 手機版橫向捲動 */
 @media (max-width: 768px) {
-    .year-tabs {
+    /* .year-tabs {
         justify-content: flex-start;
         overflow-x: auto;
         white-space: nowrap;
         padding-bottom: 10px;
         flex-wrap: nowrap;
+    } 滾軸方式 */
+    .year-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-x: visible;
+        gap: 10px;
     }
     .year-tabs .tab-btn {
         flex: 0 0 auto;
