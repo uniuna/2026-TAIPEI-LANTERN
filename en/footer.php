@@ -17,7 +17,7 @@
                 <div class="logo-box"><img src="../images/logos/logo-TMRT.png" alt="台北捷運" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-TWD.png" alt="自來水處" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-CHPost.png" alt="台北郵局" loading="lazy" decoding="async"></div>
-                <!-- <div class="logo-box"><img src="../images/logos/logo-MOTC.png" alt="觀光署" loading="lazy" decoding="async"></div> -->
+                <div class="logo-box"><img src="../images/logos/logo-TExpoF.png" alt="基金會" loading="lazy" decoding="async"></div>
             </div>
         </div>
 
