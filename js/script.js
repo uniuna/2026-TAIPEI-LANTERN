@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
 /* --------- Tab 頁籤切換功能 (event.html) --------- */
 
 function openTab(evt, tabName) {
@@ -197,6 +196,55 @@ if (highlightContainer && typeof Swiper !== 'undefined') {
 }
 
 
+/* --------- Travel.php（地圖點擊彈窗）--------- */
+
+// 開啟圖片彈窗
+function openImageModal(src) {
+    const modal = document.getElementById('imageLightbox');
+    const img = document.getElementById('lightboxImg');
+    
+    img.src = src;
+    modal.style.display = 'flex';
+    
+    setTimeout(() => {
+        modal.classList.add('active');
+    }, 10);
+}
+
+// 點擊背景關閉
+function closeImageModal(event) {
+    if (event.target.id === 'imageLightbox') {
+        closeImageModalBox();
+    }
+}
+
+// 執行關閉動作
+function closeImageModalBox() {
+    const modal = document.getElementById('imageLightbox');
+    modal.classList.remove('active');
+    setTimeout(() => {
+        modal.style.display = 'none';
+    }, 300);
+}
+
+
+/* --------- Loading 動畫控制腳本 --------- */
+
+window.addEventListener('load', function() {
+    const preloader = document.getElementById('preloader');
+    
+    // 設定一個小延遲 (例如 0.5秒)，讓動畫至少跑一下，避免閃爍
+    // 如果想要載入完立刻消失，可以把 setTimeout 去掉，直接執行內部的 code
+    setTimeout(() => {
+        if(preloader) {
+            preloader.classList.add('hide');
+        }
+    }, 800); // 800毫秒後消失
+});
+
+
+
+
 
 /* --------- 展區地圖彈窗資料庫 (ximen.html / expo.html) --------- */
 
@@ -254,11 +302,11 @@ const mapData = {
         img: '../images/items/comingsoon.jpg'
     },
     'ximen_08': {
-        title: 'No.08  金福氣',
-        name: '台北燈節設計團隊',
-        size: '直徑500X高385cm',
-        desc: '以「福運自台北而生、向城市四方擴散」為設計理念，透過象徵迎賓門的東方結構與燈節的光影語彙，打造一座屬於台北的祝福之門，主體以傳統色框架象徵富足與繁榮，紅色燈籠則象徵節慶喜氣，兩者共同構築出台北在節慶氛圍中最具代表性的城市溫度。<br>作品設計屋簷採用層層向外延伸的造型，如同台北城市脈動：艋舺廟埕的屋脊、城門的形象皆隱含其中，象徵歷史與現代交會的城市輪廓，中央圓形主燈結合吉祥語和視覺設計，象徵城市核心精神的聚光點，將來自各地的福氣凝聚在此，再透過四方燈箱像光芒般向城市散播。願市民步入燈光之中時，感受幸福環繞、好運盈門。',
-        img: '../images/items/ximen-08.jpg'
+        title: 'No.08  敬請期待！',
+        name: '',
+        size: '',
+        desc: '',
+        img: '../images/items/comingsoon.jpg'
     },
     'ximen_09': {
         title: 'No.09  敬請期待！',
@@ -296,11 +344,11 @@ const mapData = {
         img: '../images/items/comingsoon.jpg'
     },
     'ximen_14': {
-        title: 'No.14  城市光譜',
-        name: '徐于倫、舒次華',
-        size: '770X330cm、480X330cm',
-        desc: '以「光是臺北的節奏」為核心理念，將多層次拱形光環化為象徵臺北城市能量的動態光譜通道，整體造型取材自臺北的都會天際線、捷運路網與繁華夜景，並以變色光流呈現城市24小時的律動。每一圈光環代表臺北的不同城市符號包括淡水河與基隆河的城市水脈、大安森林、陽明山與城市中的綠帶、西門町、東區、信義商圈的潮流能量、臺北夜景的霓虹文化與藝文場景，燈光會沿著拱形向前流動變色，如同捷運穿梭城區、河道水光律動、夜景霓虹閃爍，形成獨一無二的「臺北光脈」視覺語彙，當民眾行走其中，能感受到臺北城市脈動的變化，象徵城市不斷前進的生命力，更是對臺北多元文化、城市節奏與夜間魅力的沉浸式詮釋。',
-        img: '../images/items/ximen-14.jpg'
+        title: 'No.14  敬請期待！',
+        name: '',
+        size: '',
+        desc: '',
+        img: '../images/items/comingsoon.jpg'
     },
     'ximen_15': {
         title: 'No.15  城門之後',
@@ -380,11 +428,11 @@ const mapData = {
         img: '../images/items/comingsoon.jpg'
     },
     'ximen_26': {
-        title: 'No.26  金彩萬華 (萬華車站)',
-        name: '台北燈節設計團隊',
-        size: '420X180X250cm',
-        desc: '《金彩萬華》以萬華在地文化為核心，以「城市記憶的光」作為主題意象，將區域內的代表性地標與人文特色化為一盞盞象徵祝福的燈籠。整體以金紅色系呈現喜慶與富足，寓意萬華長久以來蓬勃、多元又充滿生命力的街區精神，燈組中央以大幅燈籠群構成文化地圖，每一顆燈籠上標示萬華代表性地點，讓燈組不僅是一件視覺裝置，更像是一扇回望土地故事的窗口，喚起居民與遊客對艋舺文化的情感連結，而透過光影律動，《金彩萬華》讓萬華的街巷、人情、信仰與歷史再度亮起，用光彩說出屬於這個城市的深厚底蘊。',
-        img: '../images/items/ximen-26.jpg'
+        title: 'No.26  敬請期待！',
+        name: '',
+        size: '',
+        desc: '',
+        img: '../images/items/comingsoon.jpg'
     },
 
     
@@ -439,11 +487,11 @@ const mapData = {
         img: '../images/items/expo-07.jpg'
     },
     'expo_08': {
-        title: 'No.08  森光行道',
-        name: '徐志銘',
-        size: '依現地廊道設計',
-        desc: '藝術家作品以 台北自然意象為本，透過光雕演繹四段能量旅程，讓觀者走入一條由自然力量建構的光之路徑。在自然與城市交界之處，光與風、雲與水交織成一條循環的能量之道。<br>作品整體視覺概念構成以陽明山暮色雲帶象徵大地與天空之間的呼吸，夕陽餘暉化為旋轉雲絲，彷彿山嵐在傍晚升騰，帶出沈靜卻仍持續脈動的生命力。另搭配淡水河水流曲線河水以溫柔而堅定的姿態自遠方匯聚，水脈延伸至作品外環，如森中幽徑，引導民眾進入能量核心。《森光行道》將色彩與動態呈現如呼吸般平衡、流動，透過步伐感應或緩慢的節奏變化，讓光影能與民眾同步，成為一段「共感式」體驗。',
-        img: '../images/items/expo-08.jpg'
+        title: 'No.08  敬請期待！',
+        name: '',
+        size: '',
+        desc: '',
+        img: '../images/items/comingsoon.jpg'
     },
     'expo_09': {
         title: 'No.09  生之源',
@@ -614,17 +662,5 @@ function closeActualModal() {
 
 
 
-/* --------- Loading 動畫控制腳本 --------- */
-window.addEventListener('load', function() {
-    const preloader = document.getElementById('preloader');
-    
-    // 設定一個小延遲 (例如 0.5秒)，讓動畫至少跑一下，避免閃爍
-    // 如果想要載入完立刻消失，可以把 setTimeout 去掉，直接執行內部的 code
-    setTimeout(() => {
-        if(preloader) {
-            preloader.classList.add('hide');
-        }
-    }, 800); // 800毫秒後消失
-});
 
 

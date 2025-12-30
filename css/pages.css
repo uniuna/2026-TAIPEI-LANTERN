@@ -289,10 +289,8 @@ html {
     font-size: 1.1rem;
     letter-spacing: 0.2px;
     color: #dddddd;
-    text-align: left;
+    text-align: justify;
 }
-
-.desc-en{ text-align: center; }
 
 /* 手機優化 */
 @media (max-width: 768px) {
@@ -1399,6 +1397,70 @@ html {
     }
 }
 
+/* --- [新增] 旅遊頁圖片放大彈窗 (Lightbox) --- */
+
+#imageLightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* 深黑背景 */
+    z-index: 99999; /* 層級設最高 */
+    display: none; /* 預設隱藏 */
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+/* 顯示狀態 */
+#imageLightbox.active {
+    opacity: 1;
+}
+
+/* 彈窗內容容器 */
+#imageLightbox .modal-content-img {
+    position: relative;
+    max-width: 90%;
+    max-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 圖片本體 */
+#imageLightbox img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    object-fit: contain;
+}
+
+/* 關閉按鈕 */
+.close-lightbox {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+    transition: 0.3s;
+    z-index: 100000;
+}
+.close-lightbox:hover {
+    color: #FF0055;
+    transform: scale(1.1);
+}
+
+
+/* ------ */
 
 .district-container {
     display: flex;

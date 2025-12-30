@@ -15,7 +15,7 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <div style="text-align: left; max-width: 800px; margin: 0 auto; padding: 30px 20px 60px;">
+        <div style="text-align: justify; max-width: 800px; margin: 0 auto; padding: 30px 20px 60px;">
             <p style="color: var(--text-sub); font-size: 1.1rem;">
                 <strong style="color: white;">花博展區</strong> 
                 位於廣闊的圓山園區，我們將自然景觀轉化為地景藝術的畫布，利用得天獨厚的植栽與起伏地形，結合大型燈光藝術，打造出一座彷彿從童話中走出的奇幻森林。
@@ -116,8 +116,8 @@
                     <div class="lantern-item" onclick="openMapModal('expo_08')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.08  森光行道</h4>
-                                <span class="lantern-designer">徐志銘</span>
+                                <h4 class="lantern-name">No.08  敬請期待！</h4>
+                                <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -223,7 +223,7 @@
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
 
-                    <div class="lantern-item" onclick="openMapModal('expo_19')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('expo_19')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">No.19  12熊讚公仔燈組</h4>
@@ -231,7 +231,7 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div>
+                    </div> -->
 
                 </div>   
             </div>

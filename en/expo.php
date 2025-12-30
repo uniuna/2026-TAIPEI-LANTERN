@@ -15,7 +15,7 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <div style="text-align: center; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
+        <div style="text-align: justify; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
             <p style="color: var(--text-sub); font-size: 1.2rem;">
                 The Expo Park Lantern Area is located in the expansive Yuanshan Park section of Taipei Expo Park, where lush natural surroundings play host to an exhibition of large-scale lantern art. The spacious grounds and comfortable walking paths make this the perfect spot for families to enjoy a leisurely evening stroll amidst an amazing spectacle of light.
             </p>

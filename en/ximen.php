@@ -15,7 +15,7 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <div style="text-align: center; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
+        <div style="text-align: justify; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
             <p style="color: var(--text-sub); font-size: 1.2rem">
                 The Ximen Lantern Area is located in the historic district of Ximending. Here, the dazzling, cutting-edge life of Taipei lights up the night. When centuries-old heritage sites meet lanterns of a thousand magical colors, youthful energy blends with classic culture, leading you on a journey through time.
             </p>

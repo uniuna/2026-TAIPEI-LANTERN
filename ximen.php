@@ -15,7 +15,7 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <div style="text-align: left; max-width: 800px; margin: 0 auto; padding: 30px 20px 60px;">
+        <div style="text-align: justify; max-width: 800px; margin: 0 auto; padding: 30px 20px 60px;">
             <p style="color: var(--text-sub); font-size: 1.1rem">
                 <strong style="color: white">西門展區</strong> 
                 坐落於歷史情懷與次文化交織的西門町。2026年，我們將整座潮流街區轉化為大型沉浸式光廊，讓經典的地景建築與前衛燈飾
@@ -117,8 +117,8 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_08')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.08  金福氣</h4>
-                                <span class="lantern-designer">台北燈節設計團隊</span>
+                                <h4 class="lantern-name">No.08  敬請期待！</h4>
+                                <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -177,8 +177,8 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_14')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.14  城市光譜</h4>
-                                <span class="lantern-designer">徐于倫、舒次華</span>
+                                <h4 class="lantern-name">No.14  敬請期待！</h4>
+                                <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -297,8 +297,8 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_26')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.26  金彩萬華 (萬華車站)</h4>
-                                <span class="lantern-designer">台北燈節設計團隊</span>
+                                <h4 class="lantern-name">No.26  敬請期待！</h4>
+                                <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
