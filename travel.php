@@ -11,12 +11,18 @@
     <main class="container" style="padding-top: 120px; min-height: 80vh; padding-bottom: 150px;">
         
         <div class="travel-hero-grid">
-            <div class="travel-hero-img">
-                <img src="images/maps/emap-ximen.jpg" alt="西門展區簡易地圖">
+            <div class="travel-hero-img" onclick="openImageModal(this.querySelector('img').src)" style="cursor: pointer;">
+                <img src="images/maps/emap-ximen.jpg" alt="西門">
             </div>
             
-            <div class="travel-hero-img">
-                <img src="images/maps/emap-expo.jpg" alt="花博展區簡易地圖">
+            <div class="travel-hero-img" onclick="openImageModal(this.querySelector('img').src)" style="cursor: pointer;">
+                <img src="images/maps/emap-expo.jpg" alt="花博">
+            </div>
+        </div>
+        <div id="imageLightbox" class="modal-overlay" onclick="closeImageModal(event)" style="display: none;">
+            <div class="modal-content" style="background: transparent; box-shadow: none; border: none; width: auto; max-width: 90%; padding: 0;">
+                <span class="close-modal" onclick="closeImageModalBox()" style="position: absolute; top: -40px; right: 0; color: white; opacity: 0.8; font-size: 2rem;">&times;</span>
+                <img id="lightboxImg" src="" style="width: 100%; height: auto; max-height: 85vh; object-fit: contain; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.8);">
             </div>
         </div>
 
@@ -274,6 +280,47 @@
             </div>
         </section>
     </main>
+
+
+    <div id="imageLightbox" class="modal-overlay" onclick="closeImageModal(event)" style="display: none;">
+        <div class="modal-content" style="background: transparent; box-shadow: none; border: none; width: auto; max-width: 90%; padding: 0;">
+            <span class="close-modal" onclick="closeImageModalBox()" style="position: absolute; top: -40px; right: 0; color: white; opacity: 0.8; font-size: 2rem;">&times;</span>
+            <img id="lightboxImg" src="" style="width: 100%; height: auto; max-height: 85vh; object-fit: contain; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.8);">
+        </div>
+    </div>
+
+    <script>
+        // 開啟圖片彈窗
+        function openImageModal(src) {
+            const modal = document.getElementById('imageLightbox');
+            const img = document.getElementById('lightboxImg');
+            
+            // 設定圖片路徑
+            img.src = src;
+            
+            // 顯示彈窗 (強制覆蓋 CSS 隱藏屬性)
+            modal.style.display = 'flex';
+            
+            // 給予一點延遲讓透明度動畫生效 (如果 styles.css 有 transition)
+            setTimeout(() => {
+                modal.classList.add('active');
+            }, 10);
+        }
+
+        // 點擊背景關閉
+        function closeImageModal(event) {
+            if (event.target.id === 'imageLightbox') {
+                closeImageModalBox();
+            }
+        }
+
+        // 執行關閉動作
+        function closeImageModalBox() {
+            const modal = document.getElementById('imageLightbox');
+            modal.classList.remove('active');
+            modal.style.display = 'none';
+        }
+    </script>
 
     <?php include 'footer.php'; ?>
     <script src="js/script.js"></script>

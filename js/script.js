@@ -627,3 +627,4 @@ window.addEventListener('load', function() {
     }, 800); // 800毫秒後消失
 });
 
+
