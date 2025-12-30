@@ -292,12 +292,15 @@ html {
     text-align: left;
 }
 
+.desc-en{ text-align: center; }
+
 /* 手機優化 */
 @media (max-width: 768px) {
     .section-intro {
         padding: 14px 16px;
         margin-bottom: 20px;
     }
+    .desc-en{ text-align: left; }
 }
 
 .map-selection {
