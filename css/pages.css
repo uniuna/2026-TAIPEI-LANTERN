@@ -42,7 +42,7 @@ html {
 
 .scroll-down {
   position: absolute;
-  bottom: 550px; 
+  bottom: 500px; 
   left: 50%;
   transform: translateX(-50%);
   color: white;
@@ -1441,26 +1441,7 @@ html {
     object-fit: contain;
 }
 
-/* 關閉按鈕 */
-.close-lightbox {
-    position: absolute;
-    top: -40px;
-    right: 0;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    cursor: pointer;
-    line-height: 1;
-    transition: 0.3s;
-    z-index: 100000;
-}
-.close-lightbox:hover {
-    color: #FF0055;
-    transform: scale(1.1);
-}
-
-
-/* ------ */
+/* ------------------------ */
 
 .district-container {
     display: flex;

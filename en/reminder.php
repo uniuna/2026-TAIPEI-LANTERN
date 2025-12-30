@@ -15,7 +15,7 @@
     </header>
 
     <main class="container">
-        <h2 class="section-title reminder-intro">2026 Taipei Lantern Festival</h2>
+        <h2 class="section-title reminder-intro">2026 Taipei Lantern Festival: Friendly Reminders</h2>
 
         <div class="reminder-grid">
             
@@ -26,8 +26,8 @@
                         <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
                     </svg>
                 </div>
-                <h3>Safety of Belongings</h3>
-                <p>Due to the crowded, please keep your personal belongings and valuables secure at all times and beware of pickpockets.</p>
+                <h3>Safeguard Personal Belongings</h3>
+                <p style="font-size: 1rem;">The festival will be crowded. Please stay alert, keep a close eye on your belongings and valuables, and be mindful of pickpockets.</p>
             </div>
 
             <div class="reminder-card">
@@ -39,8 +39,8 @@
                         <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     </svg>
                 </div>
-                <h3>Safety of Children</h3>
-                <p>Please keep an eyes on children. To prevent the risk of children getting lost, please ensure they remain in your sight.</p>
+                <h3>Child Safety</h3>
+                <p style="font-size: 1rem;">Parents, please watch your children closely at all times. Keep them within your sight so they do not get lost.</p>
             </div>
 
             <div class="reminder-card">
@@ -51,8 +51,8 @@
                         <line x1="12" y1="17" x2="12.01" y2="17"></line>
                     </svg>
                 </div>
-                <h3>Information desk</h3>
-                <p>Ximen Area and Taipei Expo Park Area has an information desk, if you have an emergency ,please contact the staff.</p>
+                <h3>Service Desks</h3>
+                <p style="font-size: 1rem;">Service desks are located in both the Ximen and Expo Park lantern areas. If you need emergency assistance, please contact our staff.</p>
             </div>
 
         </div>
