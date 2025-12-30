@@ -42,7 +42,7 @@ html {
 
 .scroll-down {
   position: absolute;
-  bottom: 400px; 
+  bottom: 550px; 
   left: 50%;
   transform: translateX(-50%);
   color: white;

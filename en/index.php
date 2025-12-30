@@ -62,8 +62,11 @@
         <section id="news" class="container" style="padding-bottom: 20px; margin-top: -250px; position: relative; z-index: 10;">
             <h2 class="section-title">Introducing the Lantern Display Areas</h2>
             <div class="section-intro">
-                <p class="section-description">
-                    In 2026, the Taipei Lantern Festival expands beyond a single venue, taking place at the same time in Ximending and Taipei Expo Park. At double the scale, with two theme displays and lantern art areas, the festival connects the bustling streets of Ximending with the relaxed atmosphere of Taipei Expo Park. Illuminated by the brilliance of joyous lanterns, visitors can also explore the shops in the nearby commercial districts and find a deeper connection with Taipei’s local cuisine and cultural magnetism. This year, the Lantern Festival is transforming into a major highlight promoting tourism in Taipei City.
+                <p class="section-description" style="text-align: center;">
+                    In 2026, the Taipei Lantern Festival expands beyond a single venue, taking place at the same time in Ximending and Taipei Expo Park. 
+                    At double the scale, with two theme displays and lantern art areas, the festival connects the bustling streets of Ximending with the relaxed atmosphere of Taipei Expo Park. <br><br>
+                    Illuminated by the brilliance of joyous lanterns, visitors can also explore the shops in the nearby commercial districts and find a deeper connection with Taipei’s local cuisine and cultural magnetism. <br>
+                    This year, the Lantern Festival is transforming into a major highlight promoting tourism in Taipei City.
                 </p>
             </div>
             <div class="map-selection">
