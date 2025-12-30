@@ -35,7 +35,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <ul class="dropdown-content">
                 <li><a href="travel.php">周邊商圈/景點</a></li>
                 <li><a href="accommodation.php">旅宿資訊/優惠</a></li>
-                <li><a href="itinerary.php">旅程推薦</a></li>
+                <li><a href="itinerary.php">遊程推薦</a></li>
             </ul>
         </li>
 

@@ -22,7 +22,7 @@
         </div>
 
         <section class="container">
-            <h2 class="section-title">Coming Soon ...</h2>
+            <h2 class="section-title">Coming Soon</h2>
             <!-- <h2 class="section-title">Ximen Area Map</h2> -->
             <div class="zone-block" style="margin-bottom: 80px;">
                 

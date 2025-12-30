@@ -10,7 +10,7 @@
 
     <header class="zone-header-expo">
         <div>
-            <h1 class="zone-title-large">Taipei EXPO Area</h1>
+            <h1 class="zone-title-large">Taipei Expo Park Area</h1>
         </div>
     </header>
 
@@ -22,7 +22,7 @@
         </div>
 
         <section class="container">
-            <h2 class="section-title">Coming Soon ...</h2>
+            <h2 class="section-title">Coming Soon</h2>
             <!-- <h2 class="section-title">Taipei Expo Park Area Map</h2> -->
             <div class="zone-block" style="margin-bottom: 80px;">
                 

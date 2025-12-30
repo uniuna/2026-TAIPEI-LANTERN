@@ -18,7 +18,7 @@
         
         <section>
             
-            <h2 class="section-title reminder-intro" >Coming Soon ...</h2>
+            <h2 class="section-title reminder-intro" >Coming Soon</h2>
             
         </section>
 

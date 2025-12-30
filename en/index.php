@@ -83,7 +83,7 @@
                 <a href="expo.php" class="map-card" id="expo-map">
                     <div class="map-bg" style="background-image: url('../images/links/Link-expo_1920x1080.jpg');"></div>
                     <div class="map-overlay">
-                        <h3 style="letter-spacing:0px;">Taipei EXPO Area</h3>
+                        <h3 style="letter-spacing:0px;">Taipei Expo Park Area</h3>
                         <span class="scan-line"></span>
                     </div>
                 </a>
