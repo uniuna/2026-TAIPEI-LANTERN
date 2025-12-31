@@ -34,6 +34,7 @@
                 <div class="logo-box"><img src="images/logos/logo-CityGodTemple.png" alt="省城隍廟" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="images/logos/logo-MazuTemple.png" alt="天后宮" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="images/logos/logo-Ciyou.png" alt="慈祐宮" loading="lazy" decoding="async"></div>
+                <div class="logo-box"><img src="images/logos/logo-LungShan.png" alt="龍山寺" loading="lazy" decoding="async"></div>
             </div>
         </div>
     </div>
