@@ -117,12 +117,12 @@
             </div>
         </section>
 
-        <!-- <section class="container">
+        <section class="container">
             <h2 class="section-title">Audiovisual Area</h2>
             <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
-                <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/gp7V4k_gLGc?si=lhhiHCpnIOEjL3Rg" frameborder="0" allowfullscreen></iframe>
+                <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/YpZChB2fTMU?si=dsvU6YcjPFhumVYl" frameborder="0" allowfullscreen></iframe>
             </div>
-        </section> -->
+        </section>
 
         <section style="padding: 80px 0 40px;">
         <h2 class="section-title">Highlights from the Past</h2>
