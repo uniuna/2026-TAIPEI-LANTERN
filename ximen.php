@@ -30,17 +30,17 @@
             <h2 class="section-title">西門展區地圖</h2>
             <div class="zone-block" style="margin-bottom: 80px;">
                 
-                <div id="map-theme-1" class="interactive-map-container">
+                <!-- <div id="map-theme-1" class="interactive-map-container">
                     <img src="images/maps/map-ximen.jpg" alt="西門展區地圖">
-                    <!-- <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
+                    <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
                         onclick="openMapModal('ximen-main')"></div>
                     <div class="map-hotspot" style="top: 60%; left: 37%;border-color:#FF0055;"
                         onclick="openMapModal('ximen-ip1')"></div>
                     <div class="map-hotspot" style="top: 72%; left: 38.5%;border-color:#FF0055;"
                         onclick="openMapModal('ximen-ip2')"></div>
                     <div class="map-hotspot" style="top: 79.5%; left: 36.5%;border-color:#FF0055;"
-                        onclick="openMapModal('ximen-ip3')"></div> -->
-                </div>
+                        onclick="openMapModal('ximen-ip3')"></div>
+                </div> -->
 
                 <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
                     

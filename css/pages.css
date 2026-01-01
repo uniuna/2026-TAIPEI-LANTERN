@@ -298,7 +298,7 @@ html {
         padding: 14px 16px;
         margin-bottom: 20px;
     }
-    .desc-en{ text-align: left; }
+    /* .desc-en{ text-align: left; } */
 }
 
 .map-selection {
@@ -664,6 +664,14 @@ html {
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
 }
+/* RWD 手機版調整 */
+  @media (max-width: 768px) {
+      .zone-title-large {
+        font-size: 2.5rem;
+        border: 3px solid var(--accent-color);
+        padding: 10px 30px;
+      }
+  }
 
 /* --- 互動地圖專用樣式 --- */
 /* 1. 地圖容器 (必須是 relative，讓裡面的點可以定位) */
