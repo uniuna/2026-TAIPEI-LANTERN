@@ -77,7 +77,7 @@
                             </li>
                         </ul>
                         
-                        <a href="https://maps.app.goo.gl/MaEAJ51GtdFD6QnWA" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map</a>
+                        <a href="https://maps.app.goo.gl/ymNWZniLJ5JsejaJ9" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map</a>
                         
                         <!-- <a href="../images/maps/emap-ximen-en.jpg" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Simple Map</a> -->
                         <!-- <a href="../info/2026-TAIPEI-LANTERN-XIMEN.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">

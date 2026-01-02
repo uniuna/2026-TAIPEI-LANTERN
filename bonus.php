@@ -15,6 +15,7 @@
             <div class="tab-buttons events-tab-wrapper">
                 <button class="tab-btn active" onclick="openTab(event, 'event1')">漢衣相逢．榮町漫遊</button>
                 <button class="tab-btn" onclick="openTab(event, 'event2')">來台北有購嗨</button>
+                <button class="tab-btn" onclick="openTab(event, 'event3')">2025閃耀! 捷運光聚落 立在光年</button>
                 </div>
 
             <div id="event1" class="tab-content active">
@@ -68,6 +69,29 @@
 
                         <div class="featured-action">
                              <a href="https://2026newyear.taipei/event-05" target="_blank" class="btn-main">
+                                了解更多 >
+                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="event3" class="tab-content">
+                <div class="featured-event-card">
+                    
+                    <div class="featured-img-box">
+                        <img src="images/events/metro-taipei.jpg" alt="2025閃耀! 捷運光聚落 立在光年">
+                    </div>
+
+                    <div class="featured-content">
+                        <h3 class="featured-title">2025閃耀! 捷運光聚落 立在光年</h3>
+                        
+                        <p class="featured-desc">
+                            「2025閃耀!捷運光聚落」再度點亮歲末的臺北！即日起至3月15日，臺北捷運公司打造全長近1公里的夢幻光廊，串聯心中山線形公園、心雙連線形公園，更首度將展區延伸至心中山線形公園南段。
+                        </p>
+
+                        <div class="featured-action">
+                             <a href="https://www.metro.taipei/News_Content.aspx?n=30CCEFD2A45592BF&sms=72544237BBE4C5F6&s=BB44EF7BD7079631" target="_blank" class="btn-main">
                                 了解更多 >
                              </a>
                         </div>
