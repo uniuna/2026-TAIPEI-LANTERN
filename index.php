@@ -37,29 +37,22 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <!-- <section id="news" class="news-section">
+        <section id="news" class="news-section">
             <h2 class="section-title">最新消息</h2>
             <div class="news-header">
-                <a href="#" class="news-more">MORE +</a>
+                <a href="news_list.php" class="news-more">新聞總覽 ></a>
             </div>
             
             <div class="news-list">
-                <a href="#" class="news-item">
-                    <span class="news-date">2026.02.10</span>
-                    <span class="news-text">【公告】因應天候狀況，今晚無人機展演時間延後至 20:30。</span>
+                <a href="news_260104.php" class="news-item">
+                    <span class="news-date">2026.01.04</span>
+                    <span class="news-text">台北道場響應「2026台北燈節」 以光影傳遞和諧共生與祝福 ...</span>
                 </a>
-                <a href="#" class="news-item">
-                    <span class="news-date">2026.02.08</span>
-                    <span class="news-text">西門主燈「光之巨人」每晚 18:00 起，每半小時展演一場。</span>
-                </a>
-                <a href="#" class="news-item">
-                    <span class="news-date">2026.02.01</span>
-                    <span class="news-text">交通管制提醒：市民廣場周邊路段將於每日 17:00 進行封路。</span>
-                </a>
+                
             </div>
-        </section> -->
+        </section>
 
-        <section id="news" class="container" style="padding-bottom: 20px; margin-top: -250px; position: relative; z-index: 10;">
+        <section class="container" style="padding-bottom: 20px;">
             <h2 class="section-title">展區介紹</h2>
             <div class="section-intro">
                 <p class="section-description">

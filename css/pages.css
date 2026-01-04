@@ -120,9 +120,11 @@ html {
 }
 .news-more {
   font-size: 1rem;
-  font-weight: bold;
   color: var(--text-sub);
   margin-left: auto;
+}
+.news-more:hover {
+  color: white;
 }
 .news-list {
   display: flex;
@@ -144,7 +146,6 @@ html {
   transform: translateX(5px);
 }
 .news-date {
-  /* font-family: monospace; */
   color: var(--accent-color);
   margin-right: 20px;
   font-size: 1.1rem;
@@ -155,6 +156,149 @@ html {
   flex: 1;
   font-size: 1.1rem;
 }
+
+/* --- 新聞總覽頁 (Card List) --- */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.news-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-card:hover {
+    transform: translateY(-10px);
+    /* border-color: var(--accent-color);  */
+    box-shadow: 0 10px 30px rgba(0, 229, 255, 0.15);
+}
+
+.news-img-box {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.news-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.news-card:hover .news-img-box img {
+    transform: scale(1.1);
+}
+
+.news-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-list-date {
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.news-list-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    color: white;
+    font-weight: bold;
+}
+
+.news-excerpt {
+    font-size: 0.95rem;
+    color: var(--text-sub);
+    margin-bottom: 20px;
+    line-height: 1.6;
+    display: -webkit-box;
+    /* -webkit-line-clamp: 3;  */
+    /* 限制顯示3行 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.news-card:hover .btn-more {
+    background: var(--accent-color);
+    color: black;
+    border-color: var(--accent-color);
+}
+
+/* --- 新聞內頁 (Article Detail) --- */
+.article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.article-header {
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 30px;
+}
+
+.article-title {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.article-meta {
+    color: var(--text-sub);
+    font-size: 0.95rem;
+    display: flex;
+    gap: 20px;
+}
+
+.article-body {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #ddd;
+}
+
+.article-body p {
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.article-body img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+}
+.btn-back:hover {
+    background: white;
+    color: black;
+}
+
 
 /* --- 平板版 RWD 設定 (針對 iPad/Tablet 直立或橫放) --- */
 /* 設定範圍：小於 1024px (平板) 但大於 768px (手機會吃下面的設定) */
@@ -1558,7 +1702,6 @@ html {
 
 .btn-more:hover {
     letter-spacing: 1px; 
-    font-weight: bold;
 }
 
 /* 手機版優化 */
@@ -1628,7 +1771,6 @@ html {
     margin-bottom: 10px;
 }
 
-/* Day 1, Day 2 的小標題 */
 .day-title {
     color: var(--accent-color); /* 科技藍 */
     font-size: 1.1rem;
