@@ -64,7 +64,7 @@
                 </p>
             </div>
             <div class="map-selection">
-                <a href="ximen.php" class="map-card" id="ximen-map">
+                <a href="ximen" class="map-card" id="ximen-map">
                     <div class="map-bg"
                         style="background-image: url('images/links/Link-ximen_1920x1080.jpg');">
                     </div>
@@ -74,7 +74,7 @@
                     </div>
                 </a>
 
-                <a href="expo.php" class="map-card" id="expo-map">
+                <a href="expo" class="map-card" id="expo-map">
                     <div class="map-bg" style="background-image: url('images/links/Link-expo_1920x1080.jpg');"></div>
                     <div class="map-overlay">
                         <h3>花博展區</h3>
@@ -88,21 +88,21 @@
             <h2 class="section-title">探索更多</h2>
             <div class="nav-grid">
 
-                <a href="events.php" class="nav-card">
+                <a href="events" class="nav-card">
                     <div class="nav-bg" style="background-image: url('images/links/Link-img-01_800x600.jpg');"></div>
                     <div class="nav-text">
                         <h3>精彩活動</h3>
                     </div>
                 </a>
 
-                <a href="travel.php" class="nav-card">
+                <a href="travel" class="nav-card">
                     <div class="nav-bg" style="background-image: url('images/links/Link-img-02_800x600.jpg');"></div>
                     <div class="nav-text">
                         <h3>旅遊資訊</h3>
                     </div>
                 </a>
 
-                <a href="traffic.php" class="nav-card">
+                <a href="traffic" class="nav-card">
                     <div class="nav-bg" style="background-image: url('images/links/Link-img-03_800x600.jpg');"></div>
                     <div class="nav-text">
                         <h3>交通方式</h3>
