@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# 1. 如果使用者輸入的是目錄，就不處理 (防止首頁壞掉)
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# 2. 如果使用者輸入的檔名對應得到 .php 檔案
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+# 3. 就把網址重寫，隱藏 .php
+RewriteRule ^(.*)$ $1.php [L]

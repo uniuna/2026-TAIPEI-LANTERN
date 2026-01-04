@@ -87,7 +87,7 @@ html {
 /* --------- 最新消息 (index.html) --------- */
 .news-section {
   /* [新增] 關鍵設定：負邊距讓區塊往上拉 */
-  margin-top: -250px; 
+  margin-top: -260px; 
   position: relative; /* 必須設定相對定位 */
   z-index: 10;        /* 確保層級比 Hero 高，這樣才能蓋在圖片上 */
 
@@ -339,8 +339,7 @@ html {
 
   /* 2. 最新消息區塊：調整上浮程度 */
   .news-section {
-    /* 負邊距 (介於電腦 -250px 與 手機 -400px 之間) */
-    margin-top: -320px; 
+    margin-top: -250px; 
     
     /* 內距微調 */
     padding-top: 40px; 
@@ -348,10 +347,8 @@ html {
     padding-right: 30px;
   }
 
-  /* 3. Scroll Down 按鈕：位置配合調整 */
   .scroll-down {
-    /* 配合 News 上移，按鈕也要提上來 */
-    bottom: 280px; 
+    display: none;
   }
 }
 
@@ -394,7 +391,7 @@ html {
   /* 2. 最新消息區塊：往上拉，產生重疊效果 */
   .news-section {
     /* [關鍵] 負邊距：讓區塊往上浮蓋住 Hero 的底部 */
-    margin-top: -400px; 
+    margin-top: -150px; 
     padding-top: 30px; 
     padding-left: 15px;
     padding-right: 15px;

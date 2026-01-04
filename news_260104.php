@@ -52,7 +52,7 @@
         </article>
 
         <div style="text-align: center;">
-            <a href="news_list.php" class="btn-back">新聞總覽</a>
+            <!-- <a href="news_list.php" class="btn-back">新聞總覽</a> -->
         </div>
     </main>
 

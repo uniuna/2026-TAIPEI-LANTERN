@@ -40,11 +40,11 @@
         <section id="news" class="news-section">
             <h2 class="section-title">最新消息</h2>
             <div class="news-header">
-                <a href="news_list.php" class="news-more">新聞總覽 ></a>
+                <!-- <a href="news_list" class="news-more">新聞總覽 ></a> -->
             </div>
             
             <div class="news-list">
-                <a href="news_260104.php" class="news-item">
+                <a href="news_260104" class="news-item">
                     <span class="news-date">2026.01.04</span>
                     <span class="news-text">台北道場響應「2026台北燈節」 以光影傳遞和諧共生與祝福 ...</span>
                 </a>
