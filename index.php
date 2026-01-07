@@ -40,7 +40,7 @@
         <section id="news" class="news-section">
             <h2 class="section-title">最新消息</h2>
             <div class="news-header">
-                <!-- <a href="news_list" class="news-more">新聞總覽 ></a> -->
+                <a href="news_list" class="news-more">新聞總覽 ></a>
             </div>
             
             <div class="news-list">
