@@ -30,11 +30,11 @@
                 <div class="logo-box"><img src="images/logos/logo-Ciyou.png" alt="慈祐宮" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="images/logos/logo-LungShan.png" alt="龍山寺" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="images/logos/logo-Fubon.png" alt="富邦" loading="lazy" decoding="async"></div>
-                <div class="logo-box"><img src="images/logos/logo-TWM.png" alt="台哥大" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="images/logos/logo-FarEastern.png" alt="遠東" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="images/logos/logo-Cathay.png" alt="國泰" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="images/logos/logo-ShinKong.png" alt="台新新光" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="images/logos/logo-TingHsin.png" alt="頂新" loading="lazy" decoding="async"></div>   
+                <div class="logo-box"><img src="images/logos/logo-TWM.png" alt="台哥大" loading="lazy" decoding="async"></div>
             </div>
         </div>
     </div>
