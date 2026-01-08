@@ -402,6 +402,11 @@ html {
   .scroll-down {
     display: none; 
   }
+
+  .article-container {
+    padding: 10px;
+}
+
 }
 
 
