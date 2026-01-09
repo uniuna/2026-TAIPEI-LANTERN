@@ -24,7 +24,7 @@
         <div class="sponsor-group">
             <h4>Sponsor</h4>
             <div class="logo-row">
-                <div class="logo-box"><img src="../images/logos/logo-CityGodTemple.png" alt="省城隍廟" loading="lazy" decoding="async"></div>
+                <div class="logo-box" style="min-width: 60px;"><img src="../images/logos/logo-CityGodTemple.png" alt="省城隍廟" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-MazuTemple.png" alt="天后宮" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo--Ci-Hui.png" alt="慈惠堂" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-Ciyou.png" alt="慈祐宮" loading="lazy" decoding="async"></div>
