@@ -1363,7 +1363,75 @@ html {
 }
 
 
-/* --- 同場加映 (bonus.php) 旗艦活動卡片樣式 (置中大圖版) --- */
+/* --- 同場加映：雙層頁籤系統 (bouns.php) --- */
+/* 第一層：主分類選單 */
+.main-category-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.main-cat-btn {
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main-cat-btn:hover,
+.main-cat-btn.active {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.4);
+}
+
+/* 主分類內容容器 */
+.main-cat-content {
+    display: none; /* 預設隱藏 */
+    animation: fadeIn 0.5s ease;
+}
+
+.main-cat-content.active {
+    display: block; /* 加上 active 才顯示 */
+}
+
+/* 第二層：子分類選單 (針對場館響應) */
+/* 讓它跟原本的樣式稍微區隔，或者沿用您原本的 nav-tabs */
+.sub-category-nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.sub-cat-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: var(--text-sub);
+    padding: 6px 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub-cat-btn:hover,
+.sub-cat-btn.active {
+    color: white;
+    /* background: rgba(255, 255, 255, 0.3); */
+    background: var(--accent-color);
+    color: #000;
+}
+
+/* --- 場館響應 頁面樣式 --- */
 /* 1. 卡片容器 */
 .featured-event-card {
     display: flex;

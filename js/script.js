@@ -28,6 +28,36 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+
+/* --------- Tab 頁籤切換功能 (index.html) --------- */
+
+function openYearTab(evt, tabId) {
+    // 1. 隱藏所有年份內容
+    const contents = document.getElementsByClassName("year-content");
+    for (let i = 0; i < contents.length; i++) {
+        contents[i].classList.remove("active");
+        contents[i].style.display = "none";
+    }
+
+    // 2. 移除所有按鈕 active 狀態
+    const buttons = document.querySelectorAll(".year-tabs .tab-btn");
+    buttons.forEach(btn => btn.classList.remove("active"));
+
+    // 3. 顯示選中的年份
+    const target = document.getElementById(tabId);
+    if (target) {
+        target.style.display = "block";
+        setTimeout(() => {
+            target.classList.add("active");
+        }, 10);
+    }
+
+    // 4. 按鈕設為 active
+    evt.currentTarget.classList.add("active");
+}
+
+
+
 /* --------- Tab 頁籤切換功能 (event.html) --------- */
 
 function openTab(evt, tabName) {
@@ -84,31 +114,86 @@ function openExtraTab(evt, tabName) {
 
 
 
-/* --------- 年份 Tab 頁籤切換功能 (index.html) --------- */
+/* --------- 雙層 Tab 切換功能 (activities.html) --------- */
 
-function openYearTab(evt, tabId) {
-    // 1. 隱藏所有年份內容
-    const contents = document.getElementsByClassName("year-content");
+// --- 第一層：主分類切換 ---
+function switchMainCat(catId, btnElement) {
+    // 1. 隱藏所有主內容區塊
+    const contents = document.getElementsByClassName('main-cat-content');
     for (let i = 0; i < contents.length; i++) {
-        contents[i].classList.remove("active");
-        contents[i].style.display = "none";
+        contents[i].classList.remove('active');
     }
 
-    // 2. 移除所有按鈕 active 狀態
-    const buttons = document.querySelectorAll(".year-tabs .tab-btn");
-    buttons.forEach(btn => btn.classList.remove("active"));
-
-    // 3. 顯示選中的年份
-    const target = document.getElementById(tabId);
-    if (target) {
-        target.style.display = "block";
-        setTimeout(() => {
-            target.classList.add("active");
-        }, 10);
+    // 2. 移除所有主按鈕的 active 狀態
+    const btns = document.getElementsByClassName('main-cat-btn');
+    for (let i = 0; i < btns.length; i++) {
+        btns[i].classList.remove('active');
     }
 
-    // 4. 按鈕設為 active
-    evt.currentTarget.classList.add("active");
+    // 3. 顯示目標區塊
+    document.getElementById('cat-' + catId).classList.add('active');
+
+    // 4. 設定當前按鈕為 active
+    btnElement.classList.add('active');
+}
+
+
+// --- 第二層：原本的 Tab 切換 (保持不變，稍作微調) ---
+function openTab(evt, tabName) {
+    // 1. 隱藏所有 tab-content
+    // 注意：這裡只抓取 "當前顯示的主分類" 下面的 tab-content 會比較安全，
+    // 但如果 ID 不重複，直接抓 ID 也可以。
+    var i, tabcontent, tablinks;
+    
+    tabcontent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // 2. 移除 sub-cat-btn 的 active
+    tablinks = document.getElementsByClassName("sub-cat-btn");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // 3. 顯示目標
+    document.getElementById(tabName).style.display = "block";
+    
+    // 4. 按鈕亮起
+    evt.currentTarget.className += " active";
+}
+
+
+
+/* --------- 地圖點擊彈窗 (Travel.php）--------- */
+
+// 開啟圖片彈窗
+function openImageModal(src) {
+    const modal = document.getElementById('imageLightbox');
+    const img = document.getElementById('lightboxImg');
+    
+    img.src = src;
+    modal.style.display = 'flex';
+    
+    setTimeout(() => {
+        modal.classList.add('active');
+    }, 10);
+}
+
+// 點擊背景關閉
+function closeImageModal(event) {
+    if (event.target.id === 'imageLightbox') {
+        closeImageModalBox();
+    }
+}
+
+// 執行關閉動作
+function closeImageModalBox() {
+    const modal = document.getElementById('imageLightbox');
+    modal.classList.remove('active');
+    setTimeout(() => {
+        modal.style.display = 'none';
+    }, 300);
 }
 
 
@@ -138,6 +223,24 @@ document.addEventListener("DOMContentLoaded", function() {
         observer.observe(footer);
     }
 });
+
+
+
+/* --------- Loading 動畫控制腳本 --------- */
+
+window.addEventListener('load', function() {
+    const preloader = document.getElementById('preloader');
+    
+    // 設定一個小延遲 (例如 0.5秒)，讓動畫至少跑一下，避免閃爍
+    // 如果想要載入完立刻消失，可以把 setTimeout 去掉，直接執行內部的 code
+    setTimeout(() => {
+        if(preloader) {
+            preloader.classList.add('hide');
+        }
+    }, 800); // 800毫秒後消失
+});
+
+
 
 
 
@@ -196,51 +299,8 @@ if (highlightContainer && typeof Swiper !== 'undefined') {
 }
 
 
-/* --------- Travel.php（地圖點擊彈窗）--------- */
-
-// 開啟圖片彈窗
-function openImageModal(src) {
-    const modal = document.getElementById('imageLightbox');
-    const img = document.getElementById('lightboxImg');
-    
-    img.src = src;
-    modal.style.display = 'flex';
-    
-    setTimeout(() => {
-        modal.classList.add('active');
-    }, 10);
-}
-
-// 點擊背景關閉
-function closeImageModal(event) {
-    if (event.target.id === 'imageLightbox') {
-        closeImageModalBox();
-    }
-}
-
-// 執行關閉動作
-function closeImageModalBox() {
-    const modal = document.getElementById('imageLightbox');
-    modal.classList.remove('active');
-    setTimeout(() => {
-        modal.style.display = 'none';
-    }, 300);
-}
 
 
-/* --------- Loading 動畫控制腳本 --------- */
-
-window.addEventListener('load', function() {
-    const preloader = document.getElementById('preloader');
-    
-    // 設定一個小延遲 (例如 0.5秒)，讓動畫至少跑一下，避免閃爍
-    // 如果想要載入完立刻消失，可以把 setTimeout 去掉，直接執行內部的 code
-    setTimeout(() => {
-        if(preloader) {
-            preloader.classList.add('hide');
-        }
-    }, 800); // 800毫秒後消失
-});
 
 
 

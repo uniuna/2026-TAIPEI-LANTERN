@@ -8,15 +8,47 @@
 <body>
     <?php include 'nav.php'; ?>
 
-    <main class="container events-main">
-        <section>
-            <h2 class="section-title">同場加映</h2>
+    <main class="container" style="padding-top: 120px; min-height: 80vh; padding-bottom: 100px;">
+        
+        <h2 class="section-title">同場加映</h2>
+
+        <div class="main-category-nav">
+            <!-- <button class="main-cat-btn" onclick="switchMainCat('market', this)">萬華市集</button> -->
+            <button class="main-cat-btn" onclick="switchMainCat('temple', this)">宮廟活動</button>
+            <button class="main-cat-btn" onclick="switchMainCat('shop', this)">商圈活動</button>
+            <button class="main-cat-btn active" onclick="switchMainCat('venue', this)">場館響應</button>
+        </div>
+
+        <div id="cat-market" class="main-cat-content">
+            <div style="text-align: center; padding: 50px; color: var(--text-sub);">
+                <h3>萬華市集精彩活動</h3>
+                <p>資料整理中，敬請期待...</p>
+            </div>
+        </div>
+
+        <div id="cat-temple" class="main-cat-content">
+            <div style="text-align: center; padding: 50px; color: var(--text-sub);">
+                <h3>宮廟祈福系列活動</h3>
+                <p>資料整理中，敬請期待...</p>
+            </div>
+        </div>
+
+        <div id="cat-shop" class="main-cat-content">
+            <div style="text-align: center; padding: 50px; color: var(--text-sub);">
+                <h3>商圈優惠與活動</h3>
+                <p>資料整理中，敬請期待...</p>
+            </div>
+        </div>
+
+        <div id="cat-venue" class="main-cat-content active">
             
-            <div class="tab-buttons events-tab-wrapper">
-                <button class="tab-btn active" onclick="openTab(event, 'event1')">漢衣相逢．榮町漫遊</button>
-                <button class="tab-btn" onclick="openTab(event, 'event2')">來台北有購嗨</button>
-                <button class="tab-btn" onclick="openTab(event, 'event3')">2025閃耀! 捷運光聚落 立在光年</button>
-                </div>
+            <div class="sub-category-nav">
+                <button class="sub-cat-btn active" onclick="openTab(event, 'event1')">漢衣相逢</button>
+                <button class="sub-cat-btn" onclick="openTab(event, 'event2')">來台北有購嗨</button>
+                <button class="sub-cat-btn" onclick="openTab(event, 'event3')">2025閃耀!捷運光聚落</button>
+                <!-- <button class="sub-cat-btn" onclick="openTab(event, 'event4')">台北地下街</button> -->
+                <!-- <button class="sub-cat-btn" onclick="openTab(event, 'event5')">貓空纜車</button> -->
+            </div>
 
             <div id="event1" class="tab-content active">
                 <div class="featured-event-card">
@@ -99,9 +131,7 @@
                 </div>
             </div>
 
-        </section>
-
-    </main>
+        </div> </main>
 
     <?php include 'footer.php'; ?>
     <script src="js/script.js"></script>
