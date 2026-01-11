@@ -25,7 +25,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>城南歷史之旅</h3>
-                        <span class="tag">路線一</span>
+                        <span class="tag-blue">路線一</span>
                     </div>
                     <div class="route-path">
                         中正紀念堂／國立臺灣博物館南門館 <span>⟶</span> 南門市場 <span>⟶</span> 植物園／孫運璿科技•人文紀念館／郵政博物館 <span>⟶</span> 南機場夜市 <span>⟶</span> 西門展區賞燈
@@ -35,7 +35,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>舊城書香之行</h3>
-                        <span class="tag">路線二</span>
+                        <span class="tag-blue">路線二</span>
                     </div>
                     <div class="route-path">
                         國立臺灣博物館 <span>⟶</span> 榮町商圈 <span>⟶</span> 重慶南路書店商圈／北門相機商圈 <span>⟶</span> 西門町 <span>⟶</span> 西門展區賞燈
@@ -45,7 +45,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>草山童趣之旅</h3>
-                        <span class="tag">路線三</span>
+                        <span class="tag-blue">路線三</span>
                     </div>
                     <div class="route-path">
                         陽明山擎天崗、冷水坑 <span>⟶</span> 捷運士林站周邊 <span>⟶</span> 臺北市立兒童樂園 <span>⟶</span> 大同酒泉街／花博集食行樂 <span>⟶</span> 花博展區賞燈
@@ -55,7 +55,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>山水花卉之旅</h3>
-                        <span class="tag">路線四</span>
+                        <span class="tag-blue">路線四</span>
                     </div>
                     <div class="route-path">
                         白石湖吊橋／碧山露營場天空步道 <span>⟶</span> 美麗華百樂園 <span>⟶</span> 士林官邸 <span>⟶</span> 士林夜市 <span>⟶</span> 花博展區賞燈
@@ -65,7 +65,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>當代文青之行</h3>
-                        <span class="tag">路線五</span>
+                        <span class="tag-blue">路線五</span>
                     </div>
                     <div class="route-path">
                         台北當代藝術館 <span>⟶</span> 中山北路／條通商圈 <span>⟶</span> 台北之家／中山赤峰街／誠品南西店 <span>⟶</span> 晴光商圈／中山商圈 <span>⟶</span> 花博展區賞燈
@@ -75,7 +75,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>台北祈福之行</h3>
-                        <span class="tag">路線六</span>
+                        <span class="tag-blue">路線六</span>
                     </div>
                     <div class="route-path">
                         霞海城隍廟 <span>⟶</span> 迪化街 <span>⟶</span> 大龍峒保安宮 <span>⟶</span> 大龍街夜市 <span>⟶</span> 花博展區賞燈
@@ -91,7 +91,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>文創園區漫遊行</h3>
-                        <span class="tag">路線一</span>
+                        <span class="tag-blue">路線一</span>
                     </div>
                     <div class="day-block">
                         <h4 class="day-title">Day 1</h4>
@@ -111,7 +111,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>漫步台北深度之旅</h3>
-                        <span class="tag">路線二</span>
+                        <span class="tag-blue">路線二</span>
                     </div>
                     <div class="day-block">
                         <h4 class="day-title">Day 1</h4>
@@ -131,7 +131,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>花花世界藝文之旅</h3>
-                        <span class="tag">路線三</span>
+                        <span class="tag-blue">路線三</span>
                     </div>
                     <div class="day-block">
                         <h4 class="day-title">Day 1</h4>
@@ -151,7 +151,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>老城古蹟探險</h3>
-                        <span class="tag">路線四</span>
+                        <span class="tag-blue">路線四</span>
                     </div>
                     <div class="day-block">
                         <h4 class="day-title">Day 1</h4>
@@ -171,7 +171,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>廟宇時尚之行</h3>
-                        <span class="tag">路線五</span>
+                        <span class="tag-blue">路線五</span>
                     </div>
                     <div class="day-block">
                         <h4 class="day-title">Day 1</h4>
@@ -191,7 +191,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>山與美學之旅</h3>
-                        <span class="tag">路線六</span>
+                        <span class="tag-blue">路線六</span>
                     </div>
                     <div class="day-block">
                         <h4 class="day-title">Day 1</h4>
@@ -211,7 +211,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>溫泉瑰寶探索之旅</h3>
-                        <span class="tag">路線七</span>
+                        <span class="tag-blue">路線七</span>
                     </div>
                     <div class="day-block">
                         <h4 class="day-title">Day 1</h4>
@@ -231,7 +231,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>都會森呼吸之行</h3>
-                        <span class="tag">路線八</span>
+                        <span class="tag-blue">路線八</span>
                     </div>
                     <div class="day-block">
                         <h4 class="day-title">Day 1</h4>
@@ -257,7 +257,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>台北經典全攻略</h3>
-                        <span class="tag">路線一</span>
+                        <span class="tag-blue">路線一</span>
                     </div>
                     
                     <div class="day-block">
@@ -286,7 +286,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>水岸學風之旅</h3>
-                        <span class="tag">路線二</span>
+                        <span class="tag-blue">路線二</span>
                     </div>
                     
                     <div class="day-block">
@@ -315,7 +315,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>自然生態冒險之旅</h3>
-                        <span class="tag">路線三</span>
+                        <span class="tag-blue">路線三</span>
                     </div>
                     
                     <div class="day-block">
@@ -344,7 +344,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>秘境古蹟品味之旅</h3>
-                        <span class="tag">路線四</span>
+                        <span class="tag-blue">路線四</span>
                     </div>
                     
                     <div class="day-block">
@@ -373,7 +373,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>潮流單車輕旅行</h3>
-                        <span class="tag">路線五</span>
+                        <span class="tag-blue">路線五</span>
                     </div>
                     
                     <div class="day-block">
@@ -402,7 +402,7 @@
                 <div class="route-card">
                     <div class="route-header">
                         <h3>圓山之巔與城中歷史沉浸行</h3>
-                        <span class="tag">路線六</span>
+                        <span class="tag-blue">路線六</span>
                     </div>
                     
                     <div class="day-block">
