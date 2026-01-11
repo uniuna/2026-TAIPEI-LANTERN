@@ -57,7 +57,6 @@ function openYearTab(evt, tabId) {
 }
 
 
-
 /* --------- Tab 頁籤切換功能 (event.html) --------- */
 
 function openTab(evt, tabName) {
@@ -71,50 +70,24 @@ function openTab(evt, tabName) {
     }
 
     // 2. 移除所有按鈕的 "active" 樣式
+    // [修改] 改用 classList.remove，不用管字串空白問題
     tabBtns = document.getElementsByClassName("tab-btn");
     for (i = 0; i < tabBtns.length; i++) {
-        tabBtns[i].className = tabBtns[i].className.replace(" active", "");
+        tabBtns[i].classList.remove("active");
     }
 
-    // 3. 顯示被點擊的區塊，並將按鈕設為 active
-    document.getElementById(tabName).style.display = "block";
-    // 加上一個小延遲讓淡入動畫每次都觸發
-    setTimeout(() => {
-        document.getElementById(tabName).classList.add("active");
-    }, 10);
-    
-    evt.currentTarget.className += " active";
-}
-
-// --- 新增：同場加映切換功能 (獨立運作) ---
-function openExtraTab(evt, tabName) {
-    var i, tabContent, tabBtns;
-
-    // 1. 隱藏 "extra-content"
-    tabContent = document.getElementsByClassName("extra-content");
-    for (i = 0; i < tabContent.length; i++) {
-        tabContent[i].style.display = "none";
-        tabContent[i].classList.remove("active");
-    }
-
-    // 2. 移除 "extra-btn" 的 active 狀態
-    tabBtns = document.getElementsByClassName("extra-btn");
-    for (i = 0; i < tabBtns.length; i++) {
-        tabBtns[i].className = tabBtns[i].className.replace(" active", "");
-    }
-
-    // 3. 顯示選中的內容
+    // 3. 顯示被點擊的區塊
     document.getElementById(tabName).style.display = "block";
     setTimeout(() => {
         document.getElementById(tabName).classList.add("active");
     }, 10);
     
-    evt.currentTarget.className += " active";
+    // [修改] 改用 classList.add 來新增樣式
+    evt.currentTarget.classList.add("active");
 }
 
 
-
-/* --------- 雙層 Tab 切換功能 (activities.html) --------- */
+/* --------- 雙層 Tab 切換功能 (bonus.php) --------- */
 
 // --- 第一層：主分類切換 ---
 function switchMainCat(catId, btnElement) {
@@ -139,7 +112,7 @@ function switchMainCat(catId, btnElement) {
 
 
 // --- 第二層：原本的 Tab 切換 (保持不變，稍作微調) ---
-function openTab(evt, tabName) {
+function switchSubCat(evt, tabName) {
     // 1. 隱藏所有 tab-content
     // 注意：這裡只抓取 "當前顯示的主分類" 下面的 tab-content 會比較安全，
     // 但如果 ID 不重複，直接抓 ID 也可以。
@@ -161,6 +134,39 @@ function openTab(evt, tabName) {
     
     // 4. 按鈕亮起
     evt.currentTarget.className += " active";
+}
+
+
+
+/* --------- 宮廟活動：手風琴列表切換 (bonus.php）--------- */
+
+function toggleTemple(header) {
+    // 取得點擊的項目的父容器 (.temple-item)
+    const item = header.parentElement;
+    
+    // 取得該項目裡面的內容區塊
+    const content = item.querySelector('.temple-content');
+
+    // 切換 active class
+    if (item.classList.contains('active')) {
+        // 如果已經打開，就關閉
+        item.classList.remove('active');
+        content.style.display = 'none';
+    } else {
+        // 如果還沒打開，就打開
+        
+        // (選擇性) 如果希望一次只能開一個，請保留下面這段迴圈：
+        /*
+        const allItems = document.querySelectorAll('.temple-item');
+        allItems.forEach(el => {
+            el.classList.remove('active');
+            el.querySelector('.temple-content').style.display = 'none';
+        });
+        */
+
+        item.classList.add('active');
+        content.style.display = 'block';
+    }
 }
 
 

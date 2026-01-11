@@ -538,6 +538,7 @@ footer {
     text-transform: uppercase;
     font-weight: bold;
     transition: color 0.5s ease;
+    margin-bottom: 5px;
 }
 
 /* Logo 排列容器 (Flexbox) */
@@ -572,7 +573,7 @@ footer {
 .logo-row.main-organizer .logo-box {
     height: 60px; 
     min-width: 120px;
-    padding: 5px;
+    padding: 0;
 }
 .logo-row.main-organizer img {
     max-width: 200px;

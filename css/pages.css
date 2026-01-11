@@ -1417,6 +1417,7 @@ html {
     background: rgba(255, 255, 255, 0.1);
     border: none;
     color: var(--text-sub);
+    font-size: 0.9rem;
     padding: 6px 18px;
     border-radius: 50px;
     cursor: pointer;
@@ -1573,6 +1574,220 @@ html {
     .info-label {
         margin-bottom: 5px;
     }
+}
+
+
+
+/* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */
+
+/* --- 宮廟活動：手風琴收合列表 (bonus.php) --- */
+
+.temple-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* 列表間距 */
+    margin-top: 30px;
+}
+
+.temple-item {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.temple-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(0, 229, 255, 0.3); /* 懸浮時微亮邊框 */
+}
+
+.temple-item.active {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: var(--accent-color); /* 展開時邊框變亮 */
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.1);
+}
+
+/* 列表頭部 (點擊區域) */
+.temple-header {
+    padding: 20px;
+    cursor: pointer;
+    display: flex; /* [修改] 改用 Flexbox */
+    align-items: center; /* 垂直置中 */
+    gap: 15px; /* 欄位間距 */
+    color: white;
+    font-size: 1.05rem;
+}
+
+/* 欄位樣式 */
+.t-district {
+    color: var(--accent-color);
+    font-weight: bold;
+    border: 1px solid var(--accent-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.9rem;
+    flex-shrink: 0; /* 防止縮小 */
+    width: 80px; /* 固定寬度 */
+}
+
+.t-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    /* 名稱不設寬度，讓它自然撐開 */
+}
+
+.t-date {
+    color: var(--text-sub);
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* 日期會自動跟在名稱右邊 */
+}
+
+/* --- 箭頭圖示 (修改：絕對置中) --- */
+.t-arrow {
+    width: 30px;  /* 稍微加大觸控區 */
+    height: 30px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+    transition: transform 0.3s ease, border-color 0.3s;
+    
+    /* [重要] 讓箭頭靠最右邊 */
+    margin-left: auto;
+    flex-shrink: 0;
+
+    /* [重要] 利用 Flexbox 讓箭頭符號在圓圈內「完美置中」 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-arrow::after {
+    content: '';
+    width: 8px; 
+    height: 8px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(45deg);
+    
+    /* [微調] 視覺修正：因為旋轉後視覺重心會偏下，稍微往上移一點點 */
+    margin-bottom: 2px; 
+    transition: border-color 0.3s;
+}
+
+/* 展開時箭頭旋轉 */
+.temple-item.active .t-arrow {
+    transform: rotate(180deg);
+    border-color: var(--accent-color);
+}
+.temple-item.active .t-arrow::after {
+    border-color: var(--accent-color);
+}
+
+/* 內容區域 (預設隱藏) */
+.temple-content {
+    display: none; /* JS 控制顯示 */
+    padding: 0 25px 25px 25px;
+    color: #ddd;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    animation: fadeInDown 0.3s ease;
+}
+
+.temple-content h4 {
+    color: white;
+    margin: 20px 0 10px 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.temple-content h4::before {
+    content: '';
+    display: block;
+    width: 4px; height: 16px;
+    background: var(--accent-color);
+}
+
+.temple-content p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: var(--text-sub);
+}
+
+.temple-content ul{
+    list-style-type: decimal;
+    margin-left: 30px;
+}
+.temple-content ul li{
+    padding-bottom: 10px;
+}
+
+.t-location-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-bottom: 1px dashed var(--accent-color);
+}
+.t-location-link:hover {
+    color: white;
+    border-bottom-color: white;
+}
+
+/* 手機版 RWD 調整 */
+@media (max-width: 768px) {
+    @media (max-width: 768px) {
+    .temple-header {
+        flex-wrap: wrap; /* 允許換行 */
+        gap: 10px;
+    }
+    
+    /* 手機版：行政區獨立一行，或是跟名稱擠在一起 */
+    .t-district {
+        width: auto; /* 手機版不強制寬度 */
+    }
+
+    /* 手機版：強制讓日期換行顯示，避免名稱太長擠壓 */
+    .t-name {
+        margin-right: 5px;
+    }
+    
+    .t-date {
+        width: 100%; /* 強制換行佔滿 */
+        padding-left: 0;
+        margin-top: -5px; /* 稍微拉近跟名稱的距離 */
+        font-size: 0.85rem;
+    }
+
+    /* 箭頭維持在右側垂直置中 */
+    .t-arrow {
+        position: absolute; /* 手機版用絕對定位固定在右邊，避免被換行影響 */
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    /* 因箭頭用了 absolute，父層要加 relative */
+    .temple-header {
+        position: relative;
+        padding-right: 60px; /* 留位置給箭頭 */
+    }
+    
+    /* 修正展開時的旋轉 (包含 translateY 抵銷) */
+    .temple-item.active .t-arrow {
+        transform: translateY(-50%) rotate(180deg);
+    }
+}
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 
@@ -1817,7 +2032,7 @@ html {
 }
 
 .route-header h3 {
-    color: var(--primary-color);
+    color: white;
     font-size: 1.4rem;
     margin: 0;
 }

@@ -26,7 +26,7 @@
                     </div>
                 </article>
 
-                <article class="district-card">
+                <!-- <article class="district-card">
                     <div class="district-img-box">
                         <img src="images/sites/AcomX-02.jpg" alt="台灣旅宿網">
                     </div>
@@ -35,7 +35,7 @@
                         <p>交通部觀光署官方平台，嚴選全台合法旅館與民宿。拒絕非法日租，出遊住宿最有保障的首選網站。</p>
                         <a href="https://www.taiwanstay.net.tw/" class="btn-more" target="_blank">了解更多</a>
                     </div>
-                </article>
+                </article> -->
 
             </div>
         </section>
