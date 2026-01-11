@@ -1600,6 +1600,7 @@ html {
 .temple-item:hover {
     background: rgba(255, 255, 255, 0.08);
     border-color: rgba(0, 229, 255, 0.3); /* 懸浮時微亮邊框 */
+    transform: translateY(-3px);
 }
 
 .temple-item.active {
@@ -1834,7 +1835,7 @@ html {
     }
 }
 
-/* --- [新增] 旅遊頁圖片放大彈窗 (Lightbox) --- */
+/* --- 旅遊頁圖片放大彈窗 (Lightbox) --- */
 
 #imageLightbox {
     position: fixed;
@@ -1925,7 +1926,7 @@ html {
     filter: brightness(1);
 }
 
-/* --- 新增：展區標籤 (Zone Badge) --- */
+/* --- 展區標籤 (Zone Badge) --- */
 .district-overlay {
     position: absolute;
     top: 15px;
@@ -1966,7 +1967,7 @@ html {
     flex: 1;
 }
 
-/* --- 新增：了解更多按鈕 --- */
+/* --- 了解更多按鈕 --- */
 .btn-more {
     display: block;
     text-align: center;
@@ -2017,8 +2018,9 @@ html {
 
 .route-card:hover {
     background: rgba(255, 255, 255, 0.08);
-    transform: translateX(5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border: 1px solid var(--accent-color);
+    border-left: 4px solid var(--accent-color);
 }
 
 /* 標題區域 */
