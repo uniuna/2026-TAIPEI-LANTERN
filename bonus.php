@@ -99,27 +99,11 @@
                         <h4>平安燈籠步道、小提燈發放</h4>
                         <p>農曆新春期間，自山下芝山巖惠濟宮大牌樓沿著登山步道漫步而上，兩側櫻花盛開，伴隨著通向古隘門的平安燈籠，景色優美，是新春走春祈福的最佳去處，於大年初一亮燈，象徵整年平安祈福及濃厚節慶氛圍。</p>
                         <p>元宵節慶期間有行大運小提燈發送(送完為止)，於2月28日、3月2日、3日18時開始發送。另於，土地公的登轎祭典時間為19時，弄土地公時間19時30分、20時。</p>
-                        
-                        <a href="https://www.google.com/maps/search/?api=1&query=臺北市士林區至誠路1段326巷26號" target="_blank" class="t-location-link">
-                            📍 地點：芝山巖惠濟宮廟埕 (臺北市士林區至誠路一段326巷26號) 
-
-                        </a>
-                    </div>
-                </div>
-
-                <div class="temple-item">
-                    <div class="temple-header" onclick="toggleTemple(this)">
-                        <span class="t-district">士林區</span>
-                        <span class="t-name">芝山巖惠濟宮</span>
-                        <span class="t-date"><i class="far fa-calendar-alt"></i> 115年3月3日</span>
-                        <div class="t-arrow"></div>
-                    </div>
-                    <div class="temple-content">
                         <h4>「元宵暝弄土地公」布袋戲表演</h4>
                         <p>3月3日上元節舉辦「元宵暝 弄土地公」 活動，規劃布袋戲演出時間14時、18時。</p>
                         <h4>「元宵暝弄土地公」土地公登轎祭典及弄土地公活動</h4>
                         <p>3月3日上元節舉辦「元宵暝 弄土地公」 活動，土地公的登轎祭典時間為19時，弄土地公時間19時30分、20時。</p>
-                        
+
                         <a href="https://www.google.com/maps/search/?api=1&query=臺北市士林區至誠路1段326巷26號" target="_blank" class="t-location-link">
                             📍 地點：芝山巖惠濟宮廟埕 (臺北市士林區至誠路一段326巷26號) 
 
@@ -256,7 +240,7 @@
                     </div>
                     <div class="temple-content">
                         <h4>「馬躍松山迎新春」元宵花燈展示及猜燈謎晚會活動</h4>
-                        <p>2025年松山慈祐宮將展示元宵燈飾，以「馬躍松山迎新春」為主題，並以燈籠海搭配呈現，置於該宮廟前廣場；宮內舉辦學生花燈作品展覽，鼓勵學生傳承花燈製作技藝，由廟方代表評選獎勵得獎作品。另暫定於115年3月3日以元宵民俗文化為主題，攜手松山慈祐宮，合作辦理「2026錫口文化節-元宵猜燈謎晚會」活動，規劃舞台表演及猜燈謎晚會。</p>
+                        <p>2025年松山慈祐宮將展示元宵燈飾，以「馬躍松山迎新春」為主題，並以燈籠海搭配呈現，置於該宮廟前廣場；宮內舉辦學生花燈作品展覽，鼓勵學生傳承花燈製作技藝，由廟方代表評選獎勵得獎作品。另暫定於115年3月3日以元宵民俗文化為主題，結合松山區公所，合作辦理「2026錫口文化節-元宵猜燈謎晚會」活動，規劃舞台表演及猜燈謎晚會。</p>
                         
                         <a href="https://www.google.com/maps/search/?api=1&query=臺北市松山區八德路4段761號" target="_blank" class="t-location-link">
                             📍 地點：松山慈祐宮廟內及宮廟前廣場 (臺北市松山區八德路四段761號) 
@@ -302,12 +286,12 @@
                     <div class="temple-header" onclick="toggleTemple(this)">
                         <span class="t-district">信義區</span>
                         <span class="t-name">佛光山寺（佛光山台北道場）</span>
-                        <span class="t-date"><i class="far fa-calendar-alt"></i> 115年2月7日至3月5日</span>
+                        <span class="t-date"><i class="far fa-calendar-alt"></i> 115年2月7日至3月3日</span>
                         <div class="t-arrow"></div>
                     </div>
                     <div class="temple-content">
                         <h4>「和諧共生，馬到成功」主燈展示</h4>
-                        <p>為弘揚傳統民俗技藝，松山慈惠堂每年都會請燈藝師傅製作大型花燈，配合2026台北燈節，於農曆新年期間將主燈設置於西門町，並於該堂周邊飾以小型燈籠，歡迎民眾過年期間至松山慈惠堂賞燈祈福。佛光山響應2026台北燈節，展區以「和諧共生，馬到成功」為主軸，規劃祈願祝福區、才藝表演、捐血活動、三好市集，並以新春揮毫墨寶結緣，增添文化喜氣與暖心祝福，帶領大眾一同點亮心燈、光照大千！讓所有市民感受溫暖光明、快樂和諧的新年。</p>
+                        <p>佛光山響應2026台北燈節，展區以「和諧共生，馬到成功」為主軸，規劃祈願祝福區、才藝表演、捐血活動、三好市集，並以新春揮毫墨寶結緣，增添文化喜氣與暖心祝福，帶領大眾一同點亮心燈、光照大千！讓所有市民感受溫暖光明、快樂和諧的新年。</p>
                         
                         <a href="https://www.google.com/maps/search/?api=1&query=臺北市松山區松山路/松隆路交叉口" target="_blank" class="t-location-link">
                             📍 地點：松山火車站南側交4廣場 (臺北市松山區松山路/松隆路交叉口)
