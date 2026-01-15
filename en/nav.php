@@ -11,11 +11,11 @@
             <ul class="dropdown-content">
                 <li><a href="ximen">Ximen Area</a></li>
                 <li><a href="expo">Taipei Expo Park Area</a></li>
-                <li><a href="reminder">Reminders</a></li>
+                <li><a href="reminder">Friendly Reminders</a></li>
             </ul>
         </li>
         <li>
-            <a href="events">Event Program</a>
+            <a href="events">Featured Events</a>
         </li>
         <li class="dropdown">
             <a class="dropbtn">Transportation ▾</a> 

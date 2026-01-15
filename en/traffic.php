@@ -152,6 +152,24 @@
                                     </p>
                                 </div>
                             </li>
+                            <li>
+                                <span class="t-icon">
+                                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="5" y="4" width="14" height="15" rx="2" stroke="white" stroke-width="2"/>
+                                        <path d="M5 10H19" stroke="white" stroke-width="2"/>
+                                        <path d="M7 19V21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                        <path d="M17 19V21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                                        <circle cx="8" cy="15" r="1.5" fill="#00E5FF"/>
+                                        <circle cx="16" cy="15" r="1.5" fill="#00E5FF"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <p style="color:white; font-size:1.1rem;">Highway Bus and Express Bus</p>
+                                    <p style="color:var(--text-sub); margin-top:5px;">
+                                        圓山轉運站（玉門）
+                                    </p>
+                                </div>
+                            </li>
                         </ul>
 
                         <a href="https://maps.app.goo.gl/qk7E2XTo1zyJpR3h9" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map</a>
@@ -175,7 +193,7 @@
                         <h3>Transportation between the areas</h3>
                     </div>
                     <p style="color:var(--text-sub); margin-bottom:40px; font-size:1.1rem;">
-                        Recommended transportation between Taipei Expo Park ,Yuanshan Station and Ximending ,Ximen station
+                        Recommended transportation between Taipei Expo Park (Yuanshan Station) and Ximending (Ximen Station)
                     </p>
                     
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
@@ -191,10 +209,10 @@
                                 </svg>
                             </span>
                             <div>
-                                <p style="color:white; font-size:1.1rem;">Direct bus (about 20-30mins)</p>
+                                <p style="color:white; font-size:1.1rem;">Direct bus (about 20-30 minutes)</p>
                                 <p style="color:var(--text-sub); margin-top:5px;">
                                     Recommended Routes:<strong>218, 260, 310, 304 (Chengde), 202</strong><br>
-                                    <span style="font-size:0.9rem; opacity:0.8;">※ Between Yuanshan Station and Ximen station & Zhonghua Rd. N. Stop</span>
+                                    <span style="font-size:0.9rem; opacity:0.8;">※ Between Yuanshan Station and Ximen Station & Zhonghua Rd. N. Stop</span>
                                 </p>
                             </div>
                         </div>
@@ -213,7 +231,7 @@
                                 </svg>
                             </span>
                             <div>
-                                <p style="color:white; font-size:1.1rem;">MRT (about 20-25mins)</p>
+                                <p style="color:white; font-size:1.1rem;">MRT (about 20-25 minutes)</p>
                                 <p style="color:var(--text-sub); margin-top:5px;">
                                     MRT Taipei Main Station ,
                                     <span style="color:#FF0055;">● Xinyi Line</span> ↔ <span style="color:#00E5FF;">● Bannan Line</span>
