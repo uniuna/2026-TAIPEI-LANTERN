@@ -10,7 +10,7 @@
 
     <main class="container" style="padding-top: 120px; min-height: 80vh; padding-bottom: 150px;">
         
-        <!-- <div class="travel-hero-grid">
+        <div class="travel-hero-grid">
             <div class="travel-hero-img" onclick="openImageModal('images/maps/emap-ximen.jpg')" style="cursor: pointer;">
                 <img src="images/maps/emap-ximen.jpg" alt="西門">
             </div>
@@ -24,7 +24,7 @@
                 <span class="close-modal" onclick="closeImageModalBox()">&times;</span>
                 <img id="lightboxImg" src="/images/maps/emap-ximen.jpg" alt=''>
             </div>
-        </div> -->
+        </div>
 
         <section>
             <h2 class="section-title">周邊商圈</h2>
