@@ -93,7 +93,7 @@
 
                     <div class="traffic-card">
                         <div class="traffic-header">
-                            <h3>Taipei EXPO Area</h3>
+                            <h3>Taipei Expo Park Area</h3>
                         </div>
                         
                         <ul class="traffic-details">
@@ -166,7 +166,7 @@
                                 <div>
                                     <p style="color:white; font-size:1.1rem;">Highway Bus and Express Bus</p>
                                     <p style="color:var(--text-sub); margin-top:5px;">
-                                        圓山轉運站（玉門）
+                                        Yuanshan Bus Station (Yumen)
                                     </p>
                                 </div>
                             </li>
