@@ -30,7 +30,19 @@
                         <a href="news_260104.php" class="btn-more">閱讀更多</a>
                     </div>
                 </article>
-
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/n260116_01.jpg" alt="花博主燈柯博文">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.01.16</div>
+                        <h3 class="news-list-title">2026台北燈節首度推出「雙展區、雙IP」 攜手國際IP「變形金剛」花博主燈柯博文搶先曝光</h3>
+                        <p class="news-excerpt">
+                            臺北市政府觀光傳播局今（16）日舉行「2026台北燈節」首場記者會，宣布今年首度推出「雙展區、雙IP」...
+                        </p>
+                        <a href="news_260104.php" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
                 
 
             </div>
