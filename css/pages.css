@@ -23,7 +23,7 @@
   z-index: 1; 
   height: 150vh;
   /* background: ... (原本的背景設定保持不變) ... */
-  background-image: url("../images/hero-main-en.jpg");
+  background-image: url("../images/hero-main-en-v260116.jpg");
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -329,7 +329,7 @@ html {
         rgba(5, 5, 16, 0.9) 100%
       ),
       url("../images/hero-tablet.jpg"); */
-    background-image: url("../images/hero-tablet-en.jpg");;
+    background-image: url("../images/hero-tablet-en-v260116.jpg");;
 
     background-position: center top; /* 平板直立時，重點通常在上方 */
     
@@ -380,7 +380,7 @@ html {
         rgba(5, 5, 16, 0.9) 100% 
       ),
       url("../images/hero-mobile.jpg");  */
-    background-image: url("../images/hero-mobile-en.jpg");
+    background-image: url("../images/hero-mobile-en-v260116.jpg");
 
     background-position: center top; 
     

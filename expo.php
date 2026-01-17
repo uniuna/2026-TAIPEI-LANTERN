@@ -26,10 +26,15 @@
         </div>
 
         <section class="container">
+            <h2 class="section-title">敬請期待</h2>
+            <div class="zone-block" style="margin-bottom: 80px;"></div>
+        </section>
+
+        <!-- <section class="container">
             <h2 class="section-title">花博展區地圖</h2>
             <div class="zone-block" style="margin-bottom: 80px;">
                 
-                <!-- <div id="map-theme-1" class="interactive-map-container">
+                <div id="map-theme-1" class="interactive-map-container">
                     <img src="images/maps/map-expo.jpg" alt="花博展區地圖">
                     <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
                         onclick="openMapModal('ximen-main')"></div>
@@ -39,7 +44,7 @@
                         onclick="openMapModal('ximen-ip2')"></div>
                     <div class="map-hotspot" style="top: 79.5%; left: 36.5%;border-color:#FF0055;"
                         onclick="openMapModal('ximen-ip3')"></div>
-                </div> -->
+                </div>
 
                 <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
 
@@ -223,7 +228,7 @@
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
 
-                    <!-- <div class="lantern-item" onclick="openMapModal('expo_19')">
+                    <div class="lantern-item" onclick="openMapModal('expo_19')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">No.19  12熊讚公仔燈組</h4>
@@ -231,17 +236,14 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
 
                 </div>   
             </div>
         
+        </section> -->
 
-
-
-        </section>
-
-        <div class="modal-overlay" id="mapModal" onclick="closeMapModal(event)">
+        <!-- <div class="modal-overlay" id="mapModal" onclick="closeMapModal(event)">
             <div class="modal-content">
                 <span class="close-modal" onclick="closeActualModal()">&times;</span>
 
@@ -254,7 +256,7 @@
                     <p id="modalDesc" style="font-size: 1rem; " >燈飾介紹內容</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- <section class="map-download-section">
             <div class="map-download-content">

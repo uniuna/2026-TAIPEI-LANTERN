@@ -48,7 +48,10 @@
                     <span class="news-date">2026.01.04</span>
                     <span class="news-text">台北道場響應「2026台北燈節」 以光影傳遞和諧共生與祝福 ...</span>
                 </a>
-                
+                <a href="news_260116" class="news-item">
+                    <span class="news-date">2026.01.16</span>
+                    <span class="news-text">2026台北燈節首度推出「雙展區、雙IP」 攜手國際IP「變形金剛」花博主燈柯博文搶先曝光 ...</span>
+                </a>
             </div>
         </section>
 
@@ -114,7 +117,8 @@
         <section class="container">
             <h2 class="section-title">影音專區</h2>
             <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
-                <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/YpZChB2fTMU?si=dsvU6YcjPFhumVYl" frameborder="0" allowfullscreen></iframe>
+                <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/PnGHH5oSpIM?si=ttaGQ-Fll0N_D1V2" frameborder="0" allowfullscreen></iframe>
+                
             </div>
         </section>
 
