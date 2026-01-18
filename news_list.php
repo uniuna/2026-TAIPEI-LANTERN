@@ -27,7 +27,7 @@
                         <p class="news-excerpt">
                             以「傳燈六十・百年仰望」為主題，佛光山台北道場舉辦彩繪燈籠比賽，透過燈光與畫筆交織，展現佛法與藝術融合之美...
                         </p>
-                        <a href="news_260104.php" class="btn-more">閱讀更多</a>
+                        <a href="news_260104" class="btn-more">閱讀更多</a>
                     </div>
                 </article>
                 <article class="news-card">
@@ -40,7 +40,7 @@
                         <p class="news-excerpt">
                             臺北市政府觀光傳播局今（16）日舉行「2026台北燈節」首場記者會，宣布今年首度推出「雙展區、雙IP」...
                         </p>
-                        <a href="news_260104" class="btn-more">閱讀更多</a>
+                        <a href="news_260116" class="btn-more">閱讀更多</a>
                     </div>
                 </article>
                 

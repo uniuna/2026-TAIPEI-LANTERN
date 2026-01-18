@@ -101,7 +101,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/財團法人台北市士林神農宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/財團法人台北市士林神農宮r.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
