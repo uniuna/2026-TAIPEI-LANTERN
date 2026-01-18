@@ -101,7 +101,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/財團法人台北市士林神農宮.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -131,7 +131,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/芝山巖惠濟宮.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -156,7 +156,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/財團法人台北保安宮.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -182,7 +182,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/台北霞海城隍廟.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -211,7 +211,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/財團法人台北市臺灣省城隍廟.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -236,7 +236,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/梘頭福德祠.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -268,7 +268,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/財團法人台北市關渡宮.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -293,7 +293,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/石牌福星宮.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -317,7 +317,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/財團法人台北市松山慈祐宮.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -326,7 +326,7 @@
                 <div class="temple-item">
                     <div class="temple-header" onclick="toggleTemple(this)">
                         <span class="t-district">信義區</span>
-                        <span class="t-name">松山奉天堂</span>
+                        <span class="t-name">松山奉天宮</span>
                         <span class="t-date"><i class="far fa-calendar-alt"></i> 115年2月14日至3月3日</span>
                         <div class="t-arrow"></div>
                     </div>
@@ -341,7 +341,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/松山奉天宮.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -365,7 +365,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/松山慈惠堂.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -389,7 +389,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/佛光山寺.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -413,7 +413,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/台北天后宮.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -422,7 +422,7 @@
                 <div class="temple-item">
                     <div class="temple-header" onclick="toggleTemple(this)">
                         <span class="t-district">萬華區</span>
-                        <span class="t-name">財團法人台北市艋舺龍山寺 </span>
+                        <span class="t-name">財團法人台北市艋舺龍山寺</span>
                         <span class="t-date"><i class="far fa-calendar-alt"></i> 115年2月7日至3月8日</span>
                         <div class="t-arrow"></div>
                     </div>
@@ -437,7 +437,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/財團法人台北市艋舺龍山寺.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -446,7 +446,7 @@
                 <div class="temple-item">
                     <div class="temple-header" onclick="toggleTemple(this)">
                         <span class="t-district">萬華區</span>
-                        <span class="t-name">艋舺青山宮 </span>
+                        <span class="t-name">艋舺青山宮</span>
                         <span class="t-date"><i class="far fa-calendar-alt"></i> 115年2月9日至3月8日</span>
                         <div class="t-arrow"></div>
                     </div>
@@ -463,7 +463,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/艋舺青山宮.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -487,7 +487,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/玉成公園福德宮.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -511,7 +511,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/慈諴宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/富南宮.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>

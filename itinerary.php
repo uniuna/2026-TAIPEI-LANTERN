@@ -31,9 +31,7 @@
                         中正紀念堂／國立臺灣博物館南門館 <span>⟶</span> 南門市場 <span>⟶</span> 植物園／孫運璿科技•人文紀念館／郵政博物館 <span>⟶</span> 南機場夜市 <span>⟶</span> 西門展區賞燈
                     </div>
                     <div class="route-gallery">
-                        <img src="images/trip_01_a.jpg" alt="景點1">
-                        <img src="images/trip_01_b.jpg" alt="景點2">
-                        <img src="images/trip_01_c.jpg" alt="景點3">
+                        <img src="images/route/oneday_1.jpg" alt="景點">
                     </div>
                 </div>
 
@@ -45,6 +43,9 @@
                     <div class="route-path">
                         國立臺灣博物館 <span>⟶</span> 榮町商圈 <span>⟶</span> 重慶南路書店商圈／北門相機商圈 <span>⟶</span> 西門町 <span>⟶</span> 西門展區賞燈
                     </div>
+                    <div class="route-gallery">
+                        <img src="images/route/oneday_2.jpg" alt="景點">
+                    </div>
                 </div>
 
                 <div class="route-card">
@@ -54,6 +55,9 @@
                     </div>
                     <div class="route-path">
                         陽明山擎天崗、冷水坑 <span>⟶</span> 捷運士林站周邊 <span>⟶</span> 臺北市立兒童樂園 <span>⟶</span> 大同酒泉街／花博集食行樂 <span>⟶</span> 花博展區賞燈
+                    </div>
+                    <div class="route-gallery">
+                        <img src="images/route/oneday_3.jpg" alt="景點">
                     </div>
                 </div>
 
@@ -65,6 +69,9 @@
                     <div class="route-path">
                         白石湖吊橋／碧山露營場天空步道 <span>⟶</span> 美麗華百樂園 <span>⟶</span> 士林官邸 <span>⟶</span> 士林夜市 <span>⟶</span> 花博展區賞燈
                     </div>
+                    <div class="route-gallery">
+                        <img src="images/route/oneday_4.jpg" alt="景點">
+                    </div>
                 </div>
 
                 <div class="route-card">
@@ -75,6 +82,9 @@
                     <div class="route-path">
                         台北當代藝術館 <span>⟶</span> 中山北路／條通商圈 <span>⟶</span> 台北之家／中山赤峰街／誠品南西店 <span>⟶</span> 晴光商圈／中山商圈 <span>⟶</span> 花博展區賞燈
                     </div>
+                    <div class="route-gallery">
+                        <img src="images/route/oneday_5.jpg" alt="景點">
+                    </div>
                 </div>
 
                 <div class="route-card">
@@ -84,6 +94,9 @@
                     </div>
                     <div class="route-path">
                         霞海城隍廟 <span>⟶</span> 迪化街 <span>⟶</span> 大龍峒保安宮 <span>⟶</span> 大龍街夜市 <span>⟶</span> 花博展區賞燈
+                    </div>
+                    <div class="route-gallery">
+                        <img src="images/route/oneday_6.jpg" alt="景點">
                     </div>
                 </div>
 
@@ -112,9 +125,8 @@
                         </div>
                     </div>
                     <div class="route-gallery">
-                        <img src="images/trip_02_a.jpg" alt="景點1">
-                        <img src="images/trip_02_b.jpg" alt="景點2">
-                        <img src="images/trip_02_c.jpg" alt="景點3">
+                        <img src="images/route/twodays_1-1.jpg" alt="景點">
+                        <img src="images/route/twodays_1-2.jpg" alt="景點">
                     </div>
                 </div>
 
@@ -136,6 +148,10 @@
                             松山文創園區／臺北大巨蛋 <span>⟶</span> 捷運國父紀念館周邊 <span>⟶</span> 民生社區咖啡館／佛光山台北道場 <span>⟶</span> 饒河夜市 <span>⟶</span> 松山慈祐宮／錫口碼頭彩虹橋
                         </div>
                     </div>
+                    <div class="route-gallery">
+                        <img src="images/route/twodays_2-1.jpg" alt="景點">
+                        <img src="images/route/twodays_2-2.jpg" alt="景點">
+                    </div>
                 </div>
 
                 <div class="route-card">
@@ -155,6 +171,10 @@
                         <div class="route-path">
                             台北玫瑰園 (3/6-4/6玫瑰展) <span>⟶</span> 行天宮周邊 <span>⟶</span> 袖珍博物館 <span>⟶</span> 吉林路商圈 <span>⟶</span> 三創生活園區
                         </div>
+                    </div>
+                    <div class="route-gallery">
+                        <img src="images/route/twodays_3-1.jpg" alt="景點">
+                        <img src="images/route/twodays_3-2.jpg" alt="景點">
                     </div>
                 </div>
 
@@ -176,6 +196,10 @@
                              艋舺龍山寺／剝皮寮 <span>⟶</span> 新富町與三水街市場 <span>⟶</span> 台北天后宮／西本願寺／中山堂／台灣省城隍廟 <span>⟶</span> 西門町 <span>⟶</span> 西門展區賞燈
                         </div>
                     </div>
+                    <div class="route-gallery">
+                        <img src="images/route/twodays_4-1.jpg" alt="景點">
+                        <img src="images/route/twodays_4-2.jpg" alt="景點">
+                    </div>
                 </div>
 
                 <div class="route-card">
@@ -195,6 +219,10 @@
                         <div class="route-path">
                             四四南村 <span>⟶</span> 信義商圈 <span>⟶</span> 台北 101 <span>⟶</span> 信義區百貨公司餐廳 <span>⟶</span> 西門展區賞燈
                         </div>
+                    </div>
+                    <div class="route-gallery">
+                        <img src="images/route/twodays_5-1.jpg" alt="景點">
+                        <img src="images/route/twodays_5-2.jpg" alt="景點">
                     </div>
                 </div>
 
@@ -216,6 +244,10 @@
                             士林官邸 (2/26-3/8鬱金香展) <span>⟶</span> 士東市場 <span>⟶</span> 大葉高島屋百貨 <span>⟶</span> 士林夜市 <span>⟶</span> 花博展區賞燈
                         </div>
                     </div>
+                    <div class="route-gallery">
+                        <img src="images/route/twodays_6-1.jpg" alt="景點">
+                        <img src="images/route/twodays_6-2.jpg" alt="景點">
+                    </div>
                 </div>
 
                 <div class="route-card">
@@ -236,6 +268,10 @@
                             北投泡湯時光 <span>⟶</span> 新北投商圈 <span>⟶</span> 中心新村／地熱谷／北投溫泉博物館 <span>⟶</span> 石牌商圈 <span>⟶</span> 花博展區賞燈
                         </div>
                     </div>
+                    <div class="route-gallery">
+                        <img src="images/route/twodays_7-1.jpg" alt="景點">
+                        <img src="images/route/twodays_7-2.jpg" alt="景點">
+                    </div>
                 </div>
 
                 <div class="route-card">
@@ -255,6 +291,10 @@
                         <div class="route-path">
                             大安森林公園 <span>⟶</span> 永康街 <span>⟶</span> 錦町日式宿舍群 <span>⟶</span> 晶華酒店 <span>⟶</span> 花博展區賞燈
                         </div>
+                    </div>
+                    <div class="route-gallery">
+                        <img src="images/route/twodays_8-1.jpg" alt="景點">
+                        <img src="images/route/twodays_8-2.jpg" alt="景點">
                     </div>
                 </div>
 
@@ -292,10 +332,11 @@
                              大安森林公園 <span>⟶</span> 永康街 <span>⟶</span> 台北101／四四南村／松山文創園區 <span>⟶</span> 信義區百貨公司餐廳 <span>⟶</span> 松山慈惠堂
                         </div>
                     </div>
+                    
                     <div class="route-gallery">
-                        <img src="images/trip_02_a.jpg" alt="景點1">
-                        <img src="images/trip_02_b.jpg" alt="景點2">
-                        <img src="images/trip_02_c.jpg" alt="景點3">
+                        <img src="images/route/threedays_1-1.jpg" alt="景點">
+                        <img src="images/route/threedays_1-2.jpg" alt="景點">
+                        <img src="images/route/threedays_1-3.jpg" alt="景點">
                     </div>
                 </div>
                 <div class="route-card">
@@ -326,6 +367,12 @@
                              寶藏巖國際藝術村 <span>⟶</span> 師大龍泉商圈 <span>⟶</span> 紀州庵文學森林 <span>⟶</span> 公館商圈 <span>⟶</span> 自來水博物館
                         </div>
                     </div>
+
+                    <div class="route-gallery">
+                        <img src="images/route/threedays_2-1.jpg" alt="景點">
+                        <img src="images/route/threedays_2-2.jpg" alt="景點">
+                        <img src="images/route/threedays_2-3.jpg" alt="景點">
+                    </div>
                 </div>
                 <div class="route-card">
                     <div class="route-header">
@@ -354,6 +401,12 @@
                         <div class="route-path">
                              台北市立動物園 <span>⟶</span> 貓空景觀餐廳 <span>⟶</span> 貓空纜車 <span>⟶</span> 景美夜市 <span>⟶</span> 景美仙跡岩夜景
                         </div>
+                    </div>
+
+                    <div class="route-gallery">
+                        <img src="images/route/threedays_3-1.jpg" alt="景點">
+                        <img src="images/route/threedays_3-2.jpg" alt="景點">
+                        <img src="images/route/threedays_3-3.jpg" alt="景點">
                     </div>
                 </div>
                 <div class="route-card">
@@ -384,6 +437,12 @@
                              郵政博物館 <span>⟶</span> 牯嶺街商圈 <span>⟶</span> 國立歷史博物館 <span>⟶</span> 南機場夜市 <span>⟶</span> 西門展區賞燈
                         </div>
                     </div>
+
+                    <div class="route-gallery">
+                        <img src="images/route/threedays_4-1.jpg" alt="景點">
+                        <img src="images/route/threedays_4-2.jpg" alt="景點">
+                        <img src="images/route/threedays_4-3.jpg" alt="景點">
+                    </div>
                 </div>
                 <div class="route-card">
                     <div class="route-header">
@@ -413,6 +472,12 @@
                              大湖公園 <span>⟶</span> 西湖商圈 <span>⟶</span> 美麗華百樂園 <span>⟶</span> 萬豪酒店 <span>⟶</span> 大佳河濱公園騎單車
                         </div>
                     </div>
+
+                    <div class="route-gallery">
+                        <img src="images/route/threedays_5-1.jpg" alt="景點">
+                        <img src="images/route/threedays_5-2.jpg" alt="景點">
+                        <img src="images/route/threedays_5-3.jpg" alt="景點">
+                    </div>
                 </div>
                 <div class="route-card">
                     <div class="route-header">
@@ -440,6 +505,12 @@
                         <div class="route-path">
                              二二八公園／臺灣省城隍廟 <span>⟶</span> 城中市場／沅陵街 <span>⟶</span> 西門紅樓16工坊／西門地下街 <span>⟶</span> 西門町 <span>⟶</span> 西門展區賞燈
                         </div>
+                    </div>
+
+                    <div class="route-gallery">
+                        <img src="images/route/threedays_6-1.jpg" alt="景點">
+                        <img src="images/route/threedays_6-2.jpg" alt="景點">
+                        <img src="images/route/threedays_6-3.jpg" alt="景點">
                     </div>
                 </div>
             </div>
