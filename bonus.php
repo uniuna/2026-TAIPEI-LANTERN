@@ -30,7 +30,7 @@
 <!-- 宮廟活動 -->
         <div id="cat-temple" class="main-cat-content active">
             
-            <div style="text-align: center; margin-bottom: 30px; color: var(--text-sub);">
+            <div style="text-align: center; margin-bottom: 50px; color: var(--text-sub);">
                 <p>各行政區宮廟響應燈節，舉辦祈福、猜燈謎及元宵傳統活動，歡迎民眾共襄盛舉。</p>
             </div>
 
