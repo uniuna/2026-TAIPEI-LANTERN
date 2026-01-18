@@ -30,6 +30,11 @@
                     <div class="route-path">
                         中正紀念堂／國立臺灣博物館南門館 <span>⟶</span> 南門市場 <span>⟶</span> 植物園／孫運璿科技•人文紀念館／郵政博物館 <span>⟶</span> 南機場夜市 <span>⟶</span> 西門展區賞燈
                     </div>
+                    <div class="route-gallery">
+                        <img src="images/trip_01_a.jpg" alt="景點1">
+                        <img src="images/trip_01_b.jpg" alt="景點2">
+                        <img src="images/trip_01_c.jpg" alt="景點3">
+                    </div>
                 </div>
 
                 <div class="route-card">
@@ -105,6 +110,11 @@
                         <div class="route-path">
                             法鼓山農禪寺 <span>⟶</span> 石牌商圈 <span>⟶</span> 圓山水神社／微風平台／森林方舟 <span>⟶</span> 士林夜市 <span>⟶</span> 花博展區賞燈
                         </div>
+                    </div>
+                    <div class="route-gallery">
+                        <img src="images/trip_02_a.jpg" alt="景點1">
+                        <img src="images/trip_02_b.jpg" alt="景點2">
+                        <img src="images/trip_02_c.jpg" alt="景點3">
                     </div>
                 </div>
 
@@ -281,6 +291,11 @@
                         <div class="route-path">
                              大安森林公園 <span>⟶</span> 永康街 <span>⟶</span> 台北101／四四南村／松山文創園區 <span>⟶</span> 信義區百貨公司餐廳 <span>⟶</span> 松山慈惠堂
                         </div>
+                    </div>
+                    <div class="route-gallery">
+                        <img src="images/trip_02_a.jpg" alt="景點1">
+                        <img src="images/trip_02_b.jpg" alt="景點2">
+                        <img src="images/trip_02_c.jpg" alt="景點3">
                     </div>
                 </div>
                 <div class="route-card">

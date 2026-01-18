@@ -1577,7 +1577,6 @@ html {
 }
 
 
-
 /* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */
 
 /* --- 宮廟活動：手風琴收合列表 (bonus.php) --- */
@@ -1697,7 +1696,12 @@ html {
     animation: fadeInDown 0.3s ease;
 }
 
-.temple-content h4 {
+.temple-text-full {
+    width: 100%;
+    margin-bottom: 25px; /* 與下方圖片的距離 */
+}
+
+.temple-text-full h4 {
     color: white;
     margin: 20px 0 10px 0;
     font-size: 1.1rem;
@@ -1706,7 +1710,7 @@ html {
     gap: 10px;
 }
 
-.temple-content h4::before {
+.temple-text-full h4::before {
     content: '';
     display: block;
     width: 4px; height: 16px;
@@ -1738,6 +1742,27 @@ html {
 .t-location-link:hover {
     color: white;
     border-bottom-color: white;
+}
+
+/* 圖片容器：三欄網格 */
+.temple-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 強制分為 3 欄 */
+    gap: 15px; /* 圖片之間的間距 */
+    width: 100%;
+    
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+/* 圖片樣式 */
+.temple-gallery img {
+    width: 100%;
+    height: 150px; /* 固定高度，讓排版整齊 */
+    object-fit: cover; /* 填滿裁切 */
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* 手機版 RWD 調整 */
@@ -1782,6 +1807,13 @@ html {
     /* 修正展開時的旋轉 (包含 translateY 抵銷) */
     .temple-item.active .t-arrow {
         transform: translateY(-50%) rotate(180deg);
+    }
+
+    .temple-gallery {
+        gap: 8px; /* 手機版間距縮小 */
+    }
+    .temple-gallery img {
+        height: 80px; /* 手機版圖片高度縮小 */
     }
 }
 }
@@ -2088,6 +2120,29 @@ html {
     width: calc(100% - 9px);
 }
 
+/* --- [新增] 行程推薦：下方三圖並排圖庫 (樣式同宮廟活動) --- */
+
+.route-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 強制分為 3 欄 */
+    gap: 15px; /* 圖片之間的間距 */
+    width: 100%;
+    
+    /* 與上方行程路徑文字的距離 */
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+/* 圖片樣式 */
+.route-gallery img {
+    width: 100%;
+    height: 120px; /* 固定高度，讓排版整齊 (同宮廟樣式) */
+    object-fit: cover; /* 填滿裁切 */
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 /* RWD 手機版調整 */
 @media (max-width: 768px) {
     .route-header {
@@ -2098,6 +2153,13 @@ html {
     .day-divider {
         margin-left: 0;
         width: 100%;
+    }
+
+    .route-gallery {
+        gap: 8px;
+    }
+    .route-gallery img {
+        height: 80px; /* 手機版高度縮小 */
     }
 }
 

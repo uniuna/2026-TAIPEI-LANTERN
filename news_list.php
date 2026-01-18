@@ -40,14 +40,14 @@
                         <p class="news-excerpt">
                             臺北市政府觀光傳播局今（16）日舉行「2026台北燈節」首場記者會，宣布今年首度推出「雙展區、雙IP」...
                         </p>
-                        <a href="news_260104.php" class="btn-more">閱讀更多</a>
+                        <a href="news_260104" class="btn-more">閱讀更多</a>
                     </div>
                 </article>
                 
 
             </div>
             <div style="text-align: center; margin-top: 60px;">
-                <a href="index.php" class="btn-back">返回首頁</a>
+                <a href="index" class="btn-back">返回首頁</a>
             </div>
         </section>
     </main>
