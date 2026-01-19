@@ -1,6 +1,12 @@
 
 /* --------- 手機版選單切換腳本 --------- */
 
+// 手機版選單切換腳本
+function toggleMenu() {
+    const nav = document.getElementById('navLinks');
+    nav.classList.toggle('active');
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     // 1. 取得所有選單的主按鈕 (dropbtn)
     const dropbtns = document.querySelectorAll('.dropdown .dropbtn');
