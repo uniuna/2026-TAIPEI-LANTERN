@@ -164,8 +164,9 @@ ul { list-style: none; }
     /* 1. 漢堡選單圖示加大 */
     .hamburger {
         display: block;
-        padding: 10px; /* 增加點擊範圍 */
-        font-size: 1.8rem; /* 圖示變大 */
+        padding: 10px;
+        font-size: 1.8rem;
+        cursor: pointer;
     }
 
     /* 2. 選單容器調整 */
@@ -178,75 +179,86 @@ ul { list-style: none; }
         background: var(--bg-color);
         flex-direction: column;
         align-items: center;
-        /* 改用 Flex start 讓內容從上面開始排，加上 padding 避免貼頂 */
-        justify-content: flex-start; 
+        justify-content: flex-start; /* 內容從上開始 */
         padding-top: 40px; 
-        gap: 0; /* 由連結本身的 padding 來控制間距 */
+        gap: 0;
         transition: 0.3s;
-        overflow-y: auto; /* 如果手機很矮，選單太長可以捲動 */
+        overflow-y: auto;
     }
     .nav-links.active { right: 0; }
 
-    /* 3. 第一層主選單連結 (加大按鈕) */
+    .nav-links a {
+        font-size: 1.2rem;
+    }
+
+    /* 3. 第一層主選單連結 (共用設定) */
     .nav-links > li {
-        width: 100%; /* 寬度滿版 */
+        width: 100%;
         text-align: center;
-        border-bottom: 1px solid rgba(255,255,255,0.05); /* 增加分隔線，視覺更清楚 */
+        border-bottom: 1px solid rgba(255,255,255,0.05);
     }
     
-    .nav-links > li > a {
-        display: block; /* 讓整條橫向區域都能點擊 */
-        font-size: 1.4rem; /* 字體加大 */
-        padding: 20px 0;   /* 上下內距加大 (關鍵 UX 優化) */
+    /* 一般連結 */
+    .nav-links > li > a:not(.dropbtn) {
+        display: block;
+        font-size: 1.4rem;
+        padding: 20px 0;
         width: 100%;
         color: var(--accent-color);
     }
 
-    /* 4. 下拉選單處理 (維持展開) */
+    /* 4. 下拉選單按鈕 (.dropbtn) 特別調整 */
+    .dropbtn {
+        display: flex !important; /* 強制使用 flex */
+        justify-content: center;  /* [關鍵修正] 改為置中，這才會跟其他連結對齊 */
+        align-items: center;      /* 垂直置中 */
+        width: 100%;
+        font-size: 1.4rem;
+        padding: 20px 0;          /* 統一 padding */
+        color: var(--accent-color) !important;
+        cursor: pointer;
+    }
+
+    /* 5. 下拉內容 (.dropdown-content) */
     .dropdown {
         display: block;
         width: 100%;
-        border-bottom: none;
-        padding-bottom: 10px;
-        text-align: center;
+        border-bottom: none; /* 下拉選單本身不畫線，線畫在 li */
     }
 
-    .dropbtn {
-        color: var(--accent-color) !important;
-        font-size: 1.4rem;
-        padding: 20px 0 10px 0;
-        cursor: default;
-    }
-
-    /* 1. 針對所有下拉內容，預設設為隱藏 (加上 !important 確保覆蓋原本的 hover 或 active 設定) */
     .dropdown-content {
-        display: none !important; 
-        position: relative; /* 讓它接在按鈕下方，而不是浮動 */
+        display: none !important; /* 預設隱藏 */
+        position: relative;       /* [關鍵] 手機版要接在下方，不能浮動 */
         width: 100%;
-        background-color: rgba(255, 255, 255, 0.05); /* 稍微深一點的背景區隔 */
+        background-color: rgba(255, 255, 255, 0.05);
         box-shadow: none;
+        top: 0;                   
+        left: 0;                  
+        padding: 0;               /* [關鍵] 清除 ul 預設內距，避免內容偏右 */
+        margin: 0 auto;
     }
 
-    /* 2. 定義一個新的 class "mobile-open"，當加上這個 class 時才顯示 */
+    /* 下拉內容裡的連結樣式 */
+    .dropdown-content li a {
+        padding: 15px 0;       /* 稍微比主選單窄一點，做出層次 */
+        font-size: 1rem;     /* 字體稍微小一點 */
+        color: #ddd;
+        display: block;
+        text-align: center;    /* 確保子連結也置中 */
+    }
+
+    /* 6. 開啟狀態 (由 JS 控制) */
     .dropdown.mobile-open .dropdown-content {
         display: block !important;
-        animation: fadeIn 0.3s; /* 加入淡入動畫 */
+        animation: fadeIn 0.3s;
     }
 
-    /* 3. 調整按鈕樣式 (讓使用者知道可以點) */
-    .dropbtn {
-        cursor: pointer;
-        display: flex;
-        justify-content: space-between; /* 讓箭頭靠右 */
-        align-items: center;
-        width: 100%;
-    }
-
-    /* 4. (選用) 箭頭旋轉動畫 */
-    /* 假設您的箭頭是文字 ▾ 或 ::after 生成的，這裡提供一個通用範例 */
-    .dropdown.mobile-open .dropbtn::after {
-        transform: rotate(180deg);
-        transition: transform 0.3s;
+    /* 箭頭旋轉 (如果您希望能旋轉的話) */
+    /* 注意：這需要您的 HTML 裡箭頭是分開的元素或是 ::after */
+    /* 如果您的箭頭是直接寫在文字裡 "▾"，這個旋轉可能會帶動整個文字 */
+    /* 這裡保留您的旋轉動畫，但建議確認 HTML 結構 */
+    .dropdown.mobile-open .dropbtn {
+        background: rgba(255,255,255,0.05); /* 展開時按鈕背景變色 */
     }
 }
 
