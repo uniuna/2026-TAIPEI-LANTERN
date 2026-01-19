@@ -1,31 +1,26 @@
 
 /* --------- 手機版選單切換腳本 --------- */
 
-// 手機版選單切換腳本
-function toggleMenu() {
-    const nav = document.getElementById('navLinks');
-    nav.classList.toggle('active');
-}
-
-/* 解決 iOS 手機版選單需要點兩次的問題 */
 document.addEventListener("DOMContentLoaded", function() {
-    // 偵測是否為觸控裝置
-    const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    // 1. 取得所有選單的主按鈕 (dropbtn)
+    const dropbtns = document.querySelectorAll('.dropdown .dropbtn');
 
-    if (isTouch) {
-        // 針對選單內的連結，綁定 touchend 事件直接觸發跳轉
-        const navLinks = document.querySelectorAll('.nav-links a');
-        
-        navLinks.forEach(link => {
-            link.addEventListener('touchend', function(e) {
-                // 如果這個連結有 href 且不是空連結
-                if (this.href && this.href !== '#' && this.href !== 'javascript:void(0)') {
-                    // 稍微延遲一點點，讓視覺回饋跑完 (可選)
-                    // window.location.href = this.href; 
-                }
-            });
+    dropbtns.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            // 2. 檢查目前是否為手機版 (這裡設定 768px，需與 CSS 一致)
+            if (window.innerWidth <= 768) {
+                
+                // 阻止預設連結跳轉 (如果按鈕本身有 href 的話)
+                e.preventDefault();
+
+                // 3. 找到父層的 li (.dropdown)
+                const parent = this.parentElement;
+
+                // 4. 切換 'mobile-open' class
+                parent.classList.toggle('mobile-open');
+            }
         });
-    }
+    });
 });
 
 

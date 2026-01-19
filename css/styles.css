@@ -218,44 +218,35 @@ ul { list-style: none; }
         cursor: default;
     }
 
+    /* 1. 針對所有下拉內容，預設設為隱藏 (加上 !important 確保覆蓋原本的 hover 或 active 設定) */
     .dropdown-content {
-        /* [修正] 確保沒有任何 hover 或 transition 會擋住點擊 */
-        position: static;
-        width: 90%;
-        margin: 10px auto 0; /* 簡化寫法 */
-        display: block !important; /* 強制顯示 */
-        
-        background: rgba(255,255,255,0.05);
+        display: none !important; 
+        position: relative; /* 讓它接在按鈕下方，而不是浮動 */
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.05); /* 稍微深一點的背景區隔 */
         box-shadow: none;
-        border: none;
-        padding: 0;
-        border-radius: 10px;
-        animation: none;
-        opacity: 1; /* 確保不透明 */
-        visibility: visible; /* 確保可見 */
-        
-        /* [關鍵] 確保 z-index 足夠高 (雖然 static 通常不需要，但保險起見) */
-        z-index: 1002;
     }
 
+    /* 2. 定義一個新的 class "mobile-open"，當加上這個 class 時才顯示 */
+    .dropdown.mobile-open .dropdown-content {
+        display: block !important;
+        animation: fadeIn 0.3s; /* 加入淡入動畫 */
+    }
 
-    /* 5. 第二層子選單連結 (加大按鈕) */
-    .dropdown-content li {
-        text-align: center;
+    /* 3. 調整按鈕樣式 (讓使用者知道可以點) */
+    .dropbtn {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between; /* 讓箭頭靠右 */
+        align-items: center;
+        width: 100%;
     }
-    
-    /* 確保連結本身是可點擊的 */
-    .dropdown-content a {
-        pointer-events: auto; /* 強制連結可點擊 */
-        padding: 15px 0;
-        display: block; /* 滿版點擊區域 */
-        font-size: 1.1rem;
-    }
-    .dropdown-content a:last-child { border-bottom: none; }
-    
-    .dropdown-content a:hover, .dropdown-content a:active {
-        background: transparent;
-        color: white;
+
+    /* 4. (選用) 箭頭旋轉動畫 */
+    /* 假設您的箭頭是文字 ▾ 或 ::after 生成的，這裡提供一個通用範例 */
+    .dropdown.mobile-open .dropbtn::after {
+        transform: rotate(180deg);
+        transition: transform 0.3s;
     }
 }
 
