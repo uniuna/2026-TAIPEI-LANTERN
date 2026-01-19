@@ -31,7 +31,7 @@
                         中正紀念堂／國立臺灣博物館南門館 <span>⟶</span> 南門市場 <span>⟶</span> 植物園／孫運璿科技•人文紀念館／郵政博物館 <span>⟶</span> 南機場夜市 <span>⟶</span> 西門展區賞燈
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/oneday_1.jpg" alt="景點">
+                        <img src="images/route/oneday_1.jpg" alt="景點" >
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@
                         國立臺灣博物館 <span>⟶</span> 榮町商圈 <span>⟶</span> 重慶南路書店商圈／北門相機商圈 <span>⟶</span> 西門町 <span>⟶</span> 西門展區賞燈
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/oneday_2.jpg" alt="景點">
+                        <img src="images/route/oneday_2.jpg" alt="景點" >
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@
                         陽明山擎天崗、冷水坑 <span>⟶</span> 捷運士林站周邊 <span>⟶</span> 臺北市立兒童樂園 <span>⟶</span> 大同酒泉街／花博集食行樂 <span>⟶</span> 花博展區賞燈
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/oneday_3.jpg" alt="景點">
+                        <img src="images/route/oneday_3.jpg" alt="景點" >
                     </div>
                 </div>
 
@@ -70,7 +70,7 @@
                         白石湖吊橋／碧山露營場天空步道 <span>⟶</span> 美麗華百樂園 <span>⟶</span> 士林官邸 <span>⟶</span> 士林夜市 <span>⟶</span> 花博展區賞燈
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/oneday_4.jpg" alt="景點">
+                        <img src="images/route/oneday_4.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@
                         台北當代藝術館 <span>⟶</span> 中山北路／條通商圈 <span>⟶</span> 台北之家／中山赤峰街／誠品南西店 <span>⟶</span> 晴光商圈／中山商圈 <span>⟶</span> 花博展區賞燈
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/oneday_5.jpg" alt="景點">
+                        <img src="images/route/oneday_5.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -96,7 +96,7 @@
                         霞海城隍廟 <span>⟶</span> 迪化街 <span>⟶</span> 大龍峒保安宮 <span>⟶</span> 大龍街夜市 <span>⟶</span> 花博展區賞燈
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/oneday_6.jpg" alt="景點">
+                        <img src="images/route/oneday_6.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -125,8 +125,8 @@
                         </div>
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/twodays_1-1.jpg" alt="景點">
-                        <img src="images/route/twodays_1-2.jpg" alt="景點">
+                        <img src="images/route/twodays_1-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/twodays_1-2.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -149,8 +149,8 @@
                         </div>
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/twodays_2-1.jpg" alt="景點">
-                        <img src="images/route/twodays_2-2.jpg" alt="景點">
+                        <img src="images/route/twodays_2-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/twodays_2-2.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -173,8 +173,8 @@
                         </div>
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/twodays_3-1.jpg" alt="景點">
-                        <img src="images/route/twodays_3-2.jpg" alt="景點">
+                        <img src="images/route/twodays_3-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/twodays_3-2.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -197,8 +197,8 @@
                         </div>
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/twodays_4-1.jpg" alt="景點">
-                        <img src="images/route/twodays_4-2.jpg" alt="景點">
+                        <img src="images/route/twodays_4-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/twodays_4-2.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -221,8 +221,8 @@
                         </div>
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/twodays_5-1.jpg" alt="景點">
-                        <img src="images/route/twodays_5-2.jpg" alt="景點">
+                        <img src="images/route/twodays_5-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/twodays_5-2.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -245,8 +245,8 @@
                         </div>
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/twodays_6-1.jpg" alt="景點">
-                        <img src="images/route/twodays_6-2.jpg" alt="景點">
+                        <img src="images/route/twodays_6-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/twodays_6-2.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -269,8 +269,8 @@
                         </div>
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/twodays_7-1.jpg" alt="景點">
-                        <img src="images/route/twodays_7-2.jpg" alt="景點">
+                        <img src="images/route/twodays_7-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/twodays_7-2.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -293,8 +293,8 @@
                         </div>
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/twodays_8-1.jpg" alt="景點">
-                        <img src="images/route/twodays_8-2.jpg" alt="景點">
+                        <img src="images/route/twodays_8-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/twodays_8-2.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -334,9 +334,9 @@
                     </div>
                     
                     <div class="route-gallery">
-                        <img src="images/route/threedays_1-1.jpg" alt="景點">
-                        <img src="images/route/threedays_1-2.jpg" alt="景點">
-                        <img src="images/route/threedays_1-3.jpg" alt="景點">
+                        <img src="images/route/threedays_1-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_1-2.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_1-3.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="route-card">
@@ -369,9 +369,9 @@
                     </div>
 
                     <div class="route-gallery">
-                        <img src="images/route/threedays_2-1.jpg" alt="景點">
-                        <img src="images/route/threedays_2-2.jpg" alt="景點">
-                        <img src="images/route/threedays_2-3.jpg" alt="景點">
+                        <img src="images/route/threedays_2-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_2-2.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_2-3.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="route-card">
@@ -404,9 +404,9 @@
                     </div>
 
                     <div class="route-gallery">
-                        <img src="images/route/threedays_3-1.jpg" alt="景點">
-                        <img src="images/route/threedays_3-2.jpg" alt="景點">
-                        <img src="images/route/threedays_3-3.jpg" alt="景點">
+                        <img src="images/route/threedays_3-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_3-2.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_3-3.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="route-card">
@@ -439,9 +439,9 @@
                     </div>
 
                     <div class="route-gallery">
-                        <img src="images/route/threedays_4-1.jpg" alt="景點">
-                        <img src="images/route/threedays_4-2.jpg" alt="景點">
-                        <img src="images/route/threedays_4-3.jpg" alt="景點">
+                        <img src="images/route/threedays_4-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_4-2.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_4-3.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="route-card">
@@ -474,9 +474,9 @@
                     </div>
 
                     <div class="route-gallery">
-                        <img src="images/route/threedays_5-1.jpg" alt="景點">
-                        <img src="images/route/threedays_5-2.jpg" alt="景點">
-                        <img src="images/route/threedays_5-3.jpg" alt="景點">
+                        <img src="images/route/threedays_5-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_5-2.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_5-3.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="route-card">
@@ -508,9 +508,9 @@
                     </div>
 
                     <div class="route-gallery">
-                        <img src="images/route/threedays_6-1.jpg" alt="景點">
-                        <img src="images/route/threedays_6-2.jpg" alt="景點">
-                        <img src="images/route/threedays_6-3.jpg" alt="景點">
+                        <img src="images/route/threedays_6-1.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_6-2.jpg" alt="景點" loading="lazy" decoding="async">
+                        <img src="images/route/threedays_6-3.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>

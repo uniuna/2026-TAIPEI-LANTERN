@@ -10,6 +10,7 @@
 }
 
 
+
 /* --------- 2.基礎設定 --------- */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -21,111 +22,6 @@ body {
 }
 a { text-decoration: none; color: inherit; transition: 0.3s; }
 ul { list-style: none; }
-
-
-/* --- 寬螢幕氛圍特效 (加強版：流光 + 虛化燈籠) --- */
-/* 僅在螢幕寬度大於 1400px 時顯示，填補左右兩側的黑底 */
-@media (min-width: 1400px) {
-    
-    body {
-        position: relative;
-        z-index: 0;
-        /* 確保 body 背景夠深，讓光暈對比更強 */
-        background-color: #000002; 
-    }
-
-    /* 1. 大範圍氛圍光 (Ambient Light) - 模擬燈會的環境漫射光 */
-    body::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        z-index: -2; /* 最底層 */
-        pointer-events: none;
-        
-        /* [加強] 提高不透明度，讓顏色更跳 */
-        opacity: 0.8; 
-        
-        /* [加強] 使用 screen 濾色模式，讓光暈在黑底上發亮 */
-        mix-blend-mode: screen; 
-
-        background: 
-            /* 左上：強烈的橘金光 (主視覺色) */
-            radial-gradient(circle at 0% 10%, rgba(255, 140, 0, 0.4) 0%, transparent 15%),
-            /* 左中：深紅氛圍 */
-            radial-gradient(circle at 5% 50%, rgba(255, 0, 85, 0.25) 0%, transparent 20%),
-            /* 左下：冷色對比 */
-            radial-gradient(circle at 0% 90%, rgba(0, 50, 150, 0.3) 0%, transparent 10%),
-            
-            /* 右上：科技藍 (呼應 Button) */
-            radial-gradient(circle at 100% 20%, rgba(0, 229, 255, 0.25) 0%, transparent 15%),
-            /* 右中：暖黃光 */
-            radial-gradient(circle at 95% 60%, rgba(255, 215, 0, 0.3) 0%, transparent 10%),
-            /* 右下：紫紅光 */
-            radial-gradient(circle at 100% 85%, rgba(255, 0, 128, 0.3) 0%, transparent 20%);
-            
-        /* 大幅模糊，讓漸層融合 */
-        filter: blur(40px);
-        
-        /* 緩慢的呼吸動畫 */
-        animation: ambientDeepPulse 8s infinite alternate ease-in-out;
-    }
-
-    /* 2. 懸浮光點 (Bokeh Lanterns) - 模擬遠處失焦的燈籠光點 */
-    body::after {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        z-index: -1; /* 在氛圍光之上 */
-        pointer-events: none;
-        opacity: 0.9; /* 讓光點很亮 */
-        mix-blend-mode: screen;
-
-        /* 繪製多個實心小光點 */
-        background-image: 
-            /* 左側光點群 */
-            radial-gradient(circle at 6% 15%, rgba(255, 255, 150, 0.8) 2px, transparent 15px),
-            radial-gradient(circle at 4% 35%, rgba(255, 81, 50, 0.7) 4px, transparent 25px),
-            radial-gradient(circle at 8% 45%, rgba(255, 166, 50, 0.7) 4px, transparent 15px),
-            radial-gradient(circle at 10% 70%, rgba(0, 229, 255, 0.6) 3px, transparent 20px),
-            
-            /* 右側光點群 */
-            radial-gradient(circle at 90% 20%, rgba(0, 200, 255, 0.6) 2px, transparent 15px),
-            radial-gradient(circle at 96% 55%, rgba(255, 50, 100, 0.7) 5px, transparent 30px),
-            radial-gradient(circle at 92% 80%, rgba(255, 200, 0, 0.8) 3px, transparent 20px);
-            
-            
-        /* 稍微模糊一點點，製造景深感 */
-        filter: blur(6px);
-        
-        /* 浮動動畫 */
-        animation: floatingParticles 15s infinite linear;
-    }
-}
-
-/* 動畫定義 */
-@keyframes ambientDeepPulse {
-    0% { opacity: 0.7; transform: scale(1); }
-    100% { opacity: 1; transform: scale(1.02); }
-}
-
-@keyframes floatingParticles {
-    0% { transform: translateY(0) scale(1); opacity: 0.8; }
-    50% { transform: translateY(-20px) scale(1.1); opacity: 1; }
-    100% { transform: translateY(0) scale(1); opacity: 0.8; }
-}
-
-/* --- 關閉氛圍特效專用 --- */
-/* 只要 body 有加 class="no-ambient"，就隱藏光暈與粒子 */
-body.no-ambient::before,
-body.no-ambient::after {
-    display: none !important;
-}
 
 
 
@@ -183,7 +79,8 @@ body.no-ambient::after {
 .hamburger { display: none; cursor: pointer; font-size: 1.5rem; }
 
 
-/* --------- 4.下拉選單 (Dropdown) 樣式 - RWD 優化版 --------- */
+
+/* --------- 4.下拉選單 (Dropdown) 樣式 --------- */
 
 /* 1. 設定父層定位基準 */
 .dropdown {
@@ -363,6 +260,7 @@ body.no-ambient::after {
 }
 
 
+
 /* --------- 5.語言切換按鈕樣式 --------- */
 .lang-btn {
     border: 1px solid rgba(255,255,255,0.3);
@@ -393,7 +291,7 @@ body.no-ambient::after {
 }
 
 
-/* --------- 台北旅遊網 Link --------- */
+/* --------- ＊台北旅遊網 Link＊ --------- */
 .t-travel {
     border-radius: 20px;
     border: #00E5FF 1px solid;
@@ -416,6 +314,7 @@ body.no-ambient::after {
         border-color: var(--accent-color);
     }
 }
+
 
 
 /* --------- 6.通用設定 --------- */
@@ -459,6 +358,7 @@ body.no-ambient::after {
 .card-content { padding: 20px; }
 .card-title { font-size: 1.25rem; margin-bottom: 10px; color: var(--accent-color); }
 .card-text { font-size: 0.9rem; color: var(--text-sub); margin-bottom: 15px; }
+
 
 
 /* --------- 8.按鈕樣式 --------- */
@@ -505,6 +405,7 @@ body.no-ambient::after {
           text-align: center;
       }
   }
+
 
 
 /* --------- 9.Footer 贊助商排版樣式 --------- */
@@ -619,14 +520,76 @@ footer.active-mode .footer-bottom {
 }
 
 
-/* --------- 10.動畫效果 --------- */
+
+/* --------- 10.Tab頁籤按鈕樣式 (共用－紅) --------- */
+.tab-buttons {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   margin-bottom: 30px;
+   flex-wrap: wrap;
+}
+
+.tab-btn,
+.extra-btn {
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  /* 預設樣式 (未選中)：透明背景 + 邊框 */
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.tab-btn:hover,
+.extra-btn:hover {
+  background: rgba(255, 0, 85, 0.1);
+}
+
+/* 激活狀態 (Active)：實心背景 */
+.tab-btn.active,
+.extra-btn.active {
+  background: var(--primary-color);
+  color: white;
+  box-shadow: 0 0 15px var(--primary-color);
+}
+
+/* 內容區塊控制 */
+.tab-content,
+.extra-content {
+  display: none; /* 預設全部隱藏 */
+  animation: fadeIn 0.5s;
+}
+
+/* 加上這行，讓有 active class 的內容顯示出來 */
+.tab-content.active,
+.extra-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/* --------- 11.動畫效果 --------- */
 @keyframes glow {
     from { filter: drop-shadow(0 0 5px rgba(255,0,85,0.3)); }
     to { filter: drop-shadow(0 0 20px rgba(255,0,85,0.8)); }
 }
 
 
-/* --- Loading 動畫 (Preloader) --- */
+/* --- ＊Loading 動畫 (Preloader)＊ --- */
 #preloader {
     position: fixed;
     top: 0;
@@ -772,137 +735,113 @@ footer.active-mode .footer-bottom {
 }
 
 
-/* --------- 11.Tab頁籤按鈕樣式 (共用－紅) --------- */
-.tab-buttons {
-   display: flex;
-   justify-content: center;
-   gap: 15px;
-   margin-bottom: 30px;
-   flex-wrap: wrap;
+/* --------- ＊寬螢幕氛圍特效 (加強版：流光 + 虛化燈籠)＊ --------- */
+
+/* 僅在螢幕寬度大於 1400px 時顯示，填補左右兩側的黑底 */
+@media (min-width: 1400px) {
+    
+    body {
+        position: relative;
+        z-index: 0;
+        /* 確保 body 背景夠深，讓光暈對比更強 */
+        background-color: #000002; 
+    }
+
+    /* 1. 大範圍氛圍光 (Ambient Light) - 模擬燈會的環境漫射光 */
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: -2; /* 最底層 */
+        pointer-events: none;
+        
+        /* [加強] 提高不透明度，讓顏色更跳 */
+        opacity: 0.8; 
+        
+        /* [加強] 使用 screen 濾色模式，讓光暈在黑底上發亮 */
+        mix-blend-mode: screen; 
+
+        background: 
+            /* 左上：強烈的橘金光 (主視覺色) */
+            radial-gradient(circle at 0% 10%, rgba(255, 140, 0, 0.4) 0%, transparent 15%),
+            /* 左中：深紅氛圍 */
+            radial-gradient(circle at 5% 50%, rgba(255, 0, 85, 0.25) 0%, transparent 20%),
+            /* 左下：冷色對比 */
+            radial-gradient(circle at 0% 90%, rgba(0, 50, 150, 0.3) 0%, transparent 10%),
+            
+            /* 右上：科技藍 (呼應 Button) */
+            radial-gradient(circle at 100% 20%, rgba(0, 229, 255, 0.25) 0%, transparent 15%),
+            /* 右中：暖黃光 */
+            radial-gradient(circle at 95% 60%, rgba(255, 215, 0, 0.3) 0%, transparent 10%),
+            /* 右下：紫紅光 */
+            radial-gradient(circle at 100% 85%, rgba(255, 0, 128, 0.3) 0%, transparent 20%);
+            
+        /* 大幅模糊，讓漸層融合 */
+        filter: blur(40px);
+        
+        /* 緩慢的呼吸動畫 */
+        animation: ambientDeepPulse 8s infinite alternate ease-in-out;
+    }
+
+    /* 2. 懸浮光點 (Bokeh Lanterns) - 模擬遠處失焦的燈籠光點 */
+    body::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: -1; /* 在氛圍光之上 */
+        pointer-events: none;
+        opacity: 0.9; /* 讓光點很亮 */
+        mix-blend-mode: screen;
+
+        /* 繪製多個實心小光點 */
+        background-image: 
+            /* 左側光點群 */
+            radial-gradient(circle at 6% 15%, rgba(255, 255, 150, 0.8) 2px, transparent 15px),
+            radial-gradient(circle at 4% 35%, rgba(255, 81, 50, 0.7) 4px, transparent 25px),
+            radial-gradient(circle at 8% 45%, rgba(255, 166, 50, 0.7) 4px, transparent 15px),
+            radial-gradient(circle at 10% 70%, rgba(0, 229, 255, 0.6) 3px, transparent 20px),
+            
+            /* 右側光點群 */
+            radial-gradient(circle at 90% 20%, rgba(0, 200, 255, 0.6) 2px, transparent 15px),
+            radial-gradient(circle at 96% 55%, rgba(255, 50, 100, 0.7) 5px, transparent 30px),
+            radial-gradient(circle at 92% 80%, rgba(255, 200, 0, 0.8) 3px, transparent 20px);
+            
+            
+        /* 稍微模糊一點點，製造景深感 */
+        filter: blur(6px);
+        
+        /* 浮動動畫 */
+        animation: floatingParticles 15s infinite linear;
+    }
 }
 
-.tab-btn,
-.extra-btn {
-  padding: 10px 30px;
-  border-radius: 50px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: 0.3s;
-  /* 預設樣式 (未選中)：透明背景 + 邊框 */
-  background: transparent;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+/* 動畫定義 */
+@keyframes ambientDeepPulse {
+    0% { opacity: 0.7; transform: scale(1); }
+    100% { opacity: 1; transform: scale(1.02); }
 }
 
-.tab-btn:hover,
-.extra-btn:hover {
-  background: rgba(255, 0, 85, 0.1);
+@keyframes floatingParticles {
+    0% { transform: translateY(0) scale(1); opacity: 0.8; }
+    50% { transform: translateY(-20px) scale(1.1); opacity: 1; }
+    100% { transform: translateY(0) scale(1); opacity: 0.8; }
 }
 
-/* 激活狀態 (Active)：實心背景 */
-.tab-btn.active,
-.extra-btn.active {
-  background: var(--primary-color);
-  color: white;
-  box-shadow: 0 0 15px var(--primary-color);
-}
-
-/* 內容區塊控制 */
-.tab-content,
-.extra-content {
-  display: none; /* 預設全部隱藏 */
-  animation: fadeIn 0.5s;
-}
-
-/* 加上這行，讓有 active class 的內容顯示出來 */
-.tab-content.active,
-.extra-content.active {
-  display: block;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* --- 關閉氛圍特效專用 --- */
+/* 只要 body 有加 class="no-ambient"，就隱藏光暈與粒子 */
+body.no-ambient::before,
+body.no-ambient::after {
+    display: none !important;
 }
 
 
-/* --------- 12.Swiper 輪播樣式 (共用) --------- */
-.highlights-section {
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
 
-/* 關鍵：設定線性動畫，讓移動過程是等速的 (Smooth Marquee 效果) */
-.swiper-wrapper {
-  transition-timing-function: linear;
-}
 
-.swiper-container {
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 50px;
-}
 
-/* 圖片卡片 */
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
-  border-radius: 15px;
-  overflow: hidden;
-  position: relative;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: 0.3s;
-  /* 桌機版預設游標改為一般箭頭 (不要手掌) */
-  cursor: default;
-}
 
-.swiper-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 1s ease;
-}
-.swiper-slide:hover img {
-  transform: scale(1.1);
-}
-
-.slide-caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
-  color: white;
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
-/* 箭頭樣式 */
-.swiper-button-next,
-.swiper-button-prev {
-  color: var(--text-main);
-  text-shadow: 0 0 10px var(--text-main);
-  transition: 0.3s;
-  top: var(--swiper-navigation-top-offset, 45%);
-}
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  color: var(--accent-color);
-  text-shadow: 0 0 20px var(--accent-color), 0 0 40px var(--accent-color);
-}
-
-@media (max-width: 768px) {
-  .swiper-slide {
-    height: 300px;
-  }
-}

@@ -33,7 +33,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Dist_Monga.jpg" alt="艋舺商圈">
+                        <img src="images/sites/Dist_Monga.jpg" alt="艋舺商圈" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">西門展區</span>
                         </div>
@@ -47,7 +47,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Dist_Ximen.jpg" alt="西門町商圈">
+                        <img src="images/sites/Dist_Ximen.jpg" alt="西門町商圈" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">西門展區</span>
                         </div>
@@ -61,7 +61,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/RongTing.jpg" alt="榮町商圈">
+                        <img src="images/sites/RongTing.jpg" alt="榮町商圈" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">西門展區</span>
                         </div>
@@ -75,7 +75,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/NorthGate.jpg" alt="北門相機商圈">
+                        <img src="images/sites/NorthGate.jpg" alt="北門相機商圈" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">西門展區</span>
                         </div>
@@ -89,7 +89,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/ZhonghuaRoad.jpg" alt="中華路影音街">
+                        <img src="images/sites/ZhonghuaRoad.jpg" alt="中華路影音街" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">西門展區</span>
                         </div>
@@ -103,7 +103,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Yuanling.jpg" alt="沅陵街商圈">
+                        <img src="images/sites/Yuanling.jpg" alt="沅陵街商圈" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">西門展區</span>
                         </div>
@@ -117,7 +117,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/TaipeiUndergroundMall.jpg" alt="台北地下街">
+                        <img src="images/sites/TaipeiUndergroundMall.jpg" alt="台北地下街" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">西門展區</span>
                         </div>
@@ -131,7 +131,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Dist_Dadaocheng.jpg" alt="大稻埕商圈">
+                        <img src="images/sites/Dist_Dadaocheng.jpg" alt="大稻埕商圈" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">花博展區</span>
                         </div>
@@ -145,7 +145,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Dist_Zhongshan.jpg" alt="中山商圈">
+                        <img src="images/sites/Dist_Zhongshan.jpg" alt="中山商圈" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">花博展區</span>
                         </div>
@@ -159,7 +159,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Yuanshan.jpg" alt="圓山商圈">
+                        <img src="images/sites/Yuanshan.jpg" alt="圓山商圈" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">花博展區</span>
                         </div>
@@ -173,7 +173,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/ZhishengExpo.jpg" alt="至聖花博商圈">
+                        <img src="images/sites/ZhishengExpo.jpg" alt="至聖花博商圈" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">花博展區</span>
                         </div>
@@ -187,7 +187,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Dalongdong.jpg" alt="大龍峒商圈">
+                        <img src="images/sites/Dalongdong.jpg" alt="大龍峒商圈" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">花博展區</span>
                         </div>
@@ -223,7 +223,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Nanjichang.jpg" alt="南機場夜市">
+                        <img src="images/sites/Nanjichang.jpg" alt="南機場夜市" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">西門展區</span>
                         </div>
@@ -237,7 +237,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/HuaxiStreet.jpg" alt="華西街夜市">
+                        <img src="images/sites/HuaxiStreet.jpg" alt="華西街夜市" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">西門展區</span>
                         </div>
@@ -251,7 +251,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Dist_Shilin.jpg" alt="士林觀光夜市">
+                        <img src="images/sites/Dist_Shilin.jpg" alt="士林觀光夜市" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">花博展區</span>
                         </div>

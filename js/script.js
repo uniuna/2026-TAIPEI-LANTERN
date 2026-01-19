@@ -1,5 +1,6 @@
 
 /* --------- 手機版選單切換腳本 --------- */
+
 // 手機版選單切換腳本
 function toggleMenu() {
     const nav = document.getElementById('navLinks');
@@ -29,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-/* --------- Tab 頁籤切換功能 (index.html) --------- */
+/* --------- Tab 頁籤切換功能 (index) --------- */
 
 function openYearTab(evt, tabId) {
     // 1. 隱藏所有年份內容
@@ -57,7 +58,8 @@ function openYearTab(evt, tabId) {
 }
 
 
-/* --------- Tab 頁籤切換功能 (event.html) --------- */
+
+/* --------- Tab 頁籤切換功能 (event) --------- */
 
 function openTab(evt, tabName) {
     var i, tabContent, tabBtns;
@@ -87,7 +89,8 @@ function openTab(evt, tabName) {
 }
 
 
-/* --------- 雙層 Tab 切換功能 (bonus.php) --------- */
+
+/* --------- 雙層 Tab 頁籤切換功能 (bonus) --------- */
 
 // --- 第一層：主分類切換 ---
 function switchMainCat(catId, btnElement) {
@@ -109,7 +112,6 @@ function switchMainCat(catId, btnElement) {
     // 4. 設定當前按鈕為 active
     btnElement.classList.add('active');
 }
-
 
 // --- 第二層：原本的 Tab 切換 (保持不變，稍作微調) ---
 function switchSubCat(evt, tabName) {
@@ -138,7 +140,7 @@ function switchSubCat(evt, tabName) {
 
 
 
-/* --------- 宮廟活動：手風琴列表切換 (bonus.php）--------- */
+/* --------- 宮廟活動：手風琴列表切換 (bonus）--------- */
 
 function toggleTemple(header) {
     // 取得點擊的項目的父容器 (.temple-item)
@@ -171,7 +173,7 @@ function toggleTemple(header) {
 
 
 
-/* --------- 地圖點擊彈窗 (Travel.php）--------- */
+/* --------- 地圖點擊彈窗 (Travel）--------- */
 
 // 開啟圖片彈窗
 function openImageModal(src) {
@@ -232,7 +234,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-/* --------- Loading 動畫控制腳本 --------- */
+/* --------- 首頁 Loading 動畫控制腳本 (index) --------- */
 
 window.addEventListener('load', function() {
     const preloader = document.getElementById('preloader');
@@ -248,71 +250,60 @@ window.addEventListener('load', function() {
 
 
 
+/* --------- 首頁 直播公告彈窗 (index) --------- */
 
-
-/* --------- Swiper 輪播初始化 含防呆機制 (共用) --------- */
-
-// 1. 先嘗試抓取容器
-const highlightContainer = document.querySelector('.highlight-swiper');
-
-// 2. 判斷：只有當「容器存在」且「Swiper 套件已載入」時才執行
-if (highlightContainer && typeof Swiper !== 'undefined') {
+// 頁面載入後自動顯示
+window.addEventListener('load', function() {
+    const liveModal = document.getElementById('liveModal');
     
-    const highlightSwiper = new Swiper('.highlight-swiper', {
-        // 核心參數
-        loop: true,
-        spaceBetween: 30,
-        
-        // RWD 響應式設定
-        breakpoints: {
-            320: { slidesPerView: 1.2, spaceBetween: 20 },
-            768: { slidesPerView: 2.5, spaceBetween: 30 },
-            1024: { slidesPerView: 3.5, spaceBetween: 30 }
-        },
-    
-        // 導航箭頭設定
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    
-        // 自動播放設定
-        autoplay: {
-            delay: 5000, 
-            disableOnInteraction: false,
-        },
-    });
+    // 如果想要每次重整都跳出，直接用這行：
+    // setTimeout(() => { openLiveModal(); }, 1000);
 
-    // --- Hover 控制自動播放邏輯 (也必須包在防呆裡面) ---
-    // 只有當 highlightSwiper 成功建立後，才能執行下面的指令
-    
-    // 1. 初始先停止播放
-    highlightSwiper.autoplay.stop();
+    // [進階] 如果希望「使用者關閉後，這次瀏覽器期間不再跳出」，請使用下面這段：
+    if (!sessionStorage.getItem('liveModalClosed')) {
+        setTimeout(() => {
+            openLiveModal();
+        }, 1000); // 延遲1秒顯示，比較不突兀
+    }
+});
 
-    // 2. 滑鼠移入 -> 開始播放
-    highlightContainer.addEventListener('mouseenter', () => {
-        highlightSwiper.autoplay.start();
-    });
-
-    // 3. 滑鼠移出 -> 停止播放
-    highlightContainer.addEventListener('mouseleave', () => {
-        highlightSwiper.autoplay.stop();
-    });
-
-} else {
-    // (選用) 如果你想知道為什麼沒跑，可以打開這行
-    // console.log("本頁面無 Swiper 區塊，或未引入 Swiper JS，故不執行輪播初始化。");
+function openLiveModal() {
+    const modal = document.getElementById('liveModal');
+    if(modal) {
+        modal.style.display = 'flex';
+        // 延遲一點點加 show class 以觸發淡入動畫
+        setTimeout(() => {
+            modal.classList.add('show');
+        }, 10);
+    }
 }
 
+function closeLiveModal() {
+    const modal = document.getElementById('liveModal');
+    if(modal) {
+        modal.classList.remove('show');
+        setTimeout(() => {
+            modal.style.display = 'none';
+        }, 500); // 等動畫跑完再隱藏
+        
+        // 紀錄已關閉，避免重複跳出 (搭配上面的 sessionStorage 使用)
+        sessionStorage.setItem('liveModalClosed', 'true');
+    }
+}
+
+// 點擊背景也可以關閉
+document.getElementById('liveModal').addEventListener('click', function(e) {
+    if (e.target === this) {
+        closeLiveModal();
+    }
+});
 
 
 
 
 
-
-
-
-/* --------- 展區地圖彈窗資料庫 (ximen.html / expo.html) --------- */
+/* ------------------------------------------------------------------------ */
+/* --------- 展區地圖彈窗資料庫 (ximen / expo) --------- */
 
 /* --- 1. 先定義資料庫 --- */
 const mapData = {
