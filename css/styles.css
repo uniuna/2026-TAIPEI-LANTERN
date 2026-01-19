@@ -164,9 +164,8 @@ ul { list-style: none; }
     /* 1. 漢堡選單圖示加大 */
     .hamburger {
         display: block;
-        padding: 10px;
-        font-size: 1.8rem;
-        cursor: pointer;
+        padding: 10px; /* 增加點擊範圍 */
+        font-size: 1.8rem; /* 圖示變大 */
     }
 
     /* 2. 選單容器調整 */
@@ -179,86 +178,84 @@ ul { list-style: none; }
         background: var(--bg-color);
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start; /* 內容從上開始 */
+        /* 改用 Flex start 讓內容從上面開始排，加上 padding 避免貼頂 */
+        justify-content: flex-start; 
         padding-top: 40px; 
-        gap: 0;
+        gap: 0; /* 由連結本身的 padding 來控制間距 */
         transition: 0.3s;
-        overflow-y: auto;
+        overflow-y: auto; /* 如果手機很矮，選單太長可以捲動 */
     }
     .nav-links.active { right: 0; }
 
-    .nav-links a {
-        font-size: 1.2rem;
-    }
-
-    /* 3. 第一層主選單連結 (共用設定) */
+    /* 3. 第一層主選單連結 (加大按鈕) */
     .nav-links > li {
-        width: 100%;
+        width: 100%; /* 寬度滿版 */
         text-align: center;
-        border-bottom: 1px solid rgba(255,255,255,0.05);
+        border-bottom: 1px solid rgba(255,255,255,0.05); /* 增加分隔線，視覺更清楚 */
     }
     
-    /* 一般連結 */
-    .nav-links > li > a:not(.dropbtn) {
-        display: block;
-        font-size: 1.4rem;
-        padding: 20px 0;
+    .nav-links > li > a {
+        display: block; /* 讓整條橫向區域都能點擊 */
+        font-size: 1.4rem; /* 字體加大 */
+        padding: 20px 0;   /* 上下內距加大 (關鍵 UX 優化) */
         width: 100%;
         color: var(--accent-color);
     }
 
-    /* 4. 下拉選單按鈕 (.dropbtn) 特別調整 */
-    .dropbtn {
-        display: flex !important; /* 強制使用 flex */
-        justify-content: center;  /* [關鍵修正] 改為置中，這才會跟其他連結對齊 */
-        align-items: center;      /* 垂直置中 */
-        width: 100%;
-        font-size: 1.4rem;
-        padding: 20px 0;          /* 統一 padding */
-        color: var(--accent-color) !important;
-        cursor: pointer;
-    }
-
-    /* 5. 下拉內容 (.dropdown-content) */
+    /* 4. 下拉選單處理 (維持展開) */
     .dropdown {
         display: block;
         width: 100%;
-        border-bottom: none; /* 下拉選單本身不畫線，線畫在 li */
+        border-bottom: none;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .dropbtn {
+        color: var(--accent-color) !important;
+        font-size: 1.4rem;
+        padding: 20px 0 10px 0;
+        cursor: default;
     }
 
     .dropdown-content {
-        display: none !important; /* 預設隱藏 */
-        position: relative;       /* [關鍵] 手機版要接在下方，不能浮動 */
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.05);
+        /* [修正] 確保沒有任何 hover 或 transition 會擋住點擊 */
+        position: static;
+        width: 90%;
+        margin: 10px auto 0; /* 簡化寫法 */
+        display: block !important; /* 強制顯示 */
+        
+        background: rgba(255,255,255,0.05);
         box-shadow: none;
-        top: 0;                   
-        left: 0;                  
-        padding: 0;               /* [關鍵] 清除 ul 預設內距，避免內容偏右 */
-        margin: 0 auto;
+        border: none;
+        padding: 0;
+        border-radius: 10px;
+        animation: none;
+        opacity: 1; /* 確保不透明 */
+        visibility: visible; /* 確保可見 */
+        
+        /* [關鍵] 確保 z-index 足夠高 (雖然 static 通常不需要，但保險起見) */
+        z-index: 1002;
     }
 
-    /* 下拉內容裡的連結樣式 */
-    .dropdown-content li a {
-        padding: 15px 0;       /* 稍微比主選單窄一點，做出層次 */
-        font-size: 1.1rem;     /* 字體稍微小一點 */
-        color: #ddd;
-        display: block;
-        text-align: center;    /* 確保子連結也置中 */
-    }
 
-    /* 6. 開啟狀態 (由 JS 控制) */
-    .dropdown.mobile-open .dropdown-content {
-        display: block !important;
-        animation: fadeIn 0.3s;
+    /* 5. 第二層子選單連結 (加大按鈕) */
+    .dropdown-content li {
+        text-align: center;
     }
-
-    /* 箭頭旋轉 (如果您希望能旋轉的話) */
-    /* 注意：這需要您的 HTML 裡箭頭是分開的元素或是 ::after */
-    /* 如果您的箭頭是直接寫在文字裡 "▾"，這個旋轉可能會帶動整個文字 */
-    /* 這裡保留您的旋轉動畫，但建議確認 HTML 結構 */
-    .dropdown.mobile-open .dropbtn {
-        background: rgba(255,255,255,0.05); /* 展開時按鈕背景變色 */
+    
+    /* 確保連結本身是可點擊的 */
+    .dropdown-content a {
+        pointer-events: auto; /* 強制連結可點擊 */
+        padding: 15px 0;
+        display: block; /* 滿版點擊區域 */
+        font-size: 1.1rem;
+    }
+    .dropdown-content a:last-child { border-bottom: none; }
+    
+    .dropdown-content a:hover, .dropdown-content a:active {
+        background: transparent;
+        color: white;
     }
 }
 
