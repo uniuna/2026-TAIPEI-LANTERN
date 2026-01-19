@@ -31,7 +31,7 @@
                         中正紀念堂／國立臺灣博物館南門館 <span>⟶</span> 南門市場 <span>⟶</span> 植物園／孫運璿科技•人文紀念館／郵政博物館 <span>⟶</span> 南機場夜市 <span>⟶</span> 西門展區賞燈
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/oneday_1.jpg" alt="景點" >
+                        <img src="images/route/oneday_1.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@
                         國立臺灣博物館 <span>⟶</span> 榮町商圈 <span>⟶</span> 重慶南路書店商圈／北門相機商圈 <span>⟶</span> 西門町 <span>⟶</span> 西門展區賞燈
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/oneday_2.jpg" alt="景點" >
+                        <img src="images/route/oneday_2.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@
                         陽明山擎天崗、冷水坑 <span>⟶</span> 捷運士林站周邊 <span>⟶</span> 臺北市立兒童樂園 <span>⟶</span> 大同酒泉街／花博集食行樂 <span>⟶</span> 花博展區賞燈
                     </div>
                     <div class="route-gallery">
-                        <img src="images/route/oneday_3.jpg" alt="景點" >
+                        <img src="images/route/oneday_3.jpg" alt="景點" loading="lazy" decoding="async">
                     </div>
                 </div>
 

@@ -241,7 +241,7 @@ ul { list-style: none; }
     /* 下拉內容裡的連結樣式 */
     .dropdown-content li a {
         padding: 15px 0;       /* 稍微比主選單窄一點，做出層次 */
-        font-size: 1rem;     /* 字體稍微小一點 */
+        font-size: 1.1rem;     /* 字體稍微小一點 */
         color: #ddd;
         display: block;
         text-align: center;    /* 確保子連結也置中 */
