@@ -36,7 +36,7 @@
                 <div class="logo-box"><img src="../images/logos/logo-Cathay.png" alt="國泰" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-ShinKong.png" alt="台新新光" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-TingHsin.png" alt="頂新" loading="lazy" decoding="async"></div>
-                <div class="logo-box"><img src="../images/logos/logo-JINS.png" alt="JINS" loading="lazy" decoding="async"></div>
+                <div class="logo-box" style="min-width: 80px;"><img src="../images/logos/logo-JINS.png" alt="JINS" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-TWM.png" alt="台哥大" loading="lazy" decoding="async"></div>        
             </div>
         </div>
