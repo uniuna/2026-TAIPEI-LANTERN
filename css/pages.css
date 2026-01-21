@@ -2162,7 +2162,7 @@ html {
         grid-template-columns: repeat(1, 1fr); 
     }
     .route-gallery img {
-        height: 100px; /* 手機版高度縮小 */
+        height: 120px; /* 手機版高度縮小 */
     }
 }
 
