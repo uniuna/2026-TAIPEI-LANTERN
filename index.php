@@ -44,13 +44,13 @@
             </div>
             
             <div class="news-list">
-                <a href="news_260104" class="news-item">
-                    <span class="news-date">2026.01.04</span>
-                    <span class="news-text">台北道場響應「2026台北燈節」 以光影傳遞和諧共生與祝福 ...</span>
-                </a>
                 <a href="news_260116" class="news-item">
                     <span class="news-date">2026.01.16</span>
                     <span class="news-text">2026台北燈節首度推出「雙展區、雙IP」 攜手國際IP「變形金剛」花博主燈柯博文搶先曝光 ...</span>
+                </a>
+                <a href="news_260104" class="news-item">
+                    <span class="news-date">2026.01.04</span>
+                    <span class="news-text">台北道場響應「2026台北燈節」 以光影傳遞和諧共生與祝福 ...</span>
                 </a>
             </div>
         </section>

@@ -559,7 +559,7 @@
                         <ul class="featured-info-list">
                             <li>
                                 <span class="info-label">報名時間</span>
-                                <span class="info-text">（預計 115年 1月中旬前 公布報名資訊）</span>
+                                <span class="info-text">115年1月23日至115年2月28日或額滿為止。</span>
                             </li>
                             <li>
                                 <span class="info-label">報名資格</span>
@@ -571,7 +571,6 @@
                              <a href="https://www.accupass.com/event/2512240135302846817110" target="_blank" class="btn-main">
                                 立即報名 >
                              </a>
-                             <span class="info-note">（詳細報名資訊陸續建置中）</span>
                         </div>
                     </div>
                 </div>
