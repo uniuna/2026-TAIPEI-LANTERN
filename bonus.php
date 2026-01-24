@@ -175,7 +175,7 @@
                             <p>上元時於正月15日（國曆3月3日）子時（約14日23時15分）舉行拜三界公的儀式，特設頂下桌，頂桌有三界公三座、敬獻各種素果鮮花等供品並於敬拜時由管理人率領廟方工作人員及前來祝壽的信眾一同祝禱祈福。</p>
                             <p>此外，為了慶祝元宵節，霞海城隍廟將會舉行一連串的節目與活動，並在元宵節當天發放馬年小提燈給小朋友同樂，歡迎各位信眾前來參觀。</p>
                             
-                            <a href="https://www.google.com/maps/search/?api=1&query=臺北市大同區迪化街1段61號" target="_blank" class="t-location-link">
+                            <a href="https://maps.app.goo.gl/acWa3PdBiQQnY84W6" target="_blank" class="t-location-link">
                                 📍 地點：台北霞海城隍廟 (臺北市大同區迪化街一段61號)
 
                             </a>
@@ -211,7 +211,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/財團法人台北市臺灣省城隍廟.jpg" alt="活動花絮1" >
+                            <img src="images/temple/財團法人台北市臺灣省城隍廟_v2.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -317,7 +317,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/財團法人台北市松山慈祐宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/財團法人台北市松山慈祐宮_v2.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -389,7 +389,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/佛光山寺.jpg" alt="活動花絮1" >
+                            <img src="images/temple/佛光山寺_v2.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
@@ -413,7 +413,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/台北天后宮.jpg" alt="活動花絮1" >
+                            <img src="images/temple/台北天后宮_v2.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
