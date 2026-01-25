@@ -204,8 +204,8 @@
                             </div>
                             <div class="hotel-contact-col">
                                 <h4>訂房資訊</h4>
-                                <p class="booking-info">1.訂房專線：02-2383-6796 
-    2.<a href="https://tlathena.ec-hotel.net/webhotel-v4/0877/index?_rand=2g8d1e9dtfh" target="_blank">前往官網 ➔ </a></p>
+                                <p class="booking-info">1. 訂房專線：02-2383-6796 
+    2. <a href="https://tlathena.ec-hotel.net/webhotel-v4/0877/index?_rand=2g8d1e9dtfh" target="_blank">前往官網 ➔ </a></p>
                                 <a href="https://www.google.com/maps/search/?api=1&query=臺北市萬華區艋舺大道167號" target="_blank" class="t-location-link">
                                     📍 地點：臺北市萬華區艋舺大道167號
                                 </a>
@@ -251,8 +251,8 @@
                             </div>
                             <div class="hotel-contact-col">
                                 <h4>訂房資訊</h4>
-                                <p class="booking-info">1.訂房專線：02-2525-2828 
-    2.<a href="https://www.amba-hotels.com/tc/ximending/" target="_blank">前往官網 ➔ </a></p>
+                                <p class="booking-info">1. 訂房專線：02-2525-2828 
+    2. <a href="https://www.amba-hotels.com/tc/ximending/" target="_blank">前往官網 ➔ </a></p>
                                 <a href="https://www.google.com/maps/search/?api=1&query=臺北市萬華區武昌街2段77號" target="_blank" class="t-location-link">
                                     📍 地點：臺北市萬華區武昌街2段77號
                                 </a>
@@ -708,7 +708,7 @@
                             </div>
                             <div class="hotel-contact-col">
                                 <h4>訂房資訊</h4>
-                                <p class="booking-info">1.訂房專線：02-2886-8888<br>2. <a href="https://www.grand-hotel.org" target="_blank">前往官網 ➔ </a></p>
+                                <p class="booking-info">1. 訂房專線：02-2886-8888<br>2. <a href="https://www.grand-hotel.org" target="_blank">前往官網 ➔ </a></p>
                                 <a href="https://maps.app.goo.gl/Xyzjjfegwz81axSU8" target="_blank" class="t-location-link">
                                     📍 地點：臺北市中山區中山北路4段1巷1號
                                 </a>
