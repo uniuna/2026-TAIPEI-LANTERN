@@ -1216,11 +1216,15 @@
                         <div class="hotel-info-flex">
                             <div class="hotel-offer-col">
                                 <h4>住宿優惠方案 ✨</h4>
-                                <p style="color:#fff;">3天2夜 9,999元 超值行，可享二泊四食，包含兩天早晨可至田園餐廳享用自助式早餐，兩晚再享順園日式料理晚餐，盡情品味主廚精選饗宴，可選擇「雙人蟳蟹海鮮鍋」(價值2,288元) 或「西京和食套餐」(價值3,036元)。</p>
+                                <p style="color:#fff;">
+                                    ★台北燈節期間獨家 3天2夜 8,599元、2天1夜 4,999元超值行
+                                    <br>★依入住人數提供豐富精緻早餐，再贈大廳酒吧現點現煮「臺北國際牛肉麵節-得獎紅燒牛肉麵」
+                                    <br>★專案獨家搭配「台北及新北共用捷運 24小時票」2張，讓旅客自由暢遊燈會雙展區
+                                </p>
                             </div>
                             <div class="hotel-contact-col">
                                 <h4>訂房資訊</h4>
-                                <p class="booking-info"><a href="https://www.fullon-hotels.com.tw/tp/tw/news/accommodation-offers/" target="_blank">前往官網 ➔ </a></p>
+                                <p class="booking-info"><a href="https://www.fullon-hotels.com.tw/tp/tw/news-detail/2026ROOM-MOONLIGHT/" target="_blank">前往官網 ➔ </a></p>
                                 <a href="https://www.google.com/maps/search/?api=1&query=臺北市大安區建國南路1段266號" target="_blank" class="t-location-link">
                                     📍 地點：臺北市大安區建國南路1段266號
                                 </a>
