@@ -44,6 +44,10 @@
             </div>
             
             <div class="news-list">
+                <a href="news_260126" class="news-item">
+                    <span class="news-date">2026.01.26</span>
+                    <span class="news-text">賞燈不只一晚！「2026台北燈節」20條遊程帶你玩 限定旅宿優惠輕鬆省 ...</span>
+                </a>
                 <a href="news_260116" class="news-item">
                     <span class="news-date">2026.01.16</span>
                     <span class="news-text">2026台北燈節首度推出「雙展區、雙IP」 攜手國際IP「變形金剛」花博主燈柯博文搶先曝光 ...</span>
