@@ -16,18 +16,18 @@
             </p>
 
             <div class="news-grid">
-                
+            <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
-                        <img src="images/news/n260104_01.jpg" alt="佛光山台北道場">
+                        <img src="images/news/n260126_01.jpg" alt="賞燈不只一晚">
                     </div>
                     <div class="news-content">
-                        <div class="news-list-date">2026.01.04</div>
-                        <h3 class="news-list-title">佛光山台北道場響應「2026台北燈節」 以光影傳遞和諧共生與祝福</h3>
+                        <div class="news-list-date">2026.01.26</div>
+                        <h3 class="news-list-title">賞燈不只一晚！<br>「2026台北燈節」20條遊程帶你玩 限定旅宿優惠輕鬆省</h3>
                         <p class="news-excerpt">
-                            以「傳燈六十・百年仰望」為主題，佛光山台北道場舉辦彩繪燈籠比賽，透過燈光與畫筆交織，展現佛法與藝術融合之美...
+                            迎接新年到來，深受國內外旅客期待的「2026台北燈節」將於2月25日至3月15日盛大登場。今年燈節首度規畫「雙展區、雙IP」...
                         </p>
-                        <a href="news_260104" class="btn-more">閱讀更多</a>
+                        <a href="news_260126" class="btn-more">閱讀更多</a>
                     </div>
                 </article>
                 <article class="news-card">
@@ -43,8 +43,19 @@
                         <a href="news_260116" class="btn-more">閱讀更多</a>
                     </div>
                 </article>
-                
-
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/n260104_01.jpg" alt="佛光山台北道場">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.01.04</div>
+                        <h3 class="news-list-title">佛光山台北道場響應「2026台北燈節」 以光影傳遞和諧共生與祝福</h3>
+                        <p class="news-excerpt">
+                            以「傳燈六十・百年仰望」為主題，佛光山台北道場舉辦彩繪燈籠比賽，透過燈光與畫筆交織，展現佛法與藝術融合之美，讓佛光跨越時空，映照人心...
+                        </p>
+                        <a href="news_260104" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
             </div>
             <div style="text-align: center; margin-top: 60px;">
                 <a href="index" class="btn-back">返回首頁</a>
