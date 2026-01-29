@@ -31,6 +31,8 @@
                 <div class="logo-box"><img src="../images/logos/logo-Ciyou.png" alt="慈祐宮" loading="lazy" decoding="async"></div>
                 <div class="logo-box" style="min-width: 80px;"><img src="../images/logos/logo-WenChang.png" alt="文昌宮" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-Xiahai.png" alt="霞海城隍廟" loading="lazy" decoding="async"></div>
+                <div class="logo-box"><img src="../images/logos/logo-ChingFuKung.png" alt="景福宮" loading="lazy" decoding="async"></div>
+                <div class="logo-box"><img src="../images/logos/logo-LinChiTemple.png" alt="臨濟護國禪寺" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-Fubon.png" alt="富邦" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-FarEastern.png" alt="遠東" loading="lazy" decoding="async"></div>
                 <div class="logo-box"><img src="../images/logos/logo-Cathay.png" alt="國泰" loading="lazy" decoding="async"></div>

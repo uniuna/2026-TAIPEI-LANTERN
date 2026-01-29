@@ -90,7 +90,7 @@ function openTab(evt, tabName) {
 
 
 
-/* --------- 雙層 Tab 頁籤切換功能 (bonus) --------- */
+/* --------- 場館響應：雙層 Tab 頁籤切換功能 (bonus) --------- */
 
 // --- 第一層：主分類切換 ---
 function switchMainCat(catId, btnElement) {
@@ -136,6 +136,47 @@ function switchSubCat(evt, tabName) {
     
     // 4. 按鈕亮起
     evt.currentTarget.className += " active";
+}
+
+
+/* --------- 商圈活動：次選單切換功能 (bonus）--------- */
+
+function switchSubCat(evt, contentId) {
+    // 1. 防止連結預設跳轉
+    if(evt) evt.preventDefault();
+    
+    // 2. 取得點擊按鈕的「父層容器」 (也就是 .sub-category-nav)
+    // 這樣做的好處是：同一個頁面有多組次選單也不會互相衝突
+    var btn = evt.currentTarget;
+    var navContainer = btn.parentElement;
+    
+    // 3. 找到這個次選單控制的「內容區域容器」
+    // 假設結構是：導覽列在內容的上方，我們往上找父層(.main-cat-content)，再往下找內容
+    var mainContainer = navContainer.closest('.main-cat-content');
+    
+    // 4. 隱藏該區塊下所有的內容 (.shop-content-block)
+    // 注意：這裡我設定抓取 "shop-content-block"，對應您商圈活動的 HTML class
+    var contents = mainContainer.querySelectorAll('.shop-content-block');
+    contents.forEach(function(div) {
+        div.style.display = "none";
+    });
+
+    // 5. 移除該導覽列中所有按鈕的 active 狀態
+    var buttons = navContainer.querySelectorAll('.sub-cat-btn');
+    buttons.forEach(function(b) {
+        b.classList.remove("active");
+    });
+
+    // 6. 顯示目標內容 & 點擊的按鈕設為 active
+    var targetDiv = document.getElementById(contentId);
+    if (targetDiv) {
+        targetDiv.style.display = "block";
+        // 如果內容有卡片，觸發淡入動畫 (非必要，但為了美觀)
+        targetDiv.style.animation = 'none';
+        targetDiv.offsetHeight; /* trigger reflow */
+        targetDiv.style.animation = 'fadeIn 0.5s ease-in-out';
+    }
+    btn.classList.add("active");
 }
 
 
