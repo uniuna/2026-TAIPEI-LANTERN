@@ -12,7 +12,7 @@
         <article class="article-container">
 
             <header class="article-header">
-                <h1 class="article-title">2026台北燈節首度推出「雙展區、雙IP」<br> 攜手國際IP「變形金剛」花博主燈柯博文搶先曝光</h1>
+                <h1 class="article-title">賞燈不只一晚！「2026台北燈節」20條遊程帶你玩 限定旅宿優惠輕鬆省</h1>
                 <div class="article-meta">
                     <span>2026.01.26</span>
                     <span>發布機關：臺北市政府觀光傳播局</span>
