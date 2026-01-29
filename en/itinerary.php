@@ -14,9 +14,9 @@
         <h2 class="section-title">旅程推薦</h2>
     
         <div class="tab-buttons">
-            <button class="tab-btn active" onclick="openTab(event, 'trip1')">一日遊</button>
-            <button class="tab-btn" onclick="openTab(event, 'trip2')">二日遊</button>
-            <button class="tab-btn" onclick="openTab(event, 'trip3')">三日遊</button>
+            <button class="tab-btn active" onclick="openTab(event, 'trip1')">One-Day Tours</button>
+            <button class="tab-btn" onclick="openTab(event, 'trip2')">Two-Day Tours</button>
+            <button class="tab-btn" onclick="openTab(event, 'trip3')">Three-Day Tours</button>
         </div>
 
         <div id="trip1" class="tab-content active">
@@ -24,7 +24,7 @@
                 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>城南歷史之旅</h3>
+                        <h3>History & Heritage</h3>
                         
                     </div>
                     <div class="route-path">
@@ -37,7 +37,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>舊城書香之行</h3>
+                        <h3>Books, Cameras & Old Town Vibes</h3>
                         
                     </div>
                     <div class="route-path">
@@ -50,7 +50,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>草山童趣之旅</h3>
+                        <h3>Mountain Peaks & Theme Park Fun</h3>
                         
                     </div>
                     <div class="route-path">
@@ -63,7 +63,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>山水花卉之旅</h3>
+                        <h3>Flowers, Bridges & Night Markets</h3>
                         
                     </div>
                     <div class="route-path">
@@ -76,7 +76,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>當代文青之行</h3>
+                        <h3>Hipster Hangouts & Trendy Alleys</h3>
                         
                     </div>
                     <div class="route-path">
@@ -89,7 +89,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>台北祈福之行</h3>
+                        <h3>Blessings & Old Temples</h3>
                         
                     </div>
                     <div class="route-path">
@@ -108,7 +108,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>文創園區漫遊行</h3>
+                        <h3>A stroll through the cultural park</h3>
                         
                     </div>
                     <div class="day-block">
@@ -132,7 +132,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>漫步台北深度之旅</h3>
+                        <h3>Taipei Deep Travel</h3>
                         
                     </div>
                     <div class="day-block">
@@ -156,7 +156,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>花花世界藝文之旅</h3>
+                        <h3>Arts, Blooms & Gardens</h3>
                         
                     </div>
                     <div class="day-block">
@@ -180,7 +180,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>老城古蹟探險</h3>
+                        <h3>Step Back in Old City</h3>
                         
                     </div>
                     <div class="day-block">
@@ -204,7 +204,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>廟宇時尚之行</h3>
+                        <h3>When Temples Meets Fashion</h3>
                         
                     </div>
                     <div class="day-block">
@@ -228,7 +228,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>山與美學之旅</h3>
+                        <h3>Grand Views & Nature’s Beauty</h3>
                         
                     </div>
                     <div class="day-block">
@@ -252,7 +252,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>溫泉瑰寶探索之旅</h3>
+                        <h3>Hot Springs & Artistic Villages</h3>
                         
                     </div>
                     <div class="day-block">
@@ -276,7 +276,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>都會森呼吸之行</h3>
+                        <h3>Urban Forest Breathing Trip</h3>
                         
                     </div>
                     <div class="day-block">
@@ -306,7 +306,7 @@
 
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>台北經典全攻略</h3>
+                        <h3>Taipei Classic Travel</h3>
                         
                     </div>
                     
@@ -341,7 +341,7 @@
                 </div>
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>水岸學風之旅</h3>
+                        <h3>Artistic Waters & Scholarly Walks</h3>
                         
                     </div>
                     
@@ -376,7 +376,7 @@
                 </div>
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>自然生態冒險之旅</h3>
+                        <h3>Eco-Adventures & Wildlife Wonders</h3>
                         
                     </div>
                     
@@ -411,7 +411,7 @@
                 </div>
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>秘境古蹟品味之旅</h3>
+                        <h3>Hidden Gems & Secret Sanctuaries</h3>
                         
                     </div>
                     
@@ -446,7 +446,7 @@
                 </div>
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>泡湯美食雙重享受</h3>
+                        <h3>Trendy Wheels & Riverside Cycling</h3>
                         
                     </div>
                     
@@ -481,7 +481,7 @@
                 </div>
                 <div class="route-card">
                     <div class="route-header">
-                        <h3>流行都會探索之旅</h3>
+                        <h3>Yuanshan Mountain & Ancient Alleys</h3>
                         
                     </div>
                     

@@ -18,6 +18,13 @@
             <a href="events">Featured Events</a>
         </li>
         <li class="dropdown">
+            <a class="dropbtn">Area Introduction ▾</a>
+            <ul class="dropdown-content">
+                <li><a href="ximen">Ximen Area</a></li>
+                <li><a href="expo">Taipei Expo Park Area</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
             <a class="dropbtn">Transportation ▾</a> 
             <ul class="dropdown-content">
                 <li><a href="traffic">Directions</a></li>
