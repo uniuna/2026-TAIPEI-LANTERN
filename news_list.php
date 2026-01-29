@@ -19,6 +19,19 @@
             <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
+                        <img src="images/news/n260129_04.jpg" alt="蔣萬安宣布">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.01.29</div>
+                        <h3 class="news-list-title">蔣萬安宣布2026臺北燈節雙展區登場 西門町攜手泡泡瑪特迎全球旅客</h3>
+                        <p class="news-excerpt">
+                            臺北市長蔣萬安今(29)日出席2026臺北燈節宣傳記者會，宣布今年燈節將以「雙展區、雙IP」的創新模式登場，目標吸引海內外旅客。其中，西門町展區更將與 ...
+                        </p>
+                        <a href="news_260129" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
                         <img src="images/news/n260126_01.jpg" alt="賞燈不只一晚">
                     </div>
                     <div class="news-content">

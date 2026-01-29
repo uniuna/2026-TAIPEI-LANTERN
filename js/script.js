@@ -113,52 +113,25 @@ function switchMainCat(catId, btnElement) {
     btnElement.classList.add('active');
 }
 
-// --- 第二層：原本的 Tab 切換 (保持不變，稍作微調) ---
-function switchSubCat(evt, tabName) {
-    // 1. 隱藏所有 tab-content
-    // 注意：這裡只抓取 "當前顯示的主分類" 下面的 tab-content 會比較安全，
-    // 但如果 ID 不重複，直接抓 ID 也可以。
-    var i, tabcontent, tablinks;
-    
-    tabcontent = document.getElementsByClassName("tab-content");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // 2. 移除 sub-cat-btn 的 active
-    tablinks = document.getElementsByClassName("sub-cat-btn");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // 3. 顯示目標
-    document.getElementById(tabName).style.display = "block";
-    
-    // 4. 按鈕亮起
-    evt.currentTarget.className += " active";
-}
-
-
-/* --------- 商圈活動：次選單切換功能 (bonus）--------- */
-
+// --- 第二層：原本的 Tab 切換 (通用版) ---
 function switchSubCat(evt, contentId) {
     // 1. 防止連結預設跳轉
     if(evt) evt.preventDefault();
     
-    // 2. 取得點擊按鈕的「父層容器」 (也就是 .sub-category-nav)
-    // 這樣做的好處是：同一個頁面有多組次選單也不會互相衝突
+    // 2. 取得點擊按鈕的「父層容器」(.sub-category-nav)
     var btn = evt.currentTarget;
     var navContainer = btn.parentElement;
     
-    // 3. 找到這個次選單控制的「內容區域容器」
-    // 假設結構是：導覽列在內容的上方，我們往上找父層(.main-cat-content)，再往下找內容
+    // 3. 找到這個次選單控制的「主要內容區域」(.main-cat-content)
     var mainContainer = navContainer.closest('.main-cat-content');
     
-    // 4. 隱藏該區塊下所有的內容 (.shop-content-block)
-    // 注意：這裡我設定抓取 "shop-content-block"，對應您商圈活動的 HTML class
-    var contents = mainContainer.querySelectorAll('.shop-content-block');
+    // 4. 【關鍵修正】同時抓取 "tab-content" (舊版/場館) 和 "shop-content-block" (新版/商圈)
+    // 這樣兩個區塊都能被正確隱藏
+    var contents = mainContainer.querySelectorAll('.tab-content, .shop-content-block');
+    
     contents.forEach(function(div) {
         div.style.display = "none";
+        div.classList.remove("active"); // 移除 active 確保樣式重置
     });
 
     // 5. 移除該導覽列中所有按鈕的 active 狀態
@@ -167,15 +140,19 @@ function switchSubCat(evt, contentId) {
         b.classList.remove("active");
     });
 
-    // 6. 顯示目標內容 & 點擊的按鈕設為 active
+    // 6. 顯示目標內容
     var targetDiv = document.getElementById(contentId);
     if (targetDiv) {
         targetDiv.style.display = "block";
-        // 如果內容有卡片，觸發淡入動畫 (非必要，但為了美觀)
+        targetDiv.classList.add("active");
+        
+        // 觸發淡入動畫 (重置 animation)
         targetDiv.style.animation = 'none';
         targetDiv.offsetHeight; /* trigger reflow */
         targetDiv.style.animation = 'fadeIn 0.5s ease-in-out';
     }
+    
+    // 7. 將點擊的按鈕設為 active
     btn.classList.add("active");
 }
 

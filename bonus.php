@@ -541,7 +541,7 @@
             <div id="shop-1" class="shop-content-block" style="display: block;">
                 <div class="featured-event-card">
                     <div class="featured-img-box">
-                        <img src="images/events/shopping_default.jpg" alt="歡樂燈節 好運吉馬來 假日快閃送">
+                        <img src="images/events/shop-001.jpg" alt="歡樂燈節 好運吉馬來 假日快閃送" style="width: 80%;">
                     </div>
                     <div class="featured-content">
                         <h3 class="featured-title">歡樂燈節 好運吉馬來 假日快閃送</h3>
@@ -551,12 +551,12 @@
                         </div>
                         <hr class="card-divider">
                         <p class="featured-desc">1.燈節好運吉馬來，滿888元，吉馬來特製招牌小燈箱(一個)<br>2.轉來好運馬上到，滿2000元，好運轉盤遊戲(一次)<br>通通有獎，各式好禮等您帶回家。<br>(數量有限，送完為止，每人/每日/每張發票限參加一次)</p>
-                        <a href="https://drive.google.com/file/d/1WZjp0ws2dtKfQ-2hyhmIXq_jXxeWJ-uh/view?usp=sharing" target="_blank" class="btn-main">了解更多 ></a>
+                        
                     </div>
                 </div>
                 <div class="featured-event-card">
                     <div class="featured-img-box">
-                        <img src="images/events/shopping_default.jpg" alt="乾燥花相框 DIY體驗">
+                        <!-- <img src="images/events/shopping_default.jpg" alt="乾燥花相框 DIY體驗"> -->
                     </div>
                     <div class="featured-content">
                         <h3 class="featured-title">乾燥花相框 DIY體驗</h3>
@@ -573,7 +573,7 @@
             <div id="shop-2" class="shop-content-block" style="display: none;">
                 <div class="featured-event-card">
                     <div class="featured-img-box">
-                        <img src="images/events/shopping_default.jpg" alt="榮町漫市集元宵燈節活動">
+                        <!-- <img src="images/events/shopping_default.jpg" alt="榮町漫市集元宵燈節活動"> -->
                     </div>
                     <div class="featured-content">
                         <h3 class="featured-title">榮町漫市集元宵燈節活動</h3>
@@ -588,7 +588,7 @@
                 </div>
                 <div class="featured-event-card">
                     <div class="featured-img-box">
-                        <img src="images/events/shopping_default.jpg" alt="漢衣相逢、榮町漫遊">
+                        <img src="images/events/wandering.jpg" alt="漢衣相逢、榮町漫遊">
                     </div>
                     <div class="featured-content">
                         <h3 class="featured-title">漢衣相逢、榮町漫遊</h3>
@@ -603,7 +603,7 @@
                 </div>
                 <div class="featured-event-card">
                     <div class="featured-img-box">
-                        <img src="images/events/shopping_default.jpg" alt="榮町光律動">
+                        <!-- <img src="images/events/shopping_default.jpg" alt="榮町光律動"> -->
                     </div>
                     <div class="featured-content">
                         <h3 class="featured-title">榮町光律動</h3>

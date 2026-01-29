@@ -44,6 +44,10 @@
             </div>
             
             <div class="news-list">
+                <a href="news_260129" class="news-item">
+                    <span class="news-date">2026.01.29</span>
+                    <span class="news-text">蔣萬安宣布2026臺北燈節雙展區登場 西門町攜手泡泡瑪特迎全球旅客 ...</span>
+                </a>
                 <a href="news_260126" class="news-item">
                     <span class="news-date">2026.01.26</span>
                     <span class="news-text">賞燈不只一晚！「2026台北燈節」20條遊程帶你玩 限定旅宿優惠輕鬆省 ...</span>

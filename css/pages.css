@@ -1458,6 +1458,7 @@ html {
 }
 
 .featured-img-box img {
+    margin: 0 auto;
     width: 100%;
     height: auto;        /* 高度自動，確保圖片比例正確不變形 */
     border-radius: 12px; /* 圖片本身加點圓角 */
