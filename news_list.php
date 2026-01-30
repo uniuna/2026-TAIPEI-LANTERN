@@ -19,6 +19,19 @@
             <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
+                        <img src="images/news/n260130_01.jpg" alt="蔣萬安宣布">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.01.30</div>
+                        <h3 class="news-list-title">2026台北燈節西門展區攜手泡泡瑪特六大人氣IP登場 Baby Molly8米高主燈亮相 五組燈組首曝光</h3>
+                        <p class="news-excerpt">
+                            台北燈節今年首創「雙IP、雙展區」，臺北市政府觀光傳播局29日再度揭曉西門展區攜手全球高人氣潮流品牌「泡泡瑪特 ...
+                        </p>
+                        <a href="news_260130" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
                         <img src="images/news/n260129_04.jpg" alt="蔣萬安宣布">
                     </div>
                     <div class="news-content">

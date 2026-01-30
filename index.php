@@ -44,6 +44,10 @@
             </div>
             
             <div class="news-list">
+                <a href="news_260130" class="news-item">
+                    <span class="news-date">2026.01.30</span>
+                    <span class="news-text">2026台北燈節西門展區攜手泡泡瑪特六大人氣IP登場 Baby Molly8米高主燈亮相 五組燈組首曝光 ...</span>
+                </a>
                 <a href="news_260129" class="news-item">
                     <span class="news-date">2026.01.29</span>
                     <span class="news-text">蔣萬安宣布2026臺北燈節雙展區登場 西門町攜手泡泡瑪特迎全球旅客 ...</span>
