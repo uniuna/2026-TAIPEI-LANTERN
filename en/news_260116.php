@@ -16,7 +16,7 @@
                     <br> Partnering with Global IP “Transformers,” the Expo Park Main Lantern Optimus Prime Makes an Early Reveal </h1>
                 <div class="article-meta">
                     <span>2026.01.16</span>
-                    <!-- <span>發布機關：臺北市政府觀光傳播局</span> -->
+                    <span>Issuing Agency：Department of Information and Tourism, Taipei City Government</span>
                 </div>
             </header>
 
@@ -45,7 +45,7 @@
         </article>
 
         <div style="text-align: center;">
-            <a href="news_list" class="btn-back">News Overview</a>
+            <a href="news_list" class="btn-back">News Archive</a>
         </div>
     </main>
 

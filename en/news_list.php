@@ -10,7 +10,7 @@
 
     <main class="container" style="padding-top: 120px; min-height: 80vh; padding-bottom: 100px;">
         <section>
-            <h2 class="section-title">News Overview</h2>
+            <h2 class="section-title">News Archive</h2>
 
             <div class="news-grid">
             <!-- 新一則置前 -->
@@ -25,12 +25,12 @@
                         <p class="news-excerpt">
                             On January 16, during the first press conference for the “2026 Taipei Lantern Festival”, the Department of Information and Tourism, Taipei City Government, officially announced a brand new curatorial model, “two zones, two IPs”...
                         </p>
-                        <a href="news_260116" class="btn-more">More</a>
+                        <a href="news_260116" class="btn-more">Explore More</a>
                     </div>
                 </article>
             </div>
             <div style="text-align: center; margin-top: 60px;">
-                <a href="index" class="btn-back">Back</a>
+                <a href="index" class="btn-back">Back to Home</a>
             </div>
         </section>
     </main>

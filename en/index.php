@@ -40,12 +40,12 @@
         <section id="news" class="news-section">
             <h2 class="section-title">Latest News</h2>
             <div class="news-header">
-                <a href="news_list" class="news-more">Overview +</a>
+                <a href="news_list" class="news-more">News Archive ></a>
             </div>
             
             <div class="news-list">
                 <a href="news_260116" class="news-item">
-                    <span class="news-date">2026.02.10</span>
+                    <span class="news-date">2026.01.16</span>
                     <span class="news-text">The 2026 Taipei Lantern Festival Launches Its First Ever “Two Zones, Two IPs” Experience. Partnering with Global IP “Transformers,” the Expo Park Main Lantern Optimus Prime Makes an Early Reveal ...</span>
                 </a>
                 
