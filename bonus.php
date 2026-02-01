@@ -534,30 +534,34 @@
                 <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-4')">中華路影音街</button>
                 <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-5')">北門相機商圈</button>
                 <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-6')">重南書街</button>
-                <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-7')">西門町</button>
-                <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-8')">中山商圈</button>
+                <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-7')">中山商圈</button>
             </div>
 
             <div id="shop-1" class="shop-content-block" style="display: block;">
                 <div class="featured-event-card">
                     <div class="featured-img-box">
-                        <img src="images/events/shop-001.jpg" alt="歡樂燈節 好運吉馬來 假日快閃送" style="width: 80%;">
+                        <img src="images/events/好運吉馬來.jpg" alt="好運吉馬來">
                     </div>
                     <div class="featured-content">
                         <h3 class="featured-title">歡樂燈節 好運吉馬來 假日快閃送</h3>
                         <div class="featured-info">
                             <p><strong>📅 時間：</strong>115年2/27.28.3/1.7.8.14.15 (每日11:00-21:30)</p>
-                            <p><strong>📍 地點：</strong>台北地下街8號廣場服務台(近Y12U出口ATM旁)</p>
+                            <p><strong>📍 地點：</strong>台北地下街8號廣場服務台 (近Y12U出口ATM旁)</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">1.燈節好運吉馬來，滿888元，吉馬來特製招牌小燈箱(一個)<br>2.轉來好運馬上到，滿2000元，好運轉盤遊戲(一次)<br>通通有獎，各式好禮等您帶回家。<br>(數量有限，送完為止，每人/每日/每張發票限參加一次)</p>
-                        
+                        <p class="featured-desc">
+                            活動簡述：<br>
+                            1. 燈節好運吉馬來，滿888元，吉馬來特製招牌小燈箱(一個)<br>
+                            2. 轉來好運馬上到，滿2000元，好運轉盤遊戲(一次)。通通有獎，各式好禮等您帶回家。
+                            <span>(數量有限，送完為止，每人/每日/每張發票限參加一次)</span>
+                            <br><br>
+                            活動報名方式或資格：<br>
+                            以下指定日期(2/27.2/28.3/1.7.8.14.15)，憑台北地下街當日消費滿指定金額之發票，<br>
+                            即可於活動贈獎處(8號廣場服務台)(近Y12U出口)，參加以下現場贈獎活動。
+                        </p>
                     </div>
                 </div>
                 <div class="featured-event-card">
-                    <div class="featured-img-box">
-                        <!-- <img src="images/events/shopping_default.jpg" alt="乾燥花相框 DIY體驗"> -->
-                    </div>
                     <div class="featured-content">
                         <h3 class="featured-title">乾燥花相框 DIY體驗</h3>
                         <div class="featured-info">
@@ -565,7 +569,12 @@
                             <p><strong>📍 地點：</strong>四號廣場 (近Y19出口)</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">"我們的故事，悄悄開成一朵花"<br>讓我們用乾燥花，把與重要的人一起度過的時刻， 在這個相框裡，把回憶永遠珍藏。</p>
+                        <p class="featured-desc">
+                            "我們的故事，悄悄開成一朵花"<br>讓我們用乾燥花，把與重要的人一起度過的時刻， 在這個相框裡，把回憶永遠珍藏。
+                            <br><br>
+                            活動報名方式或資格：<br>
+                            現場報名：憑本地下街當日消費累積滿500元發票，每人每張發票限參加一次。 (數量有限，額滿為止)
+                        </p>
                     </div>
                 </div>
             </div>
@@ -578,11 +587,14 @@
                     <div class="featured-content">
                         <h3 class="featured-title">榮町漫市集元宵燈節活動</h3>
                         <div class="featured-info">
-                            <p><strong>📅 時間：</strong>115年2月25日至3月15日<br>平日 17:00~22:00 / 假日 16:00~22:00</p>
+                            <p><strong>📅 時間：</strong>115年2月25日至3月15日 平日 17:00~22:00 / 假日 16:00~22:00</p>
                             <p><strong>📍 地點：</strong>永綏街</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">結合榮町商圈的歷史街區風貌與當代市集美學，打造一場兼具文化深度與生活溫度的節慶活動。規劃多元攤位，邀集在地品牌、文創手作、美食小吃與特色選物。</p>
+                        <p class="featured-desc">
+                            「榮町漫市集元宵燈節活動」以傳統節慶文化為核心，結合榮町商圈的歷史街區風貌與當代市集美學，打造一場兼具文化深度與生活溫度的節慶活動。活動以元宵節「團圓、祈福、迎春」的意象出發，透過攤位燈飾佈置、市集展售與互動體驗，讓民眾在城市中重新感受節慶的溫暖與人情。
+                             <br>本次活動規劃多元攤位，邀集在地品牌、文創手作、美食小吃與特色選物，共同形塑具地方特色的市集氛圍；同時搭配燈節主題裝置與夜間燈光設計，提升街區夜間活力，吸引不同年齡層民眾前來參與。透過市集串聯商圈店家與居民，促進人流停留與消費動能，進一步帶動商圈整體活絡。
+                        </p>
                         <a href="https://rongting.org/" target="_blank" class="btn-main">了解更多 ></a>
                     </div>
                 </div>
@@ -597,7 +609,12 @@
                             <p><strong>📍 地點：</strong>永綏街</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">以單身聯誼為主軸，結合漢服意象、市集漫遊與互動體驗，鼓勵參與者在輕鬆自在的氛圍中交流互動。需至臺北市中正區公所網站報名。</p>
+                        <p class="featured-desc">
+                            「漢衣相逢、榮町漫遊」為中正區公所115年度基層藝文活動之一，本次活動結合榮町商圈市集資源，於充滿歷史風情的永綏街舉辦，以傳統燈節文化為背景，打造兼具文化體驗與情感交流的特色活動。透過古色古香的街道氛圍與節慶燈飾佈置，讓參與民眾在城市街區中感受榮町獨有的人文魅力。
+                            <br>活動以單身聯誼為主軸，結合漢服意象、市集漫遊與互動體驗，鼓勵參與者在輕鬆自在的氛圍中交流互動，拉近彼此距離。藉由燈節象徵團圓與祝福的文化意涵，營造浪漫溫暖的場域，促使更多參與者勇於表達心意，為城市生活注入情感連結。
+                            <br><br>
+                            活動報名方式或資格：須至臺北市中正區公所網站報名。
+                        </p>
                         <a href="https://www.accupass.com/event/2512240135302846817110" target="_blank" class="btn-main">了解更多 ></a>
                     </div>
                 </div>
@@ -608,20 +625,19 @@
                     <div class="featured-content">
                         <h3 class="featured-title">榮町光律動</h3>
                         <div class="featured-info">
-                            <p><strong>📅 時間：</strong>燈節期間</p>
-                            <p><strong>📍 地點：</strong>桃源街及永綏街</p>
+                            <p><strong>📍 地點：</strong>永綏街</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">透過溫暖燈光與趣味元素，讓夜晚街道呈現親切又有活力的氛圍。桃源街及永綏街均設置「榮町商圈」字燈，搭配跨街燈條及人行道上方燈光延伸。</p>
+                        <p class="featured-desc">榮町商圈位於城中核心街區，融合老城日常與生活風景。此次妝點以「走進街區的日常」為出發，透過溫暖燈光與趣味元素，讓夜晚街道呈現親切又有活力的氛圍。桃源街及永綏街均設置「榮町商圈」字燈，搭配跨街燈條及人行道上方燈光延伸，清楚標示商圈入口並提升辨識度。永綏街段還加入音符造型燈飾與城中 IP「內行仔」，讓光影如旋律般流動於街道之間。引導民眾漫步街區、拍照打卡，感受榮町的生活節奏與獨特街區故事。</p>
                     </div>
                 </div>
             </div>
 
             <div id="shop-3" class="shop-content-block" style="display: none;">
                 <div class="featured-event-card">
-                    <div class="featured-img-box">
+                    <!-- <div class="featured-img-box">
                         <img src="images/events/shopping_default.jpg" alt="2026沅陵街商圈年貨大街">
-                    </div>
+                    </div> -->
                     <div class="featured-content">
                         <h3 class="featured-title">2026沅陵街商圈年貨大街</h3>
                         <div class="featured-info">
@@ -629,13 +645,12 @@
                             <p><strong>📍 地點：</strong>沅陵街</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">展現皮鞋精品生活用品一條街的多元性，活動包含好物市集、財神爺&吉祥物小沅寶快閃和迎春擲骰子發紅包趣味活動。</p>
-                        <a href="https://www.facebook.com/engine1024" target="_blank" class="btn-main">了解更多 ></a>
+                        <p class="featured-desc">「沅陵街商圈年貨大街」為每年農曆春節前的重點活動，2026年於2月4日起跑，為期10日的活動，展現皮鞋精品生活用品一條街的多元性，活動包含好物市集、財神爺&吉祥物小沅寶不定時快閃和迎春擲骰子發紅包趣味活動，結合城中區周邊店家及提前上檔的街區燈節裝飾及年節氣氛佈置，為民眾春節前採買補給生活用品之好去處。</p>
                     </div>
                 </div>
                 <div class="featured-event-card">
                     <div class="featured-img-box">
-                        <img src="images/events/shopping_default.jpg" alt="點亮沅陵彩燈節">
+                        <img src="images/events/點亮沅陵彩燈節.jpg" alt="點亮沅陵彩燈節">
                     </div>
                     <div class="featured-content">
                         <h3 class="featured-title">點亮沅陵彩燈節</h3>
@@ -644,72 +659,74 @@
                             <p><strong>📍 地點：</strong>沅陵街</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">規劃辦理「彩燈節手作工作坊」、「元宵踩街遊行」、「沅陵好物市集」及「沅陵好Show」系列活動，並設有「沅夜星語」燈節燈組。</p>
+                        <p class="featured-desc">
+                            台北沅陵商圈每年搭配燈節舉辦「點亮沅陵彩燈節」系列活動，今年邁入第6年，3月7日至3月13日除了沅陵好物市集特賣會之外，還可以跟著沅陵商圈的代言人「小沅寶」一起到沅陵燈區逛街、猜燈謎、拍照打卡抽禮物。3月7日星期六下午將舉辦「沅陵走春台北燈節大遊行」，3月7日到8日更有彩繪小馬、彩繪燈籠、小馬擴香植栽手作活動可以報名，活動也會結合藝文表演在街區推出！
+                            <br>
+                            期望透過本次活動，增加民眾遊逛沅陵街的機會，2月25日至3月15也搭配台北燈節活動，於沅陵街設有「沅夜星語」燈節燈組一座，吸引民眾遊逛賞玩成為元宵好去處。
+                            <br><br>
+                            活動報名方式或資格：市集活動無須報名，體驗活動及遊行需報名。
+                        </p>
                     </div>
                 </div>
                 <div class="featured-event-card">
-                    <div class="featured-img-box">
+                    <!-- <div class="featured-img-box">
                         <img src="images/events/shopping_default.jpg" alt="霓彩步步昇">
-                    </div>
+                    </div> -->
                     <div class="featured-content">
                         <h3 class="featured-title">霓彩步步昇</h3>
                         <div class="featured-info">
-                            <p><strong>📅 時間：</strong>燈節期間</p>
                             <p><strong>📍 地點：</strong>沅陵街</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">沿街吊掛彩色燈籠與大型天燈，營造熱鬧的街區氛圍；跨街燈條延伸街道，串聯各個妝點，形成完整的街區景觀。</p>
+                        <p class="featured-desc">沅陵商圈位於城中區熱鬧街道，早期以皮鞋產業聞名，故有「皮鞋街」之稱，是一處充滿活力與節慶氣息的特色商圈。本次妝點以「趣味互動與節慶意象」為主軸，沿街吊掛彩色燈籠與大型天燈，營造熱鬧的街區氛圍；跨街燈條延伸街道，串聯各個妝點，形成完整的街區景觀。特別打造客製化城中 IP「內行仔」燈籠，融合在地文化與趣味元素，為民眾帶來親切的互動感受。</p>
                     </div>
                 </div>
             </div>
 
             <div id="shop-4" class="shop-content-block" style="display: none;">
                 <div class="featured-event-card">
-                    <div class="featured-img-box">
+                    <!-- <div class="featured-img-box">
                         <img src="images/events/shopping_default.jpg" alt="響樂到中華">
-                    </div>
+                    </div> -->
                     <div class="featured-content">
                         <h3 class="featured-title">響樂到中華</h3>
                         <div class="featured-info">
-                            <p><strong>📅 時間：</strong>燈節期間</p>
                             <p><strong>📍 地點：</strong>中華路</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">將音響放大成高逾2米、寬達3米的造型打卡裝置，結合霓虹燈光與亮色線條，融入城中 IP「內行仔」，將聲音能量轉化為光影律動。</p>
+                        <p class="featured-desc">中華路影音街長年以專業影音設備聞名，是音樂與影音愛好者的指標商圈。本次妝點以「影音產業特色」為主題，將音響放大成高逾2米、寬達3米的造型打卡裝置，結合霓虹燈光與亮色線條，融入城中 IP「內行仔」，將聲音能量轉化為光影律動，呈現街區節奏。音響裝置中央置入商圈名稱與 LOGO，強化品牌識別。民眾可拍照打卡、與光影互動，體驗街區特色。邀請大家走訪街區，感受中華路影音街的活力與節奏。</p>
                     </div>
                 </div>
             </div>
 
             <div id="shop-5" class="shop-content-block" style="display: none;">
                 <div class="featured-event-card">
-                    <div class="featured-img-box">
+                    <!-- <div class="featured-img-box">
                         <img src="images/events/shopping_default.jpg" alt="定格老城美">
-                    </div>
+                    </div> -->
                     <div class="featured-content">
                         <h3 class="featured-title">定格老城美</h3>
                         <div class="featured-info">
-                            <p><strong>📅 時間：</strong>燈節期間</p>
                             <p><strong>📍 地點：</strong>博愛路</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">於北門小公園設置拍立得造型打卡裝置燈，裝置造型趣味十足，提供民眾單人或多人拍照打卡的互動體驗。</p>
+                        <p class="featured-desc">北門相機商圈以攝影與影像文化聞名，是拍照迷必訪的街區。本次妝點於北門小公園設置拍立得造型打卡裝置燈，於妝點上加入城中IP「內行仔」，裝置造型趣味十足，不僅提供民眾單人或多人拍照打卡的互動體驗，也呼應街區影像文化特色，增強商圈識別度。引導民眾停留、拍照與互動，讓民眾在拍照與互動中深度感受北門相機街的文化底蘊與影像魅力，留下專屬的街區回憶。</p>
                     </div>
                 </div>
             </div>
 
             <div id="shop-6" class="shop-content-block" style="display: none;">
                 <div class="featured-event-card">
-                    <div class="featured-img-box">
+                    <!-- <div class="featured-img-box">
                         <img src="images/events/shopping_default.jpg" alt="墨香新丰采">
-                    </div>
+                    </div> -->
                     <div class="featured-content">
                         <h3 class="featured-title">墨香新丰采</h3>
                         <div class="featured-info">
-                            <p><strong>📅 時間：</strong>燈節期間</p>
                             <p><strong>📍 地點：</strong>重慶南路</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">於騎樓上懸掛樹葉造型燈，像微風搖曳的樹影。燈片呈現重南書街商圈 LOGO 及城中 IP「內行仔」，增添街道特色。</p>
+                        <p class="featured-desc">重南書街位於城中區歷史街廓中，擁有濃厚的書香氛圍。本次妝點於騎樓上懸掛樹葉造型燈，像微風搖曳的樹影，為夜晚的街道增添自然律動。妝點中特別設置燈片，一片呈現重南書街商圈 LOGO，另一片展示城中 IP「內行仔」，結合品牌識別，增添街道特色，讓每個角落都成為夜晚的亮點。燈光沿街道延伸，柔和而有節奏，使來到重南書街的每位民眾都能留下深刻印象。</p>
                     </div>
                 </div>
             </div>
@@ -717,25 +734,7 @@
             <div id="shop-7" class="shop-content-block" style="display: none;">
                 <div class="featured-event-card">
                     <div class="featured-img-box">
-                        <img src="images/events/shopping_default.jpg" alt="西門紅樓活動">
-                    </div>
-                    <div class="featured-content">
-                        <h3 class="featured-title">西門紅樓消費滿額贈</h3>
-                        <div class="featured-info">
-                            <p><strong>📅 時間：</strong>2/17 - 3/17</p>
-                            <p><strong>📍 地點：</strong>西門紅樓</p>
-                        </div>
-                        <hr class="card-divider">
-                        <p class="featured-desc">2/17-3/17 紅樓選品店消費滿500元贈送西門紅樓專屬貼紙！</p>
-                        <a href="https://drive.google.com/file/d/1H9dNSzW9eeAL08QTWdBb4NW9hk6TFWTa/view?usp=drive_link" target="_blank" class="btn-main">了解更多 ></a>
-                    </div>
-                </div>
-            </div>
-
-            <div id="shop-8" class="shop-content-block" style="display: none;">
-                <div class="featured-event-card">
-                    <div class="featured-img-box">
-                        <img src="images/events/shopping_default.jpg" alt="慶元宵賞花燈">
+                        <img src="images/events/慶元宵賞花燈.jpg" alt="慶元宵賞花燈">
                     </div>
                     <div class="featured-content">
                         <h3 class="featured-title">慶元宵賞花燈</h3>
@@ -744,8 +743,7 @@
                             <p><strong>📍 地點：</strong>圓山花博入口廣場</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">現場規劃「花博圓滿」元宵主題美食專區，主打現煮湯圓、元宵及養生暖冬系列美食；並打造「光之市集」亮化策展，提升市集夜間景觀層次。</p>
-                        <a href="https://drive.google.com/drive/folders/11VpmsJdc7n-omLmq8C7kiJ-3KYQow1Py?usp=drive_link" target="_blank" class="btn-main">了解更多 ></a>
+                        <p class="featured-desc">「慶元宵賞花燈」活動以傳統元宵燈飾為文化基底，融合現代光影藝術設計，透過層次豐富的燈光語彙，形塑溫暖且具儀式感的年節場域，吸引市民與觀光人潮駐足體驗。現場規劃「花博圓滿」元宵主題美食專區，主打現煮湯圓、元宵及養生暖冬系列美食，以味覺延續節慶溫度；並打造「光之市集」亮化策展，透過攤位燈飾設計與整體氛圍營造，提升市集夜間景觀層次。同時招募多元特色選物攤商，引進優質文創手作與在地伴手禮品牌，結合光影、風味與創意，形塑兼具傳統意涵與當代美感的元宵節慶新樣貌。</p>
                     </div>
                 </div>
             </div>
