@@ -152,8 +152,8 @@
                     </div>
                     <div class="district-content">
                         <h3>中山商圈</h3>
-                        <p>時尚百貨交織赤峰街文創，漫步心中山線形公園，感受台北最迷人的藝文潮流。</p>
-                        <a href="https://www.travel.taipei/zh-tw/attraction/all-regions?page=1&sortby=location&location=2" class="btn-more" target="_blank">了解更多</a>
+                        <p>林蔭大道名店林立，咖啡香氣與生活美學交織，感受時光與格調共構的悠閒漫遊氛圍。</p>
+                        <a href="https://zsdda.org/%E9%A6%96%E9%A0%81/" class="btn-more" target="_blank">了解更多</a>
                     </div>
                 </article>
 

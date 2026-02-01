@@ -14,10 +14,13 @@
                 <li><a href="reminder">Friendly Reminders</a></li>
             </ul>
         </li>
-        <li>
-            <a href="events">Featured Events</a>
+        <li class="dropdown">
+            <a class="dropbtn">Featured Events ▾</a>
+            <ul class="dropdown-content">
+                <li><a href="events">Featured Events</a></li>
+                <li><a href="itinerary">Curated Travel Itineraries</a></li>
+            </ul>
         </li>
-        
         <li class="dropdown">
             <a class="dropbtn">Transportation ▾</a> 
             <ul class="dropdown-content">

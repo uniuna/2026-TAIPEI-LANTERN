@@ -16,7 +16,7 @@
             <div class="tab-buttons events-tab-wrapper">
                 <!-- <button class="tab-btn active" onclick="openTab(event, 'event2')">開幕式</button> -->
                 <button class="tab-btn active" onclick="openTab(event, 'event2')">舞台活動</button>
-                <button class="tab-btn" onclick="openTab(event, 'event3')">主題日</button>
+                <!-- <button class="tab-btn" onclick="openTab(event, 'event3')">主題日</button> -->
             </div>
 
             <div id="event1" class="tab-content">
@@ -46,210 +46,578 @@
                 <div class="events-masonry-grid">
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/02/27 (五) 馬戲娛樂之夜</h3>
+                        <h3 class="event-date-title">2026/02/27 (五)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">19:00-19:40</div>
+                                    <div class="event-time">14:00-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">講客電台</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">18:00-18:30</div>
+                                    <div class="event-details"><h3 class="event-title">友好城市-濱松市</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:00-19:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:03-19:30</div>
                                     <div class="event-details"><h3 class="event-title">侏羅紀世界 恐龍大冒險</h3></div>
                                 </div>
                                 <div class="event-item">
-                                    <div class="event-time">19:40-20:20</div>
-                                    <div class="event-details"><h3 class="event-title">Justin 魔術秀</h3></div>
+                                    <div class="event-time">19:30-19:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:33-19:45</div>
+                                    <div class="event-details"><h3 class="event-title">侏羅紀世界 恐龍大冒險</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">20:20-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">幻 光 馬 戲 團</h3></div>
+                                    <div class="event-time">19:45-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">Justin魔術秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:00-20:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:03-20:20</div>
+                                    <div class="event-details"><h3 class="event-title">Justin魔術秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:20-20:30</div>
+                                    <div class="event-details"><h3 class="event-title">幻光馬戲團</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:30-20:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:33-21:00</div>
+                                    <div class="event-details"><h3 class="event-title">幻光馬戲團</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/02/28 (六) 新生代樂團</h3>
+                        <h3 class="event-date-title">2026/02/28 (六)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">19:00-19:40</div>
-                                    <div class="event-details"><h3 class="event-title">來者何人</h3><p class="event-desc">台北巷弄的嘻哈樂團</p></div>
+                                    <div class="event-time">14:00-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">台北電台</h3></div>
                                 </div>
                                 <div class="event-item">
-                                    <div class="event-time">19:40-20:20</div>
-                                    <div class="event-details"><h3 class="event-title">帕拉斯</h3><p class="event-desc">搖滾樂團</p></div>
+                                    <div class="event-time">19:00-19:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:03-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">Smile Dash-搖滾樂團</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:30-19:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:33-19:40</div>
+                                    <div class="event-details"><h3 class="event-title">Smile Dash-搖滾樂團</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:40-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">來者何人-台北巷弄的嘻哈樂團</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">20:20-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">DrunkMonk 撞克茫客</h3><p class="event-desc">硬式搖滾樂團</p></div>
+                                    <div class="event-time">20:00-20:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:03-20:20</div>
+                                    <div class="event-details"><h3 class="event-title">來者何人-台北巷弄的嘻哈樂團</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:20-20:30</div>
+                                    <div class="event-details"><h3 class="event-title">DrunkMonk 撞克茫客-硬式搖滾樂團</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:30-20:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:33-21:00</div>
+                                    <div class="event-details"><h3 class="event-title">DrunkMonk 撞克茫客-硬式搖滾樂團</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/01 (日) 全民好聲音</h3>
+                        <h3 class="event-date-title">2026/03/01 (日)</h3>
+                        <div class="event-list">
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">14:00-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">復興電台</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:00-19:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:03-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">張嘉芯-超級紅人榜</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:30-19:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:33-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">吳胤呈-精靈男友</h3></div>
+                                </div>
+                            </div>
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">20:00-20:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:03-20:30</div>
+                                    <div class="event-details"><h3 class="event-title">張菡&DJ朱全</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:30-20:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:33-21:00</div>
+                                    <div class="event-details"><h3 class="event-title">伍浩哲-知名民歌手</h3></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day-group-card">
+                        <h3 class="event-date-title">2026/03/02 (一)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">張嘉芯</h3><p class="event-desc">超級紅人榜</p></div>
-                                </div>
-                                <div class="event-item">
-                                    <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">吳胤呈</h3><p class="event-desc">精靈男友</p></div>
+                                    <div class="event-details"><h3 class="event-title">臺北市大安區金華國民中學七年級合唱團</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">20:00-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">張菡 & DJ朱全</h3></div>
-                                </div>
-                                <div class="event-item">
-                                    <div class="event-time">20:30-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">伍浩哲</h3><p class="event-desc">知名民歌手</p></div>
+                                    <div class="event-time">19:30-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">臺北市立內湖高級中學熱音社</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/06 (五) 搖滾方程式</h3>
+                        <h3 class="event-date-title">2026/03/03 (二)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">19:00-19:40</div>
-                                    <div class="event-details"><h3 class="event-title">派拉瑞</h3></div>
-                                </div>
-                                <div class="event-item">
-                                    <div class="event-time">19:40-20:20</div>
-                                    <div class="event-details"><h3 class="event-title">帕崎拉</h3></div>
+                                    <div class="event-time">19:00-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">臺北市萬華區老松國民小學鼓笛隊</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">20:20-21:00</div>
+                                    <div class="event-time">19:30-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">臺北市立明湖國民中學管樂團</h3></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day-group-card">
+                        <h3 class="event-date-title">2026/03/04 (三)</h3>
+                        <div class="event-list">
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:00-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">臺北市立桃源國民中學扯鈴隊</h3></div>
+                                </div>
+                            </div>
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:30-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">日本島根縣吉祥物</h3></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day-group-card">
+                        <h3 class="event-date-title">2026/03/05 (四)</h3>
+                        <div class="event-list">
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:00-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">聖克里斯多福及尼維斯大使館</h3></div>
+                                </div>
+                            </div>
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:30-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">臺北市立仁愛國民中學街舞社</h3></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day-group-card">
+                        <h3 class="event-date-title">2026/03/06 (五)</h3>
+                        <div class="event-list">
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:00-19:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:03-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">帕崎拉</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:30-19:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:33-19:40</div>
+                                    <div class="event-details"><h3 class="event-title">帕崎拉</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:40-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">派拉瑞</h3></div>
+                                </div>
+                            </div>
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">20:00-20:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:03-20:20</div>
+                                    <div class="event-details"><h3 class="event-title">派拉瑞</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:20-20:30</div>
+                                    <div class="event-details"><h3 class="event-title">P!SCO</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:30-20:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:33-21:00</div>
                                     <div class="event-details"><h3 class="event-title">P!SCO</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/07 (六) 民歌西餐廳</h3>
+                        <h3 class="event-date-title">2026/03/07 (六)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">黃晨富</h3></div>
+                                    <div class="event-time">14:00-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">台北電台</h3></div>
                                 </div>
                                 <div class="event-item">
-                                    <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">陳加洛</h3></div>
+                                    <div class="event-time">19:00-19:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:03-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">澔客＋陳加洛</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:30-19:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:33-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">澔客＋陳加洛</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">20:00-20:30</div>
+                                    <div class="event-time">20:00-20:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:03-20:30</div>
                                     <div class="event-details"><h3 class="event-title">古勝中</h3></div>
                                 </div>
                                 <div class="event-item">
-                                    <div class="event-time">20:30-21:00</div>
+                                    <div class="event-time">20:30-20:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:33-21:00</div>
                                     <div class="event-details"><h3 class="event-title">周美蒂</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/08 (日) 嘻哈之夜</h3>
+                        <h3 class="event-date-title">2026/03/08 (日)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">19:00-19:40</div>
+                                    <div class="event-time">14:00-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">教育電台</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:00-19:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:03-19:30</div>
                                     <div class="event-details"><h3 class="event-title">壞胚子</h3></div>
                                 </div>
                                 <div class="event-item">
-                                    <div class="event-time">19:40-20:20</div>
+                                    <div class="event-time">19:30-19:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:33-19:40</div>
+                                    <div class="event-details"><h3 class="event-title">壞胚子</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:40-20:00</div>
                                     <div class="event-details"><h3 class="event-title">DJ LELE</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">20:20-21:00</div>
+                                    <div class="event-time">20:00-20:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:03-20:20</div>
+                                    <div class="event-details"><h3 class="event-title">DJ LELE</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:20-20:30</div>
+                                    <div class="event-details"><h3 class="event-title">榕幫</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:30-20:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:33-21:00</div>
                                     <div class="event-details"><h3 class="event-title">榕幫</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/13 (五) 小清新之夜</h3>
+                        <h3 class="event-date-title">2026/03/09 (一)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">臺北市立內湖高級中學國樂社</h3></div>
+                                </div>
+                            </div>
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:30-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">日本島根縣吉祥物</h3></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day-group-card">
+                        <h3 class="event-date-title">2026/03/10 (二)</h3>
+                        <div class="event-list">
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:00-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">臺北市勞動力重建運用處</h3></div>
+                                </div>
+                            </div>
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:30-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">臺北市文山區景美國民小學弦樂團</h3></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day-group-card">
+                        <h3 class="event-date-title">2026/03/11 (三)</h3>
+                        <div class="event-list">
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:00-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">臺北市內湖區東湖國民小學弦樂團</h3></div>
+                                </div>
+                            </div>
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:30-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">新世紀文化藝術團</h3></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day-group-card">
+                        <h3 class="event-date-title">2026/03/12 (四)</h3>
+                        <div class="event-list">
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:00-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">臺北市大安區幸安國民小學合唱團</h3></div>
+                                </div>
+                            </div>
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:30-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">臺北市立萬芳高級中學韓研社</h3></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day-group-card">
+                        <h3 class="event-date-title">2026/03/13 (五)</h3>
+                        <div class="event-list">
+                            <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">19:00-19:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:03-19:30</div>
                                     <div class="event-details"><h3 class="event-title">安妮塔克</h3></div>
                                 </div>
                                 <div class="event-item">
-                                    <div class="event-time">19:30-20:00</div>
+                                    <div class="event-time">19:30-19:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:33-19:40</div>
+                                    <div class="event-details"><h3 class="event-title">安妮塔克</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:40-20:00</div>
                                     <div class="event-details"><h3 class="event-title">woodywoody</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">20:00-20:30</div>
+                                    <div class="event-time">20:00-20:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:03-20:20</div>
+                                    <div class="event-details"><h3 class="event-title">woodywoody</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:20-20:30</div>
+                                    <div class="event-details"><h3 class="event-title">PIA</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:30-20:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:33-21:00</div>
                                     <div class="event-details"><h3 class="event-title">PIA</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/14 (六) 情人之夜</h3>
+                        <h3 class="event-date-title">2026/03/14 (六)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">19:00-19:50</div>
+                                    <div class="event-time">14:00-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">台北電台</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:00-19:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:03-19:30</div>
                                     <div class="event-details"><h3 class="event-title">眠氣</h3></div>
                                 </div>
                                 <div class="event-item">
-                                    <div class="event-time">19:50-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">晨悠CHENYO</h3></div>
+                                    <div class="event-time">19:30-19:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:33-19:50</div>
+                                    <div class="event-details"><h3 class="event-title">眠氣</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">20:30-21:00</div>
+                                    <div class="event-time">19:50-20:00</div>
+                                    <div class="event-details"><h3 class="event-title">晨悠CHENYO</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:00-20:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:03-20:30</div>
+                                    <div class="event-details"><h3 class="event-title">晨悠CHENYO</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:30-20:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:33-21:00</div>
                                     <div class="event-details"><h3 class="event-title">陳忻玥</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/15 (日) 閉幕之夜</h3>
+                        <h3 class="event-date-title">2026/03/15 (日)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">Mario Game Time</h3></div>
+                                    <div class="event-time">19:00-19:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
                                 </div>
                                 <div class="event-item">
-                                    <div class="event-time">19:30-20:00</div>
+                                    <div class="event-time">19:03-19:30</div>
+                                    <div class="event-details"><h3 class="event-title">It’s time to PLAY - 互動式瑪利歐劇場</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:30-19:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">19:33-20:00</div>
                                     <div class="event-details"><h3 class="event-title">阿卡貝拉-留聲樂團</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">20:00-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">Yoyo唱跳秀</h3></div>
+                                    <div class="event-time">20:00-20:03</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
                                 </div>
                                 <div class="event-item">
-                                    <div class="event-time">20:30-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">身聲劇場</h3></div>
+                                    <div class="event-time">20:03-20:30</div>
+                                    <div class="event-details"><h3 class="event-title">最帥乩童歌手-黃新皓</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:30-20:33</div>
+                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">20:33-21:00</div>
+                                    <div class="event-details"><h3 class="event-title">清新人氣女歌手-魏嘉瑩</h3></div>
                                 </div>
                             </div>
                         </div>

@@ -1339,7 +1339,7 @@ html {
     color: white;
     margin: 0 0 5px 0;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: normal
 }
 
 .event-desc {

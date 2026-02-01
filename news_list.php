@@ -11,9 +11,6 @@
     <main class="container" style="padding-top: 120px; min-height: 80vh; padding-bottom: 100px;">
         <section>
             <h2 class="section-title">新聞總覽</h2>
-            <p style="text-align: center; color: var(--text-sub); margin-bottom: 40px;">
-                掌握 2026 台北燈節第一手活動資訊與精彩亮點
-            </p>
 
             <div class="news-grid">
             <!-- 新一則置前 -->

@@ -37,29 +37,22 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <!-- <section id="news" class="news-section">
-            <h2 class="section-title">最新消息</h2>
+        <section id="news" class="news-section">
+            <h2 class="section-title">Latest News</h2>
             <div class="news-header">
-                <a href="#" class="news-more">MORE +</a>
+                <a href="news_list" class="news-more">Overview +</a>
             </div>
             
             <div class="news-list">
-                <a href="#" class="news-item">
+                <a href="news_260116" class="news-item">
                     <span class="news-date">2026.02.10</span>
-                    <span class="news-text">【公告】因應天候狀況，今晚無人機展演時間延後至 20:30。</span>
+                    <span class="news-text">The 2026 Taipei Lantern Festival Launches Its First Ever “Two Zones, Two IPs” Experience. Partnering with Global IP “Transformers,” the Expo Park Main Lantern Optimus Prime Makes an Early Reveal ...</span>
                 </a>
-                <a href="#" class="news-item">
-                    <span class="news-date">2026.02.08</span>
-                    <span class="news-text">西門主燈「光之巨人」每晚 18:00 起，每半小時展演一場。</span>
-                </a>
-                <a href="#" class="news-item">
-                    <span class="news-date">2026.02.01</span>
-                    <span class="news-text">交通管制提醒：市民廣場周邊路段將於每日 17:00 進行封路。</span>
-                </a>
+                
             </div>
-        </section> -->
+        </section>
 
-        <section id="news" class="container" style="padding-bottom: 20px; margin-top: -250px; position: relative; z-index: 10;">
+        <section id="news" class="container" style="padding-bottom: 20px;">
             <h2 class="section-title">Exhibition Areas</h2>
             <div class="section-intro">
                 <p class="section-description desc-en">
