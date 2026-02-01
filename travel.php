@@ -145,7 +145,7 @@
 
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/Dist_Zhongshan.jpg" alt="中山商圈" loading="lazy" decoding="async">
+                        <img src="images/sites/Dist_Zhongshan_v2.jpg" alt="中山商圈" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">花博展區</span>
                         </div>
