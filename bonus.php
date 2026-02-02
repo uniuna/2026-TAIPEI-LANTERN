@@ -528,16 +528,16 @@
         <div id="cat-shop" class="main-cat-content">
 
             <div class="sub-category-nav">
-                <button class="sub-cat-btn active" onclick="switchSubCat(event, 'shop-1')">台北地下街</button>
-                <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-2')">榮町商圈</button>
-                <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-3')">沅陵街商圈</button>
-                <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-4')">中華路影音街</button>
-                <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-5')">北門相機商圈</button>
-                <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-6')">重南書街</button>
-                <button class="sub-cat-btn" onclick="switchSubCat(event, 'shop-7')">中山商圈</button>
+                <button type="button" class="sub-cat-btn active" onclick="switchSubCat(event, 'shop-1')">台北地下街</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-2')">榮町商圈</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-3')">沅陵街商圈</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-4')">中華路影音街</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-5')">北門相機商圈</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-6')">重南書街</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-7')">中山商圈</button>
             </div>
 
-            <div id="shop-1" class="shop-content-block" style="display: block;">
+            <div id="shop-1" class="shop-content-block">
                 <div class="featured-event-card">
                     <div class="featured-img-box">
                         <img src="images/events/好運吉馬來.jpg" alt="好運吉馬來">
@@ -579,7 +579,7 @@
                 </div>
             </div>
 
-            <div id="shop-2" class="shop-content-block" style="display: none;">
+            <div id="shop-2" class="shop-content-block">
                 <div class="featured-event-card">
                     <div class="featured-img-box">
                         <!-- <img src="images/events/shopping_default.jpg" alt="榮町漫市集元宵燈節活動"> -->
@@ -633,7 +633,7 @@
                 </div>
             </div>
 
-            <div id="shop-3" class="shop-content-block" style="display: none;">
+            <div id="shop-3" class="shop-content-block">
                 <div class="featured-event-card">
                     <!-- <div class="featured-img-box">
                         <img src="images/events/shopping_default.jpg" alt="2026沅陵街商圈年貨大街">
@@ -683,7 +683,7 @@
                 </div>
             </div>
 
-            <div id="shop-4" class="shop-content-block" style="display: none;">
+            <div id="shop-4" class="shop-content-block">
                 <div class="featured-event-card">
                     <!-- <div class="featured-img-box">
                         <img src="images/events/shopping_default.jpg" alt="響樂到中華">
@@ -699,7 +699,7 @@
                 </div>
             </div>
 
-            <div id="shop-5" class="shop-content-block" style="display: none;">
+            <div id="shop-5" class="shop-content-block">
                 <div class="featured-event-card">
                     <!-- <div class="featured-img-box">
                         <img src="images/events/shopping_default.jpg" alt="定格老城美">
@@ -715,7 +715,7 @@
                 </div>
             </div>
 
-            <div id="shop-6" class="shop-content-block" style="display: none;">
+            <div id="shop-6" class="shop-content-block">
                 <div class="featured-event-card">
                     <!-- <div class="featured-img-box">
                         <img src="images/events/shopping_default.jpg" alt="墨香新丰采">
@@ -731,7 +731,7 @@
                 </div>
             </div>
 
-            <div id="shop-7" class="shop-content-block" style="display: none;">
+            <div id="shop-7" class="shop-content-block">
                 <div class="featured-event-card">
                     <div class="featured-img-box">
                         <img src="images/events/慶元宵賞花燈.jpg" alt="慶元宵賞花燈">
@@ -754,13 +754,13 @@
         <div id="cat-venue" class="main-cat-content">
             
             <div class="sub-category-nav">
-                <button class="sub-cat-btn active" onclick="switchSubCat(event, 'event1')">漢衣相逢</button>
-                <button class="sub-cat-btn" onclick="switchSubCat(event, 'event2')">來台北有購嗨</button>
-                <button class="sub-cat-btn" onclick="switchSubCat(event, 'event3')">2025 閃耀！捷運光聚落</button>
-                <button class="sub-cat-btn" onclick="switchSubCat(event, 'event4')">2026 花IN台北</button>
+                <button type="button" class="sub-cat-btn active" onclick="switchSubCat(event, 'venue-1')">漢衣相逢</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-2')">來台北有購嗨</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-3')">2025 閃耀！捷運光聚落</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-4')">2026 花IN台北</button>
             </div>
 
-            <div id="event1" class="tab-content active">
+            <div id="venue-1" class="tab-content active">
                 <div class="featured-event-card">
                     
                     <div class="featured-img-box">
@@ -794,7 +794,7 @@
                 </div>
             </div>
 
-            <div id="event2" class="tab-content">
+            <div id="venue-2" class="tab-content">
                 <div class="featured-event-card">
                     
                     <div class="featured-img-box">
@@ -817,7 +817,7 @@
                 </div>
             </div>
 
-            <div id="event3" class="tab-content">
+            <div id="venue-3" class="tab-content">
                 <div class="featured-event-card">
                     
                     <div class="featured-img-box">
@@ -840,7 +840,7 @@
                 </div>
             </div>
 
-            <div id="event4" class="tab-content">
+            <div id="venue-4" class="tab-content">
                 <div class="featured-event-card">
                     
                     <div class="featured-img-box">
