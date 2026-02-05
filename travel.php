@@ -22,7 +22,7 @@
         <div id="imageLightbox" onclick="closeImageModal(event)">
             <div class="modal-content-img">
                 <span class="close-modal" onclick="closeImageModalBox()">&times;</span>
-                <img id="lightboxImg" src="/images/maps/emap-ximen.jpg" alt=''>
+                <img id="lightboxImg" src=" " alt=''>
             </div>
         </div>
 

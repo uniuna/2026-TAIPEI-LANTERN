@@ -27,296 +27,310 @@
         </div>
 
         <section class="container">
-            <h2 class="section-title">敬請期待</h2>
-            <div class="zone-block" style="margin-bottom: 80px;"></div>
-        </section>
-
-        <!-- <section class="container">
             <h2 class="section-title">西門展區地圖</h2>
             <div class="zone-block" style="margin-bottom: 80px;">
                 
                 <div id="map-theme-1" class="interactive-map-container">
-                    <img src="images/maps/map-ximen.jpg" alt="西門展區地圖">
-                    <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
-                        onclick="openMapModal('ximen-main')"></div>
-                    <div class="map-hotspot" style="top: 60%; left: 37%;border-color:#FF0055;"
-                        onclick="openMapModal('ximen-ip1')"></div>
-                    <div class="map-hotspot" style="top: 72%; left: 38.5%;border-color:#FF0055;"
-                        onclick="openMapModal('ximen-ip2')"></div>
-                    <div class="map-hotspot" style="top: 79.5%; left: 36.5%;border-color:#FF0055;"
-                        onclick="openMapModal('ximen-ip3')"></div>
+                    <img src="images/maps/map-ximen.jpg" onclick="openImageModal('images/maps/map-ximen.jpg')" style="cursor: pointer;" alt="西門展區地圖" >
+                </div>
+                <div id="imageLightbox" onclick="closeImageModal(event)">
+                    <div class="modal-content-img">
+                        <span class="close-modal" onclick="closeImageModalBox()">&times;</span>
+                        <img id="lightboxImg" src=" " alt=''>
+                    </div>
                 </div>
 
                 <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
                     
-                    <div class="lantern-item" onclick="openMapModal('ximen_01')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_A1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.01  敬請期待！</h4>
+                                <h4 class="lantern-name">A1  MOLLY的夢幻飛行</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_02')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_A2')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.02  敬請期待！</h4>
+                                <h4 class="lantern-name">A2  星塵降臨：『Twinkle Twinkle 奇遇』</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_03')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_A3')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.03  敬請期待！</h4>
+                                <h4 class="lantern-name">A3  Labubu 雲端粉紅星光</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_04')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_A4')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.04  敬請期待！</h4>
+                                <h4 class="lantern-name">A4 『Hirono 的微觀靜域』</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_05')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_A5')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.05  敬請期待！</h4>
+                                <h4 class="lantern-name">A5 『台北雙面畫卷』：夢境與時空的對視</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div>
+                    </div> -->
 
-                    <div class="lantern-item" onclick="openMapModal('ximen_06')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.06  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">B1  馬上有錢</h4>
+                                <span class="lantern-designer">松山慈惠堂設計團隊</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div> -->
+                    <div class="lantern-item" onclick="openMapModal('ximen_B2')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B2  遠東百貨・馬躍新春</h4>
+                                <span class="lantern-designer">遠東百貨台北燈節設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_07')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B3')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.07  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_08')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.08  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_09')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.09  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_10')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.10  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_11')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.11  揮出夢想經典熊讚</h4>
+                                <h4 class="lantern-name">B3  八駿揚蹄展鴻圖</h4>
                                 <span class="lantern-designer">台北燈節設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_12')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B4')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.12  敬請期待！</h4>
+                                <h4 class="lantern-name">B4  台北主場・奔龍而上</h4>
+                                <span class="lantern-designer">頂新臺北燈節設計團隊</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B5')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B5  台北好水</h4>
+                                <span class="lantern-designer"></span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div> -->
+                    <div class="lantern-item" onclick="openMapModal('ximen_B6')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B6  揮出夢想經典熊讚</h4>
+                                <span class="lantern-designer">台北燈節設計團隊</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B7')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B7  今馬熊讚</h4>
+                                <span class="lantern-designer"></span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div> -->
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B8')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B8  城隍燈海隧道</h4>
+                                <span class="lantern-designer">臺灣省城隍廟設計團隊</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B9')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B9  燈映平安幸福橋</h4>
+                                <span class="lantern-designer">臺灣省城隍廟設計團隊</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B10')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B10  響樂到中華</h4>
+                                <span class="lantern-designer"></span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div> -->
+                    <div class="lantern-item" onclick="openMapModal('ximen_B11')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B11  城市光譜</h4>
+                                <span class="lantern-designer">徐于倫、舒次華</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B12')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B12  城門之後</h4>
+                                <span class="lantern-designer">鄧志權、吳宗益</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B13')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B13  企業燈組</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_13')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B14')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.13  敬請期待！</h4>
+                                <h4 class="lantern-name">B14  企業燈組</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_14')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B15')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.14  敬請期待！</h4>
+                                <h4 class="lantern-name">B15  企業燈組</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_15')">
+                    </div> -->
+                    <div class="lantern-item" onclick="openMapModal('ximen_B16')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.15  城門之後</h4>
-                                <span class="lantern-designer">吳宗益</span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_16')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.16  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_17')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.17  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_18')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.18  反界</h4>
+                                <h4 class="lantern-name">B16  反界</h4>
                                 <span class="lantern-designer">hello bast workshop</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_19')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B17')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.19  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_20')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.20  燈波</h4>
+                                <h4 class="lantern-name">B17  燈波</h4>
                                 <span class="lantern-designer">林芷彤</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_21')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B18')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.21  敬請期待！</h4>
+                                <h4 class="lantern-name">B18  Sounds</h4>
+                                <span class="lantern-designer">莫珊嵐</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B19')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B19  J!NS小馬看視界</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_22')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B20')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.22  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_23')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.23  台北晝夜</h4>
+                                <h4 class="lantern-name">B20  台北晝夜</h4>
                                 <span class="lantern-designer">成如潔</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_24')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B21')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.24  敬請期待！</h4>
+                                <h4 class="lantern-name">B21  奔向永續 生森不息</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_25')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B22')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.25  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">B22  天后．祈福光橋</h4>
+                                <span class="lantern-designer">于容創意有限公司</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div> -->
+                    <div class="lantern-item" onclick="openMapModal('ximen_B23')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B23  金福氣</h4>
+                                <span class="lantern-designer">台北燈節設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('ximen_26')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B24')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.26  敬請期待！</h4>
+                                <h4 class="lantern-name">B24  沅夜星語</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
+                    </div> -->
+                    <div class="lantern-item" onclick="openMapModal('ximen_B25')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B25  金彩萬華 (萬華車站)</h4>
+                                <span class="lantern-designer">台北燈節設計團隊</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
                     </div>
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B26')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B26  光行小馬 (剝皮寮)</h4>
+                                <span class="lantern-designer"></span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div> -->
 
                 </div>
             </div>
 
-        </section> -->
+        </section>
 
-        <!-- <div class="modal-overlay" id="mapModal" onclick="closeMapModal(event)">
+        <div id="mapModal" class="modal-overlay" onclick="closeMapModal(event)">
             <div class="modal-content">
-                <span class="close-modal" onclick="closeActualModal()">&times;</span>
+                <span class="close-modal" onclick="closeMapModal()">&times;</span>
 
                 <h2 id="modalTitle" style="margin-bottom: 20px">燈飾標題</h2>
                 <img id="modalImg" src="" style="width: 100%; max-width:600px; border-radius: 10px; margin:0 auto 20px; display: none;" />
@@ -327,7 +341,7 @@
                     <p id="modalDesc" style="font-size: 1rem; " >燈飾介紹內容</p>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- <section class="map-download-section">
             <div class="map-download-content">

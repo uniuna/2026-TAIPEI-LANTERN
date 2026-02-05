@@ -758,6 +758,7 @@
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-2')">來台北有購嗨</button>
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-3')">2025 閃耀！捷運光聚落</button>
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-4')">2026 花IN台北</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-5')">紅樓選品 X 2026台北燈節</button> 
             </div>
 
             <div id="venue-1" class="tab-content active">
@@ -859,6 +860,40 @@
                                 了解更多 >
                              </a>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="venue-5" class="tab-content">
+                <div class="featured-event-card">
+                    
+                    <div class="featured-img-box">
+                        <img src="images/events/RedHouseSelect.jpg" alt="紅樓選品 X 2026台北燈節">
+                    </div>
+
+                    <div class="featured-content">
+                        <h3 class="featured-title">紅樓選品 X 2026台北燈節</h3>
+                        
+                        <p class="featured-desc">
+                            西門紅樓選品文創賣店集結臺灣26家品牌進駐，以臺灣美學、紀念禮品以及臺灣IP圖文，呈現臺灣文創魅力給國際觀光客！今年響應2026台北燈節，凡於2/17-3/17至紅樓選品消費滿500元即贈來店好禮乙份，同場新春加碼，於指定品牌消費滿還可享品牌專屬小禮物，數量有限換送完為止。
+                        </p>
+
+                        <ul class="featured-info-list">
+                            <li>
+                                <span class="info-label">活動期間：</span>
+                                <span class="info-text">2/17 - 3/17</span>
+                            </li>
+                            <li>
+                                <span class="info-label">合作品牌：</span>
+                                <span class="info-text">dtto friends、猴子設計、遊木時光、券券文化、幽默之星、查高插畫、HEY SUN、陸陸參陸、獨木設計、游於藝-我愛台灣、你好創意設計</span>
+                            </li>
+                        </ul>
+
+                        <!-- <div class="featured-action">
+                             <a href="https://www.flowersfestival.taipei/" target="_blank" class="btn-main">
+                                了解更多 >
+                             </a>
+                        </div> -->
                     </div>
                 </div>
             </div>

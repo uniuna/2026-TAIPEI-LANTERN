@@ -26,226 +26,191 @@
         </div>
 
         <section class="container">
-            <h2 class="section-title">敬請期待</h2>
-            <div class="zone-block" style="margin-bottom: 80px;"></div>
-        </section>
-
-        <!-- <section class="container">
             <h2 class="section-title">花博展區地圖</h2>
             <div class="zone-block" style="margin-bottom: 80px;">
                 
                 <div id="map-theme-1" class="interactive-map-container">
-                    <img src="images/maps/map-expo.jpg" alt="花博展區地圖">
-                    <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
-                        onclick="openMapModal('ximen-main')"></div>
-                    <div class="map-hotspot" style="top: 60%; left: 37%;border-color:#FF0055;"
-                        onclick="openMapModal('ximen-ip1')"></div>
-                    <div class="map-hotspot" style="top: 72%; left: 38.5%;border-color:#FF0055;"
-                        onclick="openMapModal('ximen-ip2')"></div>
-                    <div class="map-hotspot" style="top: 79.5%; left: 36.5%;border-color:#FF0055;"
-                        onclick="openMapModal('ximen-ip3')"></div>
+                    <img src="images/maps/map-expo.jpg" onclick="openImageModal('images/maps/map-expo.jpg')" style="cursor: pointer;" alt="西門展區地圖" >
+                </div>
+                <div id="imageLightbox" onclick="closeImageModal(event)">
+                    <div class="modal-content-img">
+                        <span class="close-modal" onclick="closeImageModalBox()">&times;</span>
+                        <img id="lightboxImg" src=" " alt=''>
+                    </div>
                 </div>
 
                 <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
 
-                    <div class="lantern-item" onclick="openMapModal('expo_01')">
+                    <div class="lantern-item" onclick="openMapModal('expo_A1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.01  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">A1  變形金剛-柯博文</h4>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_02')">
+                    <div class="lantern-item" onclick="openMapModal('expo_A2')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.02  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">A2  變形金剛-大黃蜂</h4>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_03')">
+                    <div class="lantern-item" onclick="openMapModal('expo_A3')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.03  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">A3  變形金剛-密卡登</h4>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_04')">
+                    <div class="lantern-item" onclick="openMapModal('expo_A4')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.04  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">A4  博派出擊</h4>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_05')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.05  記憶圓山</h4>
+                                <h4 class="lantern-name">B1  記憶圓山</h4>
                                 <span class="lantern-designer">徐于倫</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_06')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B2')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.06  體操男爵</h4>
+                                <h4 class="lantern-name">B2  體操男爵</h4>
                                 <span class="lantern-designer">張育嘉</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_07')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B3')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.07  靜語花境</h4>
+                                <h4 class="lantern-name">B3  靜語花境</h4>
                                 <span class="lantern-designer">陳楷葳</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_08')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B4')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.08  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_09')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.09  生之源</h4>
-                                <span class="lantern-designer">徐于倫，舒次華</span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_10')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.10  星樹之門</h4>
+                                <h4 class="lantern-name">B4  森光行道</h4>
                                 <span class="lantern-designer">徐志銘</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_11')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('expo_B5')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.11  花漾銀河</h4>
+                                <h4 class="lantern-name">B5  生之源</h4>
+                                <span class="lantern-designer">徐于倫，舒次華</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div> -->
+                    <div class="lantern-item" onclick="openMapModal('expo_B6')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B6 星樹之門</h4>
+                                <span class="lantern-designer">徐志銘</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_B7')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B7  花漾銀河</h4>
                                 <span class="lantern-designer">陳楷葳</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_12')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B8')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.12  城市樓閣</h4>
+                                <h4 class="lantern-name">B8  城市樓閣</h4>
                                 <span class="lantern-designer">邱杰森</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_13')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B9')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.13  SPACE TAIPEI</h4>
+                                <h4 class="lantern-name">B9  SPACE TAIPEI</h4>
                                 <span class="lantern-designer">莫珊嵐</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_14')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B10')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.14  四時之環</h4>
-                                <span class="lantern-designer">莫珊嵐 MARGOT GUILLEMOT</span>
+                                <h4 class="lantern-name">B10  四時之環</h4>
+                                <span class="lantern-designer">莫珊嵐</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_15')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B11')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.15  城光樹語 </h4>
+                                <h4 class="lantern-name">B11  城光樹語</h4>
                                 <span class="lantern-designer">陳楷葳</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_16')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('expo_B12')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.16  敬請期待！</h4>
+                                <h4 class="lantern-name">B12  台北好水 (杜鵑花)</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_17')">
+                    </div> -->
+                    <div class="lantern-item" onclick="openMapModal('expo_B13')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.17  敬請期待！</h4>
-                                <span class="lantern-designer"></span>
-                            </div>
-                        </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_18')">
-                        <div class="lantern-content">
-                            <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.18  奇幻動物園</h4>
+                                <h4 class="lantern-name">B13  奇幻動物園</h4>
                                 <span class="lantern-designer">穀造音樂</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-
-                    <div class="lantern-item" onclick="openMapModal('expo_19')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('expo_B14')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">No.19  12熊讚公仔燈組</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">B14  12熊讚</h4>
+                                <span class="lantern-designer">台北燈節設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div>
+                    </div> -->
 
                 </div>   
             </div>
         
-        </section> -->
 
-        <!-- <div class="modal-overlay" id="mapModal" onclick="closeMapModal(event)">
+
+
+        </section>
+
+        <div id="mapModal" class="modal-overlay" onclick="closeMapModal(event)">
             <div class="modal-content">
-                <span class="close-modal" onclick="closeActualModal()">&times;</span>
+                <span class="close-modal" onclick="closeMapModal()">&times;</span>
 
                 <h2 id="modalTitle" style="margin-bottom: 20px">燈飾標題</h2>
                 <img id="modalImg" src="" style="width: 100%; max-width:600px; border-radius: 10px; margin:0 auto 20px; display: none;" />
@@ -256,7 +221,7 @@
                     <p id="modalDesc" style="font-size: 1rem; " >燈飾介紹內容</p>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- <section class="map-download-section">
             <div class="map-download-content">
