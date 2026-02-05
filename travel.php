@@ -15,8 +15,8 @@
                 <img src="images/maps/emap-ximen.jpg" alt="西門">
             </div>
             
-            <div class="travel-hero-img" onclick="openImageModal('images/maps/emap-expo.jpg')" style="cursor: pointer;">
-                <img src="images/maps/emap-expo.jpg" alt="花博" >
+            <div class="travel-hero-img" onclick="openImageModal('images/maps/emap-expo-v2.jpg')" style="cursor: pointer;">
+                <img src="images/maps/emap-expo-v2.jpg" alt="花博" >
             </div>
         </div>
         <div id="imageLightbox" onclick="closeImageModal(event)">
