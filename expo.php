@@ -41,7 +41,7 @@
 
                 <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
 
-                    <div class="lantern-item" onclick="openMapModal('expo_A1')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('expo_A1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">A1  變形金剛-柯博文</h4>
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div>
+                    </div> -->
                     <div class="lantern-item" onclick="openMapModal('expo_B1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">

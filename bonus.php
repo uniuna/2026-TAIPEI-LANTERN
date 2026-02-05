@@ -13,22 +13,47 @@
         <h2 class="section-title">同場加映</h2>
 
         <div class="main-category-nav">
-            <!-- <button class="main-cat-btn" onclick="switchMainCat('market', this)">萬華市集</button> -->
-            <button class="main-cat-btn active" onclick="switchMainCat('temple', this)">宮廟活動</button>
+            <button class="main-cat-btn active" onclick="switchMainCat('market', this)">咖啡首都嘉年華</button>
+            <button class="main-cat-btn" onclick="switchMainCat('temple', this)">宮廟活動</button>
             <button class="main-cat-btn" onclick="switchMainCat('shop', this)">商圈活動</button>
             <button class="main-cat-btn" onclick="switchMainCat('venue', this)">場館響應</button>
         </div>
 
-<!-- 萬華市集 -->
-        <div id="cat-market" class="main-cat-content">
-            <div style="text-align: center; padding: 50px; color: var(--text-sub);">
-                <h3>萬華市集精彩活動</h3>
-                <p>資料整理中，敬請期待...</p>
-            </div>
+<!-- 咖啡首都嘉年華 -->
+        <div id="cat-market" class="main-cat-content active">
+
+                <div class="featured-event-card">
+                    
+                    <div class="featured-img-box">
+                        <img src="images/events/coffe-capital.jpg" alt="2026台北燈節‧咖啡首都嘉年華">
+                    </div>
+
+                    <div class="featured-content">
+                        <h3 class="featured-title">2026台北燈節‧咖啡首都嘉年華</h3>
+                        
+                        <p class="featured-desc">
+                            由台北精品咖啡商業發展協會主辦，郭昭巖議員辦公室與萬華街區發展協會協辦的「2026台北燈節‧咖啡首都嘉年華」，邀請您 2/28～3/1 至萬華火車站站前廣場共襄盛舉。在繽紛燈火街頭表演與爵士樂音中，品味精品咖啡，找到專屬的快樂節奏。
+                            <br><br>現場集結金杯獎咖啡名店與人氣點心品牌，並規劃手沖咖啡與烘豆入門體驗，帶領民眾深入感受咖啡魅力。每日限量百杯精品咖啡免費試飲，另與凱達飯店、格萊天樣飯店推出「咖啡×住宿」聯名優惠，搭配 2/28－3/31 的「2026台北燈節‧咖啡首都嘉年華聯合行銷活動」，讓臺北市咖啡旅程更加香醇難忘。
+                        </p>
+                        
+                        <ul class="featured-info-list">
+                            <li>
+                                <span class="info-label">2026台北燈節‧咖啡首都嘉年華：　</span>
+                                <span class="info-text">2/28～3/1 ｜ 14:00～21:00 ｜ 萬華車站前廣場</span>
+                            </li>
+                            <li>
+                                <span class="info-label">2026台北燈節‧咖啡首都嘉年華行銷活動：　</span>
+                                <span class="info-text">2/28～3/31</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            
         </div>
 
 <!-- 宮廟活動 -->
-        <div id="cat-temple" class="main-cat-content active">
+        <div id="cat-temple" class="main-cat-content">
             
             <div style="text-align: center; margin-bottom: 50px; color: var(--text-sub);">
                 <p>各行政區宮廟響應燈節，舉辦祈福、猜燈謎及元宵傳統活動，歡迎民眾共襄盛舉。</p>
@@ -573,7 +598,7 @@
                             "我們的故事，悄悄開成一朵花"<br>讓我們用乾燥花，把與重要的人一起度過的時刻， 在這個相框裡，把回憶永遠珍藏。
                             <br><br>
                             活動報名方式或資格：<br>
-                            現場報名：憑本地下街當日消費累積滿500元發票，每人每張發票限參加一次。 (數量有限，額滿為止)
+                            現場報名：憑本地下街當日消費累積滿500元發票，每人每張發票限參加一次。<br> (數量有限，額滿為止)
                         </p>
                     </div>
                 </div>
@@ -739,7 +764,7 @@
                     <div class="featured-content">
                         <h3 class="featured-title">慶元宵賞花燈</h3>
                         <div class="featured-info">
-                            <p><strong>📅 時間：</strong>115年2月24日至3月5日 08:00-17:00</p>
+                            <p><strong>📅 時間：</strong>115年2月24日至3月5日 08:00-22:00</p>
                             <p><strong>📍 地點：</strong>圓山花博入口廣場</p>
                         </div>
                         <hr class="card-divider">
