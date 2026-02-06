@@ -46,7 +46,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">A1  MOLLY的夢幻飛行</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">泡泡瑪特設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -55,7 +55,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">A2  星塵降臨：『Twinkle Twinkle 奇遇』</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">泡泡瑪特設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -64,7 +64,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">A3  Labubu 雲端粉紅星光</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">泡泡瑪特設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -73,7 +73,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">A4 『Hirono 的微觀靜域』</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">泡泡瑪特設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -82,13 +82,13 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">A5 『台北雙面畫卷』：夢境與時空的對視</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">泡泡瑪特設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div> -->
 
-                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B1')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B1  馬上有錢</h4>
@@ -96,7 +96,7 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
                     <div class="lantern-item" onclick="openMapModal('ximen_B2')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
@@ -196,11 +196,11 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B13')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B13')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B13  企業燈組</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">B13  Queen 女力星願</h4>
+                                <span class="lantern-designer">聯利媒體股份有限公司</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -208,8 +208,8 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_B14')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B14  企業燈組</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">B14  食尚星光派對</h4>
+                                <span class="lantern-designer">聯利媒體股份有限公司</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -217,12 +217,12 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_B15')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B15  企業燈組</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">B15  歡盛豐年讚財神</h4>
+                                <span class="lantern-designer">聯利媒體股份有限公司</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
                     <div class="lantern-item" onclick="openMapModal('ximen_B16')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
@@ -254,7 +254,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B19  J!NS小馬看視界</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">睛姿臺北燈節設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -272,12 +272,12 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B21  奔向永續 生森不息</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">富邦臺北燈節設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B22')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B22')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B22  天后．祈福光橋</h4>
@@ -285,7 +285,7 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
                     <div class="lantern-item" onclick="openMapModal('ximen_B23')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
