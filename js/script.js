@@ -358,7 +358,7 @@ const mapData = {
         img: 'images/items/ximen_A5.jpg'
     },
     'ximen_B1': {
-        title: 'B1  馬上有錢',
+        title: 'B1  馬上有錢',
         name: '松山慈惠堂設計團隊',
         type: '靜態展出',
         size: '500x400cm',
@@ -366,7 +366,7 @@ const mapData = {
         img: 'images/items/ximen_B1.jpg'
     },
     'ximen_B2': {
-        title: 'B2  遠東百貨・馬躍新春',
+        title: 'B2  遠東百貨・馬躍新春',
         name: '遠東百貨台北燈節設計團隊',
         type: '旋轉馬達結構輔以燈飾工程',
         size: '500*350cm',
@@ -374,7 +374,7 @@ const mapData = {
         img: 'images/items/ximen_B2.jpg'
     },
     'ximen_B3': {
-        title: 'B3  八駿揚蹄展鴻圖',
+        title: 'B3  八駿揚蹄展鴻圖',
         name: '台北燈節設計團隊',
         type: '靜態展出',
         size: '300*300*350cm',
@@ -382,7 +382,7 @@ const mapData = {
         img: 'images/items/ximen_B3.jpg'
     },
     'ximen_B4': {
-        title: 'B4  台北主場・奔龍而上',
+        title: 'B4  台北主場・奔龍而上',
         name: '頂新臺北燈節設計團隊',
         type: '靜態展出',
         size: '300*323cm',
@@ -390,15 +390,15 @@ const mapData = {
         img: 'images/items/ximen_B4.jpg'
     },
     'ximen_B5': {
-        title: 'B5  台北好水',
-        name: '',
-        type: '',
+        title: 'B5  台北好水',
+        name: '台北燈節設計團隊',
+        type: '靜態展出',
         size: '',
-        desc: '',
+        desc: '北水處為展現臺北城共融特色，且考量不同年齡層使用者需求，設計時尚木紋造型TAIPEI WATER直飲台，讓民眾看到就知道有乾淨的水可飲用，每個字體都有不同的飲水體驗，營造不僅好玩、好看，更具有安心、友善的飲水環境，一起為生活減塑。為方便民眾使用直飲台，民眾掃描臺北好水直飲地圖QRcode，透過智慧手機即可輕鬆搜尋鄰近直飲台，讓市民朋友能夠暢飲好水、減少購買瓶裝水，環保愛地球！',
         img: 'images/items/ximen_B5.jpg'
     },
     'ximen_B6': {
-        title: 'B6  揮出夢想經典熊讚',
+        title: 'B6  揮出夢想經典熊讚',
         name: '台北燈節設計團隊',
         type: '靜態展出',
         size: '320X255cm',
@@ -406,7 +406,7 @@ const mapData = {
         img: 'images/items/ximen_B6.jpg'
     },
     'ximen_B7': {
-        title: 'B7  今馬熊讚',
+        title: 'B7  今馬熊讚',
         name: '',
         type: '',
         size: '',
@@ -414,7 +414,7 @@ const mapData = {
         img: 'images/items/ximen_B7.jpg'
     },
     'ximen_B8': {
-        title: 'B8  城隍燈海隧道',
+        title: 'B8  城隍燈海隧道',
         name: '臺灣省城隍廟設計團隊',
         type: '靜態展出',
         size: '',
@@ -422,7 +422,7 @@ const mapData = {
         img: 'images/items/ximen_B8.jpg'
     },
     'ximen_B9': {
-        title: 'B9  燈映平安幸福橋',
+        title: 'B9  燈映平安幸福橋',
         name: '臺灣省城隍廟設計團隊',
         type: '靜態展出',
         size: '高300cm/寬200cm',
@@ -430,7 +430,7 @@ const mapData = {
         img: 'images/items/ximen_B9.jpg'
     },
     'ximen_B10': {
-        title: 'B10  響樂到中華',
+        title: 'B10  響樂到中華',
         name: '',
         type: '',
         size: '',
@@ -438,7 +438,7 @@ const mapData = {
         img: 'images/items/ximen_B10.jpg'
     },
     'ximen_B11': {
-        title: 'B11  城市光譜',
+        title: 'B11  城市光譜',
         name: '徐于倫、舒次華',
         type: '靜態展出',
         size: '770X330cm、480X330cm',
@@ -446,7 +446,7 @@ const mapData = {
         img: 'images/items/ximen_B11.jpg'
     },
     'ximen_B12': {
-        title: 'B12  城門之後',
+        title: 'B12  城門之後',
         name: '鄧志權、吳宗益',
         type: '靜態展出+感應變化燈光',
         size: '300X300X300cm',
@@ -454,7 +454,7 @@ const mapData = {
         img: 'images/items/ximen_B12.jpg'
     },
     'ximen_B13': {
-        title: 'B13  Queen 女力星願',
+        title: 'B13  Queen 女力星願',
         name: '聯利媒體股份有限公司',
         type: '靜態展出',
         size: '300*200cm',
@@ -462,7 +462,7 @@ const mapData = {
         img: 'images/items/ximen_B13.jpg'
     },
     'ximen_B14': {
-        title: 'B14  食尚星光派對',
+        title: 'B14  食尚星光派對',
         name: '聯利媒體股份有限公司',
         type: '靜態展出',
         size: '300*200cm',
@@ -470,7 +470,7 @@ const mapData = {
         img: 'images/items/ximen_B14.jpg'
     },
     'ximen_B15': {
-        title: 'B15  歡盛豐年讚財神',
+        title: 'B15  歡盛豐年讚財神',
         name: '聯利媒體股份有限公司',
         type: '靜態展出',
         size: '180*120*200cm',
@@ -478,15 +478,15 @@ const mapData = {
         img: 'images/items/ximen_B15.jpg'
     },
     'ximen_B16': {
-        title: 'B16  反界',
-        name: 'hello bast workshop',
+        title: 'B16  反界',
+        name: 'hellobastworkshop',
         type: '靜態展出+感應互動',
         size: '900X500X290cm',
         desc: '《反界》是一座融合鏡面結構與燈光語言的裝置藝術作品。整體造型為半開放式的橢圓形光之殼體，略呈拱形曲面，如同一個被橫向拉伸的圓柱體或膠囊狀的光影環室。外殼由多片鏡面不鏽鋼板組成，依流線型排列，圍繞中央核心，打造出極具包覆感、雕塑感與未來感的沉浸空間。從上方俯視，如同一座開放式的光之穹頂，充滿科技感與空間張力。<br>觀眾站在弧形內焦點位置，作品感應後將呈現不同光感變化；視覺上則呈現出萬花筒般的反射錯置效果，觀者的影像從不同角度同時浮現。作品邀請觀眾觀看世界的同時也回望自我，面對自身在數位與現實交錯之中的多重樣貌。',
         img: 'images/items/ximen_B16.jpg'
     },
     'ximen_B17': {
-        title: 'B17  燈波',
+        title: 'B17  燈波',
         name: '林芷彤',
         type: '靜態展出+感應變化燈光',
         size: '300X300X130cm',
@@ -494,7 +494,7 @@ const mapData = {
         img: 'images/items/ximen_B17.jpg'
     },
     'ximen_B18': {
-        title: 'B18  Sounds',
+        title: 'B18  Sounds',
         name: '莫珊嵐',
         type: '靜態展出',
         size: '50X50X150-300(cm)',
@@ -510,7 +510,7 @@ const mapData = {
         img: 'images/items/ximen_B19.jpg'
     },
     'ximen_B20': {
-        title: 'B20  台北晝夜',
+        title: 'B20  台北晝夜',
         name: '成如潔',
         type: '靜態展出',
         size: '250X250X300(cm)',
@@ -531,7 +531,7 @@ const mapData = {
         type: '靜態展出',
         size: '500X400cm',
         desc: '傳統文化信仰，創新設計製作，用台北天后宮媽祖信仰為核心意象，結合傳統「平<br>安橋」與「鑽轎底」祈福文化，轉化為一座可行走、可體驗的祈福燈組。民眾循<br>階而上，穿越橋體與轎底空間，象徵跨越關卡、消災解厄，在行進之間完成一場<br>向天后祈願的儀式旅程。整體燈光設計結合動態感應與色彩變化，隨著步伐流動、<br>明暗轉換，彷彿媽祖庇佑之光一路相隨，傳遞安定與祝福的力量。透過傳統信仰<br>與現代燈光藝術的融合，邀請民眾在光影之中祈願2026 年一路長紅、平安順遂，<br>讓祝福在城市夜色中持續流轉。',
-        img: 'images/items/ximen_B22.jpg'
+        img: 'images/items/ximen_B22_v2.jpg'
     },
     'ximen_B23': {
         title: 'B23  金福氣',
@@ -569,40 +569,40 @@ const mapData = {
     // --- 花博展區的資料 ------------ //
     'expo_A1': {
         title: 'A1  變形金剛-柯博文',
-        name: '',
-        type: '',
-        size: '',
+        name: '變形金剛設計團隊',
+        type: '靜態展出',
+        size: '1260*1260*1000cm',
         desc: '2026 台北燈節迎來史無前例的重磅跨界！<br>這是台北燈節首度與國際頂級 IP《變形金剛》(TRANSFORMERS)正式聯名，我們試圖打破傳統元宵節慶的既定框架，“將科幻美學植入東方節慶，展現台北市作為國際都會「兼容並蓄、勇於創新」的城市氣度。<br><br>本次主燈由博派金剛領袖——「柯博文」（Optimus Prime）擔綱主角。他巍峨聳立的身影，象徵正義與勇气的力量，透過其充滿未來感的機械結構與光影科技，完美呼應台北市作為國際先進都市的科技底蘊。當柯博文出现在台北街頭，象徵著這座城市如變形金剛般，擁有不斷進化、追求卓越的動能。讓我們在璀璨燈火中，一同見證台北與博派領袖共譜的科技光輝篇章。',
         img: '../images/items/expo_A1.jpg'
     },
     'expo_A2': {
         title: 'A2  變形金剛-大黃蜂',
-        name: '',
-        type: '',
-        size: '',
+        name: '變形金剛設計團隊',
+        type: '靜態展出',
+        size: '396*156*350cm',
         desc: '如果柯博文象徵著城市的宏觀高度，那麼大黃蜂（Bumblebee）則代表了這座城市穿梭的敏捷與活力。<br><br>本燈組最大的設計亮點，在於背景運用了「無限鏡（Infinity Mirror）」的光學技術。透過多層次的光束反射，在平面的燈座上創造出深邃、彷彿無止盡的視覺隧道。這不僅象徵了博派金剛空間穿越的快速飛馳感，更象徵著台北市作為一座先進都市，擁有深不可測的潛力與「無限可能」的未來視野。<br>大黃蜂彷彿從無限延伸的數位光廊中破框而出，以活潑敏捷的動態跳躍姿勢，向參加燈節的觀衆互動問好，展現熱情友善的個性。',
         img: '../images/items/expo_A2.jpg'
     },
     'expo_A3': {
         title: 'A3  變形金剛-密卡登',
-        name: '',
-        type: '',
-        size: '',
+        name: '變形金剛設計團隊',
+        type: '靜態展出',
+        size: '507*145*350cm',
         desc: '警報響起！博派金剛的宿敵已鎖定台北！ 這座充滿未來科技感的圓形時空傳送門，正是狂派首領「密卡登」的登場舞台。<br>透過中央卡布燈箱細膩的光影演繹，我們凝結了密卡登撕裂空間、踏出傳送門的那一秒。圓圈藍色能量源光芒一閃，能量聚集起来，他夾帶著充能的加農砲出現在台北。這不僅是一座燈飾，更是一個張力十足的電影級場景。站在燈組前，你將感受到這位宇宙狂派首領令人窒息的強大氣場，準備好面對他的挑戰了嗎？',
         img: '../images/items/expo_A3.jpg'
     },
     'expo_A4': {
         title: 'A4  博派出擊',
-        name: '',
-        type: '',
-        size: '',
+        name: '變形金剛設計團隊',
+        type: '靜態展出',
+        size: '336*282*370cm',
         desc: '當傳統燈藝遇上 8-bit 電玩美學呈現，會擦出什麼樣的火花？ 這組作品大膽挑戰視覺慣性，將巨大的遊戲機台搬進現實。設計團隊捨棄了數位螢幕，回歸燈節本質，利用「多層次動態燈箱」來演繹遊戲畫面。<br>我們運用 LED 跑馬燈與序列控制技術，讓柯博文與密卡登的對戰畫面產生「視覺暫留」的動態感。光線在燈箱內快速推移、閃爍，彷彿像素粒子在跳動，完美復刻了老遊戲機台的映像管質感。這不僅是一座燈飾，更是一場向電玩黃金年代致敬的光影實驗，象徵台北這座城市充滿創意與玩心的多變面貌。',
         img: '../images/items/expo_A4.jpg'
     },
     'expo_B1': {
         title: 'B1  記憶圓山',
         name: '徐于倫',
-        type: '',
+        type: '靜態展出',
         size: '300X250cm',
         desc: '以巨型足球為造型，帶出曾為中山足球場的過往歷史，透過球體切割出的多面光結構，使燈組成為盛載故事的「記憶容器」。在不同角度看見網格中呈現的圓山文化符號：象徵圓山動物園歲月的大象爺爺、代表東方建築精神的圓山大飯店、城市花卉美學的臺北花博、以及承載童年的兒童樂園，讓圓山的歷史化為城市印記。',
         img: '../images/items/expo_B1.jpg'
@@ -688,11 +688,11 @@ const mapData = {
         img: '../images/items/expo_B11.jpg'
     },
     'expo_B12': {
-        title: 'B12  台北好水 (杜鵑花)',
-        name: '',
-        type: '',
+        title: 'B12  台北好水-杜鵑花',
+        name: '台北燈節設計團隊',
+        type: '靜態展出',
         size: '',
-        desc: '',
+        desc: '北水處結合臺北市市花設計出「杜鵑花直飲台」，象徵臺北的美麗、繁榮與幸福。花朵的生命來自於水，當民眾在此座直飲台飲水時，可以同時解渴、滋潤身心，同時象徵性的灌溉了這座花朵，傳達生生不息、花繁葉茂的精神。杜鵑花直飲台採取通用設計，結合不同高度的飲水龍頭，無論是大人、小孩、身障朋友，甚至是毛小孩都能輕鬆使用，打造出臺北市獨具魅力的環境友善共融空間；閃亮繽紛的LED花蕊與花瓣的巧思，讓飲水者如同蜜蜂採蜜般地互動，充滿趣味性；花瓣上嵌入太陽能板，融入綠能、減碳、永續元素，展現節能減塑愛地球行動。中央圓形燈飾搭配新年燈節氣息，歡樂活潑，提升市容設計感。',
         img: '../images/items/expo_B12.jpg'
     },
     'expo_B13': {
@@ -704,12 +704,12 @@ const mapData = {
         img: '../images/items/expo_B13.jpg'
     },
     'expo_B14': {
-        title: 'B14  12熊讚',
+        title: 'B14  臺北隊熊讚',
         name: '台北燈節設計團隊',
-        type: '',
-        size: '',
-        desc: '',
-        img: '../images/items/expo_B14.jpg'
+        type: '靜態展出',
+        size: '187*122*185cm',
+        desc: '「2026台北燈節」串聯臺北市12個行政區，特別打造12款各具特色的熊讚公仔，展現各行政區獨具魅力的特色風貌，包含時尚信義、和雅大安、潮流南港、縱走內湖、薈萃士林、旅行松山、茶香文山、探索中正、戲說大同、古城萬華、藝文中山及溫泉北投。熊讚化身為各區代表，成為臺北隊的一分子，完美代言台北的多元與精彩，區區都讚！臺北隊熊讚！',
+        img: '../images/items/expo_B14_v2.jpg'
     },
 
 };

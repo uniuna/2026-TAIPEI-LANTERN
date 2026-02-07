@@ -128,7 +128,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B5  台北好水</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">台北燈節設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -199,7 +199,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_B13')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B13  Queen 女力星願</h4>
+                                <h4 class="lantern-name">B13  Queen 女力星願</h4>
                                 <span class="lantern-designer">聯利媒體股份有限公司</span>
                             </div>
                         </div>
@@ -208,7 +208,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_B14')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B14  食尚星光派對</h4>
+                                <h4 class="lantern-name">B14  食尚星光派對</h4>
                                 <span class="lantern-designer">聯利媒體股份有限公司</span>
                             </div>
                         </div>
@@ -217,7 +217,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_B15')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B15  歡盛豐年讚財神</h4>
+                                <h4 class="lantern-name">B15  歡盛豐年讚財神</h4>
                                 <span class="lantern-designer">聯利媒體股份有限公司</span>
                             </div>
                         </div>
@@ -227,7 +227,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B16  反界</h4>
-                                <span class="lantern-designer">hello bast workshop</span>
+                                <span class="lantern-designer">hellobastworkshop</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>

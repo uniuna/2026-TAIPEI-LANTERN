@@ -45,6 +45,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">A1  變形金剛-柯博文</h4>
+                                <span class="lantern-designer">變形金剛設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -53,6 +54,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">A2  變形金剛-大黃蜂</h4>
+                                <span class="lantern-designer">變形金剛設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -61,6 +63,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">A3  變形金剛-密卡登</h4>
+                                <span class="lantern-designer">變形金剛設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -69,6 +72,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">A4  博派出擊</h4>
+                                <span class="lantern-designer">變形金剛設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -109,7 +113,7 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <!-- <div class="lantern-item" onclick="openMapModal('expo_B5')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B5')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B5  生之源</h4>
@@ -117,7 +121,7 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
                     <div class="lantern-item" onclick="openMapModal('expo_B6')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
@@ -190,15 +194,15 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <!-- <div class="lantern-item" onclick="openMapModal('expo_B14')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B14')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B14  12熊讚</h4>
+                                <h4 class="lantern-name">B14  臺北隊熊讚</h4>
                                 <span class="lantern-designer">台北燈節設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
 
                 </div>   
             </div>
