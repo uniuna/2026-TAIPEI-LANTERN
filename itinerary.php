@@ -54,7 +54,7 @@
                         
                     </div>
                     <div class="route-path">
-                        陽明山擎天崗、冷水坑 <span>⟶</span> 捷運士林站周邊 <span>⟶</span> 臺北市立兒童樂園 <span>⟶</span> 大同酒泉街／花博集食行樂 <span>⟶</span> 花博展區賞燈
+                        陽明山擎天崗、冷水坑 <span>⟶</span> 捷運士林站周邊 <span>⟶</span> 臺北市立兒童新樂園 <span>⟶</span> 大同酒泉街／花博集食行樂 <span>⟶</span> 花博展區賞燈
                     </div>
                     <div class="route-gallery">
                         <img src="images/route/oneday_3.jpg" alt="景點" loading="lazy" decoding="async">

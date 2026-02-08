@@ -54,7 +54,7 @@
                     </div>
                     <div class="district-content">
                         <h3>西門町商圈</h3>
-                        <p>赤峰街特色小店與百貨公司的完美結合，是午後喝咖啡、逛選物店的最佳去處。</p>
+                        <p>融合歷史與潮流的娛樂商圈，電影、購物與街頭文化匯聚的西區地標。</p>
                         <a href="https://www.travel.taipei/zh-tw/attraction/all-regions/night-markets%2cthemed-shopping-areas?page=1&sortby=location&location=4" class="btn-more" target="_blank">了解更多</a>
                     </div>
                 </article>
