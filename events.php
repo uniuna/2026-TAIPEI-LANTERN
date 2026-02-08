@@ -16,9 +16,9 @@
             <div class="tab-buttons events-tab-wrapper">
                 <!-- <button class="tab-btn active" onclick="openTab(event, 'event1')">開幕式</button> -->
                 <!-- <button class="tab-btn" onclick="openTab(event, 'event2')">花博舞台活動</button> -->
-                <!-- <button class="tab-btn active" onclick="openTab(event, 'event3')">十二行政區活動</button> -->
+                <button class="tab-btn active" onclick="openTab(event, 'event3')">十二行政區活動</button>
                 <button class="tab-btn" onclick="openTab(event, 'event4')">小提燈活動</button>
-                <!-- <button class="tab-btn" onclick="openTab(event, 'event5')">主題日活動</button> -->
+                <button class="tab-btn" onclick="openTab(event, 'event5')">主題日活動</button>
             </div>
 
             <div id="event1" class="tab-content">
