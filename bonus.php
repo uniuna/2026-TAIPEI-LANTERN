@@ -560,6 +560,8 @@
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-5')">北門相機商圈</button>
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-6')">重南書街</button>
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-7')">中山商圈</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-8')">來台北有購嗨</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-9')">2025 閃耀！捷運光聚落</button>
             </div>
 
             <div id="shop-1" class="shop-content-block">
@@ -773,6 +775,48 @@
                 </div>
             </div>
 
+             <div id="shop-8" class="shop-content-block">
+                <div class="featured-event-card">
+                    <div class="featured-img-box">
+                        <img src="images/events/gohigh.jpg" alt="來台北有購嗨">
+                    </div>
+                    <div class="featured-content">
+                        <h3 class="featured-title">來台北有購嗨</h3>
+                        
+                        <p class="featured-desc">
+                            臺北市商業處為配合中央普發現金政策，辦理「來台北有購嗨 消費歡樂抽」消費登錄抽獎活動，活動自114年12月1日開始，可登錄114年11月至115年3月的發票，並規劃推出週週抽iPhone 17 Pro、月月抽台積電、市民專屬加碼抽及總抽大獎1,000萬現金等活動，總計抽出超過萬名得獎者，總獎值超過新臺幣3,000萬元，消費200元即可獲得1次抽獎機會，單筆最高100次抽獎機會，友好特店消費抽獎機會再翻倍，消費越多中獎機會越高！
+                        </p>
+
+                        <div class="featured-action">
+                             <a href="https://2026newyear.taipei/event-05" target="_blank" class="btn-main">
+                                了解更多 >
+                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="shop-9" class="shop-content-block">
+                <div class="featured-event-card">
+                    <div class="featured-img-box">
+                        <img src="images/events/metro-taipei.jpg" alt="2025閃耀! 捷運光聚落 立在光年">
+                    </div>
+                    <div class="featured-content">
+                        <h3 class="featured-title">2025閃耀! 捷運光聚落 立在光年</h3>
+                        
+                        <p class="featured-desc">
+                            「2025閃耀!捷運光聚落」再度點亮歲末的臺北！即日起至3月15日，臺北捷運公司打造全長近1公里的夢幻光廊，串聯心中山線形公園、心雙連線形公園，更首度將展區延伸至心中山線形公園南段。
+                        </p>
+
+                        <div class="featured-action">
+                             <a href="https://www.metro.taipei/News_Content.aspx?n=30CCEFD2A45592BF&sms=72544237BBE4C5F6&s=BB44EF7BD7079631" target="_blank" class="btn-main">
+                                了解更多 >
+                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 <!-- 場館響應 -->
@@ -780,10 +824,9 @@
             
             <div class="sub-category-nav">
                 <button type="button" class="sub-cat-btn active" onclick="switchSubCat(event, 'venue-1')">漢衣相逢</button>
-                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-2')">來台北有購嗨</button>
-                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-3')">2025 閃耀！捷運光聚落</button>
-                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-4')">2026 花IN台北</button>
-                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-5')">紅樓選品 X 2026台北燈節</button> 
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-2')">2026 花IN台北</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-3')">紅樓選品 X 2026台北燈節</button> 
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-4')">西門町看花燈</button> 
             </div>
 
             <div id="venue-1" class="tab-content active">
@@ -824,52 +867,6 @@
                 <div class="featured-event-card">
                     
                     <div class="featured-img-box">
-                        <img src="images/events/gohigh.jpg" alt="來台北有購嗨">
-                    </div>
-
-                    <div class="featured-content">
-                        <h3 class="featured-title">來台北有購嗨</h3>
-                        
-                        <p class="featured-desc">
-                            臺北市商業處為配合中央普發現金政策，辦理「來台北有購嗨 消費歡樂抽」消費登錄抽獎活動，活動自114年12月1日開始，可登錄114年11月至115年3月的發票，並規劃推出週週抽iPhone 17 Pro、月月抽台積電、市民專屬加碼抽及總抽大獎1,000萬現金等活動，總計抽出超過萬名得獎者，總獎值超過新臺幣3,000萬元，消費200元即可獲得1次抽獎機會，單筆最高100次抽獎機會，友好特店消費抽獎機會再翻倍，消費越多中獎機會越高！
-                        </p>
-
-                        <div class="featured-action">
-                             <a href="https://2026newyear.taipei/event-05" target="_blank" class="btn-main">
-                                了解更多 >
-                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="venue-3" class="tab-content">
-                <div class="featured-event-card">
-                    
-                    <div class="featured-img-box">
-                        <img src="images/events/metro-taipei.jpg" alt="2025閃耀! 捷運光聚落 立在光年">
-                    </div>
-
-                    <div class="featured-content">
-                        <h3 class="featured-title">2025閃耀! 捷運光聚落 立在光年</h3>
-                        
-                        <p class="featured-desc">
-                            「2025閃耀!捷運光聚落」再度點亮歲末的臺北！即日起至3月15日，臺北捷運公司打造全長近1公里的夢幻光廊，串聯心中山線形公園、心雙連線形公園，更首度將展區延伸至心中山線形公園南段。
-                        </p>
-
-                        <div class="featured-action">
-                             <a href="https://www.metro.taipei/News_Content.aspx?n=30CCEFD2A45592BF&sms=72544237BBE4C5F6&s=BB44EF7BD7079631" target="_blank" class="btn-main">
-                                了解更多 >
-                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="venue-4" class="tab-content">
-                <div class="featured-event-card">
-                    
-                    <div class="featured-img-box">
                         <img src="images/events/flowers-taipei.jpg" alt="2026 花IN台北">
                     </div>
 
@@ -889,7 +886,7 @@
                 </div>
             </div>
 
-            <div id="venue-5" class="tab-content">
+            <div id="venue-3" class="tab-content">
                 <div class="featured-event-card">
                     
                     <div class="featured-img-box">
@@ -913,12 +910,40 @@
                                 <span class="info-text">dtto friends、猴子設計、遊木時光、券券文化、幽默之星、查高插畫、HEY SUN、陸陸參陸、獨木設計、游於藝-我愛台灣、你好創意設計</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
 
-                        <!-- <div class="featured-action">
-                             <a href="https://www.flowersfestival.taipei/" target="_blank" class="btn-main">
+            <div id="venue-4" class="tab-content">
+                <div class="featured-event-card">
+                    
+                    <div class="featured-img-box">
+                        <img src="images/events/西門町看花燈.jpg" alt="西門町看花燈">
+                    </div>
+ 
+                    <div class="featured-content">
+                        <h3 class="featured-title">西門町看花燈</h3>
+                        
+                        <p class="featured-desc">
+                            悠遊付會員於「西門商圈活動店家」消費滿100元，享22%回饋，活動可與「月級挑戰最高回饋3%」活動疊加，<strong style="color:white;">最高享25%回饋</strong>，總回饋金額如達上限，則該月活動提前結束，並於悠遊付APP公告。每人於活動期間回饋上限最高50元。
+                        </p>
+
+                        <ul class="featured-info-list">
+                            <li>
+                                <span class="info-label">活動期間：</span>
+                                <span class="info-text">2/13 - 3/15</span>
+                            </li>
+                            <li>
+                                <span class="info-label">西門商圈之活動指定店家：</span>
+                                <span class="info-text"><a href="https://www.easycard.com.tw/_upload/files/ximen-0202.pdf" target="_blank">請見名單</a></span>
+                            </li>
+                        </ul>
+
+                        <div class="featured-action">
+                             <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Flihi.cc%2FL7jD5&data=05%7C02%7C%7C6d167faaeedc474f8d8508de5c8cea6a%7C37a9c216f10544fd8d0388fc29483ecf%7C0%7C0%7C639049957647293741%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=jPAqwl7stY%2FdJRfvFoBj5s9XyAAmtyPBZbfyUBb1xC4%3D&reserved=0" target="_blank" class="btn-main">
                                 了解更多 >
                              </a>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1472,6 +1472,59 @@ html {
 }
 
 
+/* --- 主題日活動圖片圖庫排版 --- */
+.event-gallery {
+    display: flex;
+    flex-wrap: wrap; /* 允許換行 */
+    gap: 15px; /* 圖片之間的間距 */
+    margin-top: 20px; /* 與上方活動列表的距離 */
+    margin-bottom: 40px; /* 與下方下一個標題的距離 */
+    padding-left: 20px; /* 配合上方活動列表的縮排 (如果需要) */
+}
+
+.event-gallery-item {
+    /* 彈性寬度：基礎設為 30%，讓一行能塞下 3 張 */
+    flex: 1 1 30%; 
+    /* 最大寬度限制，確保只有 2 張時也不會變得太大 */
+    max-width: 32%;
+    /* 設定圖片比例為 4:3 (可依需求調整，例如 16:9) */
+    aspect-ratio: 4 / 3;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 深色陰影 */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* 微光邊框 */
+}
+
+.event-gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 確保圖片填滿區塊且不變形 */
+    transition: transform 0.4s ease;
+}
+
+/* 滑鼠懸停效果 */
+.event-gallery-item:hover img {
+    transform: scale(1.1); /* 輕微放大 */
+}
+
+/* RWD 響應式調整 */
+@media (max-width: 768px) {
+    .event-gallery-item {
+        /* 平板時一行兩張 */
+        flex: 1 1 45%; 
+        max-width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .event-gallery-item {
+        /* 手機時一行一張 */
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+
 /* --- 同場加映：雙層頁籤系統 (bouns.php) --- */
 /* 第一層：主分類選單 */
 .main-category-nav {
@@ -1656,14 +1709,10 @@ html {
 }
 
 .info-text a {
-    color: var(--primary-color);
-    text-decoration: underline;
     font-weight: bold;
 }
 .info-text a:hover {
-    color: white;
-    background: var(--primary-color);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* 5. 底部按鈕區 */
