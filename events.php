@@ -16,9 +16,9 @@
             <div class="tab-buttons events-tab-wrapper">
                 <!-- <button class="tab-btn active" onclick="openTab(event, 'event1')">開幕式</button> -->
                 <!-- <button class="tab-btn" onclick="openTab(event, 'event2')">花博舞台活動</button> -->
-                <button class="tab-btn active" onclick="openTab(event, 'event3')">十二行政區活動</button>
-                <button class="tab-btn" onclick="openTab(event, 'event4')">小提燈活動</button>
-                <button class="tab-btn" onclick="openTab(event, 'event5')">主題日活動</button>
+                <!-- <button class="tab-btn" onclick="openTab(event, 'event3')">十二行政區活動</button> -->
+                <button class="tab-btn active" onclick="openTab(event, 'event4')">小提燈活動</button>
+                <!-- <button class="tab-btn" onclick="openTab(event, 'event5')">主題日活動</button> -->
             </div>
 
             <div id="event1" class="tab-content">
@@ -628,7 +628,7 @@
                 </div>
             </div>
 
-            <div id="event3" class="tab-content active">
+            <div id="event3" class="tab-content">
                 
                 <h3 class="event-date-title">2/25（三）～ 3/15（日）12行政區串聯活動</h3>
                 
@@ -668,18 +668,7 @@
                 </div>
             </div>
 
-            <div id="event4" class="tab-content">
-                
-                <!-- <h3 class="event-date-title">小提燈組裝說明</h3>
-                
-                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 40px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
-                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-                            src="https://www.youtube.com/embed/VIDEO_ID_HERE" 
-                            title="小提燈安裝教學影片" frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                    </iframe>
-                </div> -->
+            <div id="event4" class="tab-content active">
 
                 <h3 class="event-date-title">小提燈活動</h3>
 
@@ -706,6 +695,17 @@
                         <img id="lightboxImg" src=" " alt=''>
                     </div>
                 </div>
+
+                <!-- <h3 class="event-date-title">小提燈組裝</h3>
+                
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 40px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                    
+                    <video controls playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;"> 
+                        <source src="videos/lantern_install.mp4" type="video/mp4">
+                        您的瀏覽器不支援影片播放。
+                    </video>
+
+                </div> -->
 
                 <!-- <div class="event-list" style="display: block;">
                     <div class="event-item">

@@ -44,6 +44,10 @@
             </div>
             
             <div class="news-list">
+                <a href="news_260209" class="news-item">
+                    <span class="news-date">2026.02.09</span>
+                    <span class="news-text">限量收藏超夯！2026台北燈節柯博文小提燈發放懶人包一次看 ...</span>
+                </a>
                 <a href="news_260130" class="news-item">
                     <span class="news-date">2026.01.30</span>
                     <span class="news-text">2026台北燈節西門展區攜手泡泡瑪特六大人氣IP登場 Baby Molly8米高主燈亮相 五組燈組首曝光 ...</span>
@@ -60,10 +64,10 @@
                     <span class="news-date">2026.01.16</span>
                     <span class="news-text">2026台北燈節首度推出「雙展區、雙IP」 攜手國際IP「變形金剛」花博主燈柯博文搶先曝光 ...</span>
                 </a>
-                <a href="news_260104" class="news-item">
+                <!-- <a href="news_260104" class="news-item">
                     <span class="news-date">2026.01.04</span>
                     <span class="news-text">台北道場響應「2026台北燈節」 以光影傳遞和諧共生與祝福 ...</span>
-                </a>
+                </a> -->
             </div>
         </section>
 

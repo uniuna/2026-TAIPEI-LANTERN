@@ -16,6 +16,19 @@
             <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
+                        <img src="images/news/n260209_01.jpg" alt="蔣萬安宣布">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.09</div>
+                        <h3 class="news-list-title">限量收藏超夯！2026台北燈節柯博文小提燈發放懶人包一次看</h3>
+                        <p class="news-excerpt">
+                            「2026台北燈節」驚喜再升級！於2月25日起至3月15日的台北燈節花博展區，首度攜手全球知名IP「變形金剛」，推出科技感十足、話題滿滿的限量「柯博文」小提燈 ...
+                        </p>
+                        <a href="news_260209" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
                         <img src="images/news/n260130_01.jpg" alt="蔣萬安宣布">
                     </div>
                     <div class="news-content">

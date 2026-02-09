@@ -562,6 +562,7 @@
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-7')">中山商圈</button>
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-8')">來台北有購嗨</button>
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-9')">2025 閃耀！捷運光聚落</button>
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-10')">燈照艋舺：2026 馬馬慶元宵</button>
             </div>
 
             <div id="shop-1" class="shop-content-block">
@@ -817,6 +818,43 @@
                 </div>
             </div>
 
+            <div id="shop-10" class="shop-content-block">
+                <div class="featured-event-card">
+                    <div class="featured-img-box">
+                        <img src="images/events/燈照艋舺.jpg" alt="燈照艋舺">
+                    </div>
+                    <div class="featured-content">
+                        <h3 class="featured-title">燈照艋舺：2026 馬馬慶元宵</h3>
+                        
+                        <p class="featured-desc">
+                            為響應 2026 台北燈節，位於臺北老城核心的艋舺，將於2月27日至3月8日推出主題活動「燈照艋舺：2026 馬馬慶元宵」，以光為線索，串聯城市行走與節慶體驗，展現屬於艋舺的元宵風景。活動結合造型燈飾、文化導覽體驗與在地節慶亮點，營造白天即可感受的節慶氛圍，結合夜間燈節動線，打造從白日延伸至夜晚的城市串聯。
+                        <br><br>
+                            本次活動規劃三大單元：造型燈飾「光行小馬」於 剝皮寮 登場，在夜晚行走留下溫暖的光芒；祈福光廊「尋光小徑」設置於祖師廟，以光作為引導，承接人們的祝福心意；以及文化導覽「光旅導覽」，結合日光場與夜光場兩種路線，帶領民眾從艋舺出發，行走至西門町，在移動之間認識老城與當代街區的文化連結。透過光、行走與城市場域的交會，邀請大家在元宵期間走進艋舺，看見不一樣的城市光景。
+                        </p>
+
+                        <ul class="featured-info-list">
+                            <li>
+                                <span class="info-label">限定活動-光旅導覽</span>
+                            </li>
+                            <li>
+                                <span class="info-label">日光場：</span>
+                                <span class="info-text">03/01（日）1530-1730 <br> 03/07（六）1530-1730</span>
+                            </li>
+                            <li>
+                                <span class="info-label">夜光場：</span>
+                                <span class="info-text">年滿25歲(含)以上，設籍、居住、工作或就學於臺北市之單身男、女。<br>（未曾參加本區單身聯誼者優先錄取）</span>
+                            </li>
+                        </ul>
+
+                        <div class="featured-action">
+                             <a href="https://www.facebook.com/wanhua2022/?locale=zh_TW" target="_blank" class="btn-main">
+                                了解更多 >
+                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 <!-- 場館響應 -->
@@ -827,6 +865,7 @@
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-2')">2026 花IN台北</button>
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-3')">紅樓選品 X 2026台北燈節</button> 
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-4')">西門町看花燈</button> 
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-5')">2026 吵年獸立春音樂藝術祭</button> 
             </div>
 
             <div id="venue-1" class="tab-content active">
@@ -941,6 +980,49 @@
 
                         <div class="featured-action">
                              <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Flihi.cc%2FL7jD5&data=05%7C02%7C%7C6d167faaeedc474f8d8508de5c8cea6a%7C37a9c216f10544fd8d0388fc29483ecf%7C0%7C0%7C639049957647293741%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=jPAqwl7stY%2FdJRfvFoBj5s9XyAAmtyPBZbfyUBb1xC4%3D&reserved=0" target="_blank" class="btn-main">
+                                了解更多 >
+                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="venue-5" class="tab-content">
+                <div class="featured-event-card">
+                    
+                    <div class="featured-img-box">
+                        <img src="images/events/吵年獸.jpg" alt="吵年獸">
+                    </div>
+ 
+                    <div class="featured-content">
+                        <h3 class="featured-title">2026 吵年獸立春音樂藝術祭</h3>
+                        
+                        <p class="featured-desc">
+                            過年不再無聊！ 2026「吵年獸立春音樂藝術祭」正式登陸榕錦時光生活園區。今年以「大吵年獸」的傳統創新精神，邀請馬念先、黃宣、洪申豪、丁佳慧、高小糕等 20 多位音樂人跨界演出，並分享私人歌單 DJ 秀。
+                            <br><br>
+                            活動橫跨整個二月，從2/7-8立春、春節初四初五到228連假元宵節，推出三大主題音樂節。除了精彩表演，現場更集結電影與潮流工作者的名人二手市集，以及春聯揮毫、拓印、年獸面具製作等親子手作課程。吉祥物「年獸毛怪」也將穿梭於金華街日式建築群中，邀您在馬年開春走進榕錦時光，感受結合地方創生與音樂藝術的獨特年味！
+                        </p>
+
+                        <ul class="featured-info-list">
+                            <li>
+                                <span class="info-label">活動場次</span>
+                            </li>
+                            <li>
+                                <span class="info-label">立春音樂節 </span>
+                                <span class="info-text">2/7 – 2/8ㅤ立春主題演出、創意春聯、美食文創市集</span>
+                            </li>
+                            <li>
+                                <span class="info-label">馬年音樂節 </span>
+                                <span class="info-text">2/20 – 2/21 (初四、初五)ㅤ馬念先領軍 DJ 秀、名人二手市集</span>
+                            </li>
+                            <li>
+                                <span class="info-label">元宵音樂節 </span>
+                                <span class="info-text">2/28 – 3/1 (228連假)ㅤ黃宣演出、年獸毛怪現身、元宵手作</span>
+                            </li>
+                        </ul>
+
+                        <div class="featured-action">
+                             <a href="https://www.facebook.com/share/1Kd7gK3wPq/?mibextid=wwXIfr" target="_blank" class="btn-main">
                                 了解更多 >
                              </a>
                         </div>
