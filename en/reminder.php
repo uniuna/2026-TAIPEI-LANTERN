@@ -20,7 +20,7 @@
         <div class="reminder-grid">
             
             <div class="reminder-card">
-                <div class="reminder-icon-box color-1">
+                <div class="reminder-icon-box color-2">
                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <line x1="12" y1="1" x2="12" y2="23"></line>
                         <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="reminder-card">
-                <div class="reminder-icon-box color-2">
+                <div class="reminder-icon-box color-3">
                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                         <circle cx="9" cy="7" r="4"></circle>
@@ -44,7 +44,7 @@
             </div>
 
             <div class="reminder-card">
-                <div class="reminder-icon-box color-3">
+                <div class="reminder-icon-box color-4">
                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
