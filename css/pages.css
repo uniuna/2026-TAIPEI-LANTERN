@@ -1524,6 +1524,57 @@ html {
     }
 }
 
+/* --- 小提燈發送地點表格樣式 (events) --- */
+.lantern-table-section {
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.lantern-table-container {
+    width: 100%;
+    overflow-x: auto; /* 讓手機版表格太寬時可以左右滑動 */
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05); /* 半透明背景 */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.lantern-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ddd; /* 文字顏色：淺灰 */
+    min-width: 600px; /* 設定最小寬度，防止手機上字擠成一團 */
+}
+
+.lantern-table th, 
+.lantern-table td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* 表頭樣式 */
+.lantern-table th {
+    background: rgba(0, 0, 0, 0.3);
+    color: var(--accent-color); /* 科技藍 */
+    font-weight: bold;
+    white-space: nowrap; /* 表頭不換行 */
+}
+
+/* 讓「行政區」那一欄字體亮一點 */
+.district-col {
+    color: white;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+/* 滑鼠移過去的變色效果 */
+.lantern-table tr:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
 
 /* --- 同場加映：雙層頁籤系統 (bouns.php) --- */
 /* 第一層：主分類選單 */

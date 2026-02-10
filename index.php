@@ -44,6 +44,10 @@
             </div>
             
             <div class="news-list">
+                <a href="news_260210" class="news-item">
+                    <span class="news-date">2026.02.10</span>
+                    <span class="news-text">「2026台北燈節」佛光山燈區 春節賞燈好趣處 ...</span>
+                </a>
                 <a href="news_260209" class="news-item">
                     <span class="news-date">2026.02.09</span>
                     <span class="news-text">限量收藏超夯！2026台北燈節柯博文小提燈發放懶人包一次看 ...</span>
@@ -60,10 +64,10 @@
                     <span class="news-date">2026.01.26</span>
                     <span class="news-text">賞燈不只一晚！「2026台北燈節」20條遊程帶你玩 限定旅宿優惠輕鬆省 ...</span>
                 </a>
-                <a href="news_260116" class="news-item">
+                <!-- <a href="news_260116" class="news-item">
                     <span class="news-date">2026.01.16</span>
                     <span class="news-text">2026台北燈節首度推出「雙展區、雙IP」 攜手國際IP「變形金剛」花博主燈柯博文搶先曝光 ...</span>
-                </a>
+                </a> -->
                 <!-- <a href="news_260104" class="news-item">
                     <span class="news-date">2026.01.04</span>
                     <span class="news-text">台北道場響應「2026台北燈節」 以光影傳遞和諧共生與祝福 ...</span>

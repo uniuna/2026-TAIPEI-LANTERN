@@ -16,6 +16,19 @@
             <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
+                        <img src="images/news/n260210_01.jpg" alt="蔣萬安宣布">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.10</div>
+                        <h3 class="news-list-title">「2026台北燈節」佛光山燈區 春節賞燈好趣處</h3>
+                        <p class="news-excerpt">
+                            佛光山台北道場響應「2026台北燈節」，於松山火車站南側交4廣場設置「佛光山燈區」，展期自2月7日至3月3日，為期近一個月。今年主燈「希望之門」...
+                        </p>
+                        <a href="news_260210" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
                         <img src="images/news/n260209_01.jpg" alt="蔣萬安宣布">
                     </div>
                     <div class="news-content">

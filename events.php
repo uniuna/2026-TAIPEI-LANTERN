@@ -672,18 +672,12 @@
 
                 <h3 class="event-date-title">小提燈活動</h3>
 
-                <div class="event-gallery">
-                    <div class="event-gallery-item">
-                        <img src="images/events/Installation-01.jpg" alt="小提燈資訊" onclick="openImageModal('images/events/Installation-01.jpg')" style="cursor: pointer;">
-                    </div>
+                <div class="event-gallery" style="margin-bottom: 100px;">
                     <div class="event-gallery-item">
                         <img src="images/events/Installation-02.jpg" alt="小提燈資訊" onclick="openImageModal('images/events/Installation-02.jpg')" style="cursor: pointer;">
                     </div>
                     <div class="event-gallery-item">
                         <img src="images/events/Installation-03.jpg" alt="小提燈資訊" onclick="openImageModal('images/events/Installation-03.jpg')" style="cursor: pointer;">
-                    </div>
-                    <div class="event-gallery-item">
-                        <img src="images/events/Installation-04.jpg" alt="小提燈資訊" onclick="openImageModal('images/events/Installation-04.jpg')" style="cursor: pointer;">
                     </div>
                     <div class="event-gallery-item">
                         <img src="images/events/Installation-05.jpg" alt="小提燈資訊" onclick="openImageModal('images/events/Installation-05.jpg')" style="cursor: pointer;">
@@ -695,6 +689,94 @@
                         <img id="lightboxImg" src=" " alt=''>
                     </div>
                 </div>
+
+                <div class="lantern-table-section">
+                    
+                    <div style="background: rgba(0, 229, 255, 0.1); border-left: 4px solid var(--accent-color); padding: 15px; margin-bottom: 20px; border-radius: 4px;">
+                        <h3 style="margin-bottom: 10px; color: white; font-size: 1.5rem;">
+                            <strong>台北市各行政區 小提燈發放處</strong>
+                        </h3>
+                        <p style="margin: 0; color: white; font-size: 1.1rem;">
+                            <strong>🕒 統一發放時間：</strong>3月1日(日)、3月2日(一) 14:00 起
+                        </p>
+                    </div>
+
+                    <div class="lantern-table-container">
+                        <table class="lantern-table">
+                            <thead>
+                                <tr>
+                                    <th width="15%">行政區</th>
+                                    <th width="35%">發送地點</th>
+                                    <th width="50%">詳細地址</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="district-col">大安區</td>
+                                    <td>大安森林公園8號出入口</td>
+                                    <td>大安區行政中心正門 <br>(新生南路2段86號)對面</td>
+                                </tr>
+                                <tr>
+                                    <td class="district-col">內湖區</td>
+                                    <td>內湖公民會館</td>
+                                    <td>內湖區內湖路二段342號</td>
+                                </tr>
+                                <tr>
+                                    <td class="district-col">士林區</td>
+                                    <td>士林區行政中心</td>
+                                    <td>士林區中正路439號</td>
+                                </tr>
+                                <tr>
+                                    <td class="district-col">文山區</td>
+                                    <td>文山行政中心前廣場</td>
+                                    <td>文山區木柵路3段220號</td>
+                                </tr>
+                                <tr>
+                                    <td class="district-col">北投區</td>
+                                    <td>北投慈后宮</td>
+                                    <td>北投區清江路169號</td>
+                                </tr>
+                                <tr>
+                                    <td class="district-col">中山區</td>
+                                    <td>中山區行政中心</td>
+                                    <td>中山區松江路367號</td>
+                                </tr>
+                                <tr>
+                                    <td class="district-col">信義區</td>
+                                    <td>信義區行政中心南側大門</td>
+                                    <td>信義區福德街86號</td>
+                                </tr>
+                                <tr>
+                                    <td class="district-col">松山區</td>
+                                    <td>松山區行政中心</td>
+                                    <td>松山區八德路4段692號</td>
+                                </tr>
+                                <tr>
+                                    <td class="district-col">萬華區</td>
+                                    <td>剝皮寮歷史街區</td>
+                                    <td>萬華區廣州街145號</td>
+                                </tr>
+                                <tr>
+                                    <td class="district-col">中正區</td>
+                                    <td>中正紀念堂大孝門旁</td>
+                                    <td>臨愛國東路</td>
+                                </tr>
+                                <tr>
+                                    <td class="district-col">大同區</td>
+                                    <td>大同區行政中心</td>
+                                    <td>大同區昌吉街57號</td>
+                                </tr>
+                                <tr>
+                                    <td class="district-col">南港區</td>
+                                    <td>南港車站City Link廣場</td>
+                                    <td>南港區忠孝東路七段369號</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
 
                 <!-- <h3 class="event-date-title">小提燈組裝</h3>
                 
