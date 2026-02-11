@@ -2727,15 +2727,6 @@ html {
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-.traffic-control-title {
-    color: var(--accent-color);
-    font-size: 1.8rem;
-    margin-bottom: 25px;
-    border-left: 5px solid var(--accent-color);
-    padding-left: 15px;
-    font-weight: bold;
-}
-
 .traffic-list {
     list-style: none;
     padding: 0;
@@ -2743,7 +2734,7 @@ html {
 
 .traffic-list li {
     margin-bottom: 20px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #ddd;
     line-height: 1.8;
     position: relative;
@@ -2761,8 +2752,9 @@ html {
 }
 
 .traffic-list strong {
-    color: white;
-    font-weight: bold;
+    color: var(--accent-color);
+    font-size: 1.1rem;
+    margin-bottom: 25px;
 }
 
 /* 圖片展示區 */
