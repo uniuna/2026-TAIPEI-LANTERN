@@ -110,7 +110,7 @@
                     </div>
                     <div class="district-content">
                         <h3>沅陵街商圈</h3>
-                        <p>以布料與服飾批發聞名，深受設計師與採購族群喜愛的老城街區。</p>
+                        <p>位於台北城中核心地區，日治時期為「台北銀座」商業區範圍，不僅是台北著名的皮鞋街，也因聚集許多服飾精品，又稱為「台版女人街」。</p>
                         <a href="https://www.travel.taipei/zh-tw/attraction/details/1548" class="btn-more" target="_blank">了解更多</a>
                     </div>
                 </article>

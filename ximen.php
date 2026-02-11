@@ -124,7 +124,7 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B5')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B5')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B5  台北好水</h4>
@@ -132,7 +132,7 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
                     <div class="lantern-item" onclick="openMapModal('ximen_B6')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
@@ -295,15 +295,15 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B24')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B24')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B24  沅夜星語</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">沅陵設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
                     <div class="lantern-item" onclick="openMapModal('ximen_B25')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">

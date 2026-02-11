@@ -176,15 +176,15 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <!-- <div class="lantern-item" onclick="openMapModal('expo_B12')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B12')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B12  台北好水 (杜鵑花)</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">台北燈節設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
                     <div class="lantern-item" onclick="openMapModal('expo_B13')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
