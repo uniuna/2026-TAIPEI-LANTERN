@@ -2636,7 +2636,7 @@ html {
 
 /* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */
 
-/* --- 雙展區交通並列樣式 (traffic.html) --- */
+/* --- 雙展區交通並列樣式 (traffic) --- */
 .dual-traffic-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2706,6 +2706,90 @@ html {
     grid-template-columns: 1fr;
     gap: 30px;
   }
+}
+
+
+/* --- 交通管制 (measures) --- */
+.traffic-control-section {
+    max-width: 1000px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+}
+
+.traffic-control-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 40px;
+    /* 玻璃擬態效果 */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.traffic-control-title {
+    color: var(--accent-color);
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    border-left: 5px solid var(--accent-color);
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.traffic-list {
+    list-style: none;
+    padding: 0;
+}
+
+.traffic-list li {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #ddd;
+    line-height: 1.8;
+    position: relative;
+    padding-left: 25px;
+}
+
+/* 自訂列表項目符號 */
+.traffic-list li::before {
+    content: '➤';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: var(--accent-color);
+    font-size: 1rem;
+}
+
+.traffic-list strong {
+    color: white;
+    font-weight: bold;
+}
+
+/* 圖片展示區 */
+.traffic-map-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.traffic-map-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+/* RWD 手機版 */
+@media (max-width: 768px) {
+    .traffic-control-card {
+        padding: 25px;
+    }
+    .traffic-control-title {
+        font-size: 1.5rem;
+    }
+    .traffic-list li {
+        font-size: 1rem;
+    }
 }
 
 
