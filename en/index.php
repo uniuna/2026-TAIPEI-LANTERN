@@ -44,11 +44,26 @@
             </div>
             
             <div class="news-list">
+                <a href="news_260209" class="news-item">
+                    <span class="news-date">2026.02.09</span>
+                    <span class="news-text">Exclusive Collectible! Your Ultimate Guide to the 2026 Taipei Lantern Festival "Optimus Prime" Mini Lantern Distribution ...</span>
+                </a>
+                <a href="news_260130" class="news-item">
+                    <span class="news-date">2026.01.30</span>
+                    <span class="news-text">The 2026 Taipei Lantern Festival Ximen Area Partners with POP MART to Debut Six Popular IPs, Unveil Five Lantern Installations, and Reveal an 8 Meter Baby Molly Main Lantern ...</span>
+                </a>
+                <a href="news_260129" class="news-item">
+                    <span class="news-date">2026.01.29</span>
+                    <span class="news-text">Mayor Wan-an Chiang Announces Dual Exhibition Zones for the 2026 Taipei Lantern Festival; Ximending Partners with POP MART to Welcome Global Visitors ...</span>
+                </a>
+                <a href="news_260126" class="news-item">
+                    <span class="news-date">2026.01.26</span>
+                    <span class="news-text">More Than Just a Night of Lights! "2026 Taipei Lantern Festival" Offers 20 Themed Itineraries and Exclusive Hotel Deals for Easy Savings ...</span>
+                </a>
                 <a href="news_260116" class="news-item">
                     <span class="news-date">2026.01.16</span>
                     <span class="news-text">The 2026 Taipei Lantern Festival Launches Its First Ever “Two Zones, Two IPs” Experience. Partnering with Global IP “Transformers,” the Expo Park Main Lantern Optimus Prime Makes an Early Reveal ...</span>
                 </a>
-                
             </div>
         </section>
 
