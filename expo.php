@@ -30,7 +30,7 @@
             <div class="zone-block" style="margin-bottom: 80px;">
                 
                 <div id="map-theme-1" class="interactive-map-container">
-                    <img src="images/maps/map-expo.jpg" onclick="openImageModal('images/maps/map-expo.jpg')" style="cursor: pointer;" alt="西門展區地圖" >
+                    <img src="images/maps/map-expo-v2.jpg" onclick="openImageModal('images/maps/map-expo-v2.jpg')" style="cursor: pointer;" alt="西門展區地圖" >
                 </div>
                 <div id="imageLightbox" onclick="closeImageModal(event)">
                     <div class="modal-content-img">
@@ -41,10 +41,10 @@
 
                 <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
 
-                    <!-- <div class="lantern-item" onclick="openMapModal('expo_A1')">
+                    <div class="lantern-item" onclick="openMapModal('expo_A1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A1  變形金剛-柯博文</h4>
+                                <h4 class="lantern-name">A1  台北燈節主燈｜柯博文</h4>
                                 <span class="lantern-designer">變形金剛設計團隊</span>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                     <div class="lantern-item" onclick="openMapModal('expo_A2')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A2  變形金剛-大黃蜂</h4>
+                                <h4 class="lantern-name">A2  蜂芒畢露・無限之鏡｜大黃蜂</h4>
                                 <span class="lantern-designer">變形金剛設計團隊</span>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                     <div class="lantern-item" onclick="openMapModal('expo_A3')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A3  變形金剛-密卡登</h4>
+                                <h4 class="lantern-name">A3  霸氣破界｜密卡登時空傳送門</h4>
                                 <span class="lantern-designer">變形金剛設計團隊</span>
                             </div>
                         </div>
@@ -71,12 +71,12 @@
                     <div class="lantern-item" onclick="openMapModal('expo_A4')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A4  博派出擊</h4>
+                                <h4 class="lantern-name">A4  兩派雙雄對決・街機巨人｜柯博文 vs 密卡登</h4>
                                 <span class="lantern-designer">變形金剛設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
                     <div class="lantern-item" onclick="openMapModal('expo_B1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
@@ -220,7 +220,6 @@
                 <img id="modalImg" src="" style="width: 100%; max-width:600px; border-radius: 10px; margin:0 auto 20px; display: none;" />
                 <div style="line-height: 1.6; font-size: 1rem; text-align: left;">
                      <p id="modalName" style="line-height: 2.4; font-size: 1.2rem; " >設計者名稱</p>
-                    <p id="modalSize" style="line-height: 2.4; font-size: 1rem; color: #ccc; " >尺寸</p>
                     <p id="modalType" style="line-height: 2.4; font-size: 1rem; color: #ccc;  " >展演方式</p><br>
                     <p id="modalDesc" style="font-size: 1rem; " >燈飾介紹內容</p>
                 </div>

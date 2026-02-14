@@ -31,7 +31,7 @@
             <div class="zone-block" style="margin-bottom: 80px;">
                 
                 <div id="map-theme-1" class="interactive-map-container">
-                    <img src="images/maps/map-ximen.jpg" onclick="openImageModal('images/maps/map-ximen.jpg')" style="cursor: pointer;" alt="西門展區地圖" >
+                    <img src="images/maps/map-ximen-v2.jpg" onclick="openImageModal('images/maps/map-ximen-v2.jpg')" style="cursor: pointer;" alt="西門展區地圖" >
                 </div>
                 <div id="imageLightbox" onclick="closeImageModal(event)">
                     <div class="modal-content-img">
@@ -42,10 +42,10 @@
 
                 <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
                     
-                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_A1')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_A1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A1  MOLLY的夢幻飛行</h4>
+                                <h4 class="lantern-name">A1  Baby Molly 金運搖來</h4>
                                 <span class="lantern-designer">泡泡瑪特設計團隊</span>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_A2')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A2  星塵降臨：『Twinkle Twinkle 奇遇』</h4>
+                                <h4 class="lantern-name">A2  Twinkle Twinkle 星夢迎春</h4>
                                 <span class="lantern-designer">泡泡瑪特設計團隊</span>
                             </div>
                         </div>
@@ -63,7 +63,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_A3')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A3  Labubu 雲端粉紅星光</h4>
+                                <h4 class="lantern-name">A3  LABUBU 小馬歡騰</h4>
                                 <span class="lantern-designer">泡泡瑪特設計團隊</span>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_A4')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A4 『Hirono 的微觀靜域』</h4>
+                                <h4 class="lantern-name">A4  Hirono小野 馬上福到</h4>
                                 <span class="lantern-designer">泡泡瑪特設計團隊</span>
                             </div>
                         </div>
@@ -81,12 +81,12 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_A5')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A5 『台北雙面畫卷』：夢境與時空的對視</h4>
+                                <h4 class="lantern-name">A5  臺北雙面畫卷</h4>
                                 <span class="lantern-designer">泡泡瑪特設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
 
                     <div class="lantern-item" onclick="openMapModal('ximen_B1')">
                         <div class="lantern-content">
@@ -119,7 +119,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B4  台北主場・奔龍而上</h4>
-                                <span class="lantern-designer">頂新臺北燈節設計團隊</span>
+                                <span class="lantern-designer">味全龍 DRAGONS</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -336,7 +336,6 @@
                 <img id="modalImg" src="" style="width: 100%; max-width:600px; border-radius: 10px; margin:0 auto 20px; display: none;" />
                 <div style="line-height: 1.6; font-size: 1rem; text-align: left;">
                      <p id="modalName" style="line-height: 2.4; font-size: 1.2rem; " >設計者名稱</p>
-                    <p id="modalSize" style="line-height: 2.4; font-size: 1rem; color: #ccc; " >尺寸</p>
                     <p id="modalType" style="line-height: 2.4; font-size: 1rem; color: #ccc;  " >展演方式</p><br>
                     <p id="modalDesc" style="font-size: 1rem; " >燈飾介紹內容</p>
                 </div>
