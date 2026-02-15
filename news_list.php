@@ -16,7 +16,46 @@
             <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
-                        <img src="images/news/n260210_01.jpg" alt="蔣萬安宣布">
+                        <img src="images/news/禁止吸菸.jpg" alt="禁止吸菸">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.15</div>
+                        <h3 class="news-list-title">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。違者最高處1萬元罰鍰。</h3>
+                        <p class="news-excerpt">
+                           2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區 ...
+                        </p>
+                        <a href="news_260215" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/n260213_01.jpg" alt="希望之門">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.13</div>
+                        <h3 class="news-list-title">佛光山燈區以「希望之門」 點亮2026台北燈節</h3>
+                        <p class="news-excerpt">
+                           為響應「2026台北燈節」，佛光山台北道場應市政府邀請特別設置「佛光山燈區」，2月7日舉行啟燈儀式，佛光山台北道場住持滿謙法師主法引領大眾合掌祈願 ...
+                        </p>
+                        <a href="news_260213" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/n260211_01.jpg" alt="北市20間宮廟響應">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.11</div>
+                        <h3 class="news-list-title">賞燈祈福過好年！北市20間宮廟響應「2026台北燈節」300公尺燈海隧道、馬年特色燈飾超吸睛</h3>
+                        <p class="news-excerpt">
+                           2026台北燈節即將於2月25日至3月15日於西門町周邊及花博公園盛大登場，今年除了「雙展區、雙IP」令人期待外 ...
+                        </p>
+                        <a href="news_260211" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/n260210_01.jpg" alt="佛光山燈區">
                     </div>
                     <div class="news-content">
                         <div class="news-list-date">2026.02.10</div>
@@ -29,7 +68,7 @@
                 </article>
                 <article class="news-card">
                     <div class="news-img-box">
-                        <img src="images/news/n260209_01.jpg" alt="蔣萬安宣布">
+                        <img src="images/news/n260209_01.jpg" alt="柯博文小提燈">
                     </div>
                     <div class="news-content">
                         <div class="news-list-date">2026.02.09</div>
@@ -42,7 +81,7 @@
                 </article>
                 <article class="news-card">
                     <div class="news-img-box">
-                        <img src="images/news/n260130_01.jpg" alt="蔣萬安宣布">
+                        <img src="images/news/n260130_01.jpg" alt="泡泡瑪特">
                     </div>
                     <div class="news-content">
                         <div class="news-list-date">2026.01.30</div>
