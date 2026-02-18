@@ -35,6 +35,22 @@
   padding-bottom: 200px; 
 }
 
+/* --- 首頁 Hero 轉場圖片區塊 --- */
+.hero-transition {
+    width: 100%;
+    position: relative;
+    z-index: 10; /* 確保層級夠高，能覆蓋邊緣 */
+    line-height: 0; /* 消除區塊內預設的文字行高空隙 */
+    margin-top: -2px; /* 故意往上拉一點點，完美消除兩塊區域間可能出現的 1px 像素接縫 */
+}
+
+.hero-transition img.transition-img {
+    width: 100%;
+    height: auto;
+    display: block; /* 消除圖片下方的預設空白 */
+    object-fit: cover;
+}
+
 /* --- Scroll Down 按鈕動畫 --- */
 html {
   scroll-behavior: smooth;
