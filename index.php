@@ -36,6 +36,10 @@
         </a>
     </header>
 
+    <div class="hero-transition">
+        <img src="images/hero-transition.png" alt="transition" class="transition-img">
+    </div>
+
     <main style="padding-bottom: 150px;">
         <section id="news" class="news-section">
             <h2 class="section-title">最新消息</h2>
