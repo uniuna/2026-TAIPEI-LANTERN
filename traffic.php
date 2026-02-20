@@ -99,7 +99,7 @@
                         
                         <a href="https://maps.app.goo.gl/ymNWZniLJ5JsejaJ9" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map 導航</a>
                         
-                        <a href="images/maps/map-ximen-download.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
+                        <a href="images/maps/map-ximen-download-v2.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
                             西門展區全地圖
                             <span style="vertical-align: middle;">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -213,7 +213,7 @@
 
                         <a href="https://maps.app.goo.gl/qk7E2XTo1zyJpR3h9" target="_blank" class="btn-view-detail" style="margin:15px 10px; padding:15px 30px;">Google Map 導航</a>
                         
-                        <a href="images/maps/map-expo-download.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
+                        <a href="images/maps/map-expo-download-v2.jpg" target="_blank" class="btn-main" style="margin:15px 10px; padding:10px 30px;">
                             花博展區全地圖
                             <span style="vertical-align: middle;">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

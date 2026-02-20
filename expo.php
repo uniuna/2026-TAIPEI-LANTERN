@@ -203,15 +203,15 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <!-- <div class="lantern-item" onclick="openMapModal('expo_B15')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B15')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B15  景福宮燈區</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">台北市景福宮</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
                     <div class="lantern-item" onclick="openMapModal('expo_B16')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
@@ -249,7 +249,7 @@
                 <h3>總覽花博展區</h3>
                 <p>將花博展區地圖帶著走，離線也能輕鬆導航。</p>
 
-                <a href="images/maps/map-expo-download.jpg" target="_blank" class="btn-main">
+                <a href="images/maps/map-expo-download-v2.jpg" target="_blank" class="btn-main">
                     花博展區地圖下載
                     <span style="vertical-align: middle;">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

@@ -313,7 +313,7 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B26')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B26')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B26  光行小馬 (剝皮寮)</h4>
@@ -321,7 +321,7 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
 
                 </div>
             </div>
@@ -347,7 +347,7 @@
                 <h3>總覽西門展區</h3>
                 <p>將西門展區地圖帶著走，離線也能輕鬆導航。</p>
 
-                <a href="images/maps/map-ximen-download.jpg" target="_blank" class="btn-main">
+                <a href="images/maps/map-ximen-download-v2.jpg" target="_blank" class="btn-main">
                     西門展區地圖下載
                     <span style="vertical-align: middle;">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

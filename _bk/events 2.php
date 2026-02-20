@@ -743,53 +743,42 @@
 <!-- 十二行政區活動 -->
             <div id="event3" class="tab-content">
                 
-                <div class="featured-event-card">
-                    
-                    <div class="featured-img-box">
-                        <img src="images/events/十二行政區熊讚.jpg" alt="十二行政區熊讚">
-                    </div>
+                <h3 class="event-date-title">2/25（三）～ 3/15（日）12行政區串聯活動</h3>
+                
+                <div class="event-list" style="display: block;">
+                    <div class="event-item">
+                        <div class="event-time">全天開放</div>
+                        <div class="event-details">
+                            <h3 class="event-title">熊讚公仔拍照抽好禮</h3>
 
-                    <div class="featured-content">
-                        <h3 class="featured-title">十二行政區串聯活動</h3>
-                        
-                        <ul class="featured-info-list" style="padding: 20px;">
-                            <li>
-                                <span class="info-label">活動地點：</span>
-                                <span class="info-text">花博展區</span>
-                            </li>
-                            <li>
-                                <span class="info-label">活動時間：</span>
-                                <span class="info-text">即日起至 2/24 (二) 23:59 止</span>
-                            </li>
-                            <li>
-                                <span class="info-label">活動方式：</span>
-                                <span class="info-text">於熊讚臉書粉絲專頁指定貼文下方留言，並猜中各區正確的名稱，就有機會把<br> <strong>限量版熊讚徽章組</strong> 帶回家！</span>
-                            </li>
-                            <li>
-                                <span class="info-label">抽獎辦法：</span>
-                                <span class="info-text" style="line-height: 1.8;">
-                                    ➊ 追蹤「熊讚 Bravo」Facebook 粉絲專頁<br>
-                                    ➋ 按讚本篇貼文並公開分享<br>
-                                    ➌ 留言回答，圖中的讚讚代表哪三個行政區 (行政區順序不限)
-                                </span>
-                            </li>
-                            <li>
-                                <span class="info-label">活動獎勵：</span>
-                                <span class="info-text" style="font-weight: bold;">熊讚徽章組 (共 5 名)</span>
-                            </li>
-                            <li>
-                                <span class="info-label">得獎公布：</span>
-                                <span class="info-text">2/25 抽出幸運得主</span>
-                            </li>
-                        </ul>
-                        
-                        <p class="info-note" style="text-align: center; max-width: 800px; line-height: 1.6;">
-                            主辦單位保有最終修改、變更、活動解釋及取消本活動之權利，若有相關異動將公告於粉絲專頁，恕不另行通知。
-                        </p>
-
+                            <p class="event-desc">
+                                地點：花博展區 12區熊讚公仔 <br>
+                                活動方式：<br>
+                                1. 於花博展區找到代表各行政區的熊讚公仔。<br>
+                                2. 與公仔合照，並上傳至「熊讚臉書粉絲頁」指定貼文。<br>
+                                3. 留言推薦該行政區的美食或景點，即可參加網路抽獎。
+                            </p>
+                            <br>
+                            <p class="event-desc" style="color: var(--accent-color);">
+                                <strong>活動獎品：</strong><br>
+                                法布甜熊讚禮盒 (每一行政區各抽一份，共 12 份)
+                            </p>
+                        </div>
+                        <div><span class="tag-blue">網路抽獎</span></div>
                     </div>
                 </div>
 
+                <div class="event-gallery">
+                    <div class="event-gallery-item">
+                        <img src="images/bravo_bears_group.jpg" alt="12行政區熊讚公仔">
+                    </div>
+                    <div class="event-gallery-item">
+                        <img src="images/gift_box.jpg" alt="法布甜熊讚禮盒">
+                    </div>
+                    <div class="event-gallery-item">
+                        <img src="images/bravo_event_poster.jpg" alt="活動宣傳海報">
+                    </div>
+                </div>
             </div>
 <!-- 小提燈活動 -->
             <div id="event4" class="tab-content">

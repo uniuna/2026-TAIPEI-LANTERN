@@ -1449,6 +1449,10 @@ html {
     min-width: 100px; 
 }
 
+.minw-300 {
+    min-width: 300px; 
+}
+
 /* 內容欄位 */
 .event-details {
     flex: 1;
@@ -1470,21 +1474,41 @@ html {
 
 /* --- RWD 手機版響應式調整 --- */
 @media (max-width: 768px) {
+    
     /* 手機版：列表改回垂直單欄 */
     .event-list {
         flex-direction: column;
     }
     
     /* 欄位寬度佔滿 */
-    .event-list-col { width: 100%;
+    .event-list-col { 
+        width: 100%;
     }
-    .event-item { padding: 15px;
+    
+    /* [修改] 讓單個卡片變成上下直向排列 */
+    .event-item { 
+        padding: 20px 15px;
+        flex-direction: column; /* 垂直排列 */
+        align-items: flex-start; /* 靠左對齊 */
     }
-    .event-item span{ display: none;
+    
+    /* [新增] 調整時間區塊的底部間距，取消右邊距 */
+    .event-time {
+        margin-right: 0;
+        margin-bottom: 12px;
+        font-size: 1.15rem; /* 手機版時間稍微放大一點比較清楚 */
     }
-    .stage-intro-box { padding: 20px;
+    
+    .event-item span { 
+        display: none;
     }
-    .stage-intro-row { font-size: 1rem;
+    
+    .stage-intro-box { 
+        padding: 20px;
+    }
+    
+    .stage-intro-row { 
+        font-size: 1rem;
     }
 }
 
@@ -1540,6 +1564,7 @@ html {
         max-width: 100%;
     }
 }
+
 
 /* --- 小提燈發送地點表格樣式 (events) --- */
 .lantern-table-section {

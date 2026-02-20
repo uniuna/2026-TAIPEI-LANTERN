@@ -1478,12 +1478,12 @@
                         <div class="hotel-info-flex">
                             <div class="hotel-offer-col">
                                 <h4>住宿優惠方案 ✨</h4>
-                                <p style="color:#fff;">晶泉丰旅春季從心澄淨2天1夜住房專案，入住加贈國際金獎清酒，於開課日期內可以免費體驗酒粕手作皂課程。</p>
+                                <p style="color:#fff;">北投晶泉丰旅「 花 in 泉旅 」兩天一夜住房專案，入住每房加贈台北捷運一日票及花型擴香石。</p>
                             </div>
                             <div class="hotel-contact-col">
                                 <h4>訂房資訊</h4>
                                 <p class="booking-info">1. 訂房專線：02-7735-5000
-    2. <a href="https://member.silkshotelgroup.com/SPBT" target="_blank">前往官網 ➔ </a> </p>
+    2. <a href="https://member.silkshotelgroup.com/SPBT/Package/Details/a9f6f25a-49ab-4ded-bd79-1a44a0f5e055" target="_blank">前往官網 ➔ </a> </p>
                                 <a href="https://www.google.com/maps/search/?api=1&query=臺北市北投區泉源路19號" target="_blank" class="t-location-link">
                                     📍 地點：臺北市北投區泉源路19號
                                 </a>
