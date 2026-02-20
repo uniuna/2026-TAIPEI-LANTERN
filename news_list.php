@@ -16,6 +16,32 @@
             <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
+                        <img src="images/news/n260220-2_01.jpg" alt="西門町年節魅力">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.20</div>
+                        <h3 class="news-list-title">從潮流IP到傳統藝術 2026台北燈節點亮西門町年節魅力</h3>
+                        <p class="news-excerpt">
+                           年節期間，臺北街頭洋溢著濃厚的歡樂氣息，元宵節「小過年」的腳步也逐漸靠近。「2026台北燈節」2月25日即將於花博展區及西門展區盛大開展，西門町是臺北最具潮流特色 ...
+                        </p>
+                        <a href="news_260220-2" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/n260220-1_01.jpg" alt="花博展區亮點">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.20</div>
+                        <h3 class="news-list-title">不只變形金剛！2026台北燈節花博展區亮點一次看</h3>
+                        <p class="news-excerpt">
+                           「2026台北燈節」2月25日至3月15日在花博展區與西門展區盛大登場。今年燈節首度推出「雙展區、雙IP」策展模式，將人氣角色與創意藝術作品同時呈現 ...
+                        </p>
+                        <a href="news_260220-1" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
                         <img src="images/news/禁止吸菸.jpg" alt="禁止吸菸">
                     </div>
                     <div class="news-content">
@@ -38,6 +64,19 @@
                            為響應「2026台北燈節」，佛光山台北道場應市政府邀請特別設置「佛光山燈區」，2月7日舉行啟燈儀式，佛光山台北道場住持滿謙法師主法引領大眾合掌祈願 ...
                         </p>
                         <a href="news_260213" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/links/traffic_control_map.jpg" alt="2026台北燈節交通管制">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.11</div>
+                        <h3 class="news-list-title">2026台北燈節交通管制，搭乘大眾運輸前往最方便</h3>
+                        <p class="news-excerpt">
+                           2026台北燈節今（115）年2月25日（三）至3月15日（日）於臺北西門及圓山花博公園登場。除了IP主題燈組外亦有許多燈組展示、展演活動及街頭藝人表演...
+                        </p>
+                        <a href="news_260211-1" class="btn-more">閱讀更多</a>
                     </div>
                 </article>
                 <article class="news-card">

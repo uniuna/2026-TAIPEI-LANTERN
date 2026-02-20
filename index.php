@@ -48,6 +48,14 @@
             </div>
             
             <div class="news-list">
+                <a href="news_260220-2" class="news-item">
+                    <span class="news-date">2026.02.20</span>
+                    <span class="news-text">從潮流IP到傳統藝術 2026台北燈節點亮西門町年節魅力 ...</span>
+                </a>
+                <a href="news_260220-1" class="news-item">
+                    <span class="news-date">2026.02.20</span>
+                    <span class="news-text">不只變形金剛！2026台北燈節花博展區亮點一次看...</span>
+                </a>
                 <a href="news_260215" class="news-item">
                     <span class="news-date">2026.02.15</span>
                     <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>
@@ -56,7 +64,11 @@
                     <span class="news-date">2026.02.13</span>
                     <span class="news-text">佛光山燈區以「希望之門」 點亮2026台北燈節 ...</span>
                 </a>
-                <a href="news_260211" class="news-item">
+                <a href="news_260211-1" class="news-item">
+                    <span class="news-date">2026.02.11</span>
+                    <span class="news-text">2026台北燈節交通管制，搭乘大眾運輸前往最方便 ...</span>
+                </a>
+                <!-- <a href="news_260211" class="news-item">
                     <span class="news-date">2026.02.11</span>
                     <span class="news-text">賞燈祈福過好年！北市20間宮廟響應「2026台北燈節」300公尺燈海隧道、馬年特色燈飾超吸睛 ...</span>
                 </a>
@@ -67,7 +79,7 @@
                 <a href="news_260209" class="news-item">
                     <span class="news-date">2026.02.09</span>
                     <span class="news-text">限量收藏超夯！2026台北燈節柯博文小提燈發放懶人包一次看 ...</span>
-                </a>
+                </a> -->
                 <!-- <a href="news_260130" class="news-item">
                     <span class="news-date">2026.01.30</span>
                     <span class="news-text">2026台北燈節西門展區攜手泡泡瑪特六大人氣IP登場 Baby Molly8米高主燈亮相 五組燈組首曝光 ...</span>
