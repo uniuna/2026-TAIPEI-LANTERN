@@ -64,7 +64,7 @@
                     <span class="news-date">2026.02.13</span>
                     <span class="news-text">佛光山燈區以「希望之門」 點亮2026台北燈節 ...</span>
                 </a>
-                <a href="news_260211-1" class="news-item">
+                <a href="news_260211-2" class="news-item">
                     <span class="news-date">2026.02.11</span>
                     <span class="news-text">2026台北燈節交通管制，搭乘大眾運輸前往最方便 ...</span>
                 </a>

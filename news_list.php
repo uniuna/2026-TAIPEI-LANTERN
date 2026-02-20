@@ -76,7 +76,7 @@
                         <p class="news-excerpt">
                            2026台北燈節今（115）年2月25日（三）至3月15日（日）於臺北西門及圓山花博公園登場。除了IP主題燈組外亦有許多燈組展示、展演活動及街頭藝人表演...
                         </p>
-                        <a href="news_260211-1" class="btn-more">閱讀更多</a>
+                        <a href="news_260211-2" class="btn-more">閱讀更多</a>
                     </div>
                 </article>
                 <article class="news-card">
