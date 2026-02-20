@@ -203,6 +203,24 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
+                    <!-- <div class="lantern-item" onclick="openMapModal('expo_B15')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B15  景福宮燈區</h4>
+                                <span class="lantern-designer"></span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div> -->
+                    <div class="lantern-item" onclick="openMapModal('expo_B16')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B16  璀璨中山</h4>
+                                <span class="lantern-designer">台北市中山商圈發展協會</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
 
                 </div>   
             </div>
@@ -226,12 +244,12 @@
             </div>
         </div>
 
-        <!-- <section class="map-download-section">
+        <section class="map-download-section">
             <div class="map-download-content">
                 <h3>總覽花博展區</h3>
                 <p>將花博展區地圖帶著走，離線也能輕鬆導航。</p>
 
-                <a href="info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main">
+                <a href="images/maps/map-expo-download.jpg" target="_blank" class="btn-main">
                     花博展區地圖下載
                     <span style="vertical-align: middle;">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -241,7 +259,7 @@
                     </svg></span>
                 </a>
             </div>
-        </section> -->
+        </section>
     </main>
 
     <?php include 'footer.php'; ?>

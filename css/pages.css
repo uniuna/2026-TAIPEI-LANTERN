@@ -1429,6 +1429,7 @@ html {
     border: 1px solid rgba(255, 255, 255, 0.09);
     border-radius: 10px;
     padding: 20px;
+    margin-bottom: 10px;
     transition: 0.3s;
 }
 
@@ -1444,8 +1445,8 @@ html {
     color: var(--accent-color);
     font-weight: bold;
     font-size: 1.1rem;
-    margin-right: 15px;
-    min-width: 110px; /* 固定寬度 */
+    margin-right: 30px;
+    min-width: 100px; 
 }
 
 /* 內容欄位 */
@@ -1719,6 +1720,11 @@ html {
     border-bottom: 3px solid var(--primary-color);
     padding-bottom: 15px;
     display: inline-block; /* 讓邊框跟著文字長度 */
+}
+
+.featured-subtitle {
+    font-size: 1.2rem;
+    line-height: 1.8;
 }
 
 /* 內文描述 */
@@ -2062,10 +2068,6 @@ html {
         grid-template-columns: repeat(1, 1fr); 
         margin-top: 0px;
         padding-top: 0px;
-        
-    }
-    .temple-gallery img {
-        height: 80px; /* 手機版圖片高度縮小 */
     }
 }
 

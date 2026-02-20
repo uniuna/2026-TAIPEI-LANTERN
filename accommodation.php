@@ -693,6 +693,38 @@
                     </div>
                 </div>
 
+                <div class="temple-item">
+                    <div class="temple-header" onclick="toggleTemple(this)">
+                        <span class="t-district">中正區</span>
+                        <span class="t-name">台北凱撒大飯店</span>
+                        <div class="t-arrow"></div>
+                    </div>
+                    <div class="temple-content">
+                        <div class="hotel-info-flex">
+                            <div class="hotel-offer-col">
+                                <h4>住宿優惠方案 ✨</h4>
+                                <p style="color:#fff;">
+                                蛇馬都有 吃喝玩樂住房專案<br>
+                                入住期間：2026.01.01~2026.03.15<br>
+                                台北凱撒 歲末迎新 吃喝玩樂 蛇馬都有~<br>
+                                每晚不含早，只要3799元起<br>
+                                ✧✧ 每房贈送 吃喝玩樂三重好禮 ✧✧<br>
+                                (1) 台北經典名店點心組<br>
+                                (2) 三創VIVELAND VR遊戲體驗券<br>
+                                (3) Drink Bar飲品兌換券  <br>連續入住2晚以上，享9折優惠 再加贈第四重好禮<br>
+                                (4) Checkers早餐一次  <br>官網訂房加購高鐵聯票，享78折起優惠&飯店加碼禮</p>
+                            </div>
+                            <div class="hotel-contact-col">
+                                <h4>訂房資訊</h4>
+                                <p class="booking-info"><a href="https://apq.hihotel.asia/zhtw.v3.0.0.78.0D6D7D/page/" target="_blank">前往官網 ➔ </a></p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=臺北市中正區忠孝西路1段38號" target="_blank" class="t-location-link">
+                                    📍 地點：臺北市中正區忠孝西路1段38號
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- 中山區 -->
                 <div class="temple-item">
                     <div class="temple-header" onclick="toggleTemple(this)">
@@ -1454,6 +1486,30 @@
     2. <a href="https://member.silkshotelgroup.com/SPBT" target="_blank">前往官網 ➔ </a> </p>
                                 <a href="https://www.google.com/maps/search/?api=1&query=臺北市北投區泉源路19號" target="_blank" class="t-location-link">
                                     📍 地點：臺北市北投區泉源路19號
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 士林區 -->
+                <div class="temple-item">
+                    <div class="temple-header" onclick="toggleTemple(this)">
+                        <span class="t-district">士林區</span>
+                        <span class="t-name">台北士林萬麗酒店</span>
+                        <div class="t-arrow"></div>
+                    </div>
+                    <div class="temple-content">
+                        <div class="hotel-info-flex">
+                            <div class="hotel-offer-col">
+                                <h4>住宿優惠方案 ✨</h4>
+                                <p style="color:#fff;">加入萬豪會員，即可享有會員之福利及優惠。</p>
+                            </div>
+                            <div class="hotel-contact-col">
+                                <h4>訂房資訊</h4>
+                                <p class="booking-info"><a href="https://www.renaissancetaipei.com/" target="_blank">前往官網 ➔ </a></p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=臺北市士林區中山北路五段470巷8號" target="_blank" class="t-location-link">
+                                    📍 地點：臺北市士林區中山北路五段470巷8號
                                 </a>
                             </div>
                         </div>

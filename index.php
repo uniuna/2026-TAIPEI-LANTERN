@@ -163,7 +163,7 @@
         </section>
 
         <section style="padding: 80px 0 40px;">
-        <h2 class="section-title">精彩回顧</h2>
+        <h2 class="section-title">精彩回顧及花絮</h2>
         
         <div class="tab-buttons year-tabs">
             <button class="tab-btn" onclick="openYearTab(event, 'year-2017')">2017</button>

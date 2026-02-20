@@ -25,25 +25,31 @@
                 <div class="featured-event-card">
                     
                     <div class="featured-img-box">
-                        <img src="images/events/coffe-capital.jpg" alt="2026台北燈節‧咖啡首都嘉年華">
+                        <img src="images/events/coffe-capital-v2.jpg" alt="2026台北燈節‧咖啡首都嘉年華">
                     </div>
 
                     <div class="featured-content">
-                        <h3 class="featured-title">2026台北燈節‧咖啡首都嘉年華</h3>
+                        <h3 class="featured-title">2026台北燈節 ‧ 咖啡首都嘉年華</h3>
                         
+                        <h4 class="featured-subtitle">燈節賞燈品嘗優質咖啡「咖啡首都嘉年華」2/28起連嗨二日</h4>
+                        <h4 class="featured-subtitle">限量優質咖啡點心免費品嘗，完成闖關集章再贈金杯禮盒</h4><br>
                         <p class="featured-desc">
-                            由台北精品咖啡商業發展協會主辦，郭昭巖議員辦公室與萬華街區發展協會協辦的「2026台北燈節‧咖啡首都嘉年華」，邀請您 2/28～3/1 至萬華火車站站前廣場共襄盛舉。在繽紛燈火街頭表演與爵士樂音中，品味精品咖啡，找到專屬的快樂節奏。
-                            <br><br>現場集結金杯獎咖啡名店與人氣點心品牌，並規劃手沖咖啡與烘豆入門體驗，帶領民眾深入感受咖啡魅力。每日限量百杯精品咖啡免費試飲，另與凱達飯店、格萊天樣飯店推出「咖啡×住宿」聯名優惠，搭配 2/28－3/31 的「2026台北燈節‧咖啡首都嘉年華聯合行銷活動」，讓臺北市咖啡旅程更加香醇難忘。
+                            當光影藝術遇上精品咖啡香，「2026台北燈節 ‧ 咖啡首都嘉年華」將於2月28日在萬華火車站站前廣場限時2日快閃。現場邀集歷屆「金杯獎」獲獎優質咖啡品牌、萬華在地名店，以及臺北市人氣點心品牌共同組成「咖啡首都精品市集」。
+                            <br>活動期間每日限量精品咖啡或點心免費品嘗，消費滿額499元抽精緻好禮，還能參與咖啡手作DIY，並串連在地飯店、店家推出「萬華經典 ‧ 逗熱鬧」，以及金杯店家與點心品牌的「咖啡首都咖啡點心地圖散策」。
                         </p>
                         
                         <ul class="featured-info-list">
                             <li>
-                                <span class="info-label">2026台北燈節‧咖啡首都嘉年華：　</span>
-                                <span class="info-text">2/28～3/1 ｜ 14:00～21:00 ｜ 萬華車站前廣場</span>
+                                <span class="info-label">2026台北燈節 ‧ 咖啡首都嘉年華：　</span>
+                                <span class="info-text">2/28－3/1｜14:00－21:00｜萬華車站前廣場</span>
                             </li>
                             <li>
-                                <span class="info-label">2026台北燈節‧咖啡首都嘉年華行銷活動：　</span>
-                                <span class="info-text">2/28～3/31</span>
+                                <span class="info-label">咖啡首都點心地圖散策：　</span>
+                                <span class="info-text">2/28－3/31</span>
+                            </li>
+                            <li>
+                                <span class="info-label">萬華經典 ‧ 逗熱鬧：　</span>
+                                <span class="info-text">2/28－3/1｜萬華街區</span>
                             </li>
                         </ul>
 
@@ -866,6 +872,7 @@
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-3')">紅樓選品 X 2026台北燈節</button> 
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-4')">西門町看花燈</button> 
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-5')">2026 吵年獸立春音樂藝術祭</button> 
+                <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'venue-6')">2026 士林官邸鬱金香展</button> 
             </div>
 
             <div id="venue-1" class="tab-content active">
@@ -1023,6 +1030,29 @@
 
                         <div class="featured-action">
                              <a href="https://www.facebook.com/share/1Kd7gK3wPq/?mibextid=wwXIfr" target="_blank" class="btn-main">
+                                了解更多 >
+                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="venue-6" class="tab-content">
+                <div class="featured-event-card">
+                    
+                    <div class="featured-img-box">
+                        <img src="images/events/士林官邸鬱金香展.jpg" alt="士林官邸鬱金香展">
+                    </div>
+ 
+                    <div class="featured-content">
+                        <h3 class="featured-title">2026 士林官邸鬱金香展</h3>
+                        
+                        <p class="featured-desc">
+                            「2026士林官邸鬱金香展」展示超過11萬株26種來自荷蘭及日本的鬱金香，以「浪漫滿園」為主題，將浪漫元素結合園藝布展手法來體現園藝技術，營造出鬱金香花海美景，以繽紛的花卉堆疊出繽紛條帶設計，打造屬於臺北市專屬的城市美學。
+                        </p>
+
+                        <div class="featured-action">
+                             <a href="https://www.flowersfestival.taipei/article.html?id=19" target="_blank" class="btn-main">
                                 了解更多 >
                              </a>
                         </div>

@@ -15,10 +15,10 @@
             
             <div class="tab-buttons events-tab-wrapper">
                 <!-- <button class="tab-btn active" onclick="openTab(event, 'event1')">開幕式</button> -->
-                <!-- <button class="tab-btn" onclick="openTab(event, 'event2')">花博舞台活動</button> -->
+                <button class="tab-btn active" onclick="openTab(event, 'event2')">花博舞台活動</button>
                 <!-- <button class="tab-btn" onclick="openTab(event, 'event3')">十二行政區活動</button> -->
-                <button class="tab-btn active" onclick="openTab(event, 'event4')">小提燈活動</button>
-                <!-- <button class="tab-btn" onclick="openTab(event, 'event5')">主題日活動</button> -->
+                <button class="tab-btn" onclick="openTab(event, 'event4')">小提燈活動</button>
+                <button class="tab-btn" onclick="openTab(event, 'event5')">主題日活動</button>
             </div>
 
             <div id="event1" class="tab-content">
@@ -28,7 +28,7 @@
                 </section>
             </div>
 
-            <div id="event2" class="tab-content">
+            <div id="event2" class="tab-content active">
                 
                 <div class="stage-intro-box">
                     <div class="stage-intro-row">
@@ -52,12 +52,20 @@
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">14:00-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">講客電台</h3></div>
+                                    <div class="event-time">14:05-14:35</div>
+                                    <div class="event-details"><h3 class="event-title">張慶琳 Ana</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">14:45-15:15</div>
+                                    <div class="event-details"><h3 class="event-title">搖滾童謠</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">15:25-15:55</div>
+                                    <div class="event-details"><h3 class="event-title">愛客樂 iColor</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">18:00-18:30</div>
-                                    <div class="event-details"><h3 class="event-title">友好城市-濱松市</h3></div>
+                                    <div class="event-details"><h3 class="event-title">靜岡縣濱松市</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
@@ -71,12 +79,12 @@
                                     <div class="event-time">19:30-19:33</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
                                 </div>
+                            </div>
+                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:33-19:45</div>
                                     <div class="event-details"><h3 class="event-title">侏羅紀世界 恐龍大冒險</h3></div>
                                 </div>
-                            </div>
-                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:45-20:00</div>
                                     <div class="event-details"><h3 class="event-title">Justin魔術秀</h3></div>
@@ -104,13 +112,34 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/02/28 (六)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">14:00-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">台北電台</h3></div>
+                                    <div class="event-time">14:00-14:10</div>
+                                    <div class="event-details"><h3 class="event-title">馬太鞍青年團 (祈福、迎賓舞)</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">14:15-14:40</div>
+                                    <div class="event-details"><h3 class="event-title">AZ 李孝祖</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">14:50-15:20</div>
+                                    <div class="event-details"><h3 class="event-title">創作歌手 少浪</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">15:30-15:50</div>
+                                    <div class="event-details"><h3 class="event-title">李明德</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">18:30-18:38</div>
+                                    <div class="event-details"><h3 class="event-title">中山商圈-仙氣飄飄甜點秀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">18:40-19:00</div>
+                                    <div class="event-details"><h3 class="event-title">中山商圈-仙氣飄飄甜點秀</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
@@ -120,6 +149,8 @@
                                     <div class="event-time">19:03-19:30</div>
                                     <div class="event-details"><h3 class="event-title">Smile Dash-搖滾樂團</h3></div>
                                 </div>
+                            </div>
+                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
@@ -132,8 +163,6 @@
                                     <div class="event-time">19:40-20:00</div>
                                     <div class="event-details"><h3 class="event-title">來者何人-台北巷弄的嘻哈樂團</h3></div>
                                 </div>
-                            </div>
-                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
@@ -144,7 +173,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:20-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">DrunkMonk 撞克茫客-硬式搖滾樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">DrunkMonk撞克茫客-<br>硬式搖滾樂團</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-20:33</div>
@@ -152,18 +181,35 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">DrunkMonk 撞克茫客-硬式搖滾樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">DrunkMonk撞克茫客-<br>硬式搖滾樂團</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/01 (日)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">14:00-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">復興電台</h3></div>
+                                    <div class="event-time">14:00-14:10</div>
+                                    <div class="event-details"><h3 class="event-title">樂波太鼓 (開場)</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">14:10-14:50</div>
+                                    <div class="event-details"><h3 class="event-title">台北箏樂團</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">15:00-15:45</div>
+                                    <div class="event-details"><h3 class="event-title">林語菲</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">15:45-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">歌曲接龍</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">16:30-17:00</div>
+                                    <div class="event-details"><h3 class="event-title">熊讚和傑米</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
@@ -171,18 +217,18 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">張嘉芯-超級紅人榜</h3></div>
+                                    <div class="event-details"><h3 class="event-title">超級紅人榜-張嘉芯</h3></div>
                                 </div>
+                            </div>
+                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:33-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">吳胤呈-精靈男友</h3></div>
+                                    <div class="event-details"><h3 class="event-title">精靈男友-吳胤呈</h3></div>
                                 </div>
-                            </div>
-                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
@@ -197,18 +243,19 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">伍浩哲-知名民歌手</h3></div>
+                                    <div class="event-details"><h3 class="event-title">知名民歌手-伍浩哲</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/02 (一)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市大安區金華國民中學七年級合唱團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">臺北市大安區<br>金華國民中學七年級合唱團</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
@@ -219,23 +266,25 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/03 (二)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市萬華區老松國民小學鼓笛隊</h3></div>
+                                    <div class="event-details"><h3 class="event-title">臺北市萬華區<br>老松國民小學鼓笛隊</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市立明湖國民中學管樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">臺北市立明湖國民中學學管樂團</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/04 (三)</h3>
                         <div class="event-list">
@@ -253,6 +302,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/05 (四)</h3>
                         <div class="event-list">
@@ -270,6 +320,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/06 (五)</h3>
                         <div class="event-list">
@@ -319,13 +370,26 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/07 (六)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">14:00-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">台北電台</h3></div>
+                                    <div class="event-time">14:05-14:35</div>
+                                    <div class="event-details"><h3 class="event-title">甜美嗓音 洪宇蕎</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">14:40-15:10</div>
+                                    <div class="event-details"><h3 class="event-title">音樂才女 劉恬君</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">15:15-15:35</div>
+                                    <div class="event-details"><h3 class="event-title">飛揚歌手 凃佩岑</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">15:35-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">金曲雙姝 南方二重唱</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
@@ -335,6 +399,8 @@
                                     <div class="event-time">19:03-19:30</div>
                                     <div class="event-details"><h3 class="event-title">澔客＋陳加洛</h3></div>
                                 </div>
+                            </div>
+                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
@@ -343,8 +409,6 @@
                                     <div class="event-time">19:33-20:00</div>
                                     <div class="event-details"><h3 class="event-title">澔客＋陳加洛</h3></div>
                                 </div>
-                            </div>
-                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
@@ -358,19 +422,32 @@
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
                                 </div>
                                 <div class="event-item">
-                                    <div class="event-time">20:33-21:00</div>
+                                    <div class="event-time">20:30-21:00</div>
                                     <div class="event-details"><h3 class="event-title">周美蒂</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/08 (日)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">14:00-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">教育電台</h3></div>
+                                    <div class="event-time">14:00-14:25</div>
+                                    <div class="event-details"><h3 class="event-title">教育夥伴新聲宣</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">14:25-14:55</div>
+                                    <div class="event-details"><h3 class="event-title">樂齡經典好聲傳</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">14:55-15:30</div>
+                                    <div class="event-details"><h3 class="event-title">親子廣播互動歡</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">15:30-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">文化展演一起談</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
@@ -384,6 +461,8 @@
                                     <div class="event-time">19:30-19:33</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
                                 </div>
+                            </div>
+                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:33-19:40</div>
                                     <div class="event-details"><h3 class="event-title">壞胚子</h3></div>
@@ -392,8 +471,6 @@
                                     <div class="event-time">19:40-20:00</div>
                                     <div class="event-details"><h3 class="event-title">DJ LELE</h3></div>
                                 </div>
-                            </div>
-                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
@@ -417,6 +494,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/09 (一)</h3>
                         <div class="event-list">
@@ -434,6 +512,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/10 (二)</h3>
                         <div class="event-list">
@@ -446,18 +525,19 @@
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市文山區景美國民小學弦樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">臺北市文山區<br>景美國民小學弦樂團</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/11 (三)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市內湖區東湖國民小學弦樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">臺北市內湖區<br>東湖國民小學弦樂團</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
@@ -468,13 +548,14 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/12 (四)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市大安區幸安國民小學合唱團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">臺北市大安區<br>幸安國民小學合唱團</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
@@ -485,6 +566,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/13 (五)</h3>
                         <div class="event-list">
@@ -534,13 +616,26 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/14 (六)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
-                                    <div class="event-time">14:00-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">台北電台</h3></div>
+                                    <div class="event-time">14:05-14:30</div>
+                                    <div class="event-details"><h3 class="event-title">情歌王子 王瑞瑜</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">14:30-14:50</div>
+                                    <div class="event-details"><h3 class="event-title">青春實力歌手 宥賢</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">14:50-15:20</div>
+                                    <div class="event-details"><h3 class="event-title">實力新星 鄭馥儀</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">15:20-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">織聲製造所 查瑪克</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
@@ -554,12 +649,12 @@
                                     <div class="event-time">19:30-19:33</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
                                 </div>
+                            </div>
+                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:33-19:50</div>
                                     <div class="event-details"><h3 class="event-title">眠氣</h3></div>
                                 </div>
-                            </div>
-                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:50-20:00</div>
                                     <div class="event-details"><h3 class="event-title">晨悠CHENYO</h3></div>
@@ -569,7 +664,7 @@
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
                                 </div>
                                 <div class="event-item">
-                                    <div class="event-time">20:03-20:30</div>
+                                    <div class="event-time">20:00-20:30</div>
                                     <div class="event-details"><h3 class="event-title">晨悠CHENYO</h3></div>
                                 </div>
                                 <div class="event-item">
@@ -583,18 +678,37 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="day-group-card">
                         <h3 class="event-date-title">2026/03/15 (日)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
+                                <div class="event-item">
+                                    <div class="event-time">14:00-14:30</div>
+                                    <div class="event-details"><h3 class="event-title">創作才子 徐偉銘</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">14:30-15:00</div>
+                                    <div class="event-details"><h3 class="event-title">溫柔女聲 江玉如</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">15:00-15:35</div>
+                                    <div class="event-details"><h3 class="event-title">嘹亮暖聲 陳太陽</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">15:35-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">實力唱將 李明德</h3></div>
+                                </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">It’s time to PLAY - 互動式瑪利歐劇場</h3></div>
+                                    <div class="event-details"><h3 class="event-title">It’s time to PLAY-<br>互動式瑪利歐劇場</h3></div>
                                 </div>
+                            </div>
+                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
@@ -603,8 +717,6 @@
                                     <div class="event-time">19:33-20:00</div>
                                     <div class="event-details"><h3 class="event-title">阿卡貝拉-留聲樂團</h3></div>
                                 </div>
-                            </div>
-                            <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
                                     <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
@@ -668,9 +780,16 @@
                 </div>
             </div>
 
-            <div id="event4" class="tab-content active">
+            <div id="event4" class="tab-content">
 
-                <h3 class="event-date-title">小提燈活動</h3>
+                <div style="background: rgba(0, 229, 255, 0.1); border-left: 4px solid var(--accent-color); padding: 15px; margin-bottom: 50px; border-radius: 4px;">
+                    <h3 style="margin-bottom: 10px; color: white; font-size: 1.5rem;">
+                        <strong>台北燈節活動現場 雙展區發放處</strong>
+                    </h3>
+                    <p style="margin: 0; color: white; font-size: 1.1rem;">
+                        <strong>🕒 雙展區發放時間：</strong>3月1日(日)、3月2日(一)、3月3日(二) 15:00 起
+                    </p>
+                </div>
 
                 <div class="event-gallery" style="margin-bottom: 100px;">
                     <div class="event-gallery-item">
@@ -692,12 +811,12 @@
 
                 <div class="lantern-table-section">
                     
-                    <div style="background: rgba(0, 229, 255, 0.1); border-left: 4px solid var(--accent-color); padding: 15px; margin-bottom: 20px; border-radius: 4px;">
+                    <div style="background: rgba(0, 229, 255, 0.1); border-left: 4px solid var(--accent-color); padding: 15px; margin-bottom: 30px; border-radius: 4px;">
                         <h3 style="margin-bottom: 10px; color: white; font-size: 1.5rem;">
                             <strong>台北市各行政區 小提燈發放處</strong>
                         </h3>
                         <p style="margin: 0; color: white; font-size: 1.1rem;">
-                            <strong>🕒 統一發放時間：</strong>3月1日(日)、3月2日(一) 14:00 起
+                            <strong>🕒 統一發放時間：</strong>3月1日(日)、3月2日(一) 14:00 起 
                         </p>
                     </div>
 
@@ -778,82 +897,55 @@
 
             </div>
 
-                <!-- <h3 class="event-date-title">小提燈組裝</h3>
-                
-                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 40px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
-                    
-                    <video controls playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;"> 
-                        <source src="videos/lantern_install.mp4" type="video/mp4">
-                        您的瀏覽器不支援影片播放。
-                    </video>
-
-                </div> -->
-
-                <!-- <div class="event-list" style="display: block;">
-                    <div class="event-item">
-                        <div class="event-time">貼心提醒</div>
-                        <div class="event-details">
-                            <p class="event-desc">
-                                1. 請依照影片或圖片順序進行組裝。<br>
-                                2. 小提燈內含細小零件，兒童組裝時請由家長陪同。<br>
-                                3. 建議自行準備小工具（如膠帶）輔助固定，成品更穩固。
-                            </p>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-
             <div id="event5" class="tab-content">
                 
-                <h3 class="event-date-title">3/3（二）元宵節主題日</h3>
+                <h3 class="event-date-title">元宵節猜燈謎</h3>
                 <div class="event-list" style="display: block;">
                     <div class="event-item">
-                        <div class="event-time">19:00 ～ 21:00</div>
+                        <div class="event-time" style="min-width: 300px; ">3/3 (二) 19:00-21:00</div>
                         <div class="event-details">
                             <h3 class="event-title">轉輪盤猜燈謎</h3>
-                            <p class="event-desc">地點：花博展區及西門展區（服務台旁攤位）</p>
-                            <p class="event-desc">活動方式：現場排隊轉輪盤答題，答對即送50元超商商品卡。</p>
-                            <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：每展區限量 500 份，送完為止。</p>
+                            <p class="event-desc">地點：花博展區服務台旁攤位、西門展區1號服務台旁攤位（近捷運6號出口後側）</p>
+                            <p class="event-desc">活動方式：現場排隊轉輪盤猜燈謎，答對即可獲得超商商品卡。</p>
+                            <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：限量發送，送完為止。</p>
                         </div>
-                        <div><span class="tag-blue">現場排隊</span></div>
+                        <!-- <div><span class="tag-blue">現場排隊</span></div> -->
                     </div>
                 </div>
 
-                <div class="event-gallery">
+                <!-- <div class="event-gallery">
                     <div class="event-gallery-item">
                         <img src="images/theme_lantern_riddle.jpg" alt="猜燈謎活動示意圖">
                     </div>
                     <div class="event-gallery-item">
                         <img src="images/theme_wheel.jpg" alt="轉輪盤活動示意圖">
                     </div>
-                </div>
+                </div> -->
 
 
-                <h3 class="event-date-title">3/5（四）～ 3/8（日）WBC世界棒球經典賽主題日</h3>
+                <h3 class="event-date-title">WBC世界棒球經典賽應援中華隊</h3>
                 <div class="event-list" style="display: block;">
                     <div class="event-item">
-                        <div class="event-time">全天開放</div>
+                        <div class="event-time" style="min-width: 300px; ">3/5 (四)-3/6 (五) 17:00-22:00<br>3/7 (六)-3/8 (日) 14:00-22:00</div>
                         <div class="event-details">
-                            <h3 class="event-title">中華隊應援留言牆</h3>
-                            <p class="event-desc">地點：西門展區</p>
-                            <p class="event-desc">活動方式：現場提供便條紙，邀請民眾寫下對中華隊的祝福與應援。</p>
+                            <h3 class="event-title">WBC中華隊應援加油牆</h3>
+                            <p class="event-desc">地點：西門展區《揮出夢想經典熊讚》燈組旁</p>
+                            <p class="event-desc">活動方式：現場提供便條紙，邀請大家寫下對中華隊的祝福與應援。</p>
                         </div>
-                        <div><span class="tag-blue">自由參加</span></div>
+                        <!-- <div><span class="tag-blue">自由參加</span></div> -->
                     </div>
-                    
                     <div class="event-item">
-                        <div class="event-time">依賽程<br>轉播時間</div>
+                        <div class="event-time" style="min-width: 300px; ">3/6 (五) 18:00 至轉播結束</div>
                         <div class="event-details">
-                            <h3 class="event-title">大型戶外轉播 & 應援抽大獎</h3>
-                            <p class="event-desc">地點：北藝中心戶外廣場（近花博展區）</p>
-                            <p class="event-desc">場次：鎖定「中韓大戰」與「中日大戰」</p>
-                            <p class="event-desc">活動方式：現場觀賽並領取抽獎卡，有機會抽中 iPhone 17、超商禮券等大獎。</p>
+                            <h3 class="event-title">北藝中心戶外轉播WBC應援抽大獎</h3>
+                            <p class="event-desc">地點：北藝中心戶外廣場賽會轉播區＋燈節花博展區</p>
+                            <p class="event-desc">活動方式：3/6(五)在北藝中心轉播WBC現場，到服務台旁領取台北燈節抽獎券，且在3/15(日)前到燈節花博展區賞燈，並到大會服務台(花博公園花牆前)憑券摸彩。</p>
+                            <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：限量發送，送完為止。</p>
                         </div>
-                        <div><span class="tag-blue">iPhone 17</span></div>
                     </div>
                 </div>
 
-                <div class="event-gallery">
+                <!-- <div class="event-gallery">
                     <div class="event-gallery-item">
                         <img src="images/theme_wbc_wall.jpg" alt="應援牆示意圖">
                     </div>
@@ -863,32 +955,32 @@
                     <div class="event-gallery-item">
                         <img src="images/theme_iphone.jpg" alt="抽獎獎品示意圖">
                     </div>
-                </div>
+                </div> -->
 
 
-                <h3 class="event-date-title">3/13（五）～ 3/15（日）白色情人節主題日</h3>
+                <h3 class="event-date-title">白色情人節</h3>
                 <div class="event-list" style="display: block;">
                     <div class="event-item">
-                        <div class="event-time">18:00 ～ 21:00</div>
+                        <div class="event-time" style="min-width: 300px; ">3/13 (五)-3/15 (日) 18:00-21:00</div>
                         <div class="event-details">
                             <h3 class="event-title">甜蜜印相 & 金莎傳情</h3>
-                            <p class="event-desc">地點：花博展區（靜語花境旁）、西門展區（服務台旁）</p>
-                            <p class="event-desc">1. <strong>印相機體驗：</strong>上傳與燈組合照，免費列印燈節限定邊框相片（每人限 1 張）。</p>
-                            <p class="event-desc">2. <strong>送金莎花束：</strong>將印出的照片上傳社群 #2026台北燈節，經工作人員確認即贈金莎花束。</p>
-                            <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：金莎花束每日每區限量 100 份。</p>
+                            <p class="event-desc">地點：花博展區變形金剛主燈旁攤位、西門展區1號服務台旁攤位（近捷運6號出口後側）</p>
+                            <p class="event-desc">1. <strong>印相體驗：</strong>上傳與燈組合照，即可免費列印燈節限定相片。</p>
+                            <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：免費列印限定相片，每人限 1張。</p>
+                            <p class="event-desc">2. <strong>送金莎花束：</strong>將印出的照片上傳社群並 #2026台北燈節，經工作人員確認後即贈金莎花束。</p>
+                            <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：金莎花束每人限 1束，限量發送，送完為止。</p>
                         </div>
-                        <div><span class="tag-blue">限量發送</span></div>
                     </div>
                 </div>
 
-                <div class="event-gallery">
+                <!-- <div class="event-gallery">
                     <div class="event-gallery-item">
                         <img src="images/theme_photobooth.jpg" alt="印相機體驗示意圖">
                     </div>
                     <div class="event-gallery-item">
                         <img src="images/theme_chocolate_flower.jpg" alt="金莎花束示意圖">
                     </div>
-                </div>
+                </div> -->
 
             </div>
 

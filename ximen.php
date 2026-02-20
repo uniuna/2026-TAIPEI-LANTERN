@@ -146,12 +146,12 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B7  今馬熊讚</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">台北燈節設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div> -->
-                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B8')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B8')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B8  城隍燈海隧道</h4>
@@ -163,13 +163,13 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_B9')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B9  燈映平安幸福橋</h4>
+                                <h4 class="lantern-name">B9  燈映昇福平安橋</h4>
                                 <span class="lantern-designer">臺灣省城隍廟設計團隊</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <div class="lantern-item" onclick="openMapModal('ximen_B10')">
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B10')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B10  響樂到中華</h4>
@@ -281,7 +281,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B22  天后．祈福光橋</h4>
-                                <span class="lantern-designer">于容創意有限公司</span>
+                                <span class="lantern-designer">台北天后宮及于容創意有限公司</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -317,7 +317,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B26  光行小馬 (剝皮寮)</h4>
-                                <span class="lantern-designer"></span>
+                                <span class="lantern-designer">萬華街區發展協會、小腸絨毛、ckc_toys</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
@@ -342,12 +342,12 @@
             </div>
         </div>
 
-        <!-- <section class="map-download-section">
+        <section class="map-download-section">
             <div class="map-download-content">
                 <h3>總覽西門展區</h3>
                 <p>將西門展區地圖帶著走，離線也能輕鬆導航。</p>
 
-                <a href="info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main">
+                <a href="images/maps/map-ximen-download.jpg" target="_blank" class="btn-main">
                     西門展區地圖下載
                     <span style="vertical-align: middle;">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -357,7 +357,7 @@
                     </svg></span>
                 </a>
             </div>
-        </section> -->
+        </section>
     </main>
 
     <?php include 'footer.php'; ?>
