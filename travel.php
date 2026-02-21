@@ -129,6 +129,23 @@
                     </div>
                 </article>
 
+<!-- 補充 -->
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/TaipeiUndergroundMall.jpg" alt="西門地下街" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge">西門展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>西門地下街</h3>
+                        <p>連結交通樞紐的地下商場，匯集購物、餐飲與流行文化元素。</p>
+                        <a href=" " class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+
+                
                 <article class="district-card">
                     <div class="district-img-box">
                         <img src="images/sites/Dist_Dadaocheng.jpg" alt="大稻埕商圈" loading="lazy" decoding="async">

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <?php include 'header.php'; ?>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body class="no-ambient">
+    <?php include 'nav.php'; ?>
+
+    <header class="reminder-header">
+        <div class="header-img-container">
+            <img src="../images/main-bg.jpg" alt="Background" class="full-width-img">
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title reminder-intro">2026 Taipei Lantern Festival: Friendly Reminders</h2>
+
+        <div class="reminder-grid">
+            
+            <div class="reminder-card">
+                <div class="reminder-icon-box color-2">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                    </svg>
+                </div>
+                <h3>Safeguard Personal Belongings</h3>
+                <p style="font-size: 1rem;">The festival will be crowded. Please stay alert, keep a close eye on your belongings and valuables, and be mindful of pickpockets.</p>
+            </div>
+
+            <div class="reminder-card">
+                <div class="reminder-icon-box color-3">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                </div>
+                <h3>Child Safety</h3>
+                <p style="font-size: 1rem;">Parents, please watch your children closely at all times. Keep them within your sight so they do not get lost.</p>
+            </div>
+
+            <div class="reminder-card">
+                <div class="reminder-icon-box color-4">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                </div>
+                <h3>Service Desks</h3>
+                <p style="font-size: 1rem;">Service desks are located in both the Ximen and Expo Park lantern areas. If you need emergency assistance, please contact our staff.</p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <?php include 'footer.php'; ?>
+    <script src="../js/script.js"></script>
+</body>
+</html>

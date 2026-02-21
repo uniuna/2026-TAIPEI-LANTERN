@@ -1471,6 +1471,11 @@ html {
     margin: 0;
 }
 
+.event-desc strong {
+    color: white;
+    font-weight: 500;
+}
+
 
 /* --- RWD 手機版響應式調整 --- */
 @media (max-width: 768px) {
@@ -1741,7 +1746,6 @@ html {
     margin-bottom: 30px;
     font-weight: bold;
     text-align: center;
-    /* 底部加一條裝飾線 */
     border-bottom: 3px solid var(--primary-color);
     padding-bottom: 15px;
     display: inline-block; /* 讓邊框跟著文字長度 */
@@ -1750,6 +1754,8 @@ html {
 .featured-subtitle {
     font-size: 1.2rem;
     line-height: 1.8;
+    max-width: 800px;
+    text-align: center;
 }
 
 /* 內文描述 */
@@ -1764,6 +1770,7 @@ html {
     margin-bottom: 30px;
     text-align: left;
     max-width: 800px; 
+    text-align: justify; 
 }
 .featured-desc span{
     font-size: 0.95rem;

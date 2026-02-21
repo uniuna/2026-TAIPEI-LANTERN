@@ -2,7 +2,6 @@
 <html lang="zh-TW">
 <head>
     <?php include 'header.php'; ?>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/pages.css">
 </head>
@@ -917,8 +916,8 @@
                         <div class="event-time minw-300">3/3 (二) 19:00-21:00</div>
                         <div class="event-details">
                             <h3 class="event-title">轉輪盤猜燈謎</h3>
-                            <p class="event-desc">地點：花博展區服務台旁攤位、西門展區1號服務台旁攤位（近捷運6號出口後側）</p>
-                            <p class="event-desc">活動方式：現場排隊轉輪盤猜燈謎，答對即可獲得超商商品卡。</p>
+                            <p class="event-desc"><strong>地點：</strong>花博展區服務台旁攤位、西門展區1號服務台旁攤位（近捷運6號出口後側）</p>
+                            <p class="event-desc"><strong>活動方式：</strong>現場排隊轉輪盤猜燈謎，答對即可獲得超商商品卡。</p>
                             <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：限量發送，送完為止。</p>
                         </div>
                         <!-- <div><span class="tag-blue">現場排隊</span></div> -->
@@ -941,16 +940,16 @@
                         <div class="event-time minw-300" >3/5 (四)-3/6 (五) 17:00-22:00<br>3/7 (六)-3/8 (日) 14:00-22:00</div>
                         <div class="event-details">
                             <h3 class="event-title">WBC中華隊應援加油牆</h3>
-                            <p class="event-desc">地點：西門展區《揮出夢想經典熊讚》燈組旁</p>
-                            <p class="event-desc">活動方式：現場提供便條紙，邀請大家寫下對中華隊的祝福與應援。</p>
+                            <p class="event-desc"><strong>地點：</strong>西門展區《揮出夢想經典熊讚》燈組旁</p>
+                            <p class="event-desc"><strong>活動方式：</strong>現場提供便條紙，邀請大家寫下對中華隊的祝福與應援。</p>
                         </div>
                     </div>
                     <div class="event-item">
                         <div class="event-time minw-300" >3/6 (五) 18:00 至轉播結束</div>
                         <div class="event-details">
                             <h3 class="event-title">北藝中心戶外轉播WBC應援抽大獎</h3>
-                            <p class="event-desc">地點：北藝中心戶外廣場賽會轉播區＋燈節花博展區</p>
-                            <p class="event-desc">活動方式：3/6(五)在北藝中心轉播WBC現場，到服務台旁領取台北燈節抽獎券，且在3/15(日)前到燈節花博展區賞燈，並到大會服務台(花博公園花牆前)憑券摸彩。</p>
+                            <p class="event-desc"><strong>地點：</strong>北藝中心戶外廣場賽會轉播區＋燈節花博展區</p>
+                            <p class="event-desc"><strong>活動方式：</strong>3/6(五)在北藝中心轉播WBC現場，到服務台旁領取台北燈節抽獎券，且在3/15(日)前到燈節花博展區賞燈，並到大會服務台(花博公園花牆前)憑券摸彩。</p>
                             <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：限量發送，送完為止。</p>
                         </div>
                     </div>
@@ -975,7 +974,7 @@
                         <div class="event-time minw-300" >3/13 (五)-3/15 (日) 18:00-21:00</div>
                         <div class="event-details">
                             <h3 class="event-title">甜蜜印相 & 金莎傳情</h3>
-                            <p class="event-desc">地點：花博展區變形金剛主燈旁攤位、西門展區1號服務台旁攤位（近捷運6號出口後側）</p>
+                            <p class="event-desc"><strong>地點：</strong>花博展區變形金剛主燈旁攤位、西門展區1號服務台旁攤位（近捷運6號出口後側）</p>
                             <p class="event-desc">1. <strong>印相體驗：</strong>上傳與燈組合照，即可免費列印燈節限定相片。</p>
                             <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：免費列印限定相片，每人限 1張。</p>
                             <p class="event-desc">2. <strong>送金莎花束：</strong>將印出的照片上傳社群並 #2026台北燈節，經工作人員確認後即贈金莎花束。</p>
