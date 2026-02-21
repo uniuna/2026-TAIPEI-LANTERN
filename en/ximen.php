@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
     <?php include 'header.php'; ?>
     <link rel="stylesheet" href="../css/styles.css">
@@ -8,7 +8,7 @@
 <body>
     <?php include 'nav.php'; ?>
 
-    <header class="zone-header-ximen">
+   <header class="zone-header-ximen">
         <div>
             <h1 class="zone-title-large">Ximen Area</h1>
         </div>
@@ -24,57 +24,315 @@
         </div>
 
         <section class="container">
-            <h2 class="section-title">Coming Soon</h2>
-            <!-- <h2 class="section-title">Ximen Area Map</h2> -->
+            <h2 class="section-title">Ximen Area Map</h2>
             <div class="zone-block" style="margin-bottom: 80px;">
                 
-                <!-- <div id="map-theme-1" class="interactive-map-container">
-                    <img src="../images/maps/ximen-zonemap-red.jpg" alt="IP燈組地圖">
-                    <div class="map-hotspot" style="top: 66.5%; left: 30.5%; border-color:#FF0055;"
-                        onclick="openMapModal('ximen-main')"></div>
-                    <div class="map-hotspot" style="top: 60%; left: 37%;border-color:#FF0055;"
-                        onclick="openMapModal('ximen-ip1')"></div>
-                    <div class="map-hotspot" style="top: 72%; left: 38.5%;border-color:#FF0055;"
-                        onclick="openMapModal('ximen-ip2')"></div>
-                    <div class="map-hotspot" style="top: 79.5%; left: 36.5%;border-color:#FF0055;"
-                        onclick="openMapModal('ximen-ip3')"></div>
-                </div> -->
+                <div id="map-theme-1" class="interactive-map-container">
+                    <img src="../images/maps/map-ximen-v2.jpg" onclick="openImageModal('../images/maps/map-ximen-v2.jpg')" style="cursor: pointer;" alt="西門展區地圖" >
+                </div>
+                <div id="imageLightbox" onclick="closeImageModal(event)">
+                    <div class="modal-content-img">
+                        <span class="close-modal" onclick="closeImageModalBox()">&times;</span>
+                        <img id="lightboxImg" src=" " alt=''>
+                    </div>
+                </div>
 
-                <!-- <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
-                    <div class="lantern-item" onclick="openMapModal('ximen-main')">
+                <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
+                    
+                    <div class="lantern-item" onclick="openMapModal('ximen_A1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">Coming Soon!</h4>
+                                <h4 class="lantern-name">A1  Baby Molly  Fortune Rolling in</h4>
+                                <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_A2')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">A2  Twinkle Twinkle  Starry Arrival</h4>
+                                <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_A3')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">A3  LABUBU Pony Dance</h4>
+                                <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_A4')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">A4 Hirono Luck on the Way</h4>
+                                <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_A5')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">A5 Taipei: A Dual-Sided Scroll</h4>
+                                <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B1')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B1  Instant Fortune</h4>
+                                <span class="lantern-designer">Songshan Cihui Temple Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B2')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B2  Far Eastern Department Stores - Galloping into the New Spring</h4>
+                                <span class="lantern-designer">Far Eastern Department Stores Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B3')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B3  Eight Steeds Charging Forward toward a Grand Future</h4>
+                                <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B4')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B4  Taipei Home Field, Dragon Charging Forward</h4>
+                                <span class="lantern-designer">Ting Hsin Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B5')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B5  Taipei Water</h4>
+                                <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B6')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B6  Home Run for Dreams</h4>
+                                <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B7')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B7  Taipei Bravo</h4>
+                                <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B8')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B8  City God Sea of Lights Tunnel</h4>
+                                <span class="lantern-designer">Taiwan Provincial City God Temple Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B9')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B9  City God’s Rising Blessings Peace Bridge</h4>
+                                <span class="lantern-designer">Taiwan Provincial City God Temple Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B10')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B10  響樂到中華</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-                    <div class="lantern-item" onclick="openMapModal('ximen-ip1')">
+                        <div class="btn-view-detail">More Details</div>
+                    </div> -->
+                    <div class="lantern-item" onclick="openMapModal('ximen_B11')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">Coming Soon!</h4>
+                                <h4 class="lantern-name">B11  City Spectrum</h4>
+                                <span class="lantern-designer">Hsu Yu-lun, Shu Tzu-hua</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B12')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B12  Residual Light Beyond the Gate</h4>
+                                <span class="lantern-designer">Chih-Chuan, Teng, 
+Wu Tsung-yi</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B13')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B13 Queen - A Star Wish of Female Power</h4>
+                                <span class="lantern-designer">TVBS Media Inc.</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B14')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B14  Gourmet Starlight Party</h4>
+                                <span class="lantern-designer">TVBS Media Inc.</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B15')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B15  Prosperous Harvest, Praise to the God of Wealth Bravo</h4>
+                                <span class="lantern-designer">TVBS Media Inc.</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B16')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B16  Focal</h4>
+                                <span class="lantern-designer">hellobastworkshop</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B17')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B17  Undulating Light</h4>
+                                <span class="lantern-designer">Lin Zhi-tong</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B18')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B18  Sounds</h4>
+                                <span class="lantern-designer">Margot Guillemot</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B19')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B19 JINS Rocking Horse Sees the World</h4>
+                                <span class="lantern-designer">JINS Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B20')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B20  Taipei in Light</h4>
+                                <span class="lantern-designer">Cheng Ju-chieh</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B21')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B21  Running Toward Sustainability, Life in Continuous Growth</h4>
+                                <span class="lantern-designer">Fubon Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B22')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B22  The Empress of Heaven and the Bridge of Blessings</h4>
+                                <span class="lantern-designer">Taipei Tianhou Temple & YOUGO creative</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B23')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B23  Golden Luck Pavilion</h4>
+                                <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B24')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B24  Star Whispers of Yuan Night</h4>
+                                <span class="lantern-designer">Yuanling Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('ximen_B25')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B25  Radiant Wanhua</h4>
+                                <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B26')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">B26  光行小馬 (剝皮寮)</h4>
                                 <span class="lantern-designer"></span>
                             </div>
                         </div>
-                        <div class="btn-view-detail">查看詳情</div>
-                    </div>
-                </div> -->
+                        <div class="btn-view-detail">More Details</div>
+                    </div> -->
+
+                </div>
             </div>
-
-
 
         </section>
 
-        <div class="modal-overlay" id="mapModal" onclick="closeMapModal(event)">
+        <div id="mapModal" class="modal-overlay" onclick="closeMapModal(event)">
             <div class="modal-content">
-                <span class="close-modal" onclick="closeActualModal()">&times;</span>
+                <span class="close-modal" onclick="closeMapModal()">&times;</span>
 
                 <h2 id="modalTitle" style="margin-bottom: 20px">燈飾標題</h2>
                 <img id="modalImg" src="" style="width: 100%; max-width:600px; border-radius: 10px; margin:0 auto 20px; display: none;" />
                 <div style="line-height: 1.6; font-size: 1rem; text-align: left;">
                      <p id="modalName" style="line-height: 2.4; font-size: 1.2rem; " >設計者名稱</p>
-                    <p id="modalSize" style="line-height: 2.4; font-size: 1rem; color: #ccc; " >尺寸</p>
                     <p id="modalType" style="line-height: 2.4; font-size: 1rem; color: #ccc;  " >展演方式</p><br>
                     <p id="modalDesc" style="font-size: 1rem; " >燈飾介紹內容</p>
                 </div>
@@ -86,7 +344,7 @@
                 <h3>總覽西門展區</h3>
                 <p>將西門展區地圖帶著走，離線也能輕鬆導航。</p>
 
-                <a href="../info/2026-TAIPEI-LANTERN-EXPO.jpg" target="_blank" class="btn-main">
+                <a href="../images/maps/map-ximen-download-v2.jpg" target="_blank" class="btn-main">
                     西門展區地圖下載
                     <span style="vertical-align: middle;">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

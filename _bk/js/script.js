@@ -302,14 +302,6 @@ function openLiveModal() {
 function closeLiveModal() {
     const modal = document.getElementById('liveModal');
     if(modal) {
-        // --- 新增這段：停止 YouTube 影片播放 ---
-        const iframe = modal.querySelector('iframe');
-        if (iframe) {
-            const tempSrc = iframe.src;
-            iframe.src = tempSrc; // 重新賦值 src，這樣影片就會瞬間重置並停止播放
-        }
-        // ----------------------------------------
-
         modal.classList.remove('show');
         setTimeout(() => { modal.style.display = 'none'; }, 500);
         sessionStorage.setItem('liveModalClosed', 'true');
@@ -330,77 +322,77 @@ const mapData = {
         name: '泡泡瑪特設計團隊',
         type: '靜態展出',
         desc: 'Baby Molly 以「搖擺」的俏皮形態現身，象徵好運與驚喜隨之而來，為大家帶來滿滿的喜悅和祝福。這份祝福化為一座「巨型音樂盒」，Baby Molly位於360度的動態核心，上方環繞著 LED新年光環，打造專屬的夢幻燈藝場景。隨著裝置緩慢轉動，在不同角度展現細膩光影變化，邀請觀眾在流動的光影中，感受童心、想像力與迎向新年的美好期待。每20分鐘展演一次。',
-        img: '../images/items/ximen_A1.jpg'
+        img: 'images/items/ximen_A1.jpg'
     },
     'ximen_A2': {
         title: 'A2  Twinkle Twinkle 星夢迎春',
         name: '泡泡瑪特設計團隊',
         type: '靜態展出',
         desc: '星星人以青花瓷為靈感，將幽藍紋飾與璀璨星芒交織於身，俏皮又勇敢無畏。這份古典與潮流的碰撞，是一場關於「遇見」的設計——6公尺米高的巨大星星人佇立於捷運站6號出口上方頂端，利用西門町特有的空間高度，將傳統文化的雅緻與潮流玩具的童趣結合，讓大家踏出捷運站的那一刻，便能感受滿天星光的感動。',
-        img: '../images/items/ximen_A2.jpg'
+        img: 'images/items/ximen_A2.jpg'
     },
     'ximen_A3': {
         title: 'A3  LABUBU 小馬歡騰',
         name: '泡泡瑪特設計團隊',
         type: '靜態展出',
         desc: 'LABUBU抱著精靈天團特別製作的小馬，在春節展現俏皮舞姿。這不僅是一場舞蹈，更是帶著童心勇敢向前奔騰的象徵。我們將這場舞蹈搬到了雲端之上。視覺主軸是一座巨大的粉紅色溜滑梯，滑梯的流暢的曲線從雲端延伸而下，取「溜」的諧音「六」，象徵2026年運勢「六六大順」。邀請大家揮別過去，感受純粹的快樂與希望。',
-        img: '../images/items/ximen_A3.jpg'
+        img: 'images/items/ximen_A3.jpg'
     },
     'ximen_A4': {
         title: 'A4  Hirono小野 馬上福到',
         name: '泡泡瑪特設計團隊',
         type: '靜態展出',
         desc: 'Hirono小野執鞭前行，他像是一盞在夜色中堅持閃耀的「倔強之光」，不論前路如何，都要將好運「馬上」送到大家手中。在熱鬧喧囂的燈會中，這組燈飾是城市裡的「情緒避風港」。Hirono小野背後環繞著金色流雲，燈組運用了綠色仿真竹林與暖黃色球形燈籠，營造出靜謐感。邀請大家在狂歡的節慶中停下腳步，與內心的自己進行一場寧靜對話。',
-        img: '../images/items/ximen_A4.jpg'
+        img: 'images/items/ximen_A4.jpg'
     },
     'ximen_A5': {
         title: 'A5  臺北雙面畫卷',
         name: '泡泡瑪特設計團隊',
         type: '靜態展出',
         desc: '台北是充滿魅力的城市，我們以「展開的卷軸」為舞台，象徵正在書寫的城市故事。透過雙面觀賞，呈現出台北的兩面，無論是誰都能在臺北這座城市裡，找到屬於自己的共鳴。<br><br>・SKULLPANDA 馭長風 Wind RiderSKULLPANDA以書法「馬」字為發想，用毛筆勾勒出飄逸灑脫的形象。<br>SKULLPANDA 化意為馬，在夕陽與寒雪間隨心而行。<br><br>・DIMOO 逐雲而行 Chasing the Clouds<br>DIMOO靜坐馬背，手執玉笛，燕影隨風穿梭，傳遞春回大地的訊息。<br><br>這座燈組以紅、金色調的雲朵營造出如夢似幻的氛圍，並運用剪紙風格呈現臺北盆地的山景，展現城市與自然的和諧共生。燈組設計結合了士林地標「臺北表演藝術中心」的球體元素，上方懸掛的「貓空纜車」在軌道上滑行，更還原了「大湖公園錦帶橋」的拱橋美學，而左側轉動的「兒童新樂園彩色摩天輪」則是臺北童心未泯的指標。',
-        img: '../images/items/ximen_A5.jpg'
+        img: 'images/items/ximen_A5.jpg'
     },
     'ximen_B1': {
         title: 'B1  馬上有錢',
         name: '松山慈惠堂設計團隊',
         type: '靜態展出',
         desc: '燈組以傳統燈籠工藝為創作核心，結合民俗吉祥寓意，傳遞新春納福、財運即來的祝福意象，造型以雙馬奔騰為主體，象徵財運迅速到位、「馬上」得財；聚財主體穩立其間，寓意財庫充盈、福氣匯聚。<br>整體運用溫暖光色與層次燈法，展現傳統燈藝的細緻線條與立體結構，在夜間營造祥瑞喜慶的節慶氛圍，透過熟悉的文化符號與燈光語言，讓民眾在燈節的城市場域中，感受祝福被看見、被點亮，也被溫暖地傳遞。',
-        img: '../images/items/ximen_B1.jpg'
+        img: 'images/items/ximen_B1.jpg'
     },
     'ximen_B2': {
         title: 'B2  遠東百貨・馬躍新春',
         name: '遠東百貨台北燈節設計團隊',
         type: '旋轉馬達結構輔以燈飾工程',
         desc: '在春節家族團聚、共享幸福的美好時刻，遠東百貨以象徵奔放、進取與希望的「馬」為核心意象，<br>創作六隻祝福寓意的吉祥馬，為新春揭開喜慶序幕，一同奔向幸福、豐收與美好的願景：<br><br>「永續活力馬」綠色環保護地球，永續生活向前跑。<br>「福氣歡喜馬」好事連連笑開懷，福氣歡喜一起來。<br>「豐衣足食馬」吃得好、買得巧，生活樣樣都剛好。<br>「平安吉利馬」出入平安、萬事順利，心安好福氣。<br>「智慧領航馬」智慧數位向前行，創新科技領先贏。<br>「招財進寶馬」財運到、好運來，年年錢財滾滾來。<br><br>遠東百貨傳遞新春心意，陪伴大家迎接嶄新一年，攜手邁向「永續創造美好生活」的品牌願景，共享璀璨未來。',
-        img: '../images/items/ximen_B2.jpg'
+        img: 'images/items/ximen_B2.jpg'
     },
     'ximen_B3': {
         title: 'B3  八駿揚蹄展鴻圖',
         name: '台北燈節設計團隊',
         type: '靜態展出',
         desc: '以奔騰向前的八駿馬為主視覺，象徵台新新光金控在穩健基礎上持續突破、開創新局。設計採對稱構圖，八匹駿馬環繞主體立柱揚蹄而出，展現團隊動能匯聚的力量感，而主體造型向上延伸，呼應台新新光金控長遠視野與持續成長的品牌精神。<br>燈組燈光以金紅色調為核心，透過點狀與流動光效交錯呈現，營造節慶喜氣與前進節奏，同時結合東方吉祥意涵傳達台新新光金控對民眾新春的祝福，也象徵台新新光金控將攜手民眾邁向嶄新、光明的未來。<br>台新新光金控以這份象徵希望與能量的作品，為民眾獻上滿滿的祝福，祈願大家在新的一年八方順遂、馬到成功！',
-        img: '../images/items/ximen_B3.jpg'
+        img: 'images/items/ximen_B3.jpg'
     },
     'ximen_B4': {
         title: 'B4  台北主場・奔龍而上',
         name: '味全龍 DRAGONS',
         type: '靜態展出',
         desc: '以「台北主場•奔龍而上」為核心概念，將職棒精神轉化為具代表性的城市燈會地標。作品以棒球選手昂首進場的瞬間為主視覺，象徵每一位站上主場的選手及市民，都是為榮耀而拚的主角。透過溫潤內發光的花燈工法，呈現熱血與親和並存的形象，邀請市民一起上場。整體設計呼應台北燈會「全民參與、城市共感」的節慶清神，讓球迷、家庭與遊客都能在光影中感受城市主場的凝聚力，共同創造屬於你我的榮耀時刻。',
-        img: '../images/items/ximen_B4_v2.jpg'
+        img: 'images/items/ximen_B4_v2.jpg'
     },
     'ximen_B5': {
         title: 'B5  台北好水',
         name: '台北燈節設計團隊',
         type: '靜態展出',
         desc: '北水處為展現臺北城共融特色，且考量不同年齡層使用者需求，設計時尚木紋造型TAIPEI WATER直飲台，讓民眾看到就知道有乾淨的水可飲用，每個字體都有不同的飲水體驗，營造不僅好玩、好看，更具有安心、友善的飲水環境，一起為生活減塑。為方便民眾使用直飲台，民眾掃描臺北好水直飲地圖QRcode，透過智慧手機即可輕鬆搜尋鄰近直飲台，讓市民朋友能夠暢飲好水、減少購買瓶裝水，環保愛地球！',
-        img: '../images/items/ximen_B5.jpg'
+        img: 'images/items/ximen_B5.jpg'
     },
     'ximen_B6': {
         title: 'B6  揮出夢想經典熊讚',
         name: '台北燈節設計團隊',
         type: '靜態展出',
         desc: '2026年即將再次迎來WBC世界棒球經典賽，由台北市吉祥物「熊讚」，身著中華隊球衣，手握球棒、英姿煥發，象徵全民一心為中華隊加油的熱情與凝聚力，打造結合運動激情與榮耀的特別款燈組，象徵追求勝利與榮耀的決心。整體設計融合了「燈節美學」與「體育精神」，讓民眾在台北燈節期間也能共同感受棒球經典賽的熱血與自豪，為中華隊加油！',
-        img: '../images/items/ximen_B6.jpg'
+        img: 'images/items/ximen_B6.jpg'
     },
     'ximen_B7': {
         title: 'B7  今馬熊讚',
@@ -414,126 +406,126 @@ const mapData = {
         name: '臺灣省城隍廟設計團隊',
         type: '靜態展出',
         desc: '臺灣省城隍廟秉持城隍爺愛民、與民同樂的初衷，於115年2月9日至3月31日期間，在武昌街1段(重慶南路至中華路1段路段)設置美麗的燈海隧道，於天棚式燈廊上方點綴璀璨的星光燈飾，營造夜間美感。115/2/26(四)、2/28(六)、3/3(二)、3/7(六)等4日在省城隍廟設置燈謎擂臺，歡迎大家攜家帶眷前來共襄盛舉。',
-        img: '../images/items/ximen_B8.jpg'
+        img: 'images/items/ximen_B8.jpg'
     },
     'ximen_B9': {
         title: 'B9  燈映昇福平安橋',
         name: '臺灣省城隍廟設計團隊',
         type: '靜態展出',
         desc: '平安橋源自民間信仰造橋過限科儀，旨在北斗七星神力加持，過橋度厄逢凶化吉運勢順遂。通常在春節、元霄或廟會慶典時舉辦，臺灣省城隍廟與台北市觀光傳播局，於台北燈節期間特別定製象徵平安幸福的燈橋，當民眾走過燈光爍爍的燈橋時，誠心祈願  省城隍爺昇福明靈王護祐災厄消除、平安順遂、前途光明、諸事圓滿、福氣相伴、閤眷安康、馬到成功、降大吉祥。',
-        img: '../images/items/ximen_B9.jpg'
+        img: 'images/items/ximen_B9.jpg'
     },
     'ximen_B10': {
         title: 'B10  響樂到中華',
         name: '',
         type: '',
         desc: '',
-        img: '../images/items/ximen_B10.jpg'
+        img: 'images/items/ximen_B10.jpg'
     },
     'ximen_B11': {
         title: 'B11  城市光譜',
         name: '徐于倫、舒次華',
         type: '靜態展出',
         desc: '以「光是臺北的節奏」為核心理念，將多層次拱形光環化為象徵臺北城市能量的動態光譜通道，整體造型取材自臺北的都會天際線、捷運路網與繁華夜景，並以變色光流呈現城市24 小時的律動。每一圈光環代表臺北的不同城市符號包括淡水河與基隆河的城市水脈、大安森林、陽明山與城市中的綠帶、西門町、東區、信義商圈的潮流能量、臺北夜景的霓虹文化與藝文場景，燈光會沿著拱形向前流動變色，如同捷運穿梭城區、河道水光律動、夜景霓虹閃爍，形成獨一無二的「臺北光脈」視覺語彙，當民眾行走其中，能感受到臺北城市脈動的變化，象徵城市不斷前進的生命力，更是對臺北多元文化、城市節奏與夜間魅力的沉浸式詮釋。',
-        img: '../images/items/ximen_B11.jpg'
+        img: 'images/items/ximen_B11.jpg'
     },
     'ximen_B12': {
         title: 'B12  城門之後',
         name: '鄧志權、吳宗益',
         type: '靜態展出+感應變化燈光',
         desc: '重現已被拆除的臺北府城西門 ——「寶成門」，於清朝完工，位處艋舺通往城內的交通要衝，原為分界與防禦之用的城門，如今轉化為開放與流動的象徵，呼應水運、商業與文化在此交會，又隨都市變遷而重組的過程。塑膠與竹的並置運用，對比全球化工業製品與在地自然材質，構築出一種跨時代、跨文化的空間語言，呈現傳統與當代、手工與工業、地方與全球的交會。我們所留下的，是對歷史的再想像，是對城市邊界的重新提問。當人們經過作品時，會使作品產生光譜色溫的變化，象徵民眾穿越時空，來到古城，又像是科幻片一般，讓空間產生不同層次的閱讀方式。',
-        img: '../images/items/ximen_B12.jpg'
+        img: 'images/items/ximen_B12.jpg'
     },
     'ximen_B13': {
         title: 'B13  Queen 女力星願',
         name: '聯利媒體股份有限公司',
         type: '靜態展出',
         desc: '本裝置以「女性力量與時尚魅力」為核心概念，結合精品禮盒、粉色光球與柔和曲線造型，象徵每一位女性都是值得被珍視的主角。透過層次光效與夢幻色彩，營造如星空般的浪漫氛圍，傳達自信、溫柔與勇敢並存的女力精神，邀請民眾走入燈光之中，感受屬於「她」的高光時刻，展現城市對多元與美好的祝福。',
-        img: '../images/items/ximen_B13.jpg'
+        img: 'images/items/ximen_B13.jpg'
     },
     'ximen_B14': {
         title: 'B14  食尚星光派對',
         name: '聯利媒體股份有限公司',
         type: '靜態展出',
         desc: '本裝置以「美食 × 音樂 × 星光舞台」為核心概念，結合星形燈構、吉他意象與可愛小馬，加上Q版表現的漢堡甜甜圈等美食視覺，象徵城市夜晚中最具魅力的食尚文化能量。透過明亮色彩與層次光效，打造如演唱會般的熱鬧氛圍，邀請民眾走入燈光舞台，感受味蕾與節奏交織的歡樂體驗，展現城市夜生活的活力與創意魅力。',
-        img: '../images/items/ximen_B14.jpg'
+        img: 'images/items/ximen_B14.jpg'
     },
     'ximen_B15': {
         title: 'B15  歡盛豐年讚財神',
         name: '聯利媒體股份有限公司',
         type: '靜態展出',
         desc: '燈組以臺北市吉祥物「熊讚」為主角，穿戴華麗的財神冠服，雙手虔誠捧握象徵財富的巨型金元寶，寓意新的一年招財進寶、萬象更新。「讚財神」象徵著「真實力量與豐盛生活的連結」。底座點綴象徵富貴的牡丹與閃耀星辰，也希望將 TVBS 致力於多元媒體管道傳遞希望與正能量的核心概念表現出來。這不僅是一尊財神，更象徵著「精彩生活，由我綻放」的媒體初衷，祝福全台觀眾與市民，在 2026 年能如熊讚雙眼展現出的星光般，眼界開闊、財源廣進。',
-        img: '../images/items/ximen_B15.jpg'
+        img: 'images/items/ximen_B15.jpg'
     },
     'ximen_B16': {
         title: 'B16  反界',
         name: 'hellobastworkshop',
         type: '靜態展出+感應互動',
         desc: '《反界》是一座融合鏡面結構與燈光語言的裝置藝術作品。整體造型為半開放式的橢圓形光之殼體，略呈拱形曲面，如同一個被橫向拉伸的圓柱體或膠囊狀的光影環室。外殼由多片鏡面不鏽鋼板組成，依流線型排列，圍繞中央核心，打造出極具包覆感、雕塑感與未來感的沉浸空間。從上方俯視，如同一座開放式的光之穹頂，充滿科技感與空間張力。<br>觀眾站在弧形內焦點位置，作品感應後將呈現不同光感變化；視覺上則呈現出萬花筒般的反射錯置效果，觀者的影像從不同角度同時浮現。作品邀請觀眾觀看世界的同時也回望自我，面對自身在數位與現實交錯之中的多重樣貌。',
-        img: '../images/items/ximen_B16.jpg'
+        img: 'images/items/ximen_B16.jpg'
     },
     'ximen_B17': {
         title: 'B17  燈波',
         name: '林芷彤',
         type: '靜態展出+感應變化燈光',
         desc: '燈籠在臺北歷史場景中擁有鮮明而深厚的文化意涵。此創作取材自大稻埕的百年燈籠老店，以其歷經世代傳承的職人工藝與人文故事為靈感根基，突破對傳統紙燈籠的既定印象，透過材質與光的重新詮釋，探索傳統意象在當代語境中的延伸可能，讓歷史記憶在現代設計中持續發光。<br>因此主體以玻璃透光材質構成，表現出虛實之間、懸浮不定的視覺語境。玻璃的透明與反射特性，使燈籠的輪廓在環境光中隨時間與視角變化，創造具動態性的觀看體驗。作品內部搭配七彩LED光源，透過程式控制，依照周遭環境音量切換燈光色彩與強度，呈現時間與文化記憶交錯的流動性。',
-        img: '../images/items/ximen_B17.jpg'
+        img: 'images/items/ximen_B17.jpg'
     },
     'ximen_B18': {
         title: 'B18  Sounds',
         name: '莫珊嵐',
         type: '靜態展出',
         desc: '透過一系列街燈，喚起了台灣的聲音景觀。這些燈柱以不同高度散佈在空間中，運用色彩繽紛的擬聲字，形象地呈現外國作者眼中台北的城市聲音。每個詞彙都視覺化地代表了一次聲響爆發、一次城市喧囂或是一個日常生活的片刻，捕捉出台北日常生活中的能量與多樣聲音。<br>此作品模糊了圖像與聲音之間的界線，其靈感來自漫畫、漫畫書和圖像小說的視覺語言，邀請觀眾想像這些視覺爆炸背後所隱含的聲音。這是一種既富玩味又詩意的方式，讓一個地方的聲音身分鮮活地呈現出來。',
-        img: '../images/items/ximen_B18.jpg'
+        img: 'images/items/ximen_B18.jpg'
     },
     'ximen_B19': {
         title: 'B19  J!NS小馬看視界',
         name: '睛姿臺北燈節設計團隊',
         type: '靜態展出',
         desc: '作品透過搖搖馬將童趣記憶轉化為一座能與城市對話的品牌燈組，設計靈感來自 JINS 對「視界」的重新定義——透過設計，讓人們重新看見生活中被忽略的美好細節，在熱鬧的台北燈節中形成一處輕鬆停留的風景。<br>燈光設計是本作品的靈魂，底部配置左右來回的流動燈效，創造出搖搖馬前後擺動的視覺感，使靜態裝置產生節奏感與生命力，希望透過光的律動，讓民眾在行走之間感受視覺被放大的瞬間，重新連結生活與感受。',
-        img: '../images/items/ximen_B19.jpg'
+        img: 'images/items/ximen_B19.jpg'
     },
     'ximen_B20': {
         title: 'B20  台北晝夜',
         name: '成如潔',
         type: '靜態展出',
         desc: '作品以日與月交融的雙圓造型為主軸，象徵台北 24 小時不停歇的城市能量，透過剪紙似的堆疊所形成的層次光影，呈現台北多元文化、歷史底蘊與生活風景。<br>正面以「白日台北」為主題，收錄中正紀念堂、國父紀念館、北門、總統府、紅樓、故宮等具代表性的地標建築象徵台北從傳統走向現代的歷史軌跡，也展現城市在陽光下清晰而自信的樣貌。<br>背面則轉換為「夜幕台北」，以貓空、陽明山海芋、杜鵑花等自然素材搭配小籠包、珍珠奶茶等人氣美食，體現台北夜生活的豐富與溫度。<br>《台北晝夜》是一幅以時間為筆，描繪台北獨特生命力的光影畫卷，呈現這座城市無論白晝或夜晚都同樣耀眼動人。',
-        img: '../images/items/ximen_B20.jpg'
+        img: 'images/items/ximen_B20.jpg'
     },
     'ximen_B21': {
         title: 'B21  奔向永續 生森不息',
         name: '富邦臺北燈節設計團隊',
         type: '民眾踏上跑道前行，腳下光能隨步伐光源由底部向上流動，逐一喚醒樹冠光瓣，最終點亮燈籠並產生柔和變色效果',
         desc: '以象徵成長與守護的光之樹為核心，作品以木材質結構呈現，樹冠由24片光瓣構成，代表一天24小時不間斷的守護與循環，呼應富邦金控及台灣大哥大對永續發展的長期承諾。<br>燈組結合跑步互動設計，當民眾踏上跑道前行，腳下光能隨步伐由底部向上流動，逐一喚醒樹冠光瓣，最終點亮燈籠並產生柔和變色效果，象徵行動帶動改變、能量持續傳遞。<br>作品透過時間、光與人的參與，形塑「全時運轉的永續未來」，展現富邦集團與城市共生、與環境共好的品牌願景。',
-        img: '../images/items/ximen_B21.jpg'
+        img: 'images/items/ximen_B21.jpg'
     },
     'ximen_B22': {
         title: 'B22  天后．祈福光橋',
         name: '台北天后宮及于容創意有限公司',
         type: '靜態展出',
         desc: '傳統文化信仰，創新設計製作，用台北天后宮媽祖信仰為核心意象，結合傳統「平安橋」與「鑽轎底」祈福文化，轉化為一座可行走、可體驗的祈福燈組。民眾循階而上，穿越橋體與轎底空間，象徵跨越關卡、消災解厄，在行進之間完成一場向天后祈願的儀式旅程。<br>整體燈光設計結合動態感應與色彩變化，隨著步伐流動、明暗轉換，彷彿媽祖庇佑之光一路相隨，傳遞安定與祝福的力量。透過傳統信仰與現代燈光藝術的融合，邀請民眾在光影之中祈願2026年一路長紅、平安順遂，讓祝福在城市夜色中持續流轉。',
-        img: '../images/items/ximen_B22_v2.jpg'
+        img: 'images/items/ximen_B22_v2.jpg'
     },
     'ximen_B23': {
         title: 'B23  金福氣',
         name: '台北燈節設計團隊',
         type: '靜態展出',
         desc: '以「福運自台北而生、向城市四方擴散」為設計理念，透過象徵迎賓門的東方結構與燈節的光影語彙，打造一座屬於台北的祝福之門，主體以傳統色框架象徵富足與繁榮，紅色燈籠則象徵節慶喜氣，兩者共同構築出台北在節慶氛圍中最具代表性的城市溫度。<br>作品設計屋簷採用層層向外延伸的造型，如同台北城市脈動：艋舺廟埕的屋脊、城門的形象皆隱含其中，象徵歷史與現代交會的城市輪廓，中央圓形主燈結合吉祥語和視覺設計，象徵城市核心精神的聚光點，將來自各地的福氣凝聚在此，再透過四方燈箱像光芒般向城市散播。願市民步入燈光之中時，感受幸福環繞、好運盈門。此外，開展期間作品周邊設有祈福卡活動，民眾寫下心願、掛上燈籠祈福牆，留下專屬心願。',
-        img: '../images/items/ximen_B23.jpg'
+        img: 'images/items/ximen_B23.jpg'
     },
     'ximen_B24': {
         title: 'B24  沅夜星語',
         name: '沅陵設計團隊',
         type: '靜態展出',
         desc: '以沅陵街-「鞋街」為靈感，將夜晚的街道轉化為一座承載夢想與想像的星空舞台。商圈吉祥物小沅寶（鸚鵡）如灰姑娘般，乘坐象徵希望與奇幻的南瓜車，穿梭於星光與雲層之間，展開一段屬於夜晚的童話旅程；與夢幻神馬佇立雲端，代表陪伴、守護與溫柔的情感連結。透過星空與層疊雲朵的視覺元素，營造靜謐而浪漫的夜間氛圍，讓熟悉的沅陵街在夜色中化為低聲呢喃故事的場域，邀請每一位走入街區的人，傾聽屬於夜晚的星語。',
-        img: '../images/items/ximen_B24.jpg'
+        img: 'images/items/ximen_B24.jpg'
     },
     'ximen_B25': {
         title: 'B25  金彩萬華 (萬華車站)',
         name: '台北燈節設計團隊',
         type: '靜態展出',
         desc: '以萬華在地文化為核心，將區域內的代表性地標與人文特色化為一盞盞象徵祝福的燈籠。運用金紅色系呈現喜慶與富足，寓意萬華長久以來蓬勃、多元又充滿生命力的街區精神。燈組中央以大幅燈籠群構成文化地圖，讓燈組不僅是一件視覺裝置，更像是一扇回望土地故事的窗口，喚起居民與遊客對艋舺文化的情感連結，讓萬華的街巷、人情、信仰與歷史再度亮起，用光彩說出屬於這個城市的深厚底蘊。',
-        img: '../images/items/ximen_B25.jpg'
+        img: 'images/items/ximen_B25.jpg'
     },
     'ximen_B26': {
         title: 'B26  光行小馬 (剝皮寮)',
@@ -686,428 +678,67 @@ const mapData = {
     },
 
 };
-
-
-/* --- 英文版資料庫 --- */
-const mapDataEn = {
-
-    // --- 西門展區的資料 ------------ //
-    'ximen_A1': {
-        title: 'A1  Baby Molly  Fortune Rolling in',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'Baby Molly appears in a playful rocking pose, symbolizing the arrival of good fortune and surprises, bringing abundant joy and blessings to everyone.\nThis blessing takes the form of a giant music box with Baby Molly at its heart, framed by a dynamic 360-degree setting. An LED New Year halo glows above, creating a dreamlike light art scene.\nAs the installation slowly rotates, the character reveals delicate shifts in light from different angles, inviting viewers to experience childlike wonder, imagination, and the joyful anticipation of the New Year through the flowing light.\nThe performance takes place every 20 minutes.',
-        img: '../images/items/ximen_A1.jpg'
-    },
-    'ximen_A2': {
-        title: 'A2  Twinkle Twinkle  Starry Arrival',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'Inspired by classic blue-and-white porcelain, Twinkle Twinkle blends deep blue patterns with shimmering starlight, capturing a spirit that is both playful and brave.\nThis collision of classical elegance and contemporary trends represents a design about “encounter.” Standing six meters tall above the top of MRT Ximen Station Exit 6, Twinkle Twinkle takes advantage of the area’s unique vertical space, blending the elegance of traditional culture with the playful charm of trendy toys, so that from the moment visitors step out of the station, they can feel the wonder of a sky full of starlight.',
-        img: '../images/items/ximen_A2.jpg'
-    },
-    'ximen_A3': {
-        title: 'A3  LABUBU Pony Dance',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'For LABUBU, the playful spirit of the season comes alive through a special pony created by the Elf Troupe exclusively for this performance. Holding the pony close, LABUBU performs a lively New Year dance, symbolizing not only joy, but also the courage to gallop forward with childlike innocence.\nThis cheerful scene is set high among the clouds. A giant pink slide forms the visual centerpiece, its smooth, flowing curves extending downward from the clouds, with a wordplay in Chinese, where the sound of the word “slide” echoes the number six, symbolizing “six-six smooth fortune” for 2026. Visitors are invited to wave goodbye to the past and follow the stream of light, experiencing pure happiness and hope as they move forward together within the glow of the lanterns.',
-        img: '../images/items/ximen_A3.jpg'
-    },
-    'ximen_A4': {
-        title: 'A4 Hirono Luck on the Way',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'Hirono takes the form of a Year-of-the-Horse lantern, moving forward with quiet determination. Like a stubborn yet glowing light in the night, Hirono carries the message that good fortune will arrive—delivered “immediately,” no matter how the road ahead unfolds.\nAmid the lively festival atmosphere, this lantern becomes an emotional haven within the city. Golden flowing clouds encircle Hirono from behind, while green simulated bamboo groves and warm yellow spherical lanterns are used to create a tranquil atmosphere. Visitors are invited to pause amid the festive revelry and enter into a quiet dialogue with their inner selves.',
-        img: '../images/items/ximen_A4.jpg'
-    },
-    'ximen_A5': {
-        title: 'A5 Taipei: A Dual-Sided Scroll',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'Taipei is a city rich in charm. Set upon an unfolding scroll, the installation symbolizes an urban story that continues to be written. Designed for viewing from both sides, it reveals two facets of Taipei, inviting audiences to experience the city through different rhythms and sensibilities. No matter which frequency you resonate with, you can always find your own rhythm and sense of belonging in the city of Taipei.\nSKULLPANDA Wind Rider draws inspiration from the calligraphic form of the Chinese character for “horse,” using brushstroke-like flowing lines to express freedom and elegance. SKULLPANDA embodies the spirit of the horse itself, traveling effortlessly between glowing sunsets and drifting winter snow, moving with instinct and ease.\nDIMOO sits quietly atop a horse, holding a jade flute as swallow silhouettes weave through the breeze, delivering the message of spring’s return.\nThe work\'s architectural elements are mainly inspired by the Taipei Performing Arts Center, Maokong Gondola, Dahu Park’s Jindai Bridge, Taipei Children’s Amusement Park. Layered, paper-cut-style mountains form the backdrop, expressing the harmony between Taipei’s urban landscape and its natural environment, while red and gold clouds create a dreamlike atmosphere.',
-        img: '../images/items/ximen_A5.jpg'
-    },
-    'ximen_B1': {
-        title: 'B1  Instant Fortune',
-        name: ' Songshan Cihui Temple Design Team',
-        type: 'Static display',
-        desc: 'Design Unit | Songshan Cihui Temple Design Team\nCentered on traditional lantern craftsmanship and folk auspicious symbolism, this installation conveys blessings of prosperity and immediate fortune for the New Year. The form features two galloping horses as the main motif, symbolizing wealth arriving swiftly and fortune gained “at once.” A central treasure form stands firmly between them, representing full coffers and gathered blessings.',
-        img: '../images/items/ximen_B1.jpg'
-    },
-    'ximen_B2': {
-        title: 'B2  Far Eastern Department Stores - Galloping into the New Spring',
-        name: 'Far Eastern Department Stores Taipei Lantern Festival Design Team',
-        type: '',
-        desc: 'During the Lunar New Year, a season of family reunions and shared joy, Far Eastern Department Stores presents the horse as a symbol of freedom, ambition, and hope.\nSix auspicious horses, each carrying a unique blessing, usher in the festive spirit of the New Year and race together toward happiness, abundance, and a brighter future:\n“The Sustainable Vitality Horse”: Green living and environmental care, running forward toward a sustainable future.\n“The Joyful Fortune Horse”: Good news keeps coming, smiles grow wider, happiness and luck arrive together.\n“The Abundance Horse”: Eating well, shopping smart, and enjoying a life that feels just right.\n“The Peace and Prosperity Horse”: Safe travels, smooth days, and a heart at ease filled with blessings.\n“The Wisdom Navigator Horse”: Digital intelligence leading the way, innovation and technology at the forefront.\n“The Wealth Bringer Horse”: Fortune arrives, luck follows, prosperity flowing year after year.\nFar Eastern Department Stores shares its New Year wishes with everyone, walking alongside the public into a brand new year\nand advancing together toward its vision of “creating a better life through sustainability,” while embracing a brilliant future ahead.',
-        img: '../images/items/ximen_B2.jpg'
-    },
-    'ximen_B3': {
-        title: 'B3  Eight Steeds Charging Forward toward a Grand Future',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'Centering on eight galloping steeds, the visual symbolizes Taishin Shinkong Financial Holding\'s drive to break new ground from a foundation of stability. Through a symmetrical design, the eight horses leap from a central pillar, embodying the collective power and synergy of the team. The upward-reaching structure mirrors our long-term vision and unwavering commitment to growth.\nBathed in festive gold and crimson, the rhythmic lighting blends Eastern auspiciousness with a sense of forward motion. This work conveys our blessings for the New Year, symbolizing a shared journey toward a bright and prosperous future. We wish you unhindered success and triumph in every endeavor!',
-        img: '../images/items/ximen_B3.jpg'
-    },
-    'ximen_B4': {
-        title: 'B4  Taipei Home Field, Dragon Charging Forward',
-        name: ' Ting Hsin Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'We are Dragons! Red Pride. City Ride.\nBuilt around the core concept of “Red Pride. City Ride. ” this installation transforms the spirit of professional baseball into an iconic lantern landmark for the city. \nThe main visual captures the moment a player strides proudly onto the field, symbolizing that every athlete and every citizen stepping onto their home ground is a central figure striving for glory.\nUsing warm, internally illuminated lantern craftsmanship, the work balances passion with approachability, inviting everyone to step onto the field together.\nThe overall design echoes the Taipei Lantern Festival’s spirit of “citywide participation and shared experience,” allowing fans, families, and visitors to feel the unity of the city’s home field through light and shadow, and to create moments of shared glory together.',
-        img: '../images/items/ximen_B4_v2.jpg'
-    },
-    'ximen_B5': {
-        title: 'B5  Taipei Water',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'To highlight Taipei’s inclusive urban character and meet the needs of users of different age groups, the Taipei Water Department designed a stylish, wood grain TAIPEI WATER direct drinking station. Its clear visual identity lets people instantly recognize a source of clean drinking water. Each letter offers a slightly different drinking experience, creating an environment that is not only fun and visually appealing, but also safe, friendly, and reassuring, while encouraging plastic reduction in daily life. For easier access, visitors can scan the Taipei Water Direct Drinking Map QR code with their smartphones to quickly locate nearby drinking stations. This helps residents and visitors to enjoy clean water anytime, reduce the purchase of bottled water, and helps protect the environment. ',
-        img: '../images/items/ximen_B5.jpg'
-    },
-    'ximen_B6': {
-        title: 'B6  Home Run for Dreams',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'With the World Baseball Classic returning in 2026, Taipei’s mascot Bravo the Bear appears wearing the team uniform, bat in hand and full of heroic spirit. The design symbolizes the collective passion and unity of fans cheering for Team Chinese Taipei. This special lantern installation combines athletic excitement with a sense of honor, representing determination in the pursuit of victory and glory. Blending Lantern Festival aesthetics with the spirit of sports, it allows visitors to share in the pride and excitement of the baseball classic during the Taipei Lantern Festival. Let’s cheer together for the our team.',
-        img: '../images/items/ximen_B6.jpg'
-    },
-    'ximen_B7': {
-        title: 'B7  Taipei Bravo',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'Taipei’s mascot Bravo the Bear shines with a special “leading the charge” gaze created exclusively for the Year of the Horse. To celebrate the New Year and invite joyful photo moments, Bravo also appears in festive new attire known as “Today’s Horse Bravo,” sending wishes of positive energy, joyful living, and a bright start to the year.',
-        img: ''
-    },
-    'ximen_B8': {
-        title: 'B8  City God Sea of Lights Tunnel ',
-        name: 'Taiwan Provincial City God Temple Design Team',
-        type: 'Static display',
-        desc: 'Upholding the City God’s spirit of caring for the people and celebrating together with the community, the Taiwan Provincial City God Temple will present a beautiful tunnel of lights from February 9 to March 31, 2026, along Section 1 of Wuchang Street (from Chongqing South Road to Section 1 of Zhonghua Road). A canopy-style light corridor adorned with dazzling star-like fixtures will illuminate the street, creating a captivating nighttime atmosphere.\nOn February 26 (Thu), February 28 (Sat), March 3 (Tue), and March 7 (Sat), a traditional lantern riddle stage will be set up at the temple. Families are warmly invited to participate and celebrate together.',
-        img: '../images/items/ximen_B8.jpg'
-    },
-    'ximen_B9': {
-        title: 'B9  City God’s Rising Blessings Peace Bridge',
-        name: 'Taiwan Provincial City God Temple Design Team',
-        type: 'Static display',
-        desc: 'The Peace Bridge originates from the traditional bridge-crossing ceremony folk ritual, invoking the protective power of the Big Dipper to dispel misfortune and ensure good fortune ahead.\nCommonly held during Lunar New Year, Lantern Festival, or temple celebrations, the Taiwan Provincial City God Temple, in collaboration with the Department of Information and Tourism, has specially created a symbolic illuminated bridge for the Taipei Lantern Festival. As visitors walk across the shimmering bridge of lights, they may offer sincere prayers to the City God for protection from disaster, safety and well-being, bright prospects, fulfillment in all endeavors, blessings for the whole family, swift success, and great auspicious fortune.',
-        img: '../images/items/ximen_B9.jpg'
-    },
-    'ximen_B10': {
-        title: 'B10  響樂到中華',
-        name: '',
-        type: '',
-        desc: '',
-        img: '../images/items/ximen_B10.jpg'
-    },
-    'ximen_B11': {
-        title: 'B11  City Spectrum',
-        name: 'Hsu Yu-lun, Shu Tzu-hua',
-        type: 'Static display',
-        desc: 'With the core idea that light is the rhythm of Taipei, this work transforms layered arched rings of light into a dynamic passage that symbolizes the city’s energy spectrum. The overall form draws inspiration from Taipei’s urban skyline. Set against the seasonal backdrop of Lunar New Year, the surface is finished in gold and red, colors associated with auspiciousness and blessing. Gold represents Taipei’s historical textures and cultural depth, while red conveys the energy, warmth, and emotional intensity of the festive season. As visitors walk through the installation, they experience the shifting pulse of the city, symbolizing its continuous vitality and forward momentum. The work offers an immersive interpretation of Taipei’s multicultural character, urban rhythm, and nighttime charm.',
-        img: '../images/items/ximen_B11.jpg'
-    },
-    'ximen_B12': {
-        title: 'B12  Residual Light Beyond the Gate',
-        name: 'Chih-Chuan, Teng, \nWu Tsung-yi',
-        type: 'Static display with sensor activated lighting variations',
-        desc: 'Installed along Zhonghua Road in Ximending, this work reconstructs the long demolished West Gate of Taipei City, once known as Baocheng Gate(寶成門). Originally a structure of defense and division, the gate is reimagined as a symbol of openness and flow, reflecting how water transport, commerce, and culture once converged here and evolved with the city. Recycled plastics and bamboo are placed side by side, contrasting global industrial materials with local natural elements. The result is a cross era, cross cultural spatial language where tradition meets the contemporary, craftsmanship meets industry, and the local connects with the global.',
-        img: '../images/items/ximen_B12.jpg'
-    },
-    'ximen_B13': {
-        title: 'B13 Queen - A Star Wish of Female Power',
-        name: 'TVBS Media Inc.',
-        type: 'Static display',
-        desc: 'This installation centers on the theme of “female strength and fashion appeal.” Luxury gift box imagery, pink glowing orbs, and softly curved forms come together to express the idea that every woman is a leading character worthy of appreciation. With layered lighting and dreamlike colors, the work creates a romantic, starry sky atmosphere that conveys confidence, gentleness, and courage existing side by side. Visitors are invited to step into the light and experience a shining moment that belongs to “her,” while the city extends its blessings for diversity and beauty.',
-        img: '../images/items/ximen_B13.jpg'
-    },
-    'ximen_B14': {
-        title: 'B14  Gourmet Starlight Party',
-        name: 'TVBS Media Inc.',
-        type: 'Static display',
-        desc: 'This installation is built around the core concept of “food × music × a starlit stage.” It brings together star shaped lighting structures, guitar inspired elements, and an adorable pony, along with cute, stylized visuals of burgers, donuts, and other foods. Together, these elements symbolize the vibrant energy of urban food and lifestyle culture at night. Through bright colors and layered lighting effects, the work creates a lively, concert-like atmosphere that invites visitors to step onto a luminous stage. Here, flavors and rhythms intertwine, offering a joyful sensory experience while showcasing the vitality and creative charm of the city’s nightlife.',
-        img: '../images/items/ximen_B14.jpg'
-    },
-    'ximen_B15': {
-        title: 'B15  Prosperous Harvest, Praise to the God of Wealth Bravo',
-        name: 'TVBS Media Inc.',
-        type: 'Static display',
-        desc: 'This lantern installation features Taipei City’s mascot, Bravo the Bear, as its central figure. Dressed in an ornate God of Wealth crown and robe, Bravo holds a massive golden ingot with both hands in a gesture of reverence, symbolizing prosperity, renewed fortune, and abundance in the coming year.\nThe “God of Wealth Bravo” represents the “connection between genuine strength and a life of abundance.” The base is adorned with peonies, symbols of wealth and honor, and sparkling stars, while also expressing TVBS’s core vision of delivering hope and positive energy through diverse media platforms. This work is not merely a depiction of the God of Wealth. It also embodies the media philosophy of “a brilliant life, blooming from within,” and offers blessings to audiences and citizens across Taiwan. In 2026, may everyone enjoy broader horizons and growing prosperity, just like the starlight shining in Bravo the Bear’s eyes.',
-        img: '../images/items/ximen_B15.jpg'
-    },
-    'ximen_B16': {
-        title: 'B16  Focal',
-        name: 'hellobastworkshop',
-        type: 'Static display with sensor activated lighting variations',
-        desc: 'This installation art piece merges mirrored structures with a language of light. The overall form is a semi open elliptical shell of light with a gently arched surface, resembling a horizontally stretched cylinder or capsule shaped chamber. The exterior consists of multiple mirrored stainless steel panels. When visitors stand at the focal point inside, their reflections multiply like a kaleidoscope. At night, sound responsive interaction allows the mirrored LEDs to shift and transform, conveying a deeper reflection on identity, reality, and change in contemporary society.',
-        img: '../images/items/ximen_B16.jpg'
-    },
-    'ximen_B17': {
-        title: 'B17  Undulating Light',
-        name: 'Lin Zhi-tong',
-        type: 'Static display with sensor activated lighting variations',
-        desc: 'Lanterns hold a vivid and deeply rooted cultural significance within Taipei’s historical landscape. This work draws inspiration from century-old lantern workshops in Dadaocheng, grounding itself in the craftsmanship passed down through generations and the human stories carried with it. By moving beyond the established image of traditional paper lanterns, the piece reinterprets material and light to explore how traditional imagery can extend and transform within a contemporary context, allowing historical memory to continue shining through modern design.\nThe main structure is composed of translucent glass materials, creating a visual state that hovers between presence and absence, as if suspended and unstable. Integrated sensor devices respond to ambient sound, altering the brightness of the work in real time and creating a dynamic viewing experience that shifts with its surroundings.',
-        img: '../images/items/ximen_B17.jpg'
-    },
-    'ximen_B18': {
-        title: 'B18  Sounds',
-        name: 'Margot Guillemot',
-        type: 'Static display',
-        desc: 'Through a series of streetlights, this installation brings Taipei’s soundscape to life. Light poles of varying heights are scattered throughout the space, each displaying colorful onomatopoeic words that visually capture the sounds of the city. Every word represents a burst of noise, a moment of urban bustle, or a fleeting everyday scene, revealing the energy and diversity of daily life in Taiwan.\nThis work blurs the boundary between image and sound, inviting viewers to imagine the sounds concealed behind these visual “explosions.” In a manner that is both playful and poetic, it brings a place’s sonic identity vividly to life.',
-        img: '../images/items/ximen_B18.jpg'
-    },
-    'ximen_B19': {
-        title: 'B19 JINS Rocking Horse Sees the World',
-        name: 'JINS Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'This work transforms childhood memories of a rocking horse into a brand lantern installation that dialogues with the city. Inspired by JINS’s redefinition of “vision,” the design invites people to rediscover overlooked beauty in everyday life, creating a relaxed pause within the lively Taipei Lantern Festival.\nLighting design is the soul of the piece. Flowing light effects move left and right along the base, creating the illusion of the rocking horse swaying back and forth. This rhythmic lighting gives the static form a sense of motion and vitality. Through the pulse of light, visitors are encouraged to feel moments of heightened perception and reconnect with their senses and daily experiences.',
-        img: '../images/items/ximen_B19.jpg'
-    },
-    'ximen_B20': {
-        title: 'B20  Taipei in Light',
-        name: 'Cheng Ju-chieh',
-        type: 'Static display',
-        desc: 'Centered on a twin circular form where the sun and moon converge, this work employs layered paper cutting techniques to build rich strata of light and shadow, revealing Taipei’s culture, historical depth, and everyday scenery. The front presents “Daytime Taipei,” featuring iconic landmarks such as the National Dr. Sun Yat-sen Memorial Hall, The Red House, and the National Palace Museum, symbolizing the city’s journey from tradition toward modernity. The reverse shifts to “Nightfall Taipei,” combining natural elements like Maokong, Yangmingshan calla lilies, and azaleas with beloved local foods such as xiaolongbao and bubble tea, conveying the warmth and vitality of Taipei’s nightlife. Created in collaboration with Songshan Ciyou Temple, the work highlights Taipei’s distinctive energy and historical character in a radiant display.',
-        img: '../images/items/ximen_B20.jpg'
-    },
-    'ximen_B21': {
-        title: 'B21  Running Toward Sustainability, Life in Continuous Growth',
-        name: 'Fubon Taipei Lantern Festival Design Team',
-        type: '',
-        desc: 'Centered on a luminous tree that symbolizes growth and protection, this work features a wooden structure with a canopy formed by 24 light petals, representing 24 hours of continuous care and renewal. It echoes the long term commitment of Fubon Financial Holding and Taiwan Mobile to sustainable development.\nThe installation incorporates a running interaction. As visitors move along the track, light energy flows upward from the ground with each step, gradually illuminating the canopy petals. At the final point, lanterns glow and shift into gentle color changes, symbolizing how action drives change and how energy continues to circulate.\nThrough time, light, and human participation, the work envisions a sustainability driven future in constant operation, expressing the Fubon Group’s vision of coexistence with the city and harmony with the environment.',
-        img: '../images/items/ximen_B21.jpg'
-    },
-    'ximen_B22': {
-        title: 'B22  The Empress of Heaven and the Bridge of Blessings',
-        name: 'Taipei Tianhou Temple & YOUGO creative',
-        type: 'Static display',
-        desc: 'Centered on Mazu, the Empress of Heaven, and Taipei Tianhou Temple, the work presents traditional Taiwanese folk beliefs through innovative design. It combines the Peace Bridge and the blessing ritual known as “crawling beneath the palanquin,” making it not only a purely visual display but also an immersive,walkable experience. Visitors can step onto the bridge and walk through the space between the bridge and the palanquin. This act symbolizes a person crossing the threshold of difficulty, warding off misfortune, and completing the prayer to Mazu. As visitors walk across the bridge, responsive lighting flows and shifts with each step, creating an ever-changing interplay of light and shadow.\nThe dynamic illumination feels like Mazu’s divine light shining upon those who pass through, surrounding them with warmth, reassurance, and hope. Through the fusion of traditional beliefs and contemporary light art, the work invites visitors to make wishes amid light and shadow for a prosperous and peaceful year in 2026, so that all blessings may shine as brightly as this work in the city.',
-        img: '../images/items/ximen_B22_v2.jpg'
-    },
-    'ximen_B23': {
-        title: 'B23  Golden Luck Pavilion',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'Guided by the concept that blessings are born in Taipei and radiate outward across the city, this work uses an Eastern style gateway structure and the visual language of lantern light to create a ceremonial gate of blessings unique to Taipei. The main structure features traditional color framing that symbolizes prosperity and abundance, while red lanterns evoke festive joy. Together, they form a vivid expression of Taipei’s warmth during the Lantern Festival. At the center, auspicious phrases serve as a focal point representing the city’s core spirit, gathering good fortune from all directions and dispersing it outward through surrounding light boxes like beams of light. As visitors walk through the illuminated space, they are immersed in a sense of happiness and welcomed by good fortune.During the exhibition period, a wishing card activity will be held near the installation area. Visitors may write down their wishes and hang them on the lantern prayer wall, leaving behind their own heartfelt blessings.',
-        img: '../images/items/ximen_B23.jpg'
-    },
-    'ximen_B24': {
-        title: 'B24  Star Whispers of Yuan Night',
-        name: 'Yuanling Design Team',
-        type: 'Static display',
-        desc: 'Inspired by the famed “Shoe Street”, Yuanling Street, this installation transforms the nighttime street into a starlit stage of dreams and imagination. The district mascot Little Yuanbao (a parrot) appears like Cinderella, riding in a pumpkin carriage symbolizing hope and fantasy, traveling between starlight and drifting clouds on a fairytale nighttime journey. Beside a dreamlike celestial steed standing among the clouds, the scene represents companionship, protection, and gentle emotional connection.\nThrough layered clouds and expansive starry visuals, the work creates a serene and romantic nocturnal atmosphere. The familiar Yuanling Street becomes a softly whispering storyscape after dark, inviting visitors to pause and listen to the whispers of the stars.',
-        img: '../images/items/ximen_B24.jpg'
-    },
-    'ximen_B25': {
-        title: 'B25  Radiant Wanhua',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'Rooted in Wanhua’s local culture, this installation transforms the district’s iconic landmarks and cultural stories into lanterns that symbolize blessings. Rendered in gold and red tones, the work conveys festivity and abundance, reflecting Wanhua’s long standing spirit as a vibrant, diverse, and life filled neighborhood. At the center, a large cluster of lanterns forms a cultural map, turning the installation into more than a visual display. It becomes a window that looks back on the land’s stories, awakening emotional connections to Monga culture for residents and visitors alike. Through light, Wanhua’s streets, people, faith, and history are illuminated once more, expressing the city’s profound cultural depth.',
-        img: '../images/items/ximen_B25.jpg'
-    },
-    'ximen_B26': {
-        title: 'B26  光行小馬 (剝皮寮)',
-        name: '',
-        type: 'Static display',
-        desc: '',
-        img: '../images/items/ximen_B26.jpg'
-    },
-
-    // --- 花博展區的資料 ------------ //
-    'expo_A1': {
-        title: 'A1 Optimus Prime',
-        name: 'Transformers Design Team',
-        type: 'Static display',
-        desc: 'This lantern installation features Optimus Prime, the noble leader of Autobots, as the central figure. The 10 meters tall installation is featured as the main lantern with futuristic lighting design. Layered mechanical details and dynamic illumination present a bold vision of futuristic tech aesthetic, marking the opening of Taipei Lantern Festival’s most iconic chapter of tech-driven light and shadow.\nThe light show is presented every 30 minutes.',
-        img: '../images/items/expo_A1.jpg'
-    },
-    'expo_A2': {
-        title: 'A2 Bumblebee',
-        name: 'Transformers Design Team',
-        type: 'Static display',
-        desc: 'Inspired by Bumblebee’s agile and dynamic personality, this lantern set features an Infinity Mirror background that creates a tunnel of reflections that appear to recede into an endless space. The flat base transforms into tunnel with infinite depth , symbolizing speed, traversal, and infinite possibilities.',
-        img: '../images/items/expo_A2.jpg'
-    },
-    'expo_A3': {
-        title: 'A3  Megatron',
-        name: 'Transformers Design Team',
-        type: 'Static display',
-        desc: 'This lantern set captures the dramatic moment of Megatron emerging through a time-space portal. The circular structure combined with blue lighting creates a powerful, futuristic atmosphere. The central lightboxcreates a cinematic moment of energy convergence and spatial rupture. Megatron emerges from the portal wielding his fusion cannon, radiating an overwhelming and intimidating presence. This powerful moment transforms the entire lantern installation into a commanding visual focal point—one that embodies immense power, dramatic tension, and cinematic impact.',
-        img: '../images/items/expo_A3.jpg'
-    },
-    'expo_A4': {
-        title: 'A4  Optimus Prime vs Megatron',
-        name: 'Transformers Design Team',
-        type: 'Static display',
-        desc: 'This installation recreates showdown game interface of Autobots and Deceptions on a large-scale arcade game device. Instead of digital screen, it uses layered films and LED sequence controls to recreate classic 8-bit visual effects through lightbox. It showcases the lantern festival’s diverse characters, blending creativity, technology and sense of play',
-        img: '../images/items/expo_A4.jpg'
-    },
-    'expo_B1': {
-        title: 'B1 Yuanshan Memories',
-        name: 'Hsu Yu-lun',
-        type: 'Static display',
-        desc: 'Shaped like a giant soccer ball, this lantern installation recalls the history of Zhongshan Soccer Stadium and transforms it into a vessel of collective memory. Faceted light structures cut into the sphere create a glowing container for stories. From different angles, visitors discover cultural symbols of Yuanshan, including Grandpa Elephant from the former Taipei Zoo, the iconic Grand Hotel, the floral landscapes of Taipei Expo Park, and the beloved Children’s Amusement Park. Together, these memories form a lasting urban imprint that brings Yuanshan’s past into the present.',
-        img: '../images/items/expo_B1.jpg'
-    },
-    'expo_B2': {
-        title: 'B2  Gymnastics Baron',
-        name: 'Chang Yu-chia',
-        type: 'Static display',
-        desc: 'The artist’s signature character, Gymnastics Baron, appears as a futuristic astronaut who lands in Taipei Expo Park and gazes at the stars. He represents the act of absorbing the city’s trend-forward energy and carrying it back into outer space, symbolizing the fusion of technology, art, landscape, and pop culture.\nWith a posture that feels half-resting and half-observing, the work echoes the rhythm of nearby Songshan Airport, where departures and arrivals, separations and reunions, happen daily. Through stillness, the piece responds to this constant motion, giving people a rare chance to pause and look up at the sky.',
-        img: '../images/items/expo_B2.jpg'
-    },
-    'expo_B3': {
-        title: 'B3  Serenity Flora Realm',
-        name: 'Chen Kai-wei',
-        type: 'Interactive display',
-        desc: 'Inspired by Taipei’s iconic flowers, this immersive light garden invites visitors to slow down, linger, and unwind. Drawing from azaleas, calla lilies, and roses, the installation reimagines blooming forms through fiber optics and translucent materials. Soft pink, elegant white, and gentle purple light reveal the delicate layers of spring in bloom, symbolizing vitality and romance within the city. Designed as a peaceful pause amid busy urban life, the garden offers a quiet space to rest and experience the soothing power of light. Created in collaboration with Taipei Xia-Hai City God Temple, the work incorporates red threads that symbolize harmonious relationships and destined love, extending blessings and protection from the City God and his consort to every visitor.\nSit down the chair and watch the lights respond.',
-        img: '../images/items/expo_B3.jpg'
-    },
-    'expo_B4': {
-        title: 'B4  Forest Light Pathway',
-        name: 'Hsu Chih-ming',
-        type: 'Static display',
-        desc: 'Inspired by the twilight cloud bands of Yangmingshan, the installation visualizes the quiet “breath” between earth and sky. The afterglow of sunset becomes swirling strands of cloud, like mountain mist rising at dusk, expressing a life force that is calm yet continuously pulsing. Flowing lines drawn from the Tamsui River gather gently from afar, extending toward the outer ring of the work like forest pathways that lead visitors into its energetic core. Colors and movement unfold in a balanced, breathing rhythm. Through step triggered sensing and gradual tempo shifts, light and motion respond to the presence of visitors, creating a shared, empathetic experience where people and light move together.',
-        img: '../images/items/expo_B4.jpg'
-    },
-    'expo_B5': {
-        title: 'B5  Fountain of Life ',
-        name: 'Hsu Yu-lun, Shu Tzu-hua',
-        type: 'Static display with scheduled lighting transitions',
-        desc: 'Trees serve as one of the purest symbols of life. Using an on-site tree trunk as its core, this work channels rising streams of luminous energy from the earth upward, spreading along branching veins like a steady pulse. The expanding light network conveys continuous vitality flowing outward. When illuminated at night, the tree transforms into a living body of light, gentle yet powerful, guiding visitors to sense nature’s breath through shifting shadows. “Fountain of Life” expresses the philosophy of birth, circulation, and growth, reminding us that the source of life is never far away, continuously unfolding through every flow of energy, and inviting us to rediscover nature’s power and the inherent beauty of life through light and shadow.\nThe installation presents a light show every 15 minutes.',
-        img: '../images/items/expo_B5.jpg'
-    },
-    'expo_B6': {
-        title: 'B6 Gate of Light',
-        name: 'Hsu Chih-ming',
-        type: 'Static display',
-        desc: 'Centering on Taipei’s cultural identity, the artist transforms forests, night skies, and iconic architecture into visual expressions of energy. Taipei 101 stands as a pillar of technological and future-oriented power. Taipei Performing Arts Center acts as an engine of imagination, driving creative energy outward. The archway of National Chiang Kai-shek Memorial Hall embodies shared civic values, while The Grand Hotel resembles a cultural sanctuary, quietly watching over the city. Together, these elements form a symbolic Gate of Light for Taipei, representing the meeting of nature and civilization and guiding viewers across boundaries of history, civilization, space, and the natural world.',
-        img: '../images/items/expo_B6.jpg'
-    },
-    'expo_B7': {
-        title: 'B7  Blooming Galaxy',
-        name: 'Chen Kai-wei',
-        type: 'Static display with scheduled lighting transitions',
-        desc: 'Blending fantasy ecology with cosmic imagination, this installation merges floral forms, light, and extraterrestrial elements to create a lifeform that feels as if it has descended from the stars. A blooming bouquet forms the core, surrounded by surreal and unknown lifeforms, symbolizing endless energy of life. A UFO infused with cosmic power crowns the piece, serving as a visual focal point that amplifies the sense of awakening and expansion. Soft pink-blue hues and dreamy purples flow like a galaxy, giving the installation a warm yet mysterious nighttime presence. The work invites viewers to step beyond everyday perspectives and see how life continues to grow vibrantly, even in a fast-changing world.\nThe installation presents a light show every 15 minutes.',
-        img: '../images/items/expo_B7.jpg'
-    },
-    'expo_B8': {
-        title: 'B8  Base',
-        name: 'Chiu Chieh-sen',
-        type: 'Static display',
-        desc: 'This work constructs a luminous urban illusion. Drawing on humanity’s archetypal image of the “tower”, tied to belief, power, memory, and belonging, it reinterprets the form through contemporary industrial materials and digital lighting. The result is a city symbol that exists between reality and fiction. No longer a monument of authority, the structure becomes a space to walk through, observe, and be enveloped by light. As visitors move within it, the city’s order, rhythm, and sensory experience are redefined. The tower becomes a microcosm of Taipei, a memory container built with steel as its bones and light as its language.',
-        img: '../images/items/expo_B8.jpg'
-    },
-    'expo_B9': {
-        title: 'B9  SPACE TAIPEI',
-        name: 'Margot Guillemot',
-        type: 'Static display with scheduled lighting transitions',
-        desc: 'Using paper airplanes as a symbol of Taipei’s imagination for the future, this installation traces three-dimensional flight paths made of light, expressing the city’s readiness to take off and break new ground. Multiple glowing paper planes, set at different heights and angles, appear poised to lift off from the grass, inviting visitors into a journey of dreams, technology, and the future.\nAt night, the light draws invisible air routes in the sky. Each plane feels like a future plan coming to life, pointing toward a broader vision of the city. The work reminds us that no matter how times change, Taipei remains a city that carries dreams forward.\nThe installation presents a light show every 10 minutes.',
-        img: '../images/items/expo_B9.jpg'
-    },
-    'expo_B10': {
-        title: 'B10  The Circle of Seasons',
-        name: 'Margot Guillemot',
-        type: 'Static display +Breathing light effects',
-        desc: 'This circular installation blends Taipei’s natural landscape with its urban character, creating a symbolic miniature world. Shifting light colors echo the changing seasons - spring blossoms, summer abundance, autumn vibrance, and winter calm - forming a poetic window into the city’s climate cycle.\nIn Taipei, it is common to travel from bustling city streets to forested hills within minutes along the same commute. This seamless transition between nature and city life lies at the heart of the work. Created in collaboration with Songshan Ciyou Temple, the piece hopes to help visitors find inner peace between urban living and natural experience.',
-        img: '../images/items/expo_B10.jpg'
-    },
-    'expo_B11': {
-        title: 'B11  TreeLink',
-        name: 'Chen Kai-wei',
-        type: 'Static display with scheduled lighting transitions',
-        desc: 'Inspired by Taipei’s lush greenery and its most iconic banyan trees, a powerful symbol of life in the city’s streetscape, this lantern transforms the banyan into a geometric “Tree of Light” that speaks to the world. It represents Taipei’s openness and spirit of exchange as an international city. Light boxes embedded in the tree feature cultural symbols, signature imagery, and representative colors from Taipei and its sister cities, symbolizing cultural dialogue and emotional connection through light and shadow. Using light as a universal language, the installation gives form to Taipei’s connection with the world, allowing visitors to feel the warmth of the city’s spirit and its outward-looking global vision.\nThe installation presents a light show every 15 minutes.',
-        img: '../images/items/expo_B11.jpg'
-    },
-    'expo_B12': {
-        title: 'B12 Taipei Water - Azalea',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'The Taipei Water Department has designed the “Azalea Direct Drinking Station” inspired by Taipei’s city flower, symbolizing the city’s beauty, prosperity, and happiness. Flowers draw life from water. When visitors drink from the station, they not only quench their thirst and refresh body and mind, but also symbolically nourish the flower itself, conveying the spirit of vitality, renewal, and flourishing growth.\nThe Azalea Direct Drinking Station adopts universal design, featuring drinking fountains at different heights so that adults, children, people with disabilities, and even pets can use it with ease. It creates an environmentally friendly and inclusive public space unique to Taipei. Shimmering, colorful LED stamens and petals invite playful interaction, inviting users to feel like bees gathering nectar. Solar panels embedded in the petals incorporate green energy, carbon reduction, and sustainability concepts, demonstrating energy saving and plastic reduction efforts in caring for the planet. The circular central light fixture, combined with the festive atmosphere of the Lantern Festival and New Year, adds a lively and cheerful touch that enhances the city’s visual landscape.',
-        img: '../images/items/expo_B12.jpg'
-    },
-    'expo_B13': {
-        title: 'B13  Whimsy Fizzy Rhapsody',
-        name: 'Ku-Tsao Music',
-        type: 'Interactive display',
-        desc: 'Inspired by whimsical animal forms and Taipei’s vibrant multicultural spirit, this interactive artwork reimagines the city’s hopes and visions for the coming year through contemporary technology. Characters such as Doodoo Beast, Tootoo Horse, Roarro Dragon, and Zhen Qi Guai feature bold colors and playful shapes. Enhanced by dynamic lighting and interactive elements, they symbolize Taipei’s boundless creativity and lively energy.\nWhen visitors interact with the installation, the lights shift in response, and bubbles gently float from above, adding a lighthearted, dreamlike atmosphere that reflects the city’s endless possibilities.',
-        img: '../images/items/expo_B13.jpg'
-    },
-    'expo_B14': {
-        title: 'B14  Team Taipei Bravo',
-        name: 'Taipei Lantern Festival Design Team',
-        type: 'Static display',
-        desc: 'As part of the 2026 Taipei Lantern Festival, all 12 administrative districts of Taipei are brought together through 12 specially designed Bravo the Bear figures. Each figure highlights the distinctive character of its district, including fashionable Xinyi, refined Daan, trendy Nangang, exploratory Neihu, vibrant Shilin, travel-inspired Songshan, tea-scented Wenshan, inquisitive Zhongzheng, theatrical Datong, historic Wanhua, arts-focused Zhongshan, and hot spring Beitou. Transforming into ambassadors for their respective districts, Bravo becomes an essential member of Team Taipei, perfectly representing the city’s diversity, creativity, and vitality. Every district earns its Bravo, and together they form Taipei Team Bravo.',
-        img: '../images/items/expo_B14_v2.jpg'
-    },
-    'expo_B15': {
-        title: 'B15 景福宮燈區',
-        name: '',
-        type: 'Static display',
-        desc: '',
-        img: '../images/items/expo_B15.jpg'
-    },
-    'expo_B16': {
-        title: 'B16 Dazzling in Zhongshan',
-        name: '',
-        type: 'Static display',
-        desc: 'Dazzling in Zhongshan integrates iconic landmarks of the Zhongshan commercial district, including Yuanshan Expo Park, and the district flower, the butterfly iris. Blending traditional architecture with modern urban scenery, the installation features specially designed floral bouquets that bloom in radiant colors and light at night. Come shine with Zhongshan tonight ✨\nDesign Team: Zhongshan Shopping District Development Association',
-        img: '../images/items/expo_B16.jpg'
-    },
-
-};
-
+    
 
 /* --- 2. 再定義功能函式 (放在資料下面) --- */
 function openMapModal(id) {
-    console.log("1. 正在開啟 ID:", id); 
+    console.log("1. 正在開啟 ID:", id); // 確認點擊 ID
     
-    // --- [新增] 判斷當前網頁語系 ---
-    const currentLang = document.documentElement.lang; // 抓取 <html lang="xxx"> 的值
-    
-    // 根據語系決定要用哪個資料庫
-    let data;
-    if (currentLang === 'en') {
-        data = mapDataEn[id]; // 如果是英文版，抓 mapDataEn
-    } else {
-        data = mapData[id];   // 否則預設抓中文版的 mapData
-    }
+    const data = mapData[id];
     
     if (!data) {
-        console.error("2. 錯誤！找不到這個 ID 的資料，請檢查資料庫設定");
+        console.error("2. 錯誤！找不到這個 ID 的資料，請檢查 mapData 的設定");
         return;
     }
 
-    console.log("2. 成功抓到資料:", data);
+    console.log("2. 成功抓到資料:", data); // 確認資料內容
 
     // --- 填充標題 ---
     const titleEl = document.getElementById('modalTitle');
     if (titleEl) titleEl.innerText = data.title;
 
-    // --- 填充作者名 ---
+
+    // --- 填充作者名 (檢查點) ---
     const nameEl = document.getElementById('modalName');
     if (nameEl) {
+        // 如果資料裡沒有 name，就顯示空字串
         nameEl.innerText = data.name || ""; 
+    } else {
+        console.error("3. 錯誤！找不到 id='modalName' 的 HTML 元素");
     }
 
-    // --- 填充展演方式 ---
+    // --- 填充展演方式 (檢查點) ---
     const typeEl = document.getElementById('modalType');
     if (typeEl) {
+        // 如果資料裡沒有 type，就顯示空字串
         typeEl.innerText = data.type || ""; 
+    } else {
+        console.error("3. 錯誤！找不到 id='modalType' 的 HTML 元素");
     }
 
-    // --- 填充描述 ---
+    // 【註】：已經將填充 size 的段落刪除
+
+    // --- 填充描述 (檢查點) ---
     const descEl = document.getElementById('modalDesc');
     if (descEl) {
+        // 如果資料裡沒有 desc，就顯示空字串
         descEl.innerHTML = data.desc || ""; 
+    } else {
+        console.error("3. 錯誤！找不到 id='modalDesc' 的 HTML 元素");
     }
 
-    // --- 填充圖片 ---
+    // --- 填充圖片 (檢查點) ---
     const imgEl = document.getElementById('modalImg');
     if (imgEl) {
         if (data.img) {
             imgEl.src = data.img;
             imgEl.style.display = 'block';
         } else {
+            console.warn("注意：這筆資料沒有 img 屬性，或者是圖片路徑為空");
             imgEl.style.display = 'none';
         }
+    } else {
+        console.error("3. 錯誤！找不到 id='modalImg' 的 HTML 元素");
     }
 
     // --- 顯示彈窗 ---

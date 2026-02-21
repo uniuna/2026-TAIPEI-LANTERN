@@ -129,10 +129,9 @@
                     </div>
                 </article>
 
-<!-- 補充 -->
                 <article class="district-card">
                     <div class="district-img-box">
-                        <img src="images/sites/TaipeiUndergroundMall.jpg" alt="西門地下街" loading="lazy" decoding="async">
+                        <img src="images/sites/西門地下街.jpg" alt="西門地下街" loading="lazy" decoding="async">
                         <div class="district-overlay">
                             <span class="zone-badge">西門展區</span>
                         </div>
@@ -140,12 +139,24 @@
                     <div class="district-content">
                         <h3>西門地下街</h3>
                         <p>連結交通樞紐的地下商場，匯集購物、餐飲與流行文化元素。</p>
-                        <a href=" " class="btn-more" target="_blank">了解更多</a>
+                        <a href="https://reurl.cc/QV0daq" class="btn-more" target="_blank">了解更多</a>
                     </div>
                 </article>
 
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/重慶南路書店街.jpg" alt="重慶南路書店街" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge">西門展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>重慶南路書店街</h3>
+                        <p>臺北知名書街，聚集書店與出版社，象徵城市的閱讀與學習文化。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/1546 " class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
 
-                
                 <article class="district-card">
                     <div class="district-img-box">
                         <img src="images/sites/Dist_Dadaocheng.jpg" alt="大稻埕商圈" loading="lazy" decoding="async">
@@ -216,6 +227,48 @@
                     </div>
                 </article>
 
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/大龍街夜市.jpg" alt="大龍街夜市" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge">花博展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>大龍街夜市</h3>
+                        <p>在地夜市聚集多樣傳統小吃，呈現濃厚生活氣息與庶民飲食文化。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/1568" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/MAJI集食行樂.jpg" alt="MAJI集食行樂" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge">花博展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>MAJI集食行樂</h3>
+                        <p>結合市集、餐飲與展演的創意空間，展現都會生活與文化活力。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/1794" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/晴光市場.jpg" alt="晴光市場" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge">花博展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>晴光市場</h3>
+                        <p>傳統市場與人氣美食聚集，展現台北在地生活風貌與庶民文化。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/1596" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
             </div>
         </section>
 
@@ -266,6 +319,91 @@
                     </div>
                 </article>
 
+                <!--  -->
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/二二八紀念公園.jpg" alt="二二八紀念公園" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge">西門展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>二二八紀念公園</h3>
+                        <p>紀念歷史事件的重要園區，結合綠地與文化設施，具教育意義。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/31" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/中山堂.jpg" alt="中山堂" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge">西門展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>中山堂</h3>
+                        <p>歷史性多功能建築，曾見證重要儀式，現為展演與文化活動場地。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/193" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/西本願寺.jpg" alt="西本願寺" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge">西門展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>西本願寺</h3>
+                        <p>日治時期佛寺遺址，結合歷史建築與景觀設計，具文化保存價值。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/356" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/西門紅樓.jpg" alt="西門紅樓" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge">西門展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>西門紅樓</h3>
+                        <p>百年歷史建築，現為文創展演與市集據點，展現多元文化樣貌。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/84" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/總統府.jpg" alt="總統府" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge">西門展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>總統府</h3>
+                        <p>國家重要政治地標，融合歷史建築與民主象徵，具高度代表性。</p>
+                        <a href="https://www.travel.taipei/zh-tw/media/audio-guide/details/22" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/鐵道部園區.jpg" alt="鐵道部園區" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge">西門展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>鐵道部園區</h3>
+                        <p>保存鐵道文化的歷史園區，透過展覽呈現臺灣鐵路發展軌跡。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/2576" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
                 <article class="district-card">
                     <div class="district-img-box">
                         <img src="images/sites/Dist_Shilin.jpg" alt="士林觀光夜市" loading="lazy" decoding="async">
@@ -290,7 +428,92 @@
                     <div class="district-content">
                         <h3>迪化街年貨大街</h3>
                         <p>全台最有年味！紅燈籠高掛大稻埕，乾貨糖果試吃買不完，感受濃濃春節喜氣。</p>
-                        <a href="" class="btn-more" target="_blank">了解更多</a>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/1541" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <!--  -->
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/士林官邸.jpg" alt="士林官邸" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge ximen">花博展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>士林官邸</h3>
+                        <p>昔日官邸園區，現為市民休憩花園，四季花卉與歷史建築兼具觀光價值。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/29 " class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/大龍公園.jpg" alt="大龍公園" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge ximen">花博展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>大龍公園</h3>
+                        <p>鄰近保安宮的社區公園，綠意盎然，是居民休憩與親子活動空間。</p>
+                        <a href="https://pkl.gov.taipei/News_Content.aspx?n=4EFE2EB2E80F8C6B&sms=83FE2CD176299663&s=7AE7D062F350035D" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/大龍峒保安宮.jpg" alt="大龍峒保安宮" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge ximen">花博展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>大龍峒保安宮</h3>
+                        <p>國定古蹟，主祀保生大帝，展現傳統建築工藝與深厚宗教文化。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/61" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/台北孔廟.jpg" alt="台北孔廟" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge ximen">花博展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>台北孔廟</h3>
+                        <p>為紀念孔子所建，展現儒家文化精神，是重要的文化與教育象徵。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/86" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/台北市立美術館.jpg" alt="台北市立美術館" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge ximen">花博展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>台北市立美術館</h3>
+                        <p>臺灣現代藝術重鎮，典藏豐富，常設與特展並行，推動藝術教育。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/30" class="btn-more" target="_blank">了解更多</a>
+                    </div>
+                </article>
+
+                <article class="district-card">
+                    <div class="district-img-box">
+                        <img src="images/sites/林安泰古厝.jpg" alt="林安泰古厝" loading="lazy" decoding="async">
+                        <div class="district-overlay">
+                            <span class="zone-badge ximen">花博展區</span>
+                        </div>
+                    </div>
+                    <div class="district-content">
+                        <h3>林安泰古厝</h3>
+                        <p>保存完整的閩式古宅建築，呈現清代士紳生活與傳統建築美學。</p>
+                        <a href="https://www.travel.taipei/zh-tw/attraction/details/90" class="btn-more" target="_blank">了解更多</a>
                     </div>
                 </article>
 

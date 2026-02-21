@@ -602,17 +602,19 @@
             <span class="close-live-btn" onclick="closeLiveModal()">&times;</span>
             
             <div class="live-info">
-                <h2>2026台北燈節記者會直播</h2>
+                <h2>2026 台北燈節記者會直播</h2>
                 <p>🕒 1/16 (五) 10:00 - 11:00</p>
             </div>
 
-            <a href="https://www.youtube.com/watch?v=您的直播ID" target="_blank" class="live-preview-box">
-                <div class="live-badge">● LIVE</div>
-                
-                <img src="images/hero-main.jpg" alt="直播畫面">
-                
-                <div class="live-play-icon"></div>
-            </a>
+            <div class="live-video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/m_dhMSvUCIc?si=Uhv_7RTlmPjGbecF" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
         </div>
     </div> -->
 

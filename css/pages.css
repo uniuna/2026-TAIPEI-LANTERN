@@ -2904,81 +2904,24 @@ html {
     letter-spacing: 1px;
 }
 
-/* 直播預覽圖區塊 (模擬播放器) */
-.live-preview-box {
-    display: block; /* 讓 a 標籤變區塊 */
+/* --- 新增內嵌影片容器樣式 --- */
+.live-video-container {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9; /* 強制 16:9 */
-    border-radius: 12px;
+    padding-bottom: 56.25%; /* 完美 16:9 比例設定 */
+    height: 0;
     overflow: hidden;
+    border-radius: 12px;
     border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    background: #000; /* 載入前底色 */
 }
 
-.live-preview-box img {
+.live-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-    filter: brightness(0.8);
-}
-
-.live-preview-box:hover img {
-    transform: scale(1.05);
-    filter: brightness(1);
-}
-
-/* LIVE 紅色標籤 */
-.live-badge {
-    position: absolute;
-    top: 15px; left: 15px;
-    background: #ff0000;
-    color: white;
-    padding: 4px 12px;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 0.9rem;
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
-    animation: pulse 1.5s infinite; /* 呼吸燈效果 */
-    z-index: 2;
-}
-
-/* 播放按鈕圖示 */
-.live-play-icon {
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70px; height: 70px;
-    background: rgba(0, 0, 0, 0.6);
-    border: 3px solid white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-    z-index: 2;
-}
-
-.live-play-icon::after {
-    content: '';
-    display: block;
-    width: 0; height: 0;
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent;
-    border-left: 20px solid white;
-    margin-left: 6px;
-}
-
-.live-preview-box:hover .live-play-icon {
-    background: #ff0000;
-    border-color: #ff0000;
-    transform: translate(-50%, -50%) scale(1.1);
-}
-
-/* 呼吸燈動畫 */
-@keyframes pulse {
-    0% { opacity: 1; }
-    50% { opacity: 0.6; }
-    100% { opacity: 1; }
 }
 

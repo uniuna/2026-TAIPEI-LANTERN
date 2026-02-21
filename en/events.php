@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
     <?php include 'header.php'; ?>
     <link rel="stylesheet" href="../css/styles.css">

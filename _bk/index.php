@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <?php include 'header.php'; ?>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
     <div id="preloader">
@@ -12,14 +12,14 @@
             
             <div class="lantern-container l1">
                 <div class="lantern-body">
-                    <div class="lantern-text">Lantern</div>
+                    <div class="lantern-text">台北</div>
                 </div>
                 <div class="lantern-tassel"></div>
             </div>
 
             <div class="lantern-container l2">
                 <div class="lantern-body">
-                    <div class="lantern-text">Festival</div>
+                    <div class="lantern-text">燈節</div>
                 </div>
                 <div class="lantern-tassel"></div>
             </div>
@@ -29,68 +29,106 @@
     </div>
     <?php include 'nav.php'; ?>
 
-    <header class="hero-en">
+    <header class="hero">
         <a href="#news" class="scroll-down">
             <span></span>
             SCROLL
         </a>
     </header>
 
+    <div class="hero-transition">
+        <img src="images/hero-transition.png" alt="transition" class="transition-img">
+    </div>
+
     <main style="padding-bottom: 150px;">
         <section id="news" class="news-section">
-            <h2 class="section-title">Latest News</h2>
+            <h2 class="section-title">最新消息</h2>
             <div class="news-header">
-                <a href="news_list" class="news-more">News Archive ></a>
+                <a href="news_list" class="news-more">新聞總覽 ></a>
             </div>
             
             <div class="news-list">
+                <a href="news_260220-2" class="news-item">
+                    <span class="news-date">2026.02.20</span>
+                    <span class="news-text">從潮流IP到傳統藝術 2026台北燈節點亮西門町年節魅力 ...</span>
+                </a>
+                <a href="news_260220-1" class="news-item">
+                    <span class="news-date">2026.02.20</span>
+                    <span class="news-text">不只變形金剛！2026台北燈節花博展區亮點一次看...</span>
+                </a>
+                <a href="news_260215" class="news-item">
+                    <span class="news-date">2026.02.15</span>
+                    <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>
+                </a>
+                <a href="news_260213" class="news-item">
+                    <span class="news-date">2026.02.13</span>
+                    <span class="news-text">佛光山燈區以「希望之門」 點亮2026台北燈節 ...</span>
+                </a>
+                <a href="news_260211-2" class="news-item">
+                    <span class="news-date">2026.02.11</span>
+                    <span class="news-text">2026台北燈節交通管制，搭乘大眾運輸前往最方便 ...</span>
+                </a>
+                <!-- <a href="news_260211" class="news-item">
+                    <span class="news-date">2026.02.11</span>
+                    <span class="news-text">賞燈祈福過好年！北市20間宮廟響應「2026台北燈節」300公尺燈海隧道、馬年特色燈飾超吸睛 ...</span>
+                </a>
+                <a href="news_260210" class="news-item">
+                    <span class="news-date">2026.02.10</span>
+                    <span class="news-text">「2026台北燈節」佛光山燈區 春節賞燈好趣處 ...</span>
+                </a>
                 <a href="news_260209" class="news-item">
                     <span class="news-date">2026.02.09</span>
-                    <span class="news-text">Exclusive Collectible! Your Ultimate Guide to the 2026 Taipei Lantern Festival "Optimus Prime" Mini Lantern Distribution ...</span>
-                </a>
-                <a href="news_260130" class="news-item">
+                    <span class="news-text">限量收藏超夯！2026台北燈節柯博文小提燈發放懶人包一次看 ...</span>
+                </a> -->
+                <!-- <a href="news_260130" class="news-item">
                     <span class="news-date">2026.01.30</span>
-                    <span class="news-text">The 2026 Taipei Lantern Festival Ximen Area Partners with POP MART to Debut Six Popular IPs, Unveil Five Lantern Installations, and Reveal an 8 Meter Baby Molly Main Lantern ...</span>
-                </a>
-                <a href="news_260129" class="news-item">
+                    <span class="news-text">2026台北燈節西門展區攜手泡泡瑪特六大人氣IP登場 Baby Molly8米高主燈亮相 五組燈組首曝光 ...</span>
+                </a> -->
+                <!-- <a href="news_260129" class="news-item">
                     <span class="news-date">2026.01.29</span>
-                    <span class="news-text">Mayor Wan-an Chiang Announces Dual Exhibition Zones for the 2026 Taipei Lantern Festival; Ximending Partners with POP MART to Welcome Global Visitors ...</span>
-                </a>
-                <a href="news_260126" class="news-item">
+                    <span class="news-text">蔣萬安宣布2026臺北燈節雙展區登場 西門町攜手泡泡瑪特迎全球旅客 ...</span>
+                </a> -->
+                <!-- <a href="news_260126" class="news-item">
                     <span class="news-date">2026.01.26</span>
-                    <span class="news-text">More Than Just a Night of Lights! "2026 Taipei Lantern Festival" Offers 20 Themed Itineraries and Exclusive Hotel Deals for Easy Savings ...</span>
-                </a>
-                <a href="news_260116" class="news-item">
+                    <span class="news-text">賞燈不只一晚！「2026台北燈節」20條遊程帶你玩 限定旅宿優惠輕鬆省 ...</span>
+                </a> -->
+                <!-- <a href="news_260116" class="news-item">
                     <span class="news-date">2026.01.16</span>
-                    <span class="news-text">The 2026 Taipei Lantern Festival Launches Its First Ever “Two Zones, Two IPs” Experience. Partnering with Global IP “Transformers,” the Expo Park Main Lantern Optimus Prime Makes an Early Reveal ...</span>
-                </a>
+                    <span class="news-text">2026台北燈節首度推出「雙展區、雙IP」 攜手國際IP「變形金剛」花博主燈柯博文搶先曝光 ...</span>
+                </a> -->
+                <!-- <a href="news_260104" class="news-item">
+                    <span class="news-date">2026.01.04</span>
+                    <span class="news-text">台北道場響應「2026台北燈節」 以光影傳遞和諧共生與祝福 ...</span>
+                </a> -->
             </div>
         </section>
 
-        <section id="news" class="container" style="padding-bottom: 20px;">
-            <h2 class="section-title">Exhibition Areas</h2>
+        <section class="container" style="padding-bottom: 20px;">
+            <h2 class="section-title">展區介紹</h2>
             <div class="section-intro">
-                <p class="section-description desc-en">
-                    The Lantern Festival, also known as Shangyuan Festival, is a cornerstone of Chinese culture, symbolizing reunion and the seeking of blessings. This tradition dates back to the Han Dynasty. As legend has it, when the Empress Dowager Lu passed away, her clan tried to seize power, and their palace coup was put down. To commemorate the restoration of peace, Emperor Wen declared the 15th day of the first lunar month to be a day of national celebration. In the Eastern Han Dynasty, Emperor Ming promoted lighting lanterns as a way to honor the Buddha. This custom spread from palaces and temples to the general public, eventually evolving into the vibrant festival we enjoy today. Everyone admires the colorful lantern displays, solves riddles, and eats sweet “yuanxiao” dumplings. More than just lighting up the sky at night, it is an expression of our best wishes and hopes for the new year.
-                    <br><br>The first Taipei Lantern Festival took place in 1997 at the traffic circle on Ren’ai Road, and since then it has been a beloved part of people’s lives for nearly three decades. In 2026, the festival features two major Lantern Areas: Expo Park and Ximen. It also features collaborations with two world-renowned international character series. With these special themes and the dual locations—at Taipei Expo Park in the district of Yuanshan, where culture and nature blend seamlessly, and in Ximending, where all the latest fashions converge—Taipei's diverse, distinctive urban style really comes to life. In addition to marveling at the lanterns, you can also roam the surrounding commercial districts and scenic spots and sample the local food, for a wide-ranging experience of the city’s vitality and charm. The Lantern Festival is one of the best ways to experience Taipei’s festive atmosphere, metropolitan bustle and warmheartedness.
-                    <br><br>This year, the Taipei Lantern Festival welcomes you with open arms. We hope these two spectacular exhibition areas bring everyone double the joy and an abundance of blessings!
+                <p class="section-description">
+                    元宵節又稱上元節，是華人文化中象徵團圓與祈福的重要節日。這項傳統可追溯至漢代，相傳漢文帝為慶祝平定「諸呂之亂」，將農曆正月十五訂為全民同樂之日；到了東漢，漢明帝提倡燃燈敬佛，宮廷與寺廟點燈的習俗逐漸流傳至民間，發展成為今日熱鬧繽紛的燈節文化。賞花燈、猜燈謎、吃元宵，不僅是點亮夜空的歡慶活動，更寄託著人們對新年的美好祝福與期待。
+                    <br><br>
+                    台北燈節自 1997 年於仁愛圓環首次點燈以來，已陪伴市民走過近三十年的時光。2026年台北燈節同步於「花博展區」與「西門展區」盛大登場，透過雙展區串聯及兩大國際知名 IP 合作燈組，分別在文化與自然交融的圓山花博園區，以及潮流匯聚的西門町，展現台北多元且獨具魅力的城市風貌。民眾在賞燈之餘，亦可漫遊周邊商圈與景點、品嚐在地美食，於台北燈節期間深度感受台北的城市活力與多元魅力，讓台北燈節成為最具節慶氛圍與城市情感溫度的觀光亮點。
+                    <br><br>
+                    今年，台北燈節雙展區展開雙臂歡迎您一起來賞燈，祈願熱鬧繽紛的雙展區為大家帶來加倍的歡樂與祝福。
                 </p>
             </div>
             <div class="map-selection">
-                <a href="ximen.php" class="map-card" id="ximen-map">
+                <a href="ximen" class="map-card" id="ximen-map">
                     <div class="map-bg"
-                        style="background-image: url('../images/links/Link-ximen_1920x1080.jpg');">
+                        style="background-image: url('images/links/Link-ximen_1920x1080.jpg');">
                     </div>
                     <div class="map-overlay">
-                        <h3 style="letter-spacing:0px;">Ximen Area</h3>
+                        <h3>西門展區</h3>
                         <span class="scan-line"></span>
                     </div>
                 </a>
 
-                <a href="expo.php" class="map-card" id="expo-map">
-                    <div class="map-bg" style="background-image: url('../images/links/Link-expo_1920x1080.jpg');"></div>
+                <a href="expo" class="map-card" id="expo-map">
+                    <div class="map-bg" style="background-image: url('images/links/Link-expo_1920x1080.jpg');"></div>
                     <div class="map-overlay">
-                        <h3 style="letter-spacing:0px;">Taipei Expo Park Area</h3>
+                        <h3>花博展區</h3>
                         <span class="scan-line"></span>
                     </div>
                 </a>
@@ -98,41 +136,46 @@
         </section>
 
         <section class="container">
-            <h2 class="section-title">Explore More</h2>
+            <h2 class="section-title">探索更多</h2>
             <div class="nav-grid">
 
-                <a href="events.php" class="nav-card">
-                    <div class="nav-bg" style="background-image: url('../images/links/Link-img-01_800x600.jpg');"></div>
+                <a href="events" class="nav-card">
+                    <div class="nav-bg" style="background-image: url('images/links/Link-img-01_800x600.jpg');"></div>
                     <div class="nav-text">
-                        <h3>Event Program</h3>
+                        <h3>精彩活動</h3>
                     </div>
                 </a>
 
-                <a href="https://www.travel.taipei/en" class="nav-card" target="_blank">
-                    <div class="nav-bg" style="background-image: url('../images/links/Link-img-02_800x600.jpg');"></div>
+                <a href="travel" class="nav-card">
+                    <div class="nav-bg" style="background-image: url('images/links/Link-img-02_800x600.jpg');"></div>
                     <div class="nav-text">
-                        <h3>Travel information</h3>
+                        <h3>旅遊資訊</h3>
                     </div>
                 </a>
 
-                <a href="traffic.php" class="nav-card">
-                    <div class="nav-bg" style="background-image: url('../images/links/Link-img-03_800x600.jpg');"></div>
+                <a href="traffic" class="nav-card">
+                    <div class="nav-bg" style="background-image: url('images/links/Link-img-03_800x600.jpg');"></div>
                     <div class="nav-text">
-                        <h3>Transportation</h3>
+                        <h3>交通方式</h3>
                     </div>
                 </a>
             </div>
         </section>
 
         <section class="container">
-            <h2 class="section-title">Audiovisual Area</h2>
+            <h2 class="section-title">影音專區</h2>
             <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
-                <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/PnGHH5oSpIM?si=ttaGQ-Fll0N_D1V2" frameborder="0" allowfullscreen></iframe>
+                <iframe 
+                    style="position:absolute; top:0; left:0; width:100%; height:100%;" 
+                    src="https://www.youtube.com/embed/PnGHH5oSpIM?si=ttaGQ-Fll0N_D1V2&loop=1&playlist=PnGHH5oSpIM" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
             </div>
         </section>
 
         <section style="padding: 80px 0 40px;">
-        <h2 class="section-title">Highlights from the Past</h2>
+        <h2 class="section-title">精彩回顧及花絮</h2>
         
         <div class="tab-buttons year-tabs">
             <button class="tab-btn" onclick="openYearTab(event, 'year-2017')">2017</button>
@@ -150,42 +193,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2017/001.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2017/001.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2017/002.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2017/002.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2017/003.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2017/003.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2017/004.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2017/004.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2017/005.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2017/005.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2017/006.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2017/006.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2017/007.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2017/007.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2017/008.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2017/008.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -195,42 +238,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2018/001.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2018/001.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2018/002.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2018/002.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2018/003.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2018/003.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2018/004.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2018/004.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2018/005.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2018/005.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2018/006.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2018/006.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2018/007.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2018/007.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2018/008.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2018/008.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -240,42 +283,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2019/001.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2019/001.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2019/002.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2019/002.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2019/003.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2019/003.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2019/004.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2019/004.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2019/005.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2019/005.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2019/006.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2019/006.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2019/007.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2019/007.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2019/008.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2019/008.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -285,42 +328,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2020/001.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2020/001.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2020/002.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2020/002.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2020/003.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2020/003.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2020/004.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2020/004.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2020/005.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2020/005.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2020/006.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2020/006.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2020/007.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2020/007.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2020/008.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2020/008.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -330,42 +373,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2021/001.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2021/001.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2021/002.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2021/002.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2021/003.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2021/003.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2021/004.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2021/004.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2021/005.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2021/005.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2021/006.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2021/006.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2021/007.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2021/007.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2021/008.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2021/008.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -375,42 +418,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2022/001.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2022/001.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2022/002.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2022/002.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2022/003.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2022/003.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2022/004.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2022/004.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2022/005.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2022/005.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2022/006.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2022/006.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2022/007.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2022/007.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2022/008.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2022/008.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -420,42 +463,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2023/001.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2023/001.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2023/002.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2023/002.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2023/003.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2023/003.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2023/004.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2023/004.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2023/005.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2023/005.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2023/006.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2023/006.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2023/007.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2023/007.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2023/008.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2023/008.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -465,42 +508,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2024/001.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2024/001.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2024/002.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2024/002.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2024/003.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2024/003.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2024/004.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2024/004.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2024/005.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2024/005.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2024/006.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2024/006.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2024/007.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2024/007.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2024/008.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2024/008.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -510,42 +553,42 @@
             <div class="gallery-grid">
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2025/001.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2025/001.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2025/002.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2025/002.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2025/003.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2025/003.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2025/004.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2025/004.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2025/005.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2025/005.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2025/006.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2025/006.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2025/007.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2025/007.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="gallery-card">
                     <div class="gallery-img">
-                        <img src="../images/gallery/2025/008.jpg" alt="回顧" loading="lazy" decoding="async">
+                        <img src="images/gallery/2025/008.jpg" alt="回顧" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -553,8 +596,8 @@
         
         </section>
     </main>
-
-    <!-- <div id="liveModal">
+    
+    <div id="liveModal">
         <div class="live-modal-content">
             <span class="close-live-btn" onclick="closeLiveModal()">&times;</span>
             
@@ -566,14 +609,14 @@
             <a href="https://www.youtube.com/watch?v=您的直播ID" target="_blank" class="live-preview-box">
                 <div class="live-badge">● LIVE</div>
                 
-                <img src="../images/hero-main.jpg" alt="直播畫面">
+                <img src="images/hero-main.jpg" alt="直播畫面">
                 
                 <div class="live-play-icon"></div>
             </a>
         </div>
-    </div> -->
+    </div>
 
     <?php include 'footer.php'; ?>
-    <script src="../js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
