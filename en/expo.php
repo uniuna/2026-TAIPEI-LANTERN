@@ -214,7 +214,7 @@
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B16 Dazzling in Zhongshan</h4>
-                                <!-- <span class="lantern-designer">台北市中山商圈發展協會</span> -->
+                                <span class="lantern-designer">Zhongshan Shopping District Development Association</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">More Details</div>

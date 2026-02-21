@@ -1046,9 +1046,9 @@ const mapDataEn = {
     },
     'expo_B16': {
         title: 'B16 Dazzling in Zhongshan',
-        name: '',
+        name: 'Zhongshan Shopping District Development Association',
         type: 'Static display',
-        desc: 'Dazzling in Zhongshan integrates iconic landmarks of the Zhongshan commercial district, including Yuanshan Expo Park, and the district flower, the butterfly iris. Blending traditional architecture with modern urban scenery, the installation features specially designed floral bouquets that bloom in radiant colors and light at night. Come shine with Zhongshan tonight ✨\nDesign Team: Zhongshan Shopping District Development Association',
+        desc: 'Dazzling in Zhongshan integrates iconic landmarks of the Zhongshan commercial district, including Yuanshan Expo Park, and the district flower, the butterfly iris. Blending traditional architecture with modern urban scenery, the installation features specially designed floral bouquets that bloom in radiant colors and light at night. Come shine with Zhongshan tonight.',
         img: '../images/items/expo_B16.jpg'
     },
 
