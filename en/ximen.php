@@ -15,7 +15,7 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <div style="text-align: justify; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
+        <div style="text-align: justify; text-justify: inter-word; word-break: break-word; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
             <p style="color: var(--text-sub); font-size: 1.2rem">
                 <strong>Ximen Lantern Area</strong> is located in Ximending, where historic character and subcultures intersect.In 2026, the entire trendsetting district is transformed into a large-scale immersive light corridor, where iconic urban landmarks and avant-garde light installations illuminate one another, creating a perfect fusion of city memory and creative innovation. As century-old streets meet dazzling lantern displays, youthful energy and historical depth come alive under the glow of light, guiding visitors through a visual experience that transcends time.
                 <br><br>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
 
-                <div class="info-section" style="margin-top: 30px; margin-bottom: 0;">
+                <div class="info-section" style="max-width: 900px; margin-top: 30px; margin-bottom: 0;">
                     
                     <div class="lantern-item" onclick="openMapModal('ximen_A1')">
                         <div class="lantern-content">
@@ -332,9 +332,9 @@ Wu Tsung-yi</span>
                 <h2 id="modalTitle" style="margin-bottom: 20px">燈飾標題</h2>
                 <img id="modalImg" src="" style="width: 100%; max-width:600px; border-radius: 10px; margin:0 auto 20px; display: none;" />
                 <div style="line-height: 1.6; font-size: 1rem; text-align: left;">
-                     <p id="modalName" style="line-height: 2.4; font-size: 1.2rem; " >設計者名稱</p>
+                    <p id="modalName" style="line-height: 2.4; font-size: 1.2rem; " >設計者名稱</p>
                     <p id="modalType" style="line-height: 2.4; font-size: 1rem; color: #ccc;  " >展演方式</p><br>
-                    <p id="modalDesc" style="font-size: 1rem; " >燈飾介紹內容</p>
+                    <p id="modalDesc" style="font-size: 1rem; text-align: justify; text-justify: inter-word; word-break: break-word;">燈飾介紹內容</p>
                 </div>
             </div>
         </div>

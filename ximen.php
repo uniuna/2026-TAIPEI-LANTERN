@@ -15,7 +15,7 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <div style="text-align: justify; max-width: 800px; margin: 0 auto; padding: 30px 20px 60px;">
+        <div style="text-align: justify; text-justify: inter-word; word-break: break-word; max-width: 800px; margin: 0 auto; padding: 30px 20px 60px;">
             <p style="color: var(--text-sub); font-size: 1.1rem">
                 <strong style="color: white">西門展區</strong> 
                 坐落於歷史情懷與次文化交織的西門町。2026年，我們將整座潮流街區轉化為大型沉浸式光廊，讓經典的地景建築與前衛燈飾
@@ -335,9 +335,9 @@
                 <h2 id="modalTitle" style="margin-bottom: 20px">燈飾標題</h2>
                 <img id="modalImg" src="" style="width: 100%; max-width:600px; border-radius: 10px; margin:0 auto 20px; display: none;" />
                 <div style="line-height: 1.6; font-size: 1rem; text-align: left;">
-                     <p id="modalName" style="line-height: 2.4; font-size: 1.2rem; " >設計者名稱</p>
+                    <p id="modalName" style="line-height: 2.4; font-size: 1.2rem; " >設計者名稱</p>
                     <p id="modalType" style="line-height: 2.4; font-size: 1rem; color: #ccc;  " >展演方式</p><br>
-                    <p id="modalDesc" style="font-size: 1rem; " >燈飾介紹內容</p>
+                    <p id="modalDesc" style="font-size: 1rem; text-align: justify; text-justify: inter-word; word-break: break-word;">燈飾介紹內容</p>
                 </div>
             </div>
         </div>
