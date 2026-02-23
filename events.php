@@ -139,7 +139,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">18:40-19:00</div>
-                                    <div class="event-details"><h3 class="event-title">中山商圈-仙氣飄飄甜點秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">中山商圈-金牌牛肉麵秀</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
@@ -209,7 +209,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">16:30-17:00</div>
-                                    <div class="event-details"><h3 class="event-title">熊讚和傑米</h3></div>
+                                    <div class="event-details"><h3 class="event-title">臺北市吉祥物熊讚Bravo +台北捷運吉祥物捷米JAMIE</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
@@ -949,7 +949,7 @@
                         <div class="event-details">
                             <h3 class="event-title">北藝中心戶外轉播WBC應援抽大獎</h3>
                             <p class="event-desc"><strong>地點：</strong>北藝中心戶外廣場賽會轉播區＋燈節花博展區</p>
-                            <p class="event-desc"><strong>活動方式：</strong>3/6(五)在北藝中心轉播WBC現場，到服務台旁領取台北燈節抽獎券，且在3/15(日)前到燈節花博展區賞燈，並到大會服務台(花博公園花牆前)憑券摸彩。</p>
+                            <p class="event-desc"><strong>活動方式：</strong>3/6(五)在北藝中心轉播WBC現場，到服務台旁領取台北燈節抽獎券，且在3/8(日)前到燈節花博展區賞燈，並到大會服務台(花博公園花牆前)憑券摸彩。</p>
                             <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：限量發送，送完為止。</p>
                         </div>
                     </div>
