@@ -417,7 +417,7 @@ const mapData = {
         img: '../images/items/ximen_B8.jpg'
     },
     'ximen_B9': {
-        title: 'B9  燈映昇福平安橋',
+        title: 'B9  城隍昇福平安橋',
         name: '臺灣省城隍廟設計團隊',
         type: '靜態展出',
         desc: '平安橋源自民間信仰造橋過限科儀，旨在北斗七星神力加持，過橋度厄逢凶化吉運勢順遂。通常在春節、元霄或廟會慶典時舉辦，臺灣省城隍廟與台北市觀光傳播局，於台北燈節期間特別定製象徵平安幸福的燈橋，當民眾走過燈光爍爍的燈橋時，誠心祈願  省城隍爺昇福明靈王護祐災厄消除、平安順遂、前途光明、諸事圓滿、福氣相伴、閤眷安康、馬到成功、降大吉祥。',
@@ -552,11 +552,11 @@ const mapData = {
         img: '../images/items/expo_A1.jpg'
     },
     'expo_A2': {
-        title: 'A2  蜂芒畢露・無限之鏡｜大黃蜂',
+        title: 'A4  兩派雙雄對決・街機巨人｜柯博文 vs 密卡登',
         name: '變形金剛設計團隊',
         type: '靜態展出',
-        desc: '本燈組以大黃蜂靈活敏捷的形象為設計核心，背景結合「無限鏡Infinity Mirror）」光學技術，透過多層次反射，營造出彷彿無限延伸的光影空間。平面燈座轉化為深邃的視覺隧道，象徵速度、穿梭與無限可能。',
-        img: '../images/items/expo_A2.jpg'
+        desc: '此燈組以經典對戰為主題，將博派與狂派的 衝突轉化為大型街機造型燈飾。設計捨棄數位螢幕，改以多層次動態燈箱、 LED 跑馬燈與序列控制技術，重現 8-bit 電玩風格的視覺暫留效果。展現燈節結合創意、科技與玩心的多元樣貌。',
+        img: '../images/items/expo_A4.jpg'
     },
     'expo_A3': {
         title: 'A3  霸氣破界｜密卡登時空傳送門',
@@ -566,11 +566,11 @@ const mapData = {
         img: '../images/items/expo_A3.jpg'
     },
     'expo_A4': {
-        title: 'A4  兩派雙雄對決・街機巨人｜柯博文 vs 密卡登',
+        title: 'A2  蜂芒畢露・無限之鏡｜大黃蜂',
         name: '變形金剛設計團隊',
         type: '靜態展出',
-        desc: '此燈組以經典對戰為主題，將博派與狂派的 衝突轉化為大型街機造型燈飾。設計捨棄數位螢幕，改以多層次動態燈箱、 LED 跑馬燈與序列控制技術，重現 8-bit 電玩風格的視覺暫留效果。展現燈節結合創意、科技與玩心的多元樣貌。',
-        img: '../images/items/expo_A4.jpg'
+        desc: '本燈組以大黃蜂靈活敏捷的形象為設計核心，背景結合「無限鏡Infinity Mirror）」光學技術，透過多層次反射，營造出彷彿無限延伸的光影空間。平面燈座轉化為深邃的視覺隧道，象徵速度、穿梭與無限可能。',
+        img: '../images/items/expo_A2.jpg'
     },
     'expo_B1': {
         title: 'B1  記憶圓山',
@@ -683,6 +683,98 @@ const mapData = {
         type: '靜態展出',
         desc: '《璀璨中山》融合中山商圈代表性地標「圓山花博」、中山區花「蝴蝶花」，結合傳統建築與現代城市風貌，透過專屬設計的花束、在夜晚綻放光影與繽紛色彩、今晚一起來中山發光✨',
         img: '../images/items/expo_B16.jpg'
+    },
+
+    'expo_C1': {
+        title: '輝映自由．共譜繁榮',
+        name: '林玉珠、李冠毅、李青芸',
+        type: '',
+        desc: '美國將在2026年7月4日迎來建國250週年的璀璨時刻。為歡慶這個深具意義的里程碑，美國在台協會（AIT）很榮幸在2026台北燈節隆重獻上AIT主題燈，以藝術光影致敬美國的文化傳承，以及美台之間歷久彌新的深厚情誼。\n今年的AIT主題燈由台灣知名燈藝師林玉珠、李冠毅與李青芸精心設計、巧手製作，作品融合多項經典美國意象，象徵引領美國走過兩個半世紀的核心理想。自由女神像 高舉火炬，照亮自由與機會的道路；國會大廈象徵民主精神與公民參與；棒球致敬傳統與團隊精神；金門大橋代表巧思、雄心與不斷前行的步伐；白頭鷹 傳達主權與力量；太空梭乘載啟發與創新；而星條旗則凝聚團結合一與犧牲奉獻的精神。\n作品的核心主題「 輝映自由‧共譜繁榮 」在燈座基底綻放光芒，彷彿提醒世人：自由、機會與進步是美國立國以來始終持守的根基。如今，書寫下一個篇章的歷史之筆就握在你我手中，AIT誠摯邀請台灣各地的朋友，與我們一同紀念250年來塑造美國的立國理想，攜手邁向合作緊密、共享繁榮的光明未來。',
+        img: '../images/items/expo_C1.jpg'
+    },
+    'expo_C2': {
+        title: '充滿活力的民俗文化',
+        name: '黃文全',
+        type: '',
+        desc: '聖克里斯多福及尼維斯的民俗團體展現了結合非洲遺產與歐洲影響的文化傳承。快來看看如何在這場充滿活力的燈組展示中，一同感受我們獨特的文化遊行從左到右分別為：\n•木高蹺（ Moko Jumbie ）：這些踩高蹺的表演者象徵著非洲神話中的巨人。\n•小丑（ The Clown ）：這身服裝模仿了歐洲宮廷小丑的造型。\n•演員（ The Actors ）：由一組雜技表演者用園藝叉進行驚險的特技表演。\n•公牛（ The Bull ）：傳說中的主要角色，一頭兇猛的公牛被刺傷後不但存活下來，反而變得更加兇悍。\n•化裝舞會（ The Masquerade ）：身著色彩繽紛的服裝、頭戴孔雀羽毛頭飾，假面舞者隨著笛樂隊的節奏進行精心編排的舞蹈表演。',
+        img: '../images/items/expo_C2.jpg'
+    },
+    'expo_C3': {
+        title: '跟著吉祥物一同暢遊福島！',
+        name: '藍永旗花燈藝術工房',
+        type: '',
+        desc: '福島縣位於日本東北地區，是日本面積第三大的縣市，擁有豐富的自然資源與多樣化的風景。一年四季各有不同魅力，無論何時造訪，都能欣賞到令人心動的美景。\n本次花燈以福島縣會津地區具代表性的鄉土玩具「紅牛」與「不倒翁小法師」為主題，兩者皆是象徵驅除疫病、闔家平安的開運吉祥物。希望透過花燈，讓大家感受到福島獨特的文化魅力。\n目前台灣虎航每週二、五皆有直飛福島的航班，交通便利，誠摯邀請大家親自走進福島，感受這片土地在四季變換中所帶來的感動與無限魅力。',
+        img: '../images/items/expo_C3.jpg'
+    },
+    'expo_C4': {
+        title: '雅音繞濱松，香車載繁花',
+        name: '藍永旗',
+        type: '',
+        desc: '濱松市位於東京與大阪之間，從東京或大阪搭乘新幹線約90分鐘即可抵達，且從中部國際機場前往也相當便利，是一座融合了豐富自然環境的城市。濱松的特色包括「 歷史」、「花卉」、「濱名湖」以及「音樂與製造工藝」。\n德川家康青壯年時期曾居住過的濱松城、櫻花與鬱金香盛開、景色宜人的濱松花卉公園，以及可體驗纜車、自行車、溫泉與品嚐鰻魚料理的濱名湖，還有SUZUKI、YAMAHA等世界級製造商的企業博物館等，濱松擁有眾多值得一訪的景點。\n誠摯邀請您親自走訪濱松，實際感受這座城市的獨特魅力。',
+        img: '../images/items/expo_C4.jpg'
+    },
+    'expo_C5': {
+        title: '活力大邱',
+        name: '陳祖榮',
+        type: '',
+        desc: '花燈主題為「活力大邱— POWERFUL DAEGU 」，由台灣國寶級燈藝大師陳祖榮老師打造，除了大邱市各式各樣的著名觀光景點，特別以大邱最有人氣的吉祥物—水獺寶寶作為主題，向台灣民眾展現大邱充滿活力又可愛的一面。',
+        img: '../images/items/expo_C5.jpg'
+    },
+    'expo_C6': {
+        title: '歡迎來到松山',
+        name: '陳祖榮',
+        type: '',
+        desc: '日本愛媛縣松山市擁有許多迷人的旅遊景點。\n道後溫泉據說是日本最古老的溫泉之一，自神話時代就已流傳至今，以其優質的溫泉水而聞名。道後溫泉本館也被評為米其林綠色指南三星級旅遊設施。\n松山城在松山市的任何地方都能看到，這座擁有400多年 歷史的城堡雄踞山頂。其天守閣矗立在132公尺高的山峰之上，是日本僅有的12座天守閣之一，堪稱珍品。此外，松山市還擁有許多其他重要文化遺產。\n這裡還有「少爺列車」，這是一輛仿照大約130年前運行的火車建造的電車。\n松山與台灣之間有直飛航班使前往松山變得十分便捷。歡迎您來到松山這座充滿歷史與文化的城市。',
+        img: '../images/items/expo_C6.jpg'
+    },
+    'expo_C7': {
+        title: '關島查莫洛文化之光',
+        name: '陳祖榮',
+        type: '',
+        desc: '《關島．查莫洛精神之燈》以光影呈現關島原住民族查莫洛文化的核心精神，象徵對祖先、土地與生活方式的敬意。作品融合自然與文化意象，展現關島獨有的歷史脈絡與島嶼生命力。燈體設計融入多項關鍵文化符號：象徵堅韌與根基的拉提石（Latte Stone），承載查莫洛祖先家屋的結構記憶；以女神芙烏娜（Fu\'una）犧牲化身而成的島嶼輪廓，訴說關島誕生的神話；展現航海智慧的傳統獨木舟Proa，連結關島與台灣共享的南島文化根源；僅棲息於關島、正積極復育的關島特有鳥類可可鳥（Ko\'ko\' bird），象徵守護自然與希望重生；以及被譽為「生命之樹」的椰子樹，代表島民世代相依的生活資源。\n整體作品以傳統查莫洛表演藝術為靈感核心，透過舞蹈、吟唱與敘事的精神，點亮文化傳承之光，傳達關島持續守護自身文化、並與世界分享其島嶼靈魂的願景。',
+        img: '../images/items/expo_C7.jpg'
+    },
+    'expo_C8': {
+        title: '茨城縣笠間市～充滿魅力的城鎮～',
+        name: '陳祖榮',
+        type: '',
+        desc: '擁有豐富自然和悠久歷史文化的茨城縣笠間市，是日本以陶器「笠間燒」和花崗岩產地而發展的知名古鎮。市區內有多處名勝古蹟及歷史深遠的神社寺廟，春天舉辦杜鵑花節、秋天則有菊花節，一年四季五彩繽紛的山村情景，加上燃紅天空的陶窯火焰及眾多充滿特色的美術館，更在日本第一產地享用栗子及相關產品，都使到訪笠間的旅人感受其獨特的魅力。笠間市隨時歡迎您的到訪！',
+        img: '../images/items/expo_C8.jpg'
+    },
+    'expo_C9': {
+        title: '燈映秋田・文化巡禮',
+        name: '藍永旗花燈藝術工房',
+        type: '',
+        desc: '秋田縣位於日本本州東北地區是忠犬八公秋田犬故鄉。秋田縣四季分明清新的空氣與純淨的水質孕育出聞名的美食與美酒。\n除了自然美景更擁有獨特的文化祭典。繼去年展出的神秘「男鹿生剝NAMAHAGE」、溫馨的「橫手雪屋」、典雅的「湯澤七夕繪燈籠」及台灣虎航吉祥物「虎將」，今年特別追加夢幻天燈「上檜木內紙風傳」；以及「能代七夕天空不夜城」這座城郭燈籠擁有日本第一的高度（24.1公尺），於2013年時隔約一世紀復活，為衰退城市重拾活力，都將透過花燈一一呈現。\n本次出展希望透過這些精彩花燈在您心中點燃對秋田的嚮往。現在台灣虎航每週四、日提供直飛秋田國際機場航班交通便利誠摯邀請您親自走訪秋田感受獨特的文化魅力與四季風情期待在秋田與您相見！',
+        img: '../images/items/expo_C9.jpg'
+    },
+    'expo_C10': {
+        title: '台北市・松江市友好行燈',
+        name: '吟遊詩人：Kota、Pori、Satoshi、Tabuchi',
+        type: '',
+        desc: '松江市秋季風物詩「水燈路」活動中，松江城下町將陳列眾多手工燈籠。今年適逢松江市與台北市以牡丹為契機展開交流二十週年紀念。本次特別展出臺北市立大學視覺藝術系學生與松江市創作者聯手打造的燈籠，作為兩市友誼的象徵。',
+        img: '../images/items/expo_C10.jpg'
+    },
+    'expo_C11': {
+        title: '燈映風華～和歌山物語',
+        name: '藍永旗花燈藝術工房',
+        type: '',
+        desc: '和歌山縣，位於日本本州南端，是自然與文化完美交織的寶地，擁有壯麗的海岸線、青翠的山脈，以及高野山與熊野古道等世界遺產。本次燈展以四盞精緻的花燈，帶您深入了解這片土地的多彩魅力。\n金秋的「有田橘」象徵豐收的喜悅，散發著和歌山柑橘之鄉的濃厚香氣；人氣十足的小玉「貓咪站長」以可愛的身影重現和歌山電鐵的暖心故事；吉祥物紀伊醬身著「平安時代服飾」，為您展現千年歷史的華麗篇章；而高聳於高野山的「根本大塔」則彰顯了和歌山縣深厚的宗教文化底蘊。\n透過這四盞花燈，和歌山的自然之美與文化故事在光影之間流轉，邀您探索這片充滿歷史厚度與活力魅力的心靈旅遊勝地。',
+        img: '../images/items/expo_C11.jpg'
+    },
+    'expo_C12': {
+        title: '鏡畫（正面）「馬超奮戰圖」｜送行畫（背面）「唐美人」',
+        name: '川村 麗巴',
+        type: '',
+        desc: '本作品為日本青森縣弘前市每年夏天舉行的傳統祭典 「弘前餒菩噠祭」裡實際使用山車的縮小版。\n「睡魔」燈籠的形狀一般為扇形底座的部分是武士繪和代表天之川的雲漢文字底座上的花紋則是牡丹花。扇形燈籠的部分大多使用 《 三國志 》 人物為題材描繪 這次展示的「睡魔」燈籠則是以「馬超」奮戰時的英勇意象為主題繪製而成。',
+        img: '../images/items/expo_C12.jpg'
+    },
+    'expo_C13': {
+        title: '這裡是上海',
+        name: '王兆卿',
+        type: '',
+        desc: '主體造型用「天馬展翅」的傳說，採用PP幻彩綠色環保材質，打造一匹「穿越時空的宇宙駿馬」，足踏「星軌銀河」，周身環繞上海標誌性建築、黃浦江與蘇州河。燈光流動變幻，底部繁星繚繞，模擬星河色澤，營造 Futuristic 科幻意境。\n躍馬奔騰之姿帶來上海市繁花簇擁的祝褔，寓意花開富貴、春日祥和，恭祝各位馬年吉祥如意！ ',
+        img: '../images/items/expo_C13.jpg'
     },
 
 };
@@ -919,12 +1011,13 @@ const mapDataEn = {
         img: '../images/items/expo_A1.jpg'
     },
     'expo_A2': {
-        title: 'A2 Bumblebee',
+        title: 'A2  Optimus Prime vs Megatron',
         name: 'Transformers Design Team',
         type: 'Static display',
-        desc: 'Inspired by Bumblebee’s agile and dynamic personality, this lantern set features an Infinity Mirror background that creates a tunnel of reflections that appear to recede into an endless space. The flat base transforms into tunnel with infinite depth , symbolizing speed, traversal, and infinite possibilities.',
-        img: '../images/items/expo_A2.jpg'
+        desc: 'This installation recreates showdown game interface of Autobots and Deceptions on a large-scale arcade game device. Instead of digital screen, it uses layered films and LED sequence controls to recreate classic 8-bit visual effects through lightbox. It showcases the lantern festival’s diverse characters, blending creativity, technology and sense of play',
+        img: '../images/items/expo_A4.jpg'
     },
+    
     'expo_A3': {
         title: 'A3  Megatron',
         name: 'Transformers Design Team',
@@ -933,11 +1026,11 @@ const mapDataEn = {
         img: '../images/items/expo_A3.jpg'
     },
     'expo_A4': {
-        title: 'A4  Optimus Prime vs Megatron',
+        title: 'A4 Bumblebee',
         name: 'Transformers Design Team',
         type: 'Static display',
-        desc: 'This installation recreates showdown game interface of Autobots and Deceptions on a large-scale arcade game device. Instead of digital screen, it uses layered films and LED sequence controls to recreate classic 8-bit visual effects through lightbox. It showcases the lantern festival’s diverse characters, blending creativity, technology and sense of play',
-        img: '../images/items/expo_A4.jpg'
+        desc: 'Inspired by Bumblebee’s agile and dynamic personality, this lantern set features an Infinity Mirror background that creates a tunnel of reflections that appear to recede into an endless space. The flat base transforms into tunnel with infinite depth , symbolizing speed, traversal, and infinite possibilities.',
+        img: '../images/items/expo_A2.jpg'
     },
     'expo_B1': {
         title: 'B1 Yuanshan Memories',
@@ -1050,6 +1143,98 @@ const mapDataEn = {
         type: 'Static display',
         desc: 'Dazzling in Zhongshan integrates iconic landmarks of the Zhongshan commercial district, including Yuanshan Expo Park, and the district flower, the butterfly iris. Blending traditional architecture with modern urban scenery, the installation features specially designed floral bouquets that bloom in radiant colors and light at night. Come shine with Zhongshan tonight.',
         img: '../images/items/expo_B16.jpg'
+    },
+
+    'expo_C1': {
+        title: 'Light of Liberty Promise of Prosperity',
+        name: 'LIN, Yu-Chu、LEE, Kuan-I、Lico Lee',
+        type: '',
+        desc: 'On July 4, 2026, the United States will commemorate the 250ᵗʰ anniversary of its founding. To mark this historic milestone, the American Institute in Taiwan (AIT) is honored to participate in the 2026 Taipei Lantern Festival by presenting the AIT Lantern-an artistic celebration of American he ritage and enduring friendship between the United States and Taiwan.\nDesigned and crafted by acclaimed Taiwanese lantern artists Lin Yu-Chu, Lee Kuan-I, and Lico Lee, the AIT Lantern features iconic American symbols, each representing ideals that have guided the United States for two and a half centuries. The Statue of Liberty stands for freedom and opportunity, while the Capitol reflects democracy and civic participation. Baseball honors tradition and teamwork; the Golden Gate Bridge represents ingenuity, ambition, and progress. The Bald Eagle conveys sovereignty and strength, the Space Shuttle captures inspiration and innovation, and the Stars and Stripes affirm unity and sacrifice.\nAnchoring the installation is its theme, "Light of Liberty, Promise of Prosperity," illuminated along the base-a reminder of foundational American values: freedom, opportunity, and progress. As we write the next chapter of American history, AIT invites friends across Taiwan to join us in honoring the founding ideals that have shaped the United States for 250 years and to join together toward a future defined by strong partnership and shared prosperity.',
+        img: '../images/items/expo_C1.jpg'
+    },
+    'expo_C2': {
+        title: 'Vibrant Folklore',
+        name: 'Huang Wen Chuan',
+        type: '',
+        desc: 'St. Kitts and Nevis folklore groups showcase our African heritage combined with European influences. Experience our unique cultural parade through this vibrant lantern display!\nFrom left to right:\nThe Moko Jumbie—These stilt walkers symbolize the giants of African mythology.\nThe Clown—The costume mimics the European court jester.\nThe Actors—Daring stunts are performed by a team of acrobats with a garden pitchfork.\nThe Bull—The main character in a national tale of a vicious bull that survived a stabbing and became even more ferocious than before.\nThe Masquerade—Adorned in colorful costume s and peacock feather headdresses , masquerade dancers perform well-choreographed routines to the rhythm of a fife band.',
+        img: '../images/items/expo_C2.jpg'
+    },
+    'expo_C3': {
+        title: 'Experience Fukushima Through Traditiona l Lucky Charms',
+        name: 'Lan Yung Chi Lantern Art House',
+        type: '',
+        desc: 'Located in Japan\'s Tohoku region, Fukushima Prefecture is the country\'s third-largest prefecture, celebrated for its abundant nature and ever-changing scenery across all four seasons.\nThis enchanting lantern display showcases two beloved folk toys from the Aizu region- the Akabeko and Okiagari Koboshi. Long treasured as symbo ls of good fortune, they represent protection from illness, resilience, and harmony within the family.\nWith convenient direct flights from Taiwan to Fukushima every Tuesday and Friday via Tigerair Taiwan, getting there has never been easier. Come and disc over Fukushima\'s seasonal beauty, rich traditions, and distinctive cultural charm for yourself.',
+        img: '../images/items/expo_C3.jpg'
+    },
+    'expo_C4': {
+        title: 'Elegant Melodies of Hamamatsu, Flowers Flowing on Wheels',
+        name: 'Lan Yung Chi',
+        type: '',
+        desc: 'Ideally situated midway between Tokyo and Osaka, Hamamatsu is a city blessed with a rich natural environment . Acce ssible in just 90 minutes by Shinkansen from either metropolis and conveniently reached from Chubu Centrair International Airport, the city is defined by four key elements: History, Flowers, Lake Hamana, and Music & Manufacturing.\nThe city boasts numerous highlights, including Hamamatsu Castle, where Shogun Tokugawa Ieyasu spent his formative years; Hamamatsu Flower Park, famous for its stunning cherry blossoms and tulips; and Lake Hamana, a resort area offering ropeway rides, cycling, hot springs, and its renowned eel (unagi) cuisine. Visitors can also explore the corporate museums of world-leading manufacturers such as SUZUKI and YAMAHA , reflecting the city\'s identity as a global hub of craftsmanship.\nWe warmly invite you to visit Hamamatsu and discover its unique charms for yourself.',
+        img: '../images/items/expo_C4.jpg'
+    },
+    'expo_C5': {
+        title: 'Powerful Daegu',
+        name: 'CHEN, ZU-RONG',
+        type: '',
+        desc: 'The lantern is themed "Powerful Daegu" and was created by Taiwan s national treasure-level lantern art master, Chen, Zu-Rong. In addition to showcasing Daegu\'s many famous tourist attractions, it specially features Daegu\'s most popular mascot-the Daegu Otter-to present the city\'s energetic and adorable spirit to the people.',
+        img: '../images/items/expo_C5.jpg'
+    },
+    'expo_C6': {
+        title: 'Welcome to Matsuyama',
+        name: 'CHEN, ZU-RONG',
+        type: '',
+        desc: 'Matsuyama City, Ehime Prefecture, Japan is home to many fascinating tourist attractions.\nDōgo Onsen is said to be the oldest hot spring in Japan, with legends dating back to Japan\'s mythological era. In addition to its high-quality waters, the Dōgo Onsen Honkan is also recognized as a three-star tourist attraction in the Michelin Green Guide Japan.\nMatsuyama Castle, visible from many parts of the city, has a history of over 400 years. Its castle tower, perched atop a 132-meter mountain , is one of only twelve such structures remaining in Japan, making it a rare find. The site also includes numerous other important cultural properties.\nThere is also the Botchan Train, a tramway replic a of a train that operated approximately 130 years ago.\nDirect flights between Matsuyama and Taiwan make the city easily accessible for visitors. Come visit Matsuyama, a city brimming with history and culture.',
+        img: '../images/items/expo_C6.jpg'
+    },
+    'expo_C7': {
+        title: 'Guam, the Chamoru Spirit Lantern',
+        name: 'CHEN, ZU-RONG',
+        type: '',
+        desc: 'Guam, the CHamoru Spirit Lantern illuminates the cultural pride and living heritage of the CHamoru people, honoring their ancestors, land, and enduring way of life. Through a harmonious blend of natural and cultural symbols, the lantern reflects Guam\'s unique identity and deep-rooted history.\nThe design features the Latte Stone, the ancient foundation of CHamoru homes, symbolizing resilience and st rength; the long, curved silhouette of Guam inspired by the legend of the goddess Fu\'una, whose sacrifice gave life to the island; and the Proa canoe, representing the seafaring mastery of CHamoru ancestors and their shared Austronesian heritage with Taiwan. The Ko\'ko\'bird, endemic to Guam and now under active conservation, embodies hope and restoration, while the coconut tree-known as the "tree of life"-highlights the island\'s sustainable traditions and daily reliance on nature.\nAnchored in the spirit of traditional CHamoru performance, where dance, chant, and storytelling preserve history and strengthen community bonds, the lantern shines as a beacon of cultural continuity. It conveys Guam\'s commitment to honoring its indigenous roots while sharing the CHamoru spirit with the world.',
+        img: '../images/items/expo_C7.jpg'
+    },
+    'expo_C8': {
+        title: 'Kasama City, Ibaraki~a charming city~',
+        name: 'CHEN, ZU-RONG',
+        type: '',
+        desc: 'Kasama City(a city of Ibaraki Pref. ,Japan ), long renowned as a major producer of pottery "Kasama yaki(or Kasama Pottery)" and granite, abounds in natural resources, enjoys a rich history, and has deep cultural roots. Throughout the city there are a number of temples, shrines, and historical points of interest. The Azalea Festival in spring, the Chrysanthemum Festival in autumn, the ever-changing seasonal backdrop, the flames of pottery kilns alight, the unique collections displayed in the museum\'s, and Kasama\'s status as Japan\'s leading producer of chestnuts-all characterize the charm that keeps attracting visitors.',
+        img: '../images/items/expo_C8.jpg'
+    },
+    'expo_C9': {
+        title: 'Akita Cultural Journey in Lantern Light',
+        name: 'Lan Yung Chi Lantern Art House',
+        type: '',
+        desc: 'Akita Prefecture is located in the Tohoku region of Japan\'s main island and is the hometown of the legendary loyal dog Hachiko (Akita Dog). Akita Prefecture features four distinct seasons, where fresh air and pure water nurture renowned cuisine and sake.\nBeyond its natural beauty, Akita is home to unique cultural festivals. Following last year\'s showcase of the mysterious "Oga Namahage," the heartwarming "Yokote Kamakura," the elegant "Yuzawa Tanabata Painted Lanterns," and Tigerair Taiwan\'s mascot "Hoo Jiang," this year\'s exhibition features the addition of the dreamlike "Kamihinokinai Paper Balloon" and the "Noshiro Tanabata Sky Lanterns." This castle-shaped lantern stands as the tallest in Japan at 24.1 meters; revived in 2013 after a century-long hiatus, it has revitalized the city. These cultural icons are all meticulously presented through these lanterns.\nThrough this exhibition, we hope these stunning lanterns will spark a sense of curiosity and longing for Akita. Tigerair Taiwan now offers direct flights to Akita Airport every Thursday and Sunday, making travel convenient. We warmly invite you to visit Akita in person and experience its rich culture and breathtaking seasonal beauty for yourself. We look forward to seeing you in Akita!',
+        img: '../images/items/expo_C9.jpg'
+    },
+    'expo_C10': {
+        title: 'Taipei City・Matsue City Friendship Lantern',
+        name: 'The Bards：Kota、Pori、Satoshi、Tabuchi',
+        type: '',
+        desc: 'Matsue City\'s autumn tradition, the "Matsue Water Lantern Festival," features numerous handmade lanterns lining the castle town. This year marks the 20ᵗʰ anniversary of the exchange between Matsue City and Taipei City, which began with peonies. As a symbol of friendship between Taipei and Matsue, lanterns created through a collaboration between students from University of Taipei Department of Visual Arts and Matsue City creators will be displayed.',
+        img: '../images/items/expo_C10.jpg'
+    },
+    'expo_C11': {
+        title: 'Illuminated Elegance The Tale of Wakayama',
+        name: 'Lan Yung Chi Lantern Art House',
+        type: '',
+        desc: 'Wakayama Prefecture, located at the southern tip of Japan\'s Honshu Island, is a treasure where nature and culture harmoniously coexist, boasting magnificent coastlines, lush mountains, and World Heritage sites such as Mt. Koya and the Kumano Kodo. This lantern exhibition presents four exquisite pieces that convey the diverse charms of this land.\nThe Arida Mikan in golden autumn symbolizes the joy of harvest, spreading the rich fragrance of Wakayama, the home of citrus. The beloved cat stationmaster Tama, with its adorable figure, recreates the heartwarming story of the Wakayama Electric Railway. The mascot Kiichan, dressed in Heian-period attire, depicts a magnificent chapter of a thousand years of history. Meanwhile, the Konpon Daito pagoda, towering on Mt. Koya, symbolizes the deep religious and cultural heritage of Wakayama Prefecture.\nThrough these four lanterns, the natural beauty and cultural stories of Wakayama are expressed in light and shadow, inviting visitors to experience this destination, rich in history and vibrant in charm.',
+        img: '../images/items/expo_C11.jpg'
+    },
+    'expo_C12': {
+        title: 'Front Design :"Ma Chao Fighting Valiantly"\nBack Design :"Tang Beauty"',
+        name: 'KAWAMURA REIHA',
+        type: '',
+        desc: 'This is a miniature version of a festival float actually used in the Hirosaki Neputa Festival, a traditional summer festival held annually in Hirosaki City, Aomori Prefecture, Japan.\nNeputa lanterns are typically fan-shaped. The base features illustrations of warriors along with the calligraphy "Unkan" (雲漢), which represents the Milky Way, and is decorated with peony motifs.\nThe fan-shaped lanterns commonly depict characters from Romance of the Three Kingdoms. The Neputa lantern exhibited here is painted with the image of Ma Chao, valor in the midst of battle.',
+        img: '../images/items/expo_C12.jpg'
+    },
+    'expo_C13': {
+        title: 'This is Shanghai',
+        name: 'WANG ZHAO QING',
+        type: '',
+        desc: 'The sculpture is inspired by the legend of the “Winged Heavenly Horse.” Made from iridescent, eco-friendly polypropylene (PP) material, it forms the “Cosmic Steed Traversing Time and Space,” with its hooves poised above the “Star-Trail Galaxy.” Shanghai’s iconic landmarks, the Huangpu River, and Suzhou Creek surround the figure. Lights flow and shift colors smoothly, while swirling stars at the base recreate the shimmering hues of the Milky Way, creating a futuristic sci-fi atmosphere.  \nThe galloping horse carries Shanghai’s warm blessings, surrounded by blooming flowers. It symbolizes prosperity, the beauty of spring, and peaceful harmony. We sincerely wish everyone a joyful, lucky, and prosperous Year of the Horse!',
+        img: '../images/items/expo_C13.jpg'
     },
 
 };

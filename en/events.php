@@ -863,7 +863,7 @@
                         <div class="event-details">
                             <h3 class="event-title">WBC live broadcast at Taipei Performing Arts Center - cheer and win prizes</h3>
                             <p class="event-desc"><strong>Location:</strong> Outdoor Plaza Broadcast Area, Taipei Performing Arts Center + Expo Park Lantern Area</p>
-                            <p class="event-desc"><strong>Details</strong> On 3/6 (Fri), during the live WBC broadcast at the Taipei Performing Arts Center, visitors may collect a Taipei Lantern Festival raffle ticket at the service counter. Before 3/15 (Sun), visit the Expo Park Lantern Area to enjoy the lantern displays and present the ticket at the Information Desk (in front of the floral wall at Taipei Expo Park) to enter the prize draw.</p>
+                            <p class="event-desc"><strong>Details</strong> On 3/6 (Fri), during the live WBC broadcast at the Taipei Performing Arts Center, visitors may collect a Taipei Lantern Festival raffle ticket at the service counter. Before 3/8 (Sun), visit the Expo Park Lantern Area to enjoy the lantern displays and present the ticket at the Information Desk (in front of the floral wall at Taipei Expo Park) to enter the prize draw.</p>
                             <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">Limited quantities available while supplies last.</p>
                         </div>
                     </div>

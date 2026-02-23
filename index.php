@@ -46,7 +46,8 @@
             <div class="news-header">
                 <a href="news_list" class="news-more">新聞總覽 ></a>
             </div>
-            
+
+            <!-- 新一則置前 -->
             <div class="news-list">
                 <a href="news_260220-2" class="news-item">
                     <span class="news-date">2026.02.20</span>
@@ -60,14 +61,18 @@
                     <span class="news-date">2026.02.15</span>
                     <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>
                 </a>
+                <a href="news_260213-2" class="news-item">
+                    <span class="news-date">2026.02.13</span>
+                    <span class="news-text">榮町漫市集浪漫回歸！響應2026台北燈節，邀民眾走進中正區感受夜間街區魅力 ...</span>
+                </a>
                 <a href="news_260213" class="news-item">
                     <span class="news-date">2026.02.13</span>
                     <span class="news-text">佛光山燈區以「希望之門」 點亮2026台北燈節 ...</span>
                 </a>
-                <a href="news_260211-2" class="news-item">
+                <!-- <a href="news_260211-2" class="news-item">
                     <span class="news-date">2026.02.11</span>
                     <span class="news-text">2026台北燈節交通管制，搭乘大眾運輸前往最方便 ...</span>
-                </a>
+                </a> -->
                 <!-- <a href="news_260211" class="news-item">
                     <span class="news-date">2026.02.11</span>
                     <span class="news-text">賞燈祈福過好年！北市20間宮廟響應「2026台北燈節」300公尺燈海隧道、馬年特色燈飾超吸睛 ...</span>

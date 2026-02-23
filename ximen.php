@@ -17,12 +17,7 @@
     <main style="padding-bottom: 150px;">
         <div style="text-align: justify; text-justify: inter-word; word-break: break-word; max-width: 800px; margin: 0 auto; padding: 30px 20px 60px;">
             <p style="color: var(--text-sub); font-size: 1.1rem">
-                <strong style="color: white">西門展區</strong> 
-                坐落於歷史情懷與次文化交織的西門町。2026年，我們將整座潮流街區轉化為大型沉浸式光廊，讓經典的地景建築與前衛燈飾
-                交相輝映，呈現城市記憶與創新力的完美融合。當百年街道遇上幻彩燈飾，年輕活力與歷史底蘊在燈光下激盪，帶領您穿梭於跨越時空
-                的視覺饗宴。<br><br>
-                漫步於此，您將感受強烈的影音衝擊與街頭藝術生命力。這裡的每一條巷弄都藏著驚喜，不僅展現了台北兼容並蓄的潮流能量，更讓經
-                典文化在燈飾照射下再次重生。邀請您與好友一同前來，在西門街頭捕捉那抹最耀眼的光芒。
+                <strong style="color: white">西門展區</strong>坐落於歷史情懷與次文化交織的西門町。2026年，我們將整座潮流街區轉化為大型沉浸式光廊，讓經典的地景建築與前衛燈飾交相輝映，呈現城市記憶與創新力的完美融合。當百年街道遇上幻彩燈飾，年輕活力與歷史底蘊在燈光下激盪，帶領您穿梭於跨越時空的視覺饗宴。<br><br>漫步於此，您將感受強烈的影音衝擊與街頭藝術生命力。這裡的每一條巷弄都藏著驚喜，不僅展現了台北兼容並蓄的潮流能量，更讓經典文化在燈飾照射下再次重生。邀請您與好友一同前來，在西門街頭捕捉那抹最耀眼的光芒。
             </p>
         </div>
 
@@ -163,7 +158,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_B9')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B9  燈映昇福平安橋</h4>
+                                <h4 class="lantern-name">B9  城隍昇福平安橋</h4>
                                 <span class="lantern-designer">臺灣省城隍廟設計團隊</span>
                             </div>
                         </div>
@@ -321,6 +316,33 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    
+                    <div class="lantern-item" style="cursor: default;">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name" style="color:#b2e152;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                                        <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                                        <path d="M18 4H6v4.5c0 3.04 2.69 5.5 6 5.5s6-2.46 6-5.5V4z"></path>
+                                        <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                                        <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                                        <path d="M4 22h16"></path>
+                                    </svg>
+                                    競賽燈區</h4>
+                            </div>
+                        </div>
+                        <a href="pdf/2026台北燈節-競賽燈組.pdf" target="_blank" class="btn-view-detail-g">
+                            競賽燈組名冊下載
+                            <span style="vertical-align: middle; margin-left: 5px;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                            </span>
+                        </a>
                     </div>
 
                 </div>

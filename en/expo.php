@@ -51,7 +51,7 @@
                     <div class="lantern-item" onclick="openMapModal('expo_A2')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A2 Bumblebee</h4>
+                                <h4 class="lantern-name">A2 Optimus Prime vs Megatron</h4>
                                 <span class="lantern-designer">Transformers Design Team</span>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                     <div class="lantern-item" onclick="openMapModal('expo_A4')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A4  Optimus Prime vs Megatron</h4>
+                                <h4 class="lantern-name">A4  Bumblebee</h4>
                                 <span class="lantern-designer">Transformers Design Team</span>
                             </div>
                         </div>
@@ -219,6 +219,124 @@
                         </div>
                         <div class="btn-view-detail">More Details</div>
                     </div>
+
+                    <!-- <div class="lantern-item" onclick="openMapModal('expo_C1')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C1 American Institute in Taiwan (AIT)</h4>
+                                <span class="lantern-designer">LIN, Yu-Chu、LEE, Kuan-I、Lico Lee</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C2')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C2 Saint Kitts and Nevis</h4>
+                                <span class="lantern-designer">Huang Wen Chuan</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C3')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C3 Fukushima Prefecture</h4>
+                                <span class="lantern-designer">Lan Yung Chi Lantern Art House</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C4')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C4 Hamamatsu City</h4>
+                                <span class="lantern-designer">Lan Yung Chi</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C5')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C5 Daegu Metropolitan City</h4>
+                                <span class="lantern-designer">CHEN, ZU-RONG</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C6')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C6 Matsuyama City</h4>
+                                <span class="lantern-designer">CHEN, ZU-RONG</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C7')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C7 Guam Visitors Bureau</h4>
+                                <span class="lantern-designer">CHEN, ZU-RONG</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C8')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C8 Kasama City</h4>
+                                <span class="lantern-designer">CHEN, ZU-RONG</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C9')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C9 Akita Prefecture</h4>
+                                <span class="lantern-designer">Lan Yung Chi Lantern Art House</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C10')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C10 Matsue City</h4>
+                                <span class="lantern-designer">The Bards：Kota、Pori、Satoshi、Tabuchi</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C11')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C11 Wakayama Prefecture</h4>
+                                <span class="lantern-designer">Lan Yung Chi Lantern Art House</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C12')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C12 Hirosaki City</h4>
+                                <span class="lantern-designer">KAWAMURA REIHA</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C13')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C13 Shanghai Municipal People's Government</h4>
+                                <span class="lantern-designer">WANG ZHAO QING</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">More Details</div>
+                    </div> -->
 
                 </div>   
             </div>

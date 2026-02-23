@@ -55,6 +55,19 @@
                 </article>
                 <article class="news-card">
                     <div class="news-img-box">
+                        <img src="images/news/n260213-2_01.jpg" alt="希望之門">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.13</div>
+                        <h3 class="news-list-title">榮町漫市集浪漫回歸！響應2026台北燈節，邀民眾走進中正區感受夜間街區魅力</h3>
+                        <p class="news-excerpt">
+                           第二屆「榮町漫市集」浪漫回歸！永綏街燈火漫步續寫榮町商圈夜間風景！深受好評的「榮町漫市集」於去年首度亮相即獲熱烈 ...
+                        </p>
+                        <a href="news_260213-2" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
                         <img src="images/news/n260213_01.jpg" alt="希望之門">
                     </div>
                     <div class="news-content">

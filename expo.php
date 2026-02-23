@@ -17,11 +17,7 @@
     <main style="padding-bottom: 150px;">
         <div style="text-align: justify; text-justify: inter-word; word-break: break-word; max-width: 800px; margin: 0 auto; padding: 30px 20px 60px;">
             <p style="color: var(--text-sub); font-size: 1.1rem;">
-                <strong style="color: white;">花博展區</strong> 
-                位於廣闊的圓山園區，我們將自然景觀轉化為地景藝術的畫布，利用得天獨厚的植栽與起伏地形，結合大型燈光藝術，打造出一座彷彿從童話中走出的奇幻森林。
-                這裡擁有充足的腹地與平緩的步道，是全家大小在夜間漫步的最佳選擇。<br><br>
-                您可以放慢腳步，在晚風吹拂下欣賞光影在草木間輕盈躍動，享受遠離喧囂的愜意時刻。從適合親子互動到氣勢磅礴的燈組，
-                我們將光影美學融入大地，為您留下最溫馨的佳節回憶。
+                <strong style="color: white;">花博展區</strong>位於廣闊的圓山園區，我們將自然景觀轉化為地景藝術的畫布，利用得天獨厚的植栽與起伏地形，結合大型燈光藝術，打造出一座彷彿從童話中走出的奇幻森林。這裡擁有充足的腹地與平緩的步道，是全家大小在夜間漫步的最佳選擇。<br><br>您可以放慢腳步，在晚風吹拂下欣賞光影在草木間輕盈躍動，享受遠離喧囂的愜意時刻。從適合親子互動到氣勢磅礴的燈組，我們將光影美學融入大地，為您留下最溫馨的佳節回憶。
             </p>
         </div>
 
@@ -53,7 +49,7 @@
                     <div class="lantern-item" onclick="openMapModal('expo_A2')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A2  蜂芒畢露・無限之鏡｜大黃蜂</h4>
+                                <h4 class="lantern-name">A2  兩派雙雄對決・街機巨人｜柯博文 vs 密卡登</h4>
                                 <span class="lantern-designer">變形金剛設計團隊</span>
                             </div>
                         </div>
@@ -71,7 +67,7 @@
                     <div class="lantern-item" onclick="openMapModal('expo_A4')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A4  兩派雙雄對決・街機巨人｜柯博文 vs 密卡登</h4>
+                                <h4 class="lantern-name">A4  蜂芒畢露・無限之鏡｜大黃蜂</h4>
                                 <span class="lantern-designer">變形金剛設計團隊</span>
                             </div>
                         </div>
@@ -221,6 +217,124 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
+
+                    <!-- <div class="lantern-item" onclick="openMapModal('expo_C1')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C1 美國在台協會</h4>
+                                <span class="lantern-designer">林玉珠、李冠毅、李青芸</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C2')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C2 聖克里斯多福及尼維斯</h4>
+                                <span class="lantern-designer">黃文全</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C3')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C3 福島縣</h4>
+                                <span class="lantern-designer">藍永旗花燈藝術工房</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C4')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C4 靜岡縣濱松市</h4>
+                                <span class="lantern-designer">藍永旗</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C5')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C5 大邱廣域市</h4>
+                                <span class="lantern-designer">陳祖榮</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C6')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C6 愛媛縣松山市</h4>
+                                <span class="lantern-designer">陳祖榮</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C7')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C7 關島觀光局</h4>
+                                <span class="lantern-designer">陳祖榮</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C8')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C8 茨城縣笠間市</h4>
+                                <span class="lantern-designer">陳祖榮</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C9')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C9 秋田縣</h4>
+                                <span class="lantern-designer">藍永旗花燈藝術工房</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C10')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C10 島根縣松江市</h4>
+                                <span class="lantern-designer">吟遊詩人：Kota、Pori、Satoshi、Tabuchi</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C11')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C11 和歌山縣</h4>
+                                <span class="lantern-designer">藍永旗花燈藝術工房</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C12')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C12 青森縣弘前市</h4>
+                                <span class="lantern-designer">川村 麗巴</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div>
+                    <div class="lantern-item" onclick="openMapModal('expo_C13')">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name">C13 上海市人民政府</h4>
+                                <span class="lantern-designer">王兆卿</span>
+                            </div>
+                        </div>
+                        <div class="btn-view-detail">查看詳情</div>
+                    </div> -->
 
                 </div>   
             </div>

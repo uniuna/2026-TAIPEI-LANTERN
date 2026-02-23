@@ -320,6 +320,33 @@ Wu Tsung-yi</span>
                         <div class="btn-view-detail">More Details</div>
                     </div> -->
 
+                    <!-- <div class="lantern-item" style="cursor: default;">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name" style="color:#b2e152;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                                        <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                                        <path d="M18 4H6v4.5c0 3.04 2.69 5.5 6 5.5s6-2.46 6-5.5V4z"></path>
+                                        <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                                        <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                                        <path d="M4 22h16"></path>
+                                    </svg>
+                                    競賽燈區</h4>
+                            </div>
+                        </div>
+                        <a href="../pdf/2026台北燈節-競賽燈組(en).pdf" target="_blank" class="btn-view-detail-g">
+                            競賽燈組名冊下載
+                            <span style="vertical-align: middle; margin-left: 5px;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                            </span>
+                        </a>
+                    </div> -->
+
                 </div>
             </div>
 

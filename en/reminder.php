@@ -120,8 +120,8 @@
                             <td>Tuesday to Sunday 11:00 to 21:00</td>
                         </tr>
                         <tr>
-                            <td style="padding-bottom: 50px;">Ximending Visitor and Tourist Information Center</td>
-                            <td style="padding-bottom: 50px;">Daily 12:00 to 21:00</td>
+                            <td>Ximending Visitor and Tourist Information Center</td>
+                            <td>Daily 12:00 to 21:00</td>
                         </tr>
 
                         <tr>

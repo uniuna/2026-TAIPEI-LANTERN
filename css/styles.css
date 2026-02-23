@@ -397,6 +397,25 @@ ul { list-style: none; }
     box-shadow: 0 0 10px var(--accent-color);
 }
 
+.btn-view-detail-g{
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    border: 1px solid #b2e152;
+    color: #b2e152;
+    background: transparent;
+    border-radius: 50px;
+    transition: 0.3s;
+    white-space: nowrap; /* 按鈕文字不換行 */
+    text-align: center;
+}
+
+.btn-view-detail-g:hover {
+    background: #b2e152;
+    color: #000;
+    box-shadow: 0 0 10px #b2e152;
+}
+
 /* RWD 手機版調整 */
   @media (max-width: 768px) {
       .btn-main, .btn-view-detail {
