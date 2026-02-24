@@ -426,8 +426,8 @@ const mapData = {
     'ximen_B10': {
         title: 'B10  響樂到中華',
         name: '',
-        type: '',
-        desc: '',
+        type: '靜態展出',
+        desc: '中華路影音街長年以專業影音設備聞名，是音樂與影音愛好者的指標商圈。本次妝點以「影音產業特色」為主題，將音響放大成高逾2米、寬達3米的造型打卡裝置，結合霓虹燈光與亮色線條，融入城中IP「內行仔」，將聲音能量轉化為光影律動，呈現街區節奏。音響裝置中央置入商圈名稱與LOGO，強化品牌識別。民眾可拍照打卡、與光影互動，體驗街區特色。邀請大家走訪街區，感受中華路影音街的活力與節奏。<br>2/25－3/15，到城隍廟燈區或中華路音響打卡點「響樂到中華」拍照，上傳至中華路影音街粉絲頁完成打卡即可參加抽獎！最大獎BOSESoundLinkFlex藍芽音響1名，米塔智能筋膜槍2名及中華路影音街造型折疊購物袋20名，得獎名單3/17公布於中華路影音街粉絲頁，快來拍照拿好禮！',
         img: '../images/items/ximen_B10.jpg'
     },
     'ximen_B11': {
@@ -883,10 +883,10 @@ const mapDataEn = {
         img: '../images/items/ximen_B9.jpg'
     },
     'ximen_B10': {
-        title: 'B10  響樂到中華',
+        title: 'B10  Sound Waves to Zhonghua',
         name: '',
-        type: '',
-        desc: '',
+        type: 'Static display',
+        desc: 'Zhonghua Road Audio & Video Street has long been renowned for its professional audiovisual equipment and is a landmark district for music and AV enthusiasts. This installation is themed around the “Distinctive Features of the AV Industry,” transforming a speaker into a striking check-in art piece over 2 meters tall and 3 meters wide. Enhanced with neon lighting and vibrant linear accents, the design incorporates the district’s IP character “Nei Hang Zai,” converting the energy of sound into dynamic light and shadow to reflect the rhythm of the neighborhood. The name and logo of Zhonghua Road Audio & Video Street are prominently placed at the center of the speaker installation to strengthen brand identity. Visitors are invited to take photos, interact with the light effects, and experience the unique character of the district. We welcome everyone to explore the area and feel the vitality and rhythm of Zhonghua Road Audio & Video Street. From 2/25 to 3/15, visit the Chenghuang Temple Lantern Area or the Zhonghua Road speaker check-in spot “Sound to Zhonghua,” take a photo and upload it to the Zhonghua Road Audio & Video Street Facebook fan page to complete your check-in for a chance to win prizes! The grand prize is one BOSE SoundLink Flex Bluetooth speaker. Additional prizes include two Mita Intelligent Massage Guns and 20 exclusive Zhonghua Road Audio & Video Street foldable shopping bags. Winners will be announced on 3/17 on the Zhonghua Road Audio & Video Street Facebook fan page. Come take a photo and win exciting prizes!',
         img: '../images/items/ximen_B10.jpg'
     },
     'ximen_B11': {
@@ -995,10 +995,10 @@ const mapDataEn = {
         img: '../images/items/ximen_B25.jpg'
     },
     'ximen_B26': {
-        title: 'B26  光行小馬 (剝皮寮)',
+        title: 'B26  Lightwalker Pony (Bopiliao)',
         name: '',
         type: 'Static display',
-        desc: '',
+        desc: 'Lightwalker Pony arrives in Bangka Old Town to celebrate the Lantern Festival with everyone. Centered on the idea of seeking light, the pony follows glimmers through the streets between Lungshan Temple and Ximen, lingering in people’s laughter and footsteps. Bangka was the earliest bustling district of Taipei, where river trade, faith, and marketplaces shaped the city’s beginnings. Today, the pony stands warmly illuminated within the old quarter, adding charm and blessings to the festivities. Follow Lightwalker Pony to seek light, take photos, and create your own festive memories in the old town.',
         img: '../images/items/ximen_B26.jpg'
     },
 
@@ -1131,11 +1131,11 @@ const mapDataEn = {
         img: '../images/items/expo_B14_v2.jpg'
     },
     'expo_B15': {
-        title: 'B15 景福宮燈區',
-        name: '',
+        title: 'B15 Jingfu Temple Lantern Area',
+        name: 'Ching Fu Temple',
         type: 'Static display',
-        desc: '',
-        img: '../images/items/expo_B15.jpg'
+        desc: 'For the first time, Jingfu Temple joins the Taipei Lantern Festival. Lantern displays extend from MRT Zhongshan Elementary School Station through the surrounding Zhongshan commercial district, creating a warm and festive atmosphere. Jingfu Temple, located in the Niupu area of Zhongshan District, is a traditional Earth God temple dedicated to Tudi Gong. With a history of over 150 years, the temple features a three-story traditional Chinese architectural style, a grand entrance gate, and a green plaza. It remains a vibrant urban center of faith, frequently visited by worshippers.',
+        img: ''
     },
     'expo_B16': {
         title: 'B16 Dazzling in Zhongshan',

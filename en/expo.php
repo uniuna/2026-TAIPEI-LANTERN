@@ -201,15 +201,15 @@
                         </div>
                         <div class="btn-view-detail">More Details</div>
                     </div>
-                    <!-- <div class="lantern-item" onclick="openMapModal('expo_B15')">
+                    <div class="lantern-item" onclick="openMapModal('expo_B15')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B15 景福宮燈區</h4>
-                                <span class="lantern-designer"></span>
+                                <h4 class="lantern-name">B15 Jingfu Temple Lantern Area</h4>
+                                <span class="lantern-designer">Ching Fu Temple</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">More Details</div>
-                    </div> -->
+                    </div>
                     <div class="lantern-item" onclick="openMapModal('expo_B16')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
@@ -220,7 +220,7 @@
                         <div class="btn-view-detail">More Details</div>
                     </div>
 
-                    <!-- <div class="lantern-item" onclick="openMapModal('expo_C1')">
+                    <div class="lantern-item" onclick="openMapModal('expo_C1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">C1 American Institute in Taiwan (AIT)</h4>
@@ -336,7 +336,7 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">More Details</div>
-                    </div> -->
+                    </div>
 
                 </div>   
             </div>

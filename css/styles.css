@@ -577,6 +577,7 @@ footer.active-mode .footer-bottom {
 
 /* 內容區塊控制 */
 .tab-content,
+.shop-content-block,
 .extra-content {
   display: none; /* 預設全部隱藏 */
   animation: fadeIn 0.5s;
@@ -584,6 +585,7 @@ footer.active-mode .footer-bottom {
 
 /* 加上這行，讓有 active class 的內容顯示出來 */
 .tab-content.active,
+.shop-content-block.active,
 .extra-content.active {
   display: block;
 }

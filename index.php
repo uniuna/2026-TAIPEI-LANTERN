@@ -47,8 +47,13 @@
                 <a href="news_list" class="news-more">新聞總覽 ></a>
             </div>
 
-            <!-- 新一則置前 -->
             <div class="news-list">
+                <!-- 此篇置頂 -->
+                <a href="news_260215" class="news-item">
+                    <span class="news-date">2026.02.15</span>
+                    <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>
+                </a>
+                <!-- 新一則置前 -->
                 <a href="news_260223" class="news-item">
                     <span class="news-date">2026.02.23</span>
                     <span class="news-text">打造無菸城市 營造清新賞燈環境 2026台北燈節展區及周邊禁止吸菸 ...</span>
@@ -60,10 +65,6 @@
                 <a href="news_260220-1" class="news-item">
                     <span class="news-date">2026.02.20</span>
                     <span class="news-text">不只變形金剛！2026台北燈節花博展區亮點一次看...</span>
-                </a>
-                <a href="news_260215" class="news-item">
-                    <span class="news-date">2026.02.15</span>
-                    <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>
                 </a>
                 <a href="news_260213-2" class="news-item">
                     <span class="news-date">2026.02.13</span>
@@ -180,6 +181,12 @@
                     frameborder="0" 
                     allowfullscreen>
                 </iframe>
+            </div>
+            <div style="margin-top: 30px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); border: 1px solid rgba(255, 255, 255, 0.1); background: #000;">
+                <video width="100%" controls preload="metadata" style="display: block; aspect-ratio: 16/9; object-fit: cover;">
+                    <source src="videos/lantern_install.mp4" type="video/mp4">
+                    您的瀏覽器不支援 HTML5 影片播放，請更新瀏覽器。
+                </video>
             </div>
         </section>
 

@@ -571,7 +571,7 @@
                 <button type="button" class="sub-cat-btn" onclick="switchSubCat(event, 'shop-10')">燈照艋舺：2026 馬馬慶元宵</button>
             </div>
 
-            <div id="shop-1" class="shop-content-block">
+            <div id="shop-1" class="shop-content-block active">
                 <div class="featured-event-card">
                     <div class="featured-img-box">
                         <img src="images/events/好運吉馬來.jpg" alt="好運吉馬來">
@@ -848,8 +848,9 @@
                             </li>
                             <li>
                                 <span class="info-label">夜光場：</span>
-                                <span class="info-text">年滿25歲(含)以上，設籍、居住、工作或就學於臺北市之單身男、女。<br>（未曾參加本區單身聯誼者優先錄取）</span>
+                                <span class="info-text">03/07（六）1830-2030</span>
                             </li>
+                            <li>*詳細報名請上 Accupass活動通</li>
                         </ul>
 
                         <div class="featured-action">

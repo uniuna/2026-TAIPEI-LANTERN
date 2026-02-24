@@ -46,7 +46,7 @@
                     2、花博公園中山北路入口處（近圓山派出所）
                 </p>
 
-                <img src="images/news/花博禁菸區.jpg" alt="新聞配圖">
+                <img src="images/news/noSmoking-expo.jpg" alt="新聞配圖">
 
                 <h3 style="color: var(--accent-color);">西門展區</h3>
                 <br>
@@ -70,7 +70,7 @@
                     3、西寧南路83號（峨眉立體停車場前）
                 </p>
 
-                <img src="images/news/西門禁煙區.jpg" alt="新聞配圖">
+                <img src="images/news/noSmoking-ximen.jpg" alt="新聞配圖">
 
             </div>
         </article>

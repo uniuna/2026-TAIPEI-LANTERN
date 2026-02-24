@@ -129,6 +129,12 @@
             <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
                 <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/PnGHH5oSpIM?si=ttaGQ-Fll0N_D1V2" frameborder="0" allowfullscreen></iframe>
             </div>
+            <div style="margin-top: 30px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); border: 1px solid rgba(255, 255, 255, 0.1); background: #000;">
+                <video width="100%" controls preload="metadata" style="display: block; aspect-ratio: 16/9; object-fit: cover;">
+                    <source src="../videos/lantern_install.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video playback. Please update your browser.
+                </video>
+            </div>
         </section>
 
         <section style="padding: 80px 0 40px;">

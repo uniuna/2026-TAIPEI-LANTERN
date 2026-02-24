@@ -218,7 +218,7 @@
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
 
-                    <!-- <div class="lantern-item" onclick="openMapModal('expo_C1')">
+                    <div class="lantern-item" onclick="openMapModal('expo_C1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">C1 美國在台協會</h4>
@@ -334,7 +334,7 @@
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
 
                 </div>   
             </div>

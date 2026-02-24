@@ -164,15 +164,15 @@
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
                     </div>
-                    <!-- <div class="lantern-item" onclick="openMapModal('ximen_B10')">
+                    <div class="lantern-item" onclick="openMapModal('ximen_B10')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
                                 <h4 class="lantern-name">B10  響樂到中華</h4>
-                                <span class="lantern-designer"></span>
+                                <!-- <span class="lantern-designer"></span> -->
                             </div>
                         </div>
                         <div class="btn-view-detail">查看詳情</div>
-                    </div> -->
+                    </div>
                     <div class="lantern-item" onclick="openMapModal('ximen_B11')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">

@@ -13,16 +13,30 @@
             <h2 class="section-title">新聞總覽</h2>
 
             <div class="news-grid">
-            <!-- 新一則置前 -->
+                <!-- 此篇置頂 -->
                 <article class="news-card">
                     <div class="news-img-box">
-                        <img src="images/news/n260223.jpg" alt="打造無菸城市">
+                        <img src="images/news/禁止吸菸.jpg" alt="禁止吸菸">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.15</div>
+                        <h3 class="news-list-title">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。違者最高處1萬元罰鍰。</h3>
+                        <p class="news-excerpt">
+                           2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區 ...
+                        </p>
+                        <a href="news_260215" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <!-- 新一則置前 -->
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/noSmoking-ximen.jpg" alt="打造無菸城市">
                     </div>
                     <div class="news-content">
                         <div class="news-list-date">2026.02.23</div>
                         <h3 class="news-list-title">打造無菸城市 營造清新賞燈環境 2026台北燈節展區及周邊禁止吸菸</h3>
                         <p class="news-excerpt">
-                           「2026台北燈節」將於2月25日至3月15日在花博展區與西門展區盛大登場，臺北市政府觀光傳播局表示，今年活動期間展區及周邊禁止吸菸 ...
+                           「2026台北燈節」將於2月25日至3月15日在花博展區與西門展區盛大登場，臺北市政府觀光傳播局表示，今年活動期間展區及周邊禁止吸菸（含電子煙及加熱菸 ...
                         </p>
                         <a href="news_260223" class="btn-more">閱讀更多</a>
                     </div>
@@ -51,19 +65,6 @@
                            「2026台北燈節」2月25日至3月15日在花博展區與西門展區盛大登場。今年燈節首度推出「雙展區、雙IP」策展模式，將人氣角色與創意藝術作品同時呈現 ...
                         </p>
                         <a href="news_260220-1" class="btn-more">閱讀更多</a>
-                    </div>
-                </article>
-                <article class="news-card">
-                    <div class="news-img-box">
-                        <img src="images/news/禁止吸菸.jpg" alt="禁止吸菸">
-                    </div>
-                    <div class="news-content">
-                        <div class="news-list-date">2026.02.15</div>
-                        <h3 class="news-list-title">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。違者最高處1萬元罰鍰。</h3>
-                        <p class="news-excerpt">
-                           2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區 ...
-                        </p>
-                        <a href="news_260215" class="btn-more">閱讀更多</a>
                     </div>
                 </article>
                 <article class="news-card">
