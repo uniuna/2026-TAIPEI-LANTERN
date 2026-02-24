@@ -16,6 +16,19 @@
             <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
+                        <img src="images/news/n260223.jpg" alt="打造無菸城市">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.23</div>
+                        <h3 class="news-list-title">打造無菸城市 營造清新賞燈環境 2026台北燈節展區及周邊禁止吸菸</h3>
+                        <p class="news-excerpt">
+                           「2026台北燈節」將於2月25日至3月15日在花博展區與西門展區盛大登場，臺北市政府觀光傳播局表示，今年活動期間展區及周邊禁止吸菸 ...
+                        </p>
+                        <a href="news_260223" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
                         <img src="images/news/n260220-2_01.jpg" alt="西門町年節魅力">
                     </div>
                     <div class="news-content">

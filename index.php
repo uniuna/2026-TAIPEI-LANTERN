@@ -49,6 +49,10 @@
 
             <!-- 新一則置前 -->
             <div class="news-list">
+                <a href="news_260223" class="news-item">
+                    <span class="news-date">2026.02.23</span>
+                    <span class="news-text">打造無菸城市 營造清新賞燈環境 2026台北燈節展區及周邊禁止吸菸 ...</span>
+                </a>
                 <a href="news_260220-2" class="news-item">
                     <span class="news-date">2026.02.20</span>
                     <span class="news-text">從潮流IP到傳統藝術 2026台北燈節點亮西門町年節魅力 ...</span>
@@ -65,10 +69,10 @@
                     <span class="news-date">2026.02.13</span>
                     <span class="news-text">榮町漫市集浪漫回歸！響應2026台北燈節，邀民眾走進中正區感受夜間街區魅力 ...</span>
                 </a>
-                <a href="news_260213" class="news-item">
+                <!-- <a href="news_260213" class="news-item">
                     <span class="news-date">2026.02.13</span>
                     <span class="news-text">佛光山燈區以「希望之門」 點亮2026台北燈節 ...</span>
-                </a>
+                </a> -->
                 <!-- <a href="news_260211-2" class="news-item">
                     <span class="news-date">2026.02.11</span>
                     <span class="news-text">2026台北燈節交通管制，搭乘大眾運輸前往最方便 ...</span>
