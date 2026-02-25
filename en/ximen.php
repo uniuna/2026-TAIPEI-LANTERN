@@ -17,7 +17,7 @@
     <main style="padding-bottom: 150px;">
         <div style="text-align: justify; text-justify: inter-word; word-break: break-word; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
             <p style="color: var(--text-sub); font-size: 1.2rem">
-                <strong>Ximen Lantern Area</strong> is located in Ximending, where historic character and subcultures intersect.In 2026, the entire trendsetting district is transformed into a large-scale immersive light corridor, where iconic urban landmarks and avant-garde light installations illuminate one another, creating a perfect fusion of city memory and creative innovation. As century-old streets meet dazzling lantern displays, youthful energy and historical depth come alive under the glow of light, guiding visitors through a visual experience that transcends time.
+                <strong>Ximen Lantern Area</strong> is located in Ximending, where historic character and subcultures intersect. In 2026, the entire trendsetting district is transformed into a large-scale immersive light corridor, where iconic urban landmarks and avant-garde light installations illuminate one another, creating a perfect fusion of city memory and creative innovation. As century-old streets meet dazzling lantern displays, youthful energy and historical depth come alive under the glow of light, guiding visitors through a visual experience that transcends time.
                 <br><br>
                 As you stroll through the area, you will encounter powerful audiovisual effects and the vibrant pulse of street art. Every alleyway holds a surprise, showcasing Taipei’s inclusive creative energy while allowing classic culture to be reborn through light. We invite you and your friends to explore the streets of Ximen and capture the most radiant moments of the festival.
             </p>
@@ -28,7 +28,7 @@
             <div class="zone-block" style="margin-bottom: 80px;">
                 
                 <div id="map-theme-1" class="interactive-map-container">
-                    <img src="../images/maps/map-ximen-v2.jpg" onclick="openImageModal('../images/maps/map-ximen-v2.jpg')" style="cursor: pointer;" alt="西門展區地圖" >
+                    <img src="../images/maps/map-ximen-en.jpg" onclick="openImageModal('../images/maps/map-ximen-en.jpg')" style="cursor: pointer;" alt="西門展區地圖" >
                 </div>
                 <div id="imageLightbox" onclick="closeImageModal(event)">
                     <div class="modal-content-img">
@@ -366,13 +366,13 @@ Wu Tsung-yi</span>
             </div>
         </div>
 
-        <!-- <section class="map-download-section">
+        <section class="map-download-section">
             <div class="map-download-content">
-                <h3>總覽西門展區</h3>
-                <p>將西門展區地圖帶著走，離線也能輕鬆導航。</p>
+                <h3>Ximen Area Overview</h3>
+                <p>Take the Ximen Area Map with You, Explore Anytime, Even Offline.</p>
 
-                <a href="../images/maps/map-ximen-download-v2.jpg" target="_blank" class="btn-main">
-                    西門展區地圖下載
+                <a href="../images/maps/map-ximen-download-en.jpg" target="_blank" class="btn-main">
+                    Download Ximen Area Map
                     <span style="vertical-align: middle;">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
@@ -381,7 +381,7 @@ Wu Tsung-yi</span>
                     </svg></span>
                 </a>
             </div>
-        </section> -->
+        </section>
     </main>
 
     <?php include 'footer.php'; ?>

@@ -773,7 +773,7 @@ const mapData = {
         title: '這裡是上海',
         name: '王兆卿',
         type: '',
-        desc: '主體造型用「天馬展翅」的傳說，採用PP幻彩綠色環保材質，打造一匹「穿越時空的宇宙駿馬」，足踏「星軌銀河」，周身環繞上海標誌性建築、黃浦江與蘇州河。燈光流動變幻，底部繁星繚繞，模擬星河色澤，營造 Futuristic 科幻意境。\n躍馬奔騰之姿帶來上海市繁花簇擁的祝褔，寓意花開富貴、春日祥和，恭祝各位馬年吉祥如意！ ',
+        desc: '主體造型用「天馬展翅」的傳說，採用PP幻彩綠色環保材質，打造一匹「穿越時空的宇宙駿馬」，足踏「星軌銀河」，周身環繞上海標誌性建築、黃浦江與蘇州河。燈光流動變幻，底部繁星繚繞，模擬星河色澤，營造 Futuristic 科幻意境。躍馬奔騰之姿帶來上海市繁花簇擁的祝褔，寓意花開富貴、春日祥和，恭祝各位馬年吉祥如意！',
         img: '../images/items/expo_C13.jpg'
     },
 
@@ -1233,7 +1233,7 @@ const mapDataEn = {
         title: 'This is Shanghai',
         name: 'WANG ZHAO QING',
         type: '',
-        desc: 'The sculpture is inspired by the legend of the “Winged Heavenly Horse.” Made from iridescent, eco-friendly polypropylene (PP) material, it forms the “Cosmic Steed Traversing Time and Space,” with its hooves poised above the “Star-Trail Galaxy.” Shanghai’s iconic landmarks, the Huangpu River, and Suzhou Creek surround the figure. Lights flow and shift colors smoothly, while swirling stars at the base recreate the shimmering hues of the Milky Way, creating a futuristic sci-fi atmosphere.  \nThe galloping horse carries Shanghai’s warm blessings, surrounded by blooming flowers. It symbolizes prosperity, the beauty of spring, and peaceful harmony. We sincerely wish everyone a joyful, lucky, and prosperous Year of the Horse!',
+        desc: 'The sculpture is inspired by the legend of the “Winged Heavenly Horse.” Made from iridescent, eco-friendly polypropylene (PP) material, it forms the “Cosmic Steed Traversing Time and Space,” with its hooves poised above the “Star-Trail Galaxy.” Shanghai’s iconic landmarks, the Huangpu River, and Suzhou Creek surround the figure. Lights flow and shift colors smoothly, while swirling stars at the base recreate the shimmering hues of the Milky Way, creating a futuristic sci-fi atmosphere. The galloping horse carries Shanghai’s warm blessings, surrounded by blooming flowers. It symbolizes prosperity, the beauty of spring, and peaceful harmony. We sincerely wish everyone a joyful, lucky, and prosperous Year of the Horse!',
         img: '../images/items/expo_C13.jpg'
     },
 

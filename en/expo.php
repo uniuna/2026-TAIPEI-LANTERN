@@ -28,7 +28,7 @@
             <div class="zone-block" style="margin-bottom: 80px;">
                 
                 <div id="map-theme-1" class="interactive-map-container">
-                    <img src="../images/maps/map-expo-v2.jpg" onclick="openImageModal('../images/maps/map-expo-v2.jpg')" style="cursor: pointer;" alt="西門展區地圖" >
+                    <img src="../images/maps/map-expo-en.jpg" onclick="openImageModal('../images/maps/map-expo-en.jpg')" style="cursor: pointer;" alt="西門展區地圖" >
                 </div>
                 <div id="imageLightbox" onclick="closeImageModal(event)">
                     <div class="modal-content-img">
@@ -331,7 +331,7 @@
                     <div class="lantern-item" onclick="openMapModal('expo_C13')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">C13 Shanghai Municipal People's Government</h4>
+                                <h4 class="lantern-name">C13 Shanghai</h4>
                                 <span class="lantern-designer">WANG ZHAO QING</span>
                             </div>
                         </div>
@@ -357,13 +357,13 @@
             </div>
         </div>
 
-        <!-- <section class="map-download-section">
+        <section class="map-download-section">
             <div class="map-download-content">
-                <h3>總覽花博展區</h3>
-                <p>將花博展區地圖帶著走，離線也能輕鬆導航。</p>
+                <h3>Taipei Expo Park Area Overview</h3>
+                <p>Take the Taipei Expo Park Area Map with You, Explore Anytime, Even Offline.</p>
 
-                <a href="../images/maps/map-expo-download-v2.jpg" target="_blank" class="btn-main">
-                    花博展區地圖下載
+                <a href="../images/maps/map-expo-download-en.jpg" target="_blank" class="btn-main">
+                    Download Taipei Expo Park Area Map
                     <span style="vertical-align: middle;">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
@@ -372,7 +372,7 @@
                     </svg></span>
                 </a>
             </div>
-        </section> -->
+        </section>
     </main>
 
     <?php include 'footer.php'; ?>
