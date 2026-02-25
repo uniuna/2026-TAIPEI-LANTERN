@@ -71,7 +71,7 @@
                                     <p style="color:white; font-size:1.1rem;">Bus</p>
                                     <p style="color:var(--text-sub); margin-top:5px;">
                                         <strong>Bus Stops: MRT Ximen Station, Zhonghua Rd. N. Stop</strong><br>
-                                        Lines: 12, 202, 205, 212, 218, 223, 260, 265, 302, 304, 307, 310, 601, 706...等
+                                        Lines: 12, 202, 205, 212, 218, 223, 260, 265, 302, 304, 307, 310, 601, 706...
                                     </p>
                                 </div>
                             </li>

@@ -329,7 +329,7 @@
                     <div class="lantern-item" onclick="openMapModal('expo_C13')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">C13 上海市人民政府</h4>
+                                <h4 class="lantern-name">C13 上海市</h4>
                                 <span class="lantern-designer">王兆卿</span>
                             </div>
                         </div>

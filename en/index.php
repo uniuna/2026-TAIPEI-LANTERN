@@ -560,24 +560,26 @@
         </section>
     </main>
 
-    <!-- <div id="liveModal">
+    <div id="liveModal">
         <div class="live-modal-content">
             <span class="close-live-btn" onclick="closeLiveModal()">&times;</span>
             
             <div class="live-info">
-                <h2>2026台北燈節記者會直播</h2>
-                <p>🕒 1/16 (五) 10:00 - 11:00</p>
+                <h2>2026 Taipei Lantern Festival - Taipei Expo Park Area Opening Ceremony (Live Broadcast)</h2>
+                <p>🕒 02/25 (Wed) 19:00-19:30</p>
             </div>
 
-            <a href="https://www.youtube.com/watch?v=您的直播ID" target="_blank" class="live-preview-box">
-                <div class="live-badge">● LIVE</div>
-                
-                <img src="../images/hero-main.jpg" alt="直播畫面">
-                
-                <div class="live-play-icon"></div>
-            </a>
+            <div class="live-video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/w9djJbj6SfQ?si=znU5vaYWKPo4_qzW" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
         </div>
-    </div> -->
+    </div>
 
     <?php include 'footer.php'; ?>
     <script src="../js/script.js"></script>
