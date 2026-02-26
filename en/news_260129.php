@@ -19,7 +19,7 @@
                 </div>
             </header>
 
-            <div class="article-body">
+            <div class="article-body news-left">
                 <img src="../images/news/n260129_04.jpg" alt="新聞配圖">
 
                 <p>
