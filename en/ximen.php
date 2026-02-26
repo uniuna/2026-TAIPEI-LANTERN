@@ -15,8 +15,8 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <div style="text-align: justify; text-justify: inter-word; word-break: break-word; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
-            <p style="color: var(--text-sub); font-size: 1.2rem">
+        <div class="zone-summary">
+            <p>
                 <strong>Ximen Lantern Area</strong> is located in Ximending, where historic character and subcultures intersect. In 2026, the entire trendsetting district is transformed into a large-scale immersive light corridor, where iconic urban landmarks and avant-garde light installations illuminate one another, creating a perfect fusion of city memory and creative innovation. As century-old streets meet dazzling lantern displays, youthful energy and historical depth come alive under the glow of light, guiding visitors through a visual experience that transcends time.
                 <br><br>
                 As you stroll through the area, you will encounter powerful audiovisual effects and the vibrant pulse of street art. Every alleyway holds a surprise, showcasing Taipei’s inclusive creative energy while allowing classic culture to be reborn through light. We invite you and your friends to explore the streets of Ximen and capture the most radiant moments of the festival.
@@ -42,7 +42,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_A1')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A1  Baby Molly  Fortune Rolling in</h4>
+                                <h4 class="lantern-name">A1  Baby Molly</h4>
                                 <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_A2')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A2  Twinkle Twinkle  Starry Arrival</h4>
+                                <h4 class="lantern-name">A2  Twinkle Twinkle</h4>
                                 <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_A3')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A3  LABUBU Pony Dance</h4>
+                                <h4 class="lantern-name">A3  LABUBU</h4>
                                 <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_A4')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A4 Hirono Luck on the Way</h4>
+                                <h4 class="lantern-name">A4 Hirono</h4>
                                 <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_A5')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">A5 Taipei: A Dual-Sided Scroll</h4>
+                                <h4 class="lantern-name">A5 SKULLPANDA & DIMOO</h4>
                                 <span class="lantern-designer">Taipei Lantern Festival Design Team</span>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_B4')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B4  Taipei Home Field, Dragon Charging Forward</h4>
+                                <h4 class="lantern-name">B4  We are Dragons! Red Pride. City Ride.</h4>
                                 <span class="lantern-designer">Ting Hsin Taipei Lantern Festival Design Team</span>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_B8')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B8  City God Sea of Lights Tunnel</h4>
+                                <h4 class="lantern-name">B8  City God Lantern Tunnel</h4>
                                 <span class="lantern-designer">Taiwan Provincial City God Temple Design Team</span>
                             </div>
                         </div>
@@ -159,7 +159,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_B9')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B9  City God’s Rising Blessings Peace Bridge</h4>
+                                <h4 class="lantern-name">B9  Lantern Bridge of Blessings</h4>
                                 <span class="lantern-designer">Taiwan Provincial City God Temple Design Team</span>
                             </div>
                         </div>
@@ -168,7 +168,7 @@
                     <div class="lantern-item" onclick="openMapModal('ximen_B10')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B10  Sound Waves to Zhonghua</h4>
+                                <h4 class="lantern-name">B10  Resonance in Zhonghua</h4>
                                 <!-- <span class="lantern-designer"></span> -->
                             </div>
                         </div>
@@ -295,7 +295,7 @@ Wu Tsung-yi</span>
                     <div class="lantern-item" onclick="openMapModal('ximen_B24')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B24  Star Whispers of Yuan Night</h4>
+                                <h4 class="lantern-name">B24  Genpo's Starry Night</h4>
                                 <span class="lantern-designer">Yuanling Design Team</span>
                             </div>
                         </div>
@@ -313,8 +313,8 @@ Wu Tsung-yi</span>
                     <div class="lantern-item" onclick="openMapModal('ximen_B26')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B26  Lightwalker Pony (Bopiliao)</h4>
-                                <!-- <span class="lantern-designer"></span> -->
+                                <h4 class="lantern-name">B26  Luminous Little Pony</h4>
+                                <span class="lantern-designer">Wanhua Neighborhood Development Association、ckc_toys</span>
                             </div>
                         </div>
                         <div class="btn-view-detail">More Details</div>

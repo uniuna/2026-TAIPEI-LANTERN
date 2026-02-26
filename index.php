@@ -613,18 +613,18 @@
         </section>
     </main>
     
-    <div id="liveModal">
+    <!-- <div id="liveModal">
         <div class="live-modal-content">
             <span class="close-live-btn" onclick="closeLiveModal()">&times;</span>
             
             <div class="live-info">
-                <h2>2026台北燈節花博展區開幕 直播</h2>
-                <p>🕒 02/25 (三) 19:00-19:30</p>
+                <h2>2026台北燈節西門展區開幕 直播</h2>
+                <p>🕒 02/26(三) 19:00-19:30</p>
             </div>
 
             <div class="live-video-container">
                 <iframe 
-                    src="https://www.youtube.com/embed/w9djJbj6SfQ?si=znU5vaYWKPo4_qzW" 
+                    src="https://www.youtube.com/embed/pLVRHbGABFI?si=sAYgB55un2vetKs0" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -632,7 +632,7 @@
                 </iframe>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <?php include 'footer.php'; ?>
     <script src="js/script.js"></script>

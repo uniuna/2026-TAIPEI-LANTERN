@@ -14,9 +14,9 @@
             
             <div class="tab-buttons events-tab-wrapper">
                 <!-- <button class="tab-btn active" onclick="openTab(event, 'event1')">Opening Ceremony</button> -->
-                <!-- <button class="tab-btn" onclick="openTab(event, 'event2')">Stage Performances</button> -->
-                <!-- <button class="tab-btn" onclick="openTab(event, 'event3')">12 Districts Events</button> -->
-                <button class="tab-btn active" onclick="openTab(event, 'event4')">Coffee Capital Carnival</button>
+                <button class="tab-btn active" onclick="openTab(event, 'event2')">Stage Performances</button>
+                <button class="tab-btn" onclick="openTab(event, 'event3')">12 Districts Events</button>
+                <button class="tab-btn" onclick="openTab(event, 'event4')">Coffee Capital Carnival</button>
                 <button class="tab-btn" onclick="openTab(event, 'event5')">Theme Events</button>
             </div>
 
@@ -27,328 +27,328 @@
                 </section>
             </div>
 <!-- 花博舞台活動 -->
-            <div id="event2" class="tab-content">
+            <div id="event2" class="tab-content active">
                 
                 <div class="stage-intro-box">
                     <div class="stage-intro-row">
-                        <span class="stage-intro-label">日期：</span>
-                        <span>2026/02/27 ~ 03/15 精采演出等你來看!</span>
+                        <span class="stage-intro-label">Date：</span>
+                        <span>2026/02/27 ~ 03/15</span>
                     </div>
                     <div class="stage-intro-row">
-                        <span class="stage-intro-label">地點：</span>
-                        <span>花博展區主舞台</span>
+                        <span class="stage-intro-label">Location：</span>
+                        <span>Taipei Expo Park Main Stage</span>
                     </div>
                 </div>
 
                 <div class="events-masonry-grid">
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/02/27 (五)</h3>
+                        <h3 class="event-date-title">2026/02/27 (Fri.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">14:05-14:35</div>
-                                    <div class="event-details"><h3 class="event-title">張慶琳 Ana</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Ana</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:45-15:15</div>
-                                    <div class="event-details"><h3 class="event-title">搖滾童謠</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Liu Shao Xi & Kids Of Rock</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:25-15:55</div>
-                                    <div class="event-details"><h3 class="event-title">愛客樂 iColor</h3></div>
+                                    <div class="event-details"><h3 class="event-title">iColor</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">18:00-18:30</div>
-                                    <div class="event-details"><h3 class="event-title">靜岡縣濱松市</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Hamamatsu City</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">侏羅紀世界 恐龍大冒險</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Dinosaur Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:33-19:45</div>
-                                    <div class="event-details"><h3 class="event-title">侏羅紀世界 恐龍大冒險</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Dinosaur Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:45-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">Justin魔術秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Fantasy Magic Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:03-20:20</div>
-                                    <div class="event-details"><h3 class="event-title">Justin魔術秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Fantasy Magic Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:20-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">幻光馬戲團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Aurora Circus</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-20:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">幻光馬戲團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Aurora Circus</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/02/28 (六)</h3>
+                        <h3 class="event-date-title">2026/02/28 (Sat.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">14:00-14:10</div>
-                                    <div class="event-details"><h3 class="event-title">馬太鞍青年團 (祈福、迎賓舞)</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Fata’an Youth Group</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:15-14:40</div>
-                                    <div class="event-details"><h3 class="event-title">AZ 李孝祖</h3></div>
+                                    <div class="event-details"><h3 class="event-title">AZ Li Hsiao-Tsu (Mayaw Alang)</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:50-15:20</div>
-                                    <div class="event-details"><h3 class="event-title">創作歌手 少浪</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Saw Lam</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:30-15:50</div>
-                                    <div class="event-details"><h3 class="event-title">李明德</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Eric Lee</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">18:30-18:38</div>
-                                    <div class="event-details"><h3 class="event-title">中山商圈-仙氣飄飄甜點秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Zhongshan Shopping District-Ethereal Dessert Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">18:40-19:00</div>
-                                    <div class="event-details"><h3 class="event-title">中山商圈-仙氣飄飄甜點秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Zhongshan Shopping District-Golden Beef Noodle Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">Smile Dash-搖滾樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Smile Dash</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:33-19:40</div>
-                                    <div class="event-details"><h3 class="event-title">Smile Dash-搖滾樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Smile Dash</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:40-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">來者何人-台北巷弄的嘻哈樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Whoou!</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:03-20:20</div>
-                                    <div class="event-details"><h3 class="event-title">來者何人-台北巷弄的嘻哈樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Whoou!</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:20-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">DrunkMonk撞克茫客-<br>硬式搖滾樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">DrunkMonk</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-20:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">DrunkMonk撞克茫客-<br>硬式搖滾樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">DrunkMonk</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/01 (日)</h3>
+                        <h3 class="event-date-title">2026/03/01 (Sun.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">14:00-14:10</div>
-                                    <div class="event-details"><h3 class="event-title">樂波太鼓 (開場)</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Le Po Taiko</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:10-14:50</div>
-                                    <div class="event-details"><h3 class="event-title">台北箏樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Taipei Guzheng Ensemble</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:00-15:45</div>
-                                    <div class="event-details"><h3 class="event-title">林語菲</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Lin yu-fei</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:45-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">歌曲接龍</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Song Medley Challenge</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">16:30-17:00</div>
-                                    <div class="event-details"><h3 class="event-title">熊讚和傑米</h3></div>
+                                    <div class="event-details"><h3 class="event-title">The mascot of Taipei City Bravo Bear+The mascot of Taipei Metro JAMIE</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">超級紅人榜-張嘉芯</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Curry</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:33-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">精靈男友-吳胤呈</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Eason Wu</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:03-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">張菡&DJ朱全</h3></div>
+                                    <div class="event-details"><h3 class="event-title">KEzINE & DJ Z.ChUAN</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-20:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">知名民歌手-伍浩哲</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Howard</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/02 (一)</h3>
+                        <h3 class="event-date-title">2026/03/02 (Mon.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市大安區<br>金華國民中學七年級合唱團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Taipei Municipal Jinhua Junior High School Grade 7</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市立內湖高級中學熱音社</h3></div>
+                                    <div class="event-details"><h3 class="event-title">NHRC35th</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/03 (二)</h3>
+                        <h3 class="event-date-title">2026/03/03 (Tue.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市萬華區<br>老松國民小學鼓笛隊</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Lao-Song Elementary School Drum and Ocarina , Band</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市立明湖國民中學學管樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Taipei Municipal Minghu Junior High School Wind Band</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/04 (三)</h3>
+                        <h3 class="event-date-title">2026/03/04 (Wed.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市立桃源國民中學扯鈴隊</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Taipei Municipal Taoyuan Junior High School Diabolo Team</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">日本島根縣吉祥物</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Shimane Prefecture Tourism Mascot Shimanekko</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/05 (四)</h3>
+                        <h3 class="event-date-title">2026/03/05 (Thu.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">聖克里斯多福及尼維斯大使館</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Vibrant Folklore from Saint Christopher and Nevis</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市立仁愛國民中學街舞社</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Taipei Municipal Ren’ai Junior High School Street Dance Club</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/06 (五)</h3>
+                        <h3 class="event-date-title">2026/03/06 (Fri.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">帕崎拉</h3></div>
+                                    <div class="event-details"><h3 class="event-title">PACHILA</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:33-19:40</div>
-                                    <div class="event-details"><h3 class="event-title">帕崎拉</h3></div>
+                                    <div class="event-details"><h3 class="event-title">PACHILA</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:40-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">派拉瑞</h3></div>
+                                    <div class="event-details"><h3 class="event-title">BADLARRY</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:03-20:20</div>
-                                    <div class="event-details"><h3 class="event-title">派拉瑞</h3></div>
+                                    <div class="event-details"><h3 class="event-title">BADLARRY</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:20-20:30</div>
@@ -356,7 +356,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-20:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
@@ -367,100 +367,100 @@
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/07 (六)</h3>
+                        <h3 class="event-date-title">2026/03/07 (Sat.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">14:05-14:35</div>
-                                    <div class="event-details"><h3 class="event-title">甜美嗓音 洪宇蕎</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Hung Yu-Chiao</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:40-15:10</div>
-                                    <div class="event-details"><h3 class="event-title">音樂才女 劉恬君</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Tiffany Liu</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:15-15:35</div>
-                                    <div class="event-details"><h3 class="event-title">飛揚歌手 凃佩岑</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Twu Pei-Tsern</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:35-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">金曲雙姝 南方二重唱</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Southduet</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">澔客＋陳加洛</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Black Coffee-Johnny&Penny</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:33-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">澔客＋陳加洛</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Black Coffee-Johnny&Penny</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:03-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">古勝中</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Jerry Ku</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-20:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">周美蒂</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Judy Chou</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/08 (日)</h3>
+                        <h3 class="event-date-title">2026/03/08 (Sun.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">14:00-14:25</div>
-                                    <div class="event-details"><h3 class="event-title">教育夥伴新聲宣</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Education – Quiz & Dance Performance</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:25-14:55</div>
-                                    <div class="event-details"><h3 class="event-title">樂齡經典好聲傳</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Kids & Family – Interactive Session</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:55-15:30</div>
-                                    <div class="event-details"><h3 class="event-title">親子廣播互動歡</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Seniors – Vocal Performance Showcase</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:30-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">文化展演一起談</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Arts & Culture – Quiz & Dance Performance</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">壞胚子</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Badman</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:33-19:40</div>
-                                    <div class="event-details"><h3 class="event-title">壞胚子</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Badman</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:40-20:00</div>
@@ -468,7 +468,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:03-20:20</div>
@@ -476,125 +476,125 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:20-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">榕幫</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Banyan Gang</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-20:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">榕幫</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Banyan Gang</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/09 (一)</h3>
+                        <h3 class="event-date-title">2026/03/09 (Mon.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市立內湖高級中學國樂社</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Taipei Municipal Neihu Senior High School Chinese Music Club</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">日本島根縣吉祥物</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Shimane Prefecture Tourism Mascot Shimanekko</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/10 (二)</h3>
+                        <h3 class="event-date-title">2026/03/10 (Tue.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市勞動力重建運用處</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Blooming Splendor Duet</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市文山區<br>景美國民小學弦樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">JM Strings</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/11 (三)</h3>
+                        <h3 class="event-date-title">2026/03/11 (Wed.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市內湖區<br>東湖國民小學弦樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">TAIPEI DONUHU ELEMENTARY SCHOOL ORCHESTRA</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">新世紀文化藝術團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">New Century Culture Arts Group</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/12 (四)</h3>
+                        <h3 class="event-date-title">2026/03/12 (Thu.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市大安區<br>幸安國民小學合唱團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Xing-An Elementary School Choir</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市立萬芳高級中學韓研社</h3></div>
+                                    <div class="event-details"><h3 class="event-title">WFKR</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/13 (五)</h3>
+                        <h3 class="event-date-title">2026/03/13 (Fri.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">安妮塔克</h3></div>
+                                    <div class="event-details"><h3 class="event-title">AnnieTaco</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:33-19:40</div>
-                                    <div class="event-details"><h3 class="event-title">安妮塔克</h3></div>
+                                    <div class="event-details"><h3 class="event-title">AnnieTaco</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:40-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">woodywoody</h3></div>
+                                    <div class="event-details"><h3 class="event-title">WoodyWoody Guitar Duo</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:03-20:20</div>
-                                    <div class="event-details"><h3 class="event-title">woodywoody</h3></div>
+                                    <div class="event-details"><h3 class="event-title">WoodyWoody Guitar Duo</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:20-20:30</div>
@@ -602,7 +602,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-20:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
@@ -613,120 +613,120 @@
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/14 (六)</h3>
+                        <h3 class="event-date-title">2026/03/14 (Sat.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">14:05-14:30</div>
-                                    <div class="event-details"><h3 class="event-title">情歌王子 王瑞瑜</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Richard Wang</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:30-14:50</div>
-                                    <div class="event-details"><h3 class="event-title">青春實力歌手 宥賢</h3></div>
+                                    <div class="event-details"><h3 class="event-title">You Xian</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:50-15:20</div>
-                                    <div class="event-details"><h3 class="event-title">實力新星 鄭馥儀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Jessica Cheng</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:20-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">織聲製造所 查瑪克</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Weaving Voices</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">眠氣</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Hypersomnia</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:33-19:50</div>
-                                    <div class="event-details"><h3 class="event-title">眠氣</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Hypersomnia</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:50-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">晨悠CHENYO</h3></div>
+                                    <div class="event-details"><h3 class="event-title">CHENYO</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">晨悠CHENYO</h3></div>
+                                    <div class="event-details"><h3 class="event-title">CHENYO</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-20:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">陳忻玥</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Vicky</h3></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="day-group-card">
-                        <h3 class="event-date-title">2026/03/15 (日)</h3>
+                        <h3 class="event-date-title">2026/03/15 (Sun.)</h3>
                         <div class="event-list">
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">14:00-14:30</div>
-                                    <div class="event-details"><h3 class="event-title">創作才子 徐偉銘</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Hsu Wei-Ming</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:30-15:00</div>
-                                    <div class="event-details"><h3 class="event-title">溫柔女聲 江玉如</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Chiang Yu-Ju</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:00-15:35</div>
-                                    <div class="event-details"><h3 class="event-title">嘹亮暖聲 陳太陽</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Sun Chen</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:35-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">實力唱將 李明德</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Eric Lee</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">It’s time to PLAY-<br>互動式瑪利歐劇場</h3></div>
+                                    <div class="event-details"><h3 class="event-title">It's Time to Play !</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:33-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">阿卡貝拉-留聲樂團</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Resonance vocal band</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:03-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">最帥乩童歌手-黃新皓</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Hsinhao</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-20:33</div>
-                                    <div class="event-details"><h3 class="event-title">主燈秀</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Main Lantern Show</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">清新人氣女歌手-魏嘉瑩</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Arrow Wei</h3></div>
                                 </div>
                             </div>
                         </div>
@@ -744,41 +744,41 @@
                     </div>
 
                     <div class="featured-content">
-                        <h3 class="featured-title">十二行政區串聯活動</h3>
+                        <h3 class="featured-title">12 Administrative Districts Joint Event</h3>
                         
                         <ul class="featured-info-list" style="padding: 20px;">
                             <li>
-                                <span class="info-label">活動地點：</span>
-                                <span class="info-text">花博展區</span>
+                                <span class="info-label">Event Location:ㅤ</span>
+                                <span class="info-text">Taipei Expo Park Area</span>
                             </li>
                             <li>
-                                <span class="info-label">活動時間：</span>
-                                <span class="info-text">即日起至 2/24 (二) 23:59 止</span>
+                                <span class="info-label">Event Period:ㅤ</span>
+                                <span class="info-text">Now until 2/24 (Tue) 23:59</span>
                             </li>
                             <li>
-                                <span class="info-label">活動方式：</span>
-                                <span class="info-text">於熊讚臉書粉絲專頁指定貼文下方留言，並猜中各區正確的名稱，就有機會把<br> <strong>限量版熊讚徽章組</strong> 帶回家！</span>
+                                <span class="info-label">How to Participate:ㅤ</span>
+                                <span class="info-text">Leave a comment under the designated post on the Bravo Facebook page and correctly guess the names of the districts shown for a chance to win a limited-edition Bravo Bear badge set.</span>
                             </li>
                             <li>
-                                <span class="info-label">抽獎辦法：</span>
+                                <span class="info-label">Lucky Draw Participation:ㅤ</span>
                                 <span class="info-text" style="line-height: 1.8;">
-                                    ➊ 追蹤「熊讚 Bravo」Facebook 粉絲專頁<br>
-                                    ➋ 按讚本篇貼文並公開分享<br>
-                                    ➌ 留言回答，圖中的讚讚代表哪三個行政區 (行政區順序不限)
+                                    ➊ Follow the “Bravo” Facebook page.<br>
+                                    ➋ Like and publicly share the designated post.<br>
+                                    ➌ Comment with your answer: Which three administrative districts do the icons in the image represent? (order does not matter)
                                 </span>
                             </li>
                             <li>
-                                <span class="info-label">活動獎勵：</span>
-                                <span class="info-text" style="font-weight: bold;">熊讚徽章組 (共 5 名)</span>
+                                <span class="info-label">Prize:ㅤ</span>
+                                <span class="info-text" style="font-weight: bold;">Bravo Badge Set (5 winners)</span>
                             </li>
                             <li>
-                                <span class="info-label">得獎公布：</span>
-                                <span class="info-text">2/25 抽出幸運得主</span>
+                                <span class="info-label">Winner Announcement:ㅤ</span>
+                                <span class="info-text">2/25</span>
                             </li>
                         </ul>
                         
                         <p class="info-note" style="text-align: center; max-width: 800px; line-height: 1.6;">
-                            主辦單位保有最終修改、變更、活動解釋及取消本活動之權利，若有相關異動將公告於粉絲專頁，恕不另行通知。
+                            The organizer reserves the right to amend, change, interpret, or cancel the event. Any updates will be announced on the official Facebook page without further notice.
                         </p>
 
                     </div>
@@ -786,7 +786,7 @@
 
             </div>
 <!-- 咖啡首都嘉年華 -->
-            <div id="event4" class="tab-content active">
+            <div id="event4" class="tab-content">
 
                 <div class="featured-event-card">
                     
