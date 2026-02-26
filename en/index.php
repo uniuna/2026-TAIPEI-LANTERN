@@ -560,7 +560,7 @@
         </section>
     </main>
 
-    <div id="liveModal">
+    <!-- <div id="liveModal">
         <div class="live-modal-content">
             <span class="close-live-btn" onclick="closeLiveModal()">&times;</span>
             
@@ -579,7 +579,7 @@
                 </iframe>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <?php include 'footer.php'; ?>
     <script src="../js/script.js"></script>

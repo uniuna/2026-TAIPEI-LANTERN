@@ -35,10 +35,6 @@
                         <span class="stage-intro-label">日期：</span>
                         <span>2026/02/27 ~ 03/15 精采演出等你來看!</span>
                     </div>
-                    <!-- <div class="stage-intro-row">
-                        <span class="stage-intro-label">時間：</span>
-                        <span>19:00 - 21:00</span>
-                    </div> -->
                     <div class="stage-intro-row">
                         <span class="stage-intro-label">地點：</span>
                         <span>花博展區主舞台</span>

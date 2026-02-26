@@ -30,6 +30,19 @@
                 <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
+                        <img src="images/news/n260226_01.jpg" alt="台北燈節西門展區點燈">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.26</div>
+                        <h3 class="news-list-title">台北燈節西門展區點燈 Baby Molly主燈秀、IP燈組狂吸人潮</h3>
+                        <p class="news-excerpt">
+                           2026台北燈節西門展區與國際知名潮流品牌「泡泡瑪特（POP MART）」合作，以6個人氣IP最新的馬年造型為主軸打造五座燈組，臺北市長蔣萬安今（26）日晚間為西門展區 ...
+                        </p>
+                        <a href="news_260226" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
                         <img src="images/news/n260225_01.jpg" alt="柯博文登陸花博公園">
                     </div>
                     <div class="news-content">

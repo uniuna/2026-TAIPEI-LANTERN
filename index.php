@@ -54,6 +54,10 @@
                     <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>
                 </a>
                 <!-- 新一則置前 -->
+                <a href="news_260226" class="news-item">
+                    <span class="news-date">2026.02.26</span>
+                    <span class="news-text">台北燈節西門展區點燈 Baby Molly主燈秀、IP燈組狂吸人潮 ...</span>
+                </a>
                 <a href="news_260225" class="news-item">
                     <span class="news-date">2026.02.25</span>
                     <span class="news-text">從2026台北燈節首創雙展區、雙IP 高10米的柯博文登陸花博公園 12行政區熊讚亮相 ...</span>
@@ -66,10 +70,10 @@
                     <span class="news-date">2026.02.20</span>
                     <span class="news-text">從潮流IP到傳統藝術 2026台北燈節點亮西門町年節魅力 ...</span>
                 </a>
-                <a href="news_260220-1" class="news-item">
+                <!-- <a href="news_260220-1" class="news-item">
                     <span class="news-date">2026.02.20</span>
                     <span class="news-text">不只變形金剛！2026台北燈節花博展區亮點一次看...</span>
-                </a>
+                </a> -->
                 <!-- <a href="news_260213-2" class="news-item">
                     <span class="news-date">2026.02.13</span>
                     <span class="news-text">榮町漫市集浪漫回歸！響應2026台北燈節，邀民眾走進中正區感受夜間街區魅力 ...</span>
@@ -617,7 +621,7 @@
         </section>
     </main>
     
-    <div id="liveModal">
+    <!-- <div id="liveModal">
         <div class="live-modal-content">
             <span class="close-live-btn" onclick="closeLiveModal()">&times;</span>
             
@@ -636,7 +640,7 @@
                 </iframe>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <?php include 'footer.php'; ?>
     <script src="js/script.js"></script>
