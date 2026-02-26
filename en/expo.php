@@ -331,7 +331,11 @@
                     <div class="lantern-item" onclick="openMapModal('expo_C13')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
+<<<<<<< HEAD
                                 <h4 class="lantern-name">C13 Shanghai City</h4>
+=======
+                                <h4 class="lantern-name">C13 Shanghai</h4>
+>>>>>>> 35e858a2869d57f70e97c5cf6e18ac75a6bb8dfc
                                 <span class="lantern-designer">WANG ZHAO QING</span>
                             </div>
                         </div>

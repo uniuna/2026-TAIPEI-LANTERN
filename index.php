@@ -618,13 +618,22 @@
             <span class="close-live-btn" onclick="closeLiveModal()">&times;</span>
             
             <div class="live-info">
+<<<<<<< HEAD
                 <h2>2026台北燈節西門展區開幕 直播</h2>
                 <p>🕒 02/26(三) 19:00-19:30</p>
+=======
+                <h2>2026台北燈節花博展區開幕 直播</h2>
+                <p>🕒 02/25 (三) 19:00-19:30</p>
+>>>>>>> 35e858a2869d57f70e97c5cf6e18ac75a6bb8dfc
             </div>
 
             <div class="live-video-container">
                 <iframe 
+<<<<<<< HEAD
                     src="https://www.youtube.com/embed/pLVRHbGABFI?si=sAYgB55un2vetKs0" 
+=======
+                    src="https://www.youtube.com/embed/w9djJbj6SfQ?si=znU5vaYWKPo4_qzW" 
+>>>>>>> 35e858a2869d57f70e97c5cf6e18ac75a6bb8dfc
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
