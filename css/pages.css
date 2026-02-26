@@ -469,6 +469,9 @@ html {
         padding: 14px 16px;
         margin-bottom: 20px;
     }
+    .section-description{
+        text-align: left;
+    }
 }
 
 .map-selection {
@@ -678,13 +681,6 @@ html {
 }
 /* 手機版橫向捲動 */
 @media (max-width: 768px) {
-    /* .year-tabs {
-        justify-content: flex-start;
-        overflow-x: auto;
-        white-space: nowrap;
-        padding-bottom: 10px;
-        flex-wrap: nowrap;
-    } 滾軸方式 */
     .year-tabs {
         display: flex;
         flex-wrap: wrap;
@@ -834,12 +830,19 @@ html {
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
 }
+.zone-summary p{
+  text-align: justify; text-justify: inter-word; word-break: break-word; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;
+  color: var(--text-sub); font-size: 1.2rem
+}
 /* RWD 手機版調整 */
   @media (max-width: 768px) {
       .zone-title-large {
         font-size: 2.5rem;
         border: 3px solid var(--accent-color);
         padding: 10px 30px;
+      }
+      .zone-summary p{
+        text-align: left; 
       }
   }
 
@@ -1793,6 +1796,8 @@ html {
     text-align: left;
     max-width: 800px; 
     text-align: justify; 
+    text-justify: inter-word; 
+    word-break: break-word;
 }
 .featured-desc span{
     font-size: 0.95rem;
@@ -1868,6 +1873,10 @@ html {
     
     .featured-title {
         font-size: 1.6rem;
+    }
+
+    .featured-desc {
+        text-align: left; 
     }
     
     .featured-info-list li {

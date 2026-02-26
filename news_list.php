@@ -30,6 +30,19 @@
                 <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
+                        <img src="images/news/n260225_01.jpg" alt="柯博文登陸花博公園">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.25</div>
+                        <h3 class="news-list-title">從2026台北燈節首創雙展區、雙IP 高10米的柯博文登陸花博公園 12行政區熊讚亮相</h3>
+                        <p class="news-excerpt">
+                           2026台北燈節以「雙展區、雙IP」人氣角色強強聯手席捲臺北，今（25）日晚間花博展區由臺北市長蔣萬安點亮10公尺高的 ...
+                        </p>
+                        <a href="news_260225" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
                         <img src="images/news/noSmoking-ximen.jpg" alt="打造無菸城市">
                     </div>
                     <div class="news-content">

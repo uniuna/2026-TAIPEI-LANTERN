@@ -54,6 +54,10 @@
                     <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>
                 </a>
                 <!-- 新一則置前 -->
+                <a href="news_260225" class="news-item">
+                    <span class="news-date">2026.02.25</span>
+                    <span class="news-text">從2026台北燈節首創雙展區、雙IP 高10米的柯博文登陸花博公園 12行政區熊讚亮相 ...</span>
+                </a>
                 <a href="news_260223" class="news-item">
                     <span class="news-date">2026.02.23</span>
                     <span class="news-text">打造無菸城市 營造清新賞燈環境 2026台北燈節展區及周邊禁止吸菸 ...</span>
@@ -66,10 +70,10 @@
                     <span class="news-date">2026.02.20</span>
                     <span class="news-text">不只變形金剛！2026台北燈節花博展區亮點一次看...</span>
                 </a>
-                <a href="news_260213-2" class="news-item">
+                <!-- <a href="news_260213-2" class="news-item">
                     <span class="news-date">2026.02.13</span>
                     <span class="news-text">榮町漫市集浪漫回歸！響應2026台北燈節，邀民眾走進中正區感受夜間街區魅力 ...</span>
-                </a>
+                </a> -->
                 <!-- <a href="news_260213" class="news-item">
                     <span class="news-date">2026.02.13</span>
                     <span class="news-text">佛光山燈區以「希望之門」 點亮2026台北燈節 ...</span>
@@ -618,13 +622,13 @@
             <span class="close-live-btn" onclick="closeLiveModal()">&times;</span>
             
             <div class="live-info">
-                <h2>2026台北燈節花博展區開幕 直播</h2>
-                <p>🕒 02/25 (三) 19:00-19:30</p>
+                <h2>2026台北燈節西門展區開幕 直播</h2>
+                <p>🕒 02/26(三) 19:00-19:30</p>
             </div>
 
             <div class="live-video-container">
                 <iframe 
-                    src="https://www.youtube.com/embed/w9djJbj6SfQ?si=znU5vaYWKPo4_qzW" 
+                    src="https://www.youtube.com/embed/pLVRHbGABFI?si=cRQQ7VJ-J8CpBatB" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

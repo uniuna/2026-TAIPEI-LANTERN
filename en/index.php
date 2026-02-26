@@ -72,7 +72,7 @@
             <div class="section-intro">
                 <p class="section-description">
                     The Lantern Festival, also known as Shangyuan Festival, is a cornerstone of Chinese culture, symbolizing reunion and the seeking of blessings. This tradition dates back to the Han Dynasty. As legend has it, when the Empress Dowager Lu passed away, her clan tried to seize power, and their palace coup was put down. To commemorate the restoration of peace, Emperor Wen declared the 15th day of the first lunar month to be a day of national celebration. In the Eastern Han Dynasty, Emperor Ming promoted lighting lanterns as a way to honor the Buddha. This custom spread from palaces and temples to the general public, eventually evolving into the vibrant festival we enjoy today. Everyone admires the colorful lantern displays, solves riddles, and eats sweet “yuanxiao” dumplings. More than just lighting up the sky at night, it is an expression of our best wishes and hopes for the new year.
-                    <br><br>The first Taipei Lantern Festival took place in 1997 at the traffic circle on Ren’ai Road, and since then it has been a beloved part of people’s lives for nearly three decades. In 2026, the festival features two major Lantern Areas: Expo Park and Ximen. It also features collaborations with two world-renowned international character series. With these special themes and the dual locations—at Taipei Expo Park in the district of Yuanshan, where culture and nature blend seamlessly, and in Ximending, where all the latest fashions converge—Taipei's diverse, distinctive urban style really comes to life. In addition to marveling at the lanterns, you can also roam the surrounding commercial districts and scenic spots and sample the local food, for a wide-ranging experience of the city’s vitality and charm. The Lantern Festival is one of the best ways to experience Taipei’s festive atmosphere, metropolitan bustle and warmheartedness.
+                    <br><br>The first Taipei Lantern Festival took place in 1997 at the traffic circle on Ren’ai Road, and since then it has been a beloved part of people’s lives for nearly three decades. In 2026, the festival features two major Lantern Areas: Expo Park and Ximen. It also features collaborations with two world-renowned international character series. With these special themes and the dual locations — at Taipei Expo Park in the district of Yuanshan, where culture and nature blend seamlessly, and in Ximending, where all the latest fashions converge — Taipei's diverse, distinctive urban style really comes to life. In addition to marveling at the lanterns, you can also roam the surrounding commercial districts and scenic spots and sample the local food, for a wide-ranging experience of the city’s vitality and charm. The Lantern Festival is one of the best ways to experience Taipei’s festive atmosphere, metropolitan bustle and warmheartedness.
                     <br><br>This year, the Taipei Lantern Festival welcomes you with open arms. We hope these two spectacular exhibition areas bring everyone double the joy and an abundance of blessings!
                 </p>
             </div>
@@ -565,13 +565,13 @@
             <span class="close-live-btn" onclick="closeLiveModal()">&times;</span>
             
             <div class="live-info">
-                <h2>2026 Taipei Lantern Festival - Taipei Expo Park Area Opening Ceremony (Live Broadcast)</h2>
-                <p>🕒 02/25 (Wed) 19:00-19:30</p>
+                <h2>2026 Taipei Lantern Festival - Ximen Area Opening Ceremony (Live Broadcast)</h2>
+                <p>🕒 02/26 (Thu) 19:00-19:30</p>
             </div>
 
             <div class="live-video-container">
                 <iframe 
-                    src="https://www.youtube.com/embed/w9djJbj6SfQ?si=znU5vaYWKPo4_qzW" 
+                    src="https://www.youtube.com/embed/pLVRHbGABFI?si=cRQQ7VJ-J8CpBatB" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

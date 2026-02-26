@@ -785,35 +785,35 @@ const mapDataEn = {
 
     // --- 西門展區的資料 ------------ //
     'ximen_A1': {
-        title: 'A1  Baby Molly  Fortune Rolling in',
+        title: 'A1  Baby Molly',
         name: 'Taipei Lantern Festival Design Team',
         type: 'Static display',
         desc: 'Baby Molly appears in a playful rocking pose, symbolizing the arrival of good fortune and surprises, bringing abundant joy and blessings to everyone.\nThis blessing takes the form of a giant music box with Baby Molly at its heart, framed by a dynamic 360-degree setting. An LED New Year halo glows above, creating a dreamlike light art scene.\nAs the installation slowly rotates, the character reveals delicate shifts in light from different angles, inviting viewers to experience childlike wonder, imagination, and the joyful anticipation of the New Year through the flowing light.\nThe performance takes place every 20 minutes.',
         img: '../images/items/ximen_A1.jpg'
     },
     'ximen_A2': {
-        title: 'A2  Twinkle Twinkle  Starry Arrival',
+        title: 'A2  Twinkle Twinkle',
         name: 'Taipei Lantern Festival Design Team',
         type: 'Static display',
         desc: 'Inspired by classic blue-and-white porcelain, Twinkle Twinkle blends deep blue patterns with shimmering starlight, capturing a spirit that is both playful and brave.\nThis collision of classical elegance and contemporary trends represents a design about “encounter.” Standing six meters tall above the top of MRT Ximen Station Exit 6, Twinkle Twinkle takes advantage of the area’s unique vertical space, blending the elegance of traditional culture with the playful charm of trendy toys, so that from the moment visitors step out of the station, they can feel the wonder of a sky full of starlight.',
         img: '../images/items/ximen_A2.jpg'
     },
     'ximen_A3': {
-        title: 'A3  LABUBU Pony Dance',
+        title: 'A3  LABUBU',
         name: 'Taipei Lantern Festival Design Team',
         type: 'Static display',
         desc: 'For LABUBU, the playful spirit of the season comes alive through a special pony created by the Elf Troupe exclusively for this performance. Holding the pony close, LABUBU performs a lively New Year dance, symbolizing not only joy, but also the courage to gallop forward with childlike innocence.\nThis cheerful scene is set high among the clouds. A giant pink slide forms the visual centerpiece, its smooth, flowing curves extending downward from the clouds, with a wordplay in Chinese, where the sound of the word “slide” echoes the number six, symbolizing “six-six smooth fortune” for 2026. Visitors are invited to wave goodbye to the past and follow the stream of light, experiencing pure happiness and hope as they move forward together within the glow of the lanterns.',
         img: '../images/items/ximen_A3.jpg'
     },
     'ximen_A4': {
-        title: 'A4 Hirono Luck on the Way',
+        title: 'A4 Hirono',
         name: 'Taipei Lantern Festival Design Team',
         type: 'Static display',
         desc: 'Hirono takes the form of a Year-of-the-Horse lantern, moving forward with quiet determination. Like a stubborn yet glowing light in the night, Hirono carries the message that good fortune will arrive—delivered “immediately,” no matter how the road ahead unfolds.\nAmid the lively festival atmosphere, this lantern becomes an emotional haven within the city. Golden flowing clouds encircle Hirono from behind, while green simulated bamboo groves and warm yellow spherical lanterns are used to create a tranquil atmosphere. Visitors are invited to pause amid the festive revelry and enter into a quiet dialogue with their inner selves.',
         img: '../images/items/ximen_A4.jpg'
     },
     'ximen_A5': {
-        title: 'A5 Taipei: A Dual-Sided Scroll',
+        title: 'A5 SKULLPANDA & DIMOO',
         name: 'Taipei Lantern Festival Design Team',
         type: 'Static display',
         desc: 'Taipei is a city rich in charm. Set upon an unfolding scroll, the installation symbolizes an urban story that continues to be written. Designed for viewing from both sides, it reveals two facets of Taipei, inviting audiences to experience the city through different rhythms and sensibilities. No matter which frequency you resonate with, you can always find your own rhythm and sense of belonging in the city of Taipei.\nSKULLPANDA Wind Rider draws inspiration from the calligraphic form of the Chinese character for “horse,” using brushstroke-like flowing lines to express freedom and elegance. SKULLPANDA embodies the spirit of the horse itself, traveling effortlessly between glowing sunsets and drifting winter snow, moving with instinct and ease.\nDIMOO sits quietly atop a horse, holding a jade flute as swallow silhouettes weave through the breeze, delivering the message of spring’s return.\nThe work\'s architectural elements are mainly inspired by the Taipei Performing Arts Center, Maokong Gondola, Dahu Park’s Jindai Bridge, Taipei Children’s Amusement Park. Layered, paper-cut-style mountains form the backdrop, expressing the harmony between Taipei’s urban landscape and its natural environment, while red and gold clouds create a dreamlike atmosphere.',
@@ -841,7 +841,7 @@ const mapDataEn = {
         img: '../images/items/ximen_B3.jpg'
     },
     'ximen_B4': {
-        title: 'B4  Taipei Home Field, Dragon Charging Forward',
+        title: 'B4  We are Dragons! Red Pride. City Ride.',
         name: ' Ting Hsin Taipei Lantern Festival Design Team',
         type: 'Static display',
         desc: 'We are Dragons! Red Pride. City Ride.\nBuilt around the core concept of “Red Pride. City Ride. ” this installation transforms the spirit of professional baseball into an iconic lantern landmark for the city. \nThe main visual captures the moment a player strides proudly onto the field, symbolizing that every athlete and every citizen stepping onto their home ground is a central figure striving for glory.\nUsing warm, internally illuminated lantern craftsmanship, the work balances passion with approachability, inviting everyone to step onto the field together.\nThe overall design echoes the Taipei Lantern Festival’s spirit of “citywide participation and shared experience,” allowing fans, families, and visitors to feel the unity of the city’s home field through light and shadow, and to create moments of shared glory together.',
@@ -869,21 +869,21 @@ const mapDataEn = {
         img: ''
     },
     'ximen_B8': {
-        title: 'B8  City God Sea of Lights Tunnel ',
+        title: 'B8  City God Lantern Tunnel',
         name: 'Taiwan Provincial City God Temple Design Team',
         type: 'Static display',
         desc: 'Upholding the City God’s spirit of caring for the people and celebrating together with the community, the Taiwan Provincial City God Temple will present a beautiful tunnel of lights from February 9 to March 31, 2026, along Section 1 of Wuchang Street (from Chongqing South Road to Section 1 of Zhonghua Road). A canopy-style light corridor adorned with dazzling star-like fixtures will illuminate the street, creating a captivating nighttime atmosphere.\nOn February 26 (Thu), February 28 (Sat), March 3 (Tue), and March 7 (Sat), a traditional lantern riddle stage will be set up at the temple. Families are warmly invited to participate and celebrate together.',
         img: '../images/items/ximen_B8.jpg'
     },
     'ximen_B9': {
-        title: 'B9  City God’s Rising Blessings Peace Bridge',
+        title: 'B9  Lantern Bridge of Blessings',
         name: 'Taiwan Provincial City God Temple Design Team',
         type: 'Static display',
         desc: 'The Peace Bridge originates from the traditional bridge-crossing ceremony folk ritual, invoking the protective power of the Big Dipper to dispel misfortune and ensure good fortune ahead.\nCommonly held during Lunar New Year, Lantern Festival, or temple celebrations, the Taiwan Provincial City God Temple, in collaboration with the Department of Information and Tourism, has specially created a symbolic illuminated bridge for the Taipei Lantern Festival. As visitors walk across the shimmering bridge of lights, they may offer sincere prayers to the City God for protection from disaster, safety and well-being, bright prospects, fulfillment in all endeavors, blessings for the whole family, swift success, and great auspicious fortune.',
         img: '../images/items/ximen_B9.jpg'
     },
     'ximen_B10': {
-        title: 'B10  Sound Waves to Zhonghua',
+        title: 'B10  Resonance in Zhonghua',
         name: '',
         type: 'Static display',
         desc: 'Zhonghua Road Audio & Video Street has long been renowned for its professional audiovisual equipment and is a landmark district for music and AV enthusiasts. This installation is themed around the “Distinctive Features of the AV Industry,” transforming a speaker into a striking check-in art piece over 2 meters tall and 3 meters wide. Enhanced with neon lighting and vibrant linear accents, the design incorporates the district’s IP character “Nei Hang Zai,” converting the energy of sound into dynamic light and shadow to reflect the rhythm of the neighborhood. The name and logo of Zhonghua Road Audio & Video Street are prominently placed at the center of the speaker installation to strengthen brand identity. Visitors are invited to take photos, interact with the light effects, and experience the unique character of the district. We welcome everyone to explore the area and feel the vitality and rhythm of Zhonghua Road Audio & Video Street. From 2/25 to 3/15, visit the Chenghuang Temple Lantern Area or the Zhonghua Road speaker check-in spot “Sound to Zhonghua,” take a photo and upload it to the Zhonghua Road Audio & Video Street Facebook fan page to complete your check-in for a chance to win prizes! The grand prize is one BOSE SoundLink Flex Bluetooth speaker. Additional prizes include two Mita Intelligent Massage Guns and 20 exclusive Zhonghua Road Audio & Video Street foldable shopping bags. Winners will be announced on 3/17 on the Zhonghua Road Audio & Video Street Facebook fan page. Come take a photo and win exciting prizes!',
@@ -981,7 +981,7 @@ const mapDataEn = {
         img: '../images/items/ximen_B23.jpg'
     },
     'ximen_B24': {
-        title: 'B24  Star Whispers of Yuan Night',
+        title: 'B24  Genpo\'s Starry Night',
         name: 'Yuanling Design Team',
         type: 'Static display',
         desc: 'Inspired by the famed “Shoe Street”, Yuanling Street, this installation transforms the nighttime street into a starlit stage of dreams and imagination. The district mascot Little Yuanbao (a parrot) appears like Cinderella, riding in a pumpkin carriage symbolizing hope and fantasy, traveling between starlight and drifting clouds on a fairytale nighttime journey. Beside a dreamlike celestial steed standing among the clouds, the scene represents companionship, protection, and gentle emotional connection.\nThrough layered clouds and expansive starry visuals, the work creates a serene and romantic nocturnal atmosphere. The familiar Yuanling Street becomes a softly whispering storyscape after dark, inviting visitors to pause and listen to the whispers of the stars.',
@@ -995,11 +995,11 @@ const mapDataEn = {
         img: '../images/items/ximen_B25.jpg'
     },
     'ximen_B26': {
-        title: 'B26  Lightwalker Pony (Bopiliao)',
-        name: '',
+        title: 'B26  Luminous Little Pony',
+        name: 'Wanhua Neighborhood Development Association、ckc_toys',
         type: 'Static display',
         desc: 'Lightwalker Pony arrives in Bangka Old Town to celebrate the Lantern Festival with everyone. Centered on the idea of seeking light, the pony follows glimmers through the streets between Lungshan Temple and Ximen, lingering in people’s laughter and footsteps. Bangka was the earliest bustling district of Taipei, where river trade, faith, and marketplaces shaped the city’s beginnings. Today, the pony stands warmly illuminated within the old quarter, adding charm and blessings to the festivities. Follow Lightwalker Pony to seek light, take photos, and create your own festive memories in the old town.',
-        img: '../images/items/ximen_B26.jpg'
+        img: ''
     },
 
     // --- 花博展區的資料 ------------ //
@@ -1131,7 +1131,7 @@ const mapDataEn = {
         img: '../images/items/expo_B14_v2.jpg'
     },
     'expo_B15': {
-        title: 'B15 Jingfu Temple Lantern Area',
+        title: 'B15 Ching-Fu Temple Lantern Display Area',
         name: 'Ching Fu Temple',
         type: 'Static display',
         desc: 'For the first time, Jingfu Temple joins the Taipei Lantern Festival. Lantern displays extend from MRT Zhongshan Elementary School Station through the surrounding Zhongshan commercial district, creating a warm and festive atmosphere. Jingfu Temple, located in the Niupu area of Zhongshan District, is a traditional Earth God temple dedicated to Tudi Gong. With a history of over 150 years, the temple features a three-story traditional Chinese architectural style, a grand entrance gate, and a green plaza. It remains a vibrant urban center of faith, frequently visited by worshippers.',
@@ -1149,7 +1149,7 @@ const mapDataEn = {
         title: 'Light of Liberty Promise of Prosperity',
         name: 'LIN, Yu-Chu、LEE, Kuan-I、Lico Lee',
         type: '',
-        desc: 'On July 4, 2026, the United States will commemorate the 250ᵗʰ anniversary of its founding. To mark this historic milestone, the American Institute in Taiwan (AIT) is honored to participate in the 2026 Taipei Lantern Festival by presenting the AIT Lantern-an artistic celebration of American he ritage and enduring friendship between the United States and Taiwan.\nDesigned and crafted by acclaimed Taiwanese lantern artists Lin Yu-Chu, Lee Kuan-I, and Lico Lee, the AIT Lantern features iconic American symbols, each representing ideals that have guided the United States for two and a half centuries. The Statue of Liberty stands for freedom and opportunity, while the Capitol reflects democracy and civic participation. Baseball honors tradition and teamwork; the Golden Gate Bridge represents ingenuity, ambition, and progress. The Bald Eagle conveys sovereignty and strength, the Space Shuttle captures inspiration and innovation, and the Stars and Stripes affirm unity and sacrifice.\nAnchoring the installation is its theme, "Light of Liberty, Promise of Prosperity," illuminated along the base-a reminder of foundational American values: freedom, opportunity, and progress. As we write the next chapter of American history, AIT invites friends across Taiwan to join us in honoring the founding ideals that have shaped the United States for 250 years and to join together toward a future defined by strong partnership and shared prosperity.',
+        desc: 'On July 4, 2026, the United States will commemorate the 250ᵗʰ anniversary of its founding. To mark this historic milestone, the American Institute in Taiwan (AIT) is honored to participate in the 2026 Taipei Lantern Festival by presenting the AIT Lantern —— an artistic celebration of American heritage and enduring friendship between the United States and Taiwan.\nDesigned and crafted by acclaimed Taiwanese lantern artists Lin Yu-Chu, Lee Kuan-I, and Lico Lee, the AIT Lantern features iconic American symbols, each representing ideals that have guided the United States for two and a half centuries. The Statue of Liberty stands for freedom and opportunity, while the Capitol reflects democracy and civic participation. Baseball honors tradition and teamwork; the Golden Gate Bridge represents ingenuity, ambition, and progress. The Bald Eagle conveys sovereignty and strength, the Space Shuttle captures inspiration and innovation, and the Stars and Stripes affirm unity and sacrifice.\nAnchoring the installation is its theme, "Light of Liberty, Promise of Prosperity," illuminated along the base —— a reminder of foundational American values: freedom, opportunity, and progress. As we write the next chapter of American history, AIT invites friends across Taiwan to join us in honoring the founding ideals that have shaped the United States for 250 years and to join together toward a future defined by strong partnership and shared prosperity.',
         img: '../images/items/expo_C1.jpg'
     },
     'expo_C2': {

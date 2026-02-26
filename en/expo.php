@@ -15,8 +15,8 @@
     </header>
 
     <main style="padding-bottom: 150px;">
-        <div style="text-align: justify; text-justify: inter-word; word-break: break-word; max-width: 800px; margin: 0 auto; padding: 0 20px 60px;">
-            <p style="color: var(--text-sub); font-size: 1.2rem;">
+        <div class="zone-summary">
+            <p>
                 <strong>Expo Park Lantern Area</strong> is located within the expansive Yuanshan Expo Park, where the natural landscape is transformed into a canvas for land art, drawing on lush greenery and gently rolling terrain and combining them with large-scale light installations to create a fantastical forest that feels as if it has emerged from a storybook. With generous open spaces and smooth walking paths, the area is an ideal setting for families to enjoy an evening stroll.
                 <br><br>
                 You can slow your pace and, under the evening breeze, watch light and shadow dance lightly among the trees, savoring a peaceful moment away from the city bustle. From lantern displays designed for family interaction to grand, awe-inspiring installations, light aesthetics are woven into the landscape, leaving you with the warmest memories of the festive season.
@@ -204,7 +204,7 @@
                     <div class="lantern-item" onclick="openMapModal('expo_B15')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">B15 Jingfu Temple Lantern Area</h4>
+                                <h4 class="lantern-name">B15 Ching-Fu Temple Lantern Display Area</h4>
                                 <span class="lantern-designer">Ching Fu Temple</span>
                             </div>
                         </div>
@@ -331,7 +331,7 @@
                     <div class="lantern-item" onclick="openMapModal('expo_C13')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-                                <h4 class="lantern-name">C13 Shanghai</h4>
+                                <h4 class="lantern-name">C13 Shanghai City</h4>
                                 <span class="lantern-designer">WANG ZHAO QING</span>
                             </div>
                         </div>
@@ -352,7 +352,7 @@
                 <div style="line-height: 1.6; font-size: 1rem; text-align: left;">
                     <p id="modalName" style="line-height: 2.4; font-size: 1.2rem; " >設計者名稱</p>
                     <p id="modalType" style="line-height: 2.4; font-size: 1rem; color: #ccc;  " >展演方式</p><br>
-                    <p id="modalDesc" style="font-size: 1rem; text-align: justify; text-justify: inter-word; word-break: break-word;">燈飾介紹內容</p>
+                    <p id="modalDesc" style="font-size: 1rem; text-align: left; text-justify: inter-word; word-break: break-word;">燈飾介紹內容</p>
                 </div>
             </div>
         </div>
