@@ -681,13 +681,6 @@ html {
 }
 /* 手機版橫向捲動 */
 @media (max-width: 768px) {
-    /* .year-tabs {
-        justify-content: flex-start;
-        overflow-x: auto;
-        white-space: nowrap;
-        padding-bottom: 10px;
-        flex-wrap: nowrap;
-    } 滾軸方式 */
     .year-tabs {
         display: flex;
         flex-wrap: wrap;
@@ -1803,6 +1796,8 @@ html {
     text-align: left;
     max-width: 800px; 
     text-align: justify; 
+    text-justify: inter-word; 
+    word-break: break-word;
 }
 .featured-desc span{
     font-size: 0.95rem;
@@ -1878,6 +1873,10 @@ html {
     
     .featured-title {
         font-size: 1.6rem;
+    }
+
+    .featured-desc {
+        text-align: left; 
     }
     
     .featured-info-list li {

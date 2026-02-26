@@ -565,22 +565,13 @@
             <span class="close-live-btn" onclick="closeLiveModal()">&times;</span>
             
             <div class="live-info">
-<<<<<<< HEAD
                 <h2>2026 Taipei Lantern Festival - Ximen Area Opening Ceremony (Live Broadcast)</h2>
                 <p>🕒 02/26 (Thu) 19:00-19:30</p>
-=======
-                <h2>2026 Taipei Lantern Festival - Taipei Expo Park Area Opening Ceremony (Live Broadcast)</h2>
-                <p>🕒 02/25 (Wed) 19:00-19:30</p>
->>>>>>> 35e858a2869d57f70e97c5cf6e18ac75a6bb8dfc
             </div>
 
             <div class="live-video-container">
                 <iframe 
-<<<<<<< HEAD
-                    src="https://www.youtube.com/embed/pLVRHbGABFI?si=sAYgB55un2vetKs0" 
-=======
-                    src="https://www.youtube.com/embed/w9djJbj6SfQ?si=znU5vaYWKPo4_qzW" 
->>>>>>> 35e858a2869d57f70e97c5cf6e18ac75a6bb8dfc
+                    src="https://www.youtube.com/embed/pLVRHbGABFI?si=cRQQ7VJ-J8CpBatB" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

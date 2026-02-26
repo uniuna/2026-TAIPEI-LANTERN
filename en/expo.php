@@ -331,11 +331,7 @@
                     <div class="lantern-item" onclick="openMapModal('expo_C13')">
                         <div class="lantern-content">
                             <div class="lantern-header-row">
-<<<<<<< HEAD
                                 <h4 class="lantern-name">C13 Shanghai City</h4>
-=======
-                                <h4 class="lantern-name">C13 Shanghai</h4>
->>>>>>> 35e858a2869d57f70e97c5cf6e18ac75a6bb8dfc
                                 <span class="lantern-designer">WANG ZHAO QING</span>
                             </div>
                         </div>
@@ -356,7 +352,7 @@
                 <div style="line-height: 1.6; font-size: 1rem; text-align: left;">
                     <p id="modalName" style="line-height: 2.4; font-size: 1.2rem; " >設計者名稱</p>
                     <p id="modalType" style="line-height: 2.4; font-size: 1rem; color: #ccc;  " >展演方式</p><br>
-                    <p id="modalDesc" style="font-size: 1rem; text-align: justify; text-justify: inter-word; word-break: break-word;">燈飾介紹內容</p>
+                    <p id="modalDesc" style="font-size: 1rem; text-align: left; text-justify: inter-word; word-break: break-word;">燈飾介紹內容</p>
                 </div>
             </div>
         </div>

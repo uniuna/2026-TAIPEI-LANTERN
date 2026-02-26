@@ -628,7 +628,7 @@
 
             <div class="live-video-container">
                 <iframe 
-                    src="https://www.youtube.com/embed/pLVRHbGABFI?si=sAYgB55un2vetKs0" 
+                    src="https://www.youtube.com/embed/pLVRHbGABFI?si=cRQQ7VJ-J8CpBatB" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

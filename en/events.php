@@ -268,7 +268,7 @@
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">Lao-Song Elementary School Drum and Ocarina , Band</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Lao-Song Elementary School Drum and Ocarina Band</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
@@ -392,7 +392,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">Black Coffee-Johnny&Penny</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Black Coffee - Johnny & Penny</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
@@ -402,7 +402,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:33-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">Black Coffee-Johnny&Penny</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Black Coffee - Johnny & Penny</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
@@ -532,7 +532,7 @@
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">TAIPEI DONUHU ELEMENTARY SCHOOL ORCHESTRA</h3></div>
+                                    <div class="event-details"><h3 class="event-title">Taipei Donghu Elementary School Orchestra</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
