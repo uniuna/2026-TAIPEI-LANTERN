@@ -11,7 +11,7 @@
     <main class="container" style="padding-top: 120px; min-height: 80vh; padding-bottom: 150px;">
 
         <section>
-        <h2 class="section-title">旅程推薦</h2>
+        <h2 class="section-title">遊程推薦</h2>
     
         <div class="tab-buttons">
             <button class="tab-btn active" onclick="openTab(event, 'trip1')">一日遊</button>
