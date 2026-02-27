@@ -53,7 +53,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:45-15:15</div>
-                                    <div class="event-details"><h3 class="event-title">搖滾童謠</h3></div>
+                                    <div class="event-details"><h3 class="event-title">劉劭希&搖滾童謠</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:25-15:55</div>
@@ -69,7 +69,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">侏羅紀世界 恐龍大冒險</h3></div>
+                                    <div class="event-details"><h3 class="event-title">恐龍大冒險</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:30-19:33</div>
@@ -79,7 +79,7 @@
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:33-19:45</div>
-                                    <div class="event-details"><h3 class="event-title">侏羅紀世界 恐龍大冒險</h3></div>
+                                    <div class="event-details"><h3 class="event-title">恐龍大冒險</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:45-20:00</div>
@@ -115,7 +115,7 @@
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">14:00-14:10</div>
-                                    <div class="event-details"><h3 class="event-title">馬太鞍青年團 (祈福、迎賓舞)</h3></div>
+                                    <div class="event-details"><h3 class="event-title">馬太鞍青年團</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">14:15-14:40</div>
@@ -128,6 +128,10 @@
                                 <div class="event-item">
                                     <div class="event-time">15:30-15:50</div>
                                     <div class="event-details"><h3 class="event-title">李明德</h3></div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="event-time">15:50-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">馬太鞍青年團</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">18:30-18:38</div>
@@ -385,7 +389,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">15:35-16:00</div>
-                                    <div class="event-details"><h3 class="event-title">金曲雙姝 南方二重唱</h3></div>
+                                    <div class="event-details"><h3 class="event-title">于台煙</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:03</div>
@@ -393,7 +397,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">澔客＋陳加洛</h3></div>
+                                    <div class="event-details"><h3 class="event-title">黑咖啡雙人組-陳加洛&姜明澔</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
@@ -403,7 +407,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:33-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">澔客＋陳加洛</h3></div>
+                                    <div class="event-details"><h3 class="event-title">黑咖啡雙人組-陳加洛&姜明澔</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
@@ -465,7 +469,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:40-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">DJ LELE</h3></div>
+                                    <div class="event-details"><h3 class="event-title">DJ 樂樂</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:00-20:03</div>
@@ -473,7 +477,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:03-20:20</div>
-                                    <div class="event-details"><h3 class="event-title">DJ LELE</h3></div>
+                                    <div class="event-details"><h3 class="event-title">DJ 樂樂</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:20-20:30</div>
@@ -515,7 +519,7 @@
                             <div class="event-list-col">
                                 <div class="event-item">
                                     <div class="event-time">19:00-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">臺北市勞動力重建運用處</h3></div>
+                                    <div class="event-details"><h3 class="event-title">凡花似錦二重唱</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
@@ -585,7 +589,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:40-20:00</div>
-                                    <div class="event-details"><h3 class="event-title">woodywoody</h3></div>
+                                    <div class="event-details"><h3 class="event-title">WoodyWoody樂團</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
@@ -595,11 +599,11 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:03-20:20</div>
-                                    <div class="event-details"><h3 class="event-title">woodywoody</h3></div>
+                                    <div class="event-details"><h3 class="event-title">WoodyWoody樂團</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:20-20:30</div>
-                                    <div class="event-details"><h3 class="event-title">PIA</h3></div>
+                                    <div class="event-details"><h3 class="event-title">PiA吳蓓雅</h3></div>
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:30-20:33</div>
@@ -607,7 +611,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">PIA</h3></div>
+                                    <div class="event-details"><h3 class="event-title">PiA吳蓓雅</h3></div>
                                 </div>
                             </div>
                         </div>
@@ -701,7 +705,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">19:03-19:30</div>
-                                    <div class="event-details"><h3 class="event-title">It’s time to PLAY-<br>互動式瑪利歐劇場</h3></div>
+                                    <div class="event-details"><h3 class="event-title">玩家就位</h3></div>
                                 </div>
                             </div>
                             <div class="event-list-col">
@@ -727,7 +731,7 @@
                                 </div>
                                 <div class="event-item">
                                     <div class="event-time">20:33-21:00</div>
-                                    <div class="event-details"><h3 class="event-title">清新人氣女歌手-魏嘉瑩</h3></div>
+                                    <div class="event-details"><h3 class="event-title">小魏魏嘉瑩</h3></div>
                                 </div>
                             </div>
                         </div>

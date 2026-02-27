@@ -43,6 +43,7 @@
                 <a href="news_list" class="news-more">News Archive ></a>
             </div>
             
+            <!-- 新一則置前，維持四則新聞 -->
             <div class="news-list">
                 <a href="news_260209" class="news-item">
                     <span class="news-date">2026.02.09</span>
@@ -130,7 +131,7 @@
                 <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/PnGHH5oSpIM?si=ttaGQ-Fll0N_D1V2" frameborder="0" allowfullscreen></iframe>
             </div>
             <div style="margin-top: 30px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); border: 1px solid rgba(255, 255, 255, 0.1); background: #000;">
-                <video width="100%" controls preload="metadata" style="display: block; aspect-ratio: 16/9; object-fit: cover;">
+                <video width="100%" controls preload="metadata" poster="../images/lantern_install_cover.jpg" style="display: block; aspect-ratio: 16/9; object-fit: cover;">
                     <source src="../videos/lantern_install.mp4" type="video/mp4">
                     Your browser does not support HTML5 video playback. Please update your browser.
                 </video>

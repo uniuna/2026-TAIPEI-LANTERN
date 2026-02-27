@@ -129,6 +129,10 @@
                                     <div class="event-details"><h3 class="event-title">Eric Lee</h3></div>
                                 </div>
                                 <div class="event-item">
+                                    <div class="event-time">15:50-16:00</div>
+                                    <div class="event-details"><h3 class="event-title">Fata’an Youth Group</h3></div>
+                                </div>
+                                <div class="event-item">
                                     <div class="event-time">18:30-18:38</div>
                                     <div class="event-details"><h3 class="event-title">Zhongshan Shopping District-Ethereal Dessert Show</h3></div>
                                 </div>

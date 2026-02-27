@@ -533,7 +533,7 @@ const mapData = {
         name: '台北燈節設計團隊',
         type: '靜態展出',
         desc: '以萬華在地文化為核心，將區域內的代表性地標與人文特色化為一盞盞象徵祝福的燈籠。運用金紅色系呈現喜慶與富足，寓意萬華長久以來蓬勃、多元又充滿生命力的街區精神。燈組中央以大幅燈籠群構成文化地圖，讓燈組不僅是一件視覺裝置，更像是一扇回望土地故事的窗口，喚起居民與遊客對艋舺文化的情感連結，讓萬華的街巷、人情、信仰與歷史再度亮起，用光彩說出屬於這個城市的深厚底蘊。',
-        img: ''
+        img: '../images/items/ximen_B25_2.jpg'
     },
     'ximen_B26': {
         title: 'B26  光行小馬 (剝皮寮)',
@@ -992,7 +992,7 @@ const mapDataEn = {
         name: 'Taipei Lantern Festival Design Team',
         type: 'Static display',
         desc: 'Rooted in Wanhua’s local culture, this installation transforms the district’s iconic landmarks and cultural stories into lanterns that symbolize blessings. Rendered in gold and red tones, the work conveys festivity and abundance, reflecting Wanhua’s long standing spirit as a vibrant, diverse, and life filled neighborhood. At the center, a large cluster of lanterns forms a cultural map, turning the installation into more than a visual display. It becomes a window that looks back on the land’s stories, awakening emotional connections to Monga culture for residents and visitors alike. Through light, Wanhua’s streets, people, faith, and history are illuminated once more, expressing the city’s profound cultural depth.',
-        img: ''
+        img: '../images/items/ximen_B25_2.jpg'
     },
     'ximen_B26': {
         title: 'B26  Luminous Little Pony',
