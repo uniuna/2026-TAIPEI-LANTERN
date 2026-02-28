@@ -549,28 +549,28 @@ const mapData = {
         name: '變形金剛設計團隊',
         type: '靜態展出',
         desc: '本組燈飾以博派金剛領袖「柯博文」為主體，結合大型立體結構與科技感光影設計，打造高達 10公尺的主燈。燈組透過層次分明的機械造型與動態燈效，展現未來科技美學，為台北燈節揭開最具代表性的科技光影序章。每30分鐘展演一次。',
-        img: '../images/items/expo_A1_2.jpg'
+        img: '../images/items/expo_A1_3.jpg'
     },
     'expo_A2': {
         title: 'A2  兩派雙雄對決・街機巨人｜柯博文 vs 密卡登',
         name: '變形金剛設計團隊',
         type: '靜態展出',
         desc: '此燈組以經典對戰為主題，將博派與狂派的 衝突轉化為大型街機造型燈飾。設計捨棄數位螢幕，改以多層次動態燈箱、 LED 跑馬燈與序列控制技術，重現 8-bit 電玩風格的視覺暫留效果。展現燈節結合創意、科技與玩心的多元樣貌。',
-        img: '../images/items/expo_A2_2.jpg'
+        img: '../images/items/expo_A2_3.jpg'
     },
     'expo_A3': {
         title: 'A3  霸氣破界｜密卡登時空傳送門',
         name: '變形金剛設計團隊',
         type: '靜態展出',
         desc: '本燈組以狂派首領密卡登穿越時空的瞬間為主題，圓形傳送門結合藍色光效，營造強烈的未來科技氛圍。中央卡布燈箱精準捕捉能量聚集與空間撕裂的畫面，塑造電影級的臨場張力。密卡登攜帶加農 炮 踏出傳送門，展現震懾人心的氣勢，使整座燈組成為充滿力量與戲劇張力的視覺焦點。',
-        img: '../images/items/expo_A3_2.jpg'
+        img: '../images/items/expo_A3_3.jpg'
     },
     'expo_A4': {
         title: 'A4  蜂芒畢露・無限之鏡｜大黃蜂',
         name: '變形金剛設計團隊',
         type: '靜態展出',
         desc: '本燈組以大黃蜂靈活敏捷的形象為設計核心，背景結合「無限鏡Infinity Mirror）」光學技術，透過多層次反射，營造出彷彿無限延伸的光影空間。平面燈座轉化為深邃的視覺隧道，象徵速度、穿梭與無限可能。',
-        img: '../images/items/expo_A4_2.jpg'
+        img: '../images/items/expo_A4_3.jpg'
     },
     'expo_B1': {
         title: 'B1  記憶圓山',
@@ -1008,14 +1008,14 @@ const mapDataEn = {
         name: 'Transformers Design Team',
         type: 'Static display',
         desc: 'This lantern installation features Optimus Prime, the noble leader of Autobots, as the central figure. The 10 meters tall installation is featured as the main lantern with futuristic lighting design. Layered mechanical details and dynamic illumination present a bold vision of futuristic tech aesthetic, marking the opening of Taipei Lantern Festival’s most iconic chapter of tech-driven light and shadow.\nThe light show is presented every 30 minutes.',
-        img: '../images/items/expo_A1_2.jpg'
+        img: '../images/items/expo_A1_3.jpg'
     },
     'expo_A2': {
         title: 'A2  Optimus Prime vs Megatron',
         name: 'Transformers Design Team',
         type: 'Static display',
         desc: 'This installation recreates showdown game interface of Autobots and Deceptions on a large-scale arcade game device. Instead of digital screen, it uses layered films and LED sequence controls to recreate classic 8-bit visual effects through lightbox. It showcases the lantern festival’s diverse characters, blending creativity, technology and sense of play',
-        img: '../images/items/expo_A2_2.jpg'
+        img: '../images/items/expo_A2_3.jpg'
     },
     
     'expo_A3': {
@@ -1023,14 +1023,14 @@ const mapDataEn = {
         name: 'Transformers Design Team',
         type: 'Static display',
         desc: 'This lantern set captures the dramatic moment of Megatron emerging through a time-space portal. The circular structure combined with blue lighting creates a powerful, futuristic atmosphere. The central lightboxcreates a cinematic moment of energy convergence and spatial rupture. Megatron emerges from the portal wielding his fusion cannon, radiating an overwhelming and intimidating presence. This powerful moment transforms the entire lantern installation into a commanding visual focal point—one that embodies immense power, dramatic tension, and cinematic impact.',
-        img: '../images/items/expo_A3_2.jpg'
+        img: '../images/items/expo_A3_3.jpg'
     },
     'expo_A4': {
         title: 'A4 Bumblebee',
         name: 'Transformers Design Team',
         type: 'Static display',
         desc: 'Inspired by Bumblebee’s agile and dynamic personality, this lantern set features an Infinity Mirror background that creates a tunnel of reflections that appear to recede into an endless space. The flat base transforms into tunnel with infinite depth , symbolizing speed, traversal, and infinite possibilities.',
-        img: '../images/items/expo_A4_2.jpg'
+        img: '../images/items/expo_A4_3.jpg'
     },
     'expo_B1': {
         title: 'B1 Yuanshan Memories',
