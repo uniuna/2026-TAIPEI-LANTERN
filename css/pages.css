@@ -295,8 +295,6 @@ html {
     text-align: justify;
 }
 
-.news-left p { text-align: left;}
-
 .article-body img {
     max-width: 100%;
     border-radius: 10px;
@@ -431,6 +429,8 @@ html {
   .article-container {
     padding: 10px;
 }
+
+.news-left p { text-align: left;}
 
 }
 

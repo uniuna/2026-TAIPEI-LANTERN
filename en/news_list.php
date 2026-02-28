@@ -16,7 +16,20 @@
             <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
-                        <img src="../images/news/n260209_01.jpg" alt="蔣">
+                        <img src="../images/news/n260225_01.jpg" alt="">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.25</div>
+                        <h3 class="news-list-title">Transformers, Bravo Bear, and a City in Lights: Taipei Unveils Its First-Ever “Two Areas, Two IPs” Lantern Festival</h3>
+                        <p class="news-excerpt">
+                            The 2026 Taipei Lantern Festival introduces its first-ever “Two Areas, Two IPs” concept, uniting powerhouse characters to light up the city ...
+                        </p>
+                        <a href="news_260225" class="btn-more">Explore More</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="../images/news/n260209_01.jpg" alt="">
                     </div>
                     <div class="news-content">
                         <div class="news-list-date">2026.02.09</div>

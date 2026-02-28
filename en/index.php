@@ -43,8 +43,12 @@
                 <a href="news_list" class="news-more">News Archive ></a>
             </div>
             
-            <!-- 新一則置前，維持四則新聞 -->
+            <!-- 新一則置前，維持五則新聞 -->
             <div class="news-list">
+                <a href="news_260225" class="news-item">
+                    <span class="news-date">2026.02.25</span>
+                    <span class="news-text">Transformers, Bravo Bear, and a City in Lights: Taipei Unveils Its First-Ever “Two Areas, Two IPs” Lantern Festival ...</span>
+                </a>
                 <a href="news_260209" class="news-item">
                     <span class="news-date">2026.02.09</span>
                     <span class="news-text">Exclusive Collectible! Your Ultimate Guide to the 2026 Taipei Lantern Festival "Optimus Prime" Mini Lantern Distribution ...</span>
@@ -61,10 +65,10 @@
                     <span class="news-date">2026.01.26</span>
                     <span class="news-text">More Than Just a Night of Lights! "2026 Taipei Lantern Festival" Offers 20 Themed Itineraries and Exclusive Hotel Deals for Easy Savings ...</span>
                 </a>
-                <a href="news_260116" class="news-item">
+                <!-- <a href="news_260116" class="news-item">
                     <span class="news-date">2026.01.16</span>
                     <span class="news-text">The 2026 Taipei Lantern Festival Launches Its First Ever “Two Zones, Two IPs” Experience. Partnering with Global IP “Transformers,” the Expo Park Main Lantern Optimus Prime Makes an Early Reveal ...</span>
-                </a>
+                </a> -->
             </div>
         </section>
 

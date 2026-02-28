@@ -552,11 +552,11 @@ const mapData = {
         img: '../images/items/expo_A1_2.jpg'
     },
     'expo_A2': {
-        title: 'A4  兩派雙雄對決・街機巨人｜柯博文 vs 密卡登',
+        title: 'A2  兩派雙雄對決・街機巨人｜柯博文 vs 密卡登',
         name: '變形金剛設計團隊',
         type: '靜態展出',
         desc: '此燈組以經典對戰為主題，將博派與狂派的 衝突轉化為大型街機造型燈飾。設計捨棄數位螢幕，改以多層次動態燈箱、 LED 跑馬燈與序列控制技術，重現 8-bit 電玩風格的視覺暫留效果。展現燈節結合創意、科技與玩心的多元樣貌。',
-        img: '../images/items/expo_A4_2.jpg'
+        img: '../images/items/expo_A2_2.jpg'
     },
     'expo_A3': {
         title: 'A3  霸氣破界｜密卡登時空傳送門',
@@ -570,7 +570,7 @@ const mapData = {
         name: '變形金剛設計團隊',
         type: '靜態展出',
         desc: '本燈組以大黃蜂靈活敏捷的形象為設計核心，背景結合「無限鏡Infinity Mirror）」光學技術，透過多層次反射，營造出彷彿無限延伸的光影空間。平面燈座轉化為深邃的視覺隧道，象徵速度、穿梭與無限可能。',
-        img: '../images/items/expo_A2_2.jpg'
+        img: '../images/items/expo_A4_2.jpg'
     },
     'expo_B1': {
         title: 'B1  記憶圓山',
@@ -1015,7 +1015,7 @@ const mapDataEn = {
         name: 'Transformers Design Team',
         type: 'Static display',
         desc: 'This installation recreates showdown game interface of Autobots and Deceptions on a large-scale arcade game device. Instead of digital screen, it uses layered films and LED sequence controls to recreate classic 8-bit visual effects through lightbox. It showcases the lantern festival’s diverse characters, blending creativity, technology and sense of play',
-        img: '../images/items/expo_A4_2.jpg'
+        img: '../images/items/expo_A2_2.jpg'
     },
     
     'expo_A3': {
@@ -1030,7 +1030,7 @@ const mapDataEn = {
         name: 'Transformers Design Team',
         type: 'Static display',
         desc: 'Inspired by Bumblebee’s agile and dynamic personality, this lantern set features an Infinity Mirror background that creates a tunnel of reflections that appear to recede into an endless space. The flat base transforms into tunnel with infinite depth , symbolizing speed, traversal, and infinite possibilities.',
-        img: '../images/items/expo_A2_2.jpg'
+        img: '../images/items/expo_A4_2.jpg'
     },
     'expo_B1': {
         title: 'B1 Yuanshan Memories',
