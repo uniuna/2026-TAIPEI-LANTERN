@@ -14,6 +14,19 @@
 
             <div class="news-grid">
             <!-- 新一則置前 -->
+            <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="../images/news/n260226_01.jpg" alt="">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.26</div>
+                        <h3 class="news-list-title">Taipei Lantern Festival Ximen Area Illuminated: Baby Molly Main Lantern Show and IP Installations Draw Huge Crowds</h3>
+                        <p class="news-excerpt">
+                            The 2026 Taipei Lantern Festival Ximen Area has partnered with internationally renowned designer toy brand “POP MART” to present five lantern ...
+                        </p>
+                        <a href="news_260226" class="btn-more">Explore More</a>
+                    </div>
+                </article>
                 <article class="news-card">
                     <div class="news-img-box">
                         <img src="../images/news/n260225_01.jpg" alt="">

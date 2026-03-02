@@ -45,6 +45,10 @@
             
             <!-- 新一則置前，維持五則新聞 -->
             <div class="news-list">
+                <a href="news_260226" class="news-item">
+                    <span class="news-date">2026.02.26</span>
+                    <span class="news-text">Taipei Lantern Festival Ximen Area Illuminated: Baby Molly Main Lantern Show and IP Installations Draw Huge Crowds ...</span>
+                </a>        
                 <a href="news_260225" class="news-item">
                     <span class="news-date">2026.02.25</span>
                     <span class="news-text">Transformers, Bravo Bear, and a City in Lights: Taipei Unveils Its First-Ever “Two Areas, Two IPs” Lantern Festival ...</span>
