@@ -835,7 +835,7 @@
                         <div class="event-time minw-300">3/3 (Tue) 19:00 - 21:00</div>
                         <div class="event-details">
                             <h3 class="event-title">Lantern Festival Riddle Guessing</h3>
-                            <p class="event-desc"><strong>Location:</strong> Booth next to the Service Counter, Expo Park Lantern Area & Booth next to Service Counter No. 1, Ximen Lantern Area (near the rear side of MRT Exit 6).</p>
+                            <p class="event-desc"><strong>Location:</strong> Booth next to the Service Counter, Expo Park Lantern Area & Booth next to Service Counter No. 2, Ximen Lantern Area (near the  Zhongshan Hall ).</p>
                             <p class="event-desc"><strong>Details</strong> Line up on-site to spin the prize wheel and guess lantern riddles. Answer correctly to receive a convenience store gift card.</p>
                             <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">Limited quantities available while supplies last.</p>
                         </div>

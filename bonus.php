@@ -621,7 +621,7 @@
                     <div class="featured-content">
                         <h3 class="featured-title">榮町漫市集元宵燈節活動</h3>
                         <div class="featured-info">
-                            <p><strong>📅 時間：</strong>115年2月25日至3月15日 平日 17:00~22:00 / 假日 16:00~22:00</p>
+                            <p><strong>📅 時間：</strong>115年2月25日至3月15日 平日 17:00~22:00 / 假日 16:00~22:00 <span style="color: yellow; font-size: 20px;">(活動提前於3/4結束)</span></p>
                             <p><strong>📍 地點：</strong>永綏街</p>
                         </div>
                         <hr class="card-divider">
@@ -768,16 +768,49 @@
             <div id="shop-7" class="shop-content-block">
                 <div class="featured-event-card">
                     <div class="featured-img-box">
-                        <img src="images/events/慶元宵賞花燈.jpg" alt="慶元宵賞花燈">
+                        <img src="images/events/中山商圈_燈節宣傳照片_260213_1.jpg" alt="中山商圈_燈節宣傳照片">
                     </div>
                     <div class="featured-content">
                         <h3 class="featured-title">慶元宵賞花燈</h3>
                         <div class="featured-info">
-                            <p><strong>📅 時間：</strong>115年2月24日至3月5日 08:00-22:00</p>
+                            <p><strong>📅 時間：</strong>115年2月24日至3月8日08:00-22:00</p>
                             <p><strong>📍 地點：</strong>圓山花博入口廣場</p>
                         </div>
                         <hr class="card-divider">
-                        <p class="featured-desc">「慶元宵賞花燈」活動以傳統元宵燈飾為文化基底，融合現代光影藝術設計，透過層次豐富的燈光語彙，形塑溫暖且具儀式感的年節場域，吸引市民與觀光人潮駐足體驗。現場規劃「花博圓滿」元宵主題美食專區，主打現煮湯圓、元宵及養生暖冬系列美食，以味覺延續節慶溫度；並打造「光之市集」亮化策展，透過攤位燈飾設計與整體氛圍營造，提升市集夜間景觀層次。同時招募多元特色選物攤商，引進優質文創手作與在地伴手禮品牌，結合光影、風味與創意，形塑兼具傳統意涵與當代美感的元宵節慶新樣貌。</p>
+                        <p class="featured-desc">
+                        <strong>【中山商圈 x 台北燈節】</strong><br>
+                        「2026台北燈節閃耀登場，中山商圈大手筆祭出總價值5萬元的購物金與您同樂！自2月25日起，只要來到台北燈節花博展區（花博公園圓山園區），不僅能免費領取限量馬年造型燈籠，完成打卡任務還能現拿市集消費券及百元店家購物金。<br><br>
+                        🏮 限量造型燈籠免費拿<br>
+                        • 時間： 2/25(二) - 2/26(三)<br>
+                        • 活動：前往台北燈節花博展區「中山商圈服務台」，完成追蹤粉專+打卡，即贈送馬年吉祥造型燈籠。<br><br>
+                        💸 購物金大放送（總價值5萬元）<br>
+                        • 50元市集消費券 (現拿現用)：<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;◦ 時間： 2/27(四) - 2/28(五)<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;◦ 辦法： 至台北燈節花博展區「中山商圈服務台」打卡，即可獲得市集消費券（限燈節期間於花博園區中山商圈市集使用）。<br><br>
+                        • 100元店家購物券 (商圈特約店專用)：<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;◦ 領取時間： 3/1(六)、3/7(六)、3/8(日)<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;◦ 辦法： 先與中山商圈內的《璀璨中山》燈座拍照打卡 ➡ 再到花博展區「中山商圈服務台」出示畫面，即可領取100元購物券（使用期限3/1-4/6）<br><br>
+                        網頁連結： <a href="https://zsdda.org/2026lanternfestival/" target="_blank">https://zsdda.org/2026lanternfestival</a><br>
+
+                        </p>
+                        <p class="featured-desc">
+                                <p class="featured-desc">作品名稱：璀燦中山</p>
+                                <p class="featured-desc">
+                                    《璀璨中山》融合中山商圈代表性地標「圓山花博」、中山區花「蝴蝶蘭」結合傳統建築與現代城市風貌，透過專屬設計的花束、在夜晚綻放光影與繽紛色彩、今晚一起來中山發光✨<br>
+                                    中山商圈邀請您來賞燈<br>
+                                    📍座標：25.068275, 121.524572<br>
+                                    📍民族東路與雙城街口中山商圈意象招牌旁                        
+                                </p>
+                                <div class="featured-img-box">
+                                <img src="images/events/S__64020652.jpg" alt="璀璨中山">
+                                </div>
+                                <hr class="card-divider">
+                                <p class="featured-desc">景福宮燈區</p>
+                                <p class="featured-desc">台北景福宮首次響應台北燈節，將自捷運中山國小站一路串連燈飾點亮中山商圈周邊，為民眾營造溫馨喜氣的賞燈氛圍，台北市的景福宮是位於中山區牛埔地區的傳統福德正神土地公廟，有一百五十年歷史、三層樓中式建築、宏偉山門與綠意廣場，是香火鼎盛且信徒常來參拜的都市信仰中心。</p>
+                                <div class="featured-img-box">
+                                <img src="images/events/S__64020655.jpg" alt="景福宮燈區">
+                                </div>
+                        </p>
                     </div>
                 </div>
             </div>

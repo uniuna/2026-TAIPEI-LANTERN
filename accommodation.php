@@ -1196,6 +1196,77 @@
                 </div>
                 <div class="temple-item">
                     <div class="temple-header" onclick="toggleTemple(this)">
+                        <span class="t-district">大同區</span>
+                        <span class="t-name">拾光行旅</span>
+                        <div class="t-arrow"></div>
+                    </div>
+                    <div class="temple-content">
+                        <div class="hotel-info-flex">
+                            <div class="hotel-offer-col">
+                                <h4>住宿優惠方案 ✨</h4>
+                                <p style="color:#fff;">住宿9折優惠</p>
+                            </div>
+                            <div class="hotel-contact-col">
+                                <h4>訂房資訊</h4>
+                                <p class="booking-info"><a href="https://book-directonline.com/properties/lumosinndirect?locale=zh-TW&from_widget=true&referrer=canvas&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=TWD&checkInDate=2026-02-26&checkOutDate=2026-02-27
+" target="_blank">前往官網 ➔ </a></p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=台北市大同區延平北路255號" target="_blank" class="t-location-link">
+                                    📍 地點：台北市大同區延平北路255號2樓
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="temple-item">
+                    <div class="temple-header" onclick="toggleTemple(this)">
+                        <span class="t-district">大同區</span>
+                        <span class="t-name">北門臥客青年旅舍</span>
+                        </span>
+                        <div class="t-arrow"></div>
+                    </div>
+                    <div class="temple-content">
+                        <div class="hotel-info-flex">
+                            <div class="hotel-offer-col">
+                                <h4>住宿優惠方案 ✨</h4>
+                                <p style="color:#fff;">於官網訂房並輸入折扣碼【WC15】享全館房型85折優惠！</p>
+                            </div>
+                            <div class="hotel-contact-col">
+                                <h4>訂房資訊</h4>
+                                <p class="booking-info"><a href="https://www.wecomehostel.com/" target="_blank">前往官網 ➔ </a></p>
+                                <p class="booking-info">訂房專線：02-25557177</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=臺北市大同區甘谷街26號" target="_blank" class="t-location-link">
+                                    📍 地點：臺北市大同區甘谷街26號2樓之1
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="temple-item">
+                    <div class="temple-header" onclick="toggleTemple(this)">
+                        <span class="t-district">大同區</span>
+                        <span class="t-name">台北臥客旅店</span>
+                        <div class="t-arrow"></div>
+                    </div>
+                    <div class="temple-content">
+                        <div class="hotel-info-flex">
+                            <div class="hotel-offer-col">
+                                <h4>住宿優惠方案 ✨</h4>
+                                <p style="color:#fff;">於官網訂房並輸入折扣碼【WC15】享全館房型85折優惠！</p>
+                            </div>
+                            <div class="hotel-contact-col">
+                                <h4>訂房資訊</h4>
+                                <p class="booking-info"><a href="https://www.wecomehostel.com/" target="_blank">前往官網 ➔ </a></p>
+                                <p class="booking-info">訂房專線：02-25557177</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=臺北市大同區甘谷街26號" target="_blank" class="t-location-link">
+                                    📍 地點：臺北市大同區甘谷街26號7樓
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="temple-item">
+                    <div class="temple-header" onclick="toggleTemple(this)">
                         <span class="t-district">大安區</span>
                         <span class="t-name">捷絲旅臺大尊賢館</span>
                         <div class="t-arrow"></div>

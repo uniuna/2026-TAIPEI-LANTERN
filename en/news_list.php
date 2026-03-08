@@ -14,7 +14,20 @@
 
             <div class="news-grid">
             <!-- 新一則置前 -->
-            <article class="news-card">
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="../images/news/西門展區Baby Molly.jpg" alt="西門展區Baby Molly">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.03.03</div>
+                        <h3 class="news-list-title">2026 Taipei Lantern Festival Draws 3.6 Million Visitors in First Six Days. Lantern Festival, WBC Cheer Events, and Valentine’s Theme Days Take Turns in the Spotlight</h3>
+                        <p class="news-excerpt">
+                        Taipei’s most iconic annual celebration, the 2026 Taipei Lantern Festival, is in full swing. The Department of Information and Tourism (DOIT) announced that ...
+                        </p>
+                        <a href="news_260303" class="btn-more">Explore More</a>
+                    </div>
+                </article>             
+                <article class="news-card">
                     <div class="news-img-box">
                         <img src="../images/news/n260226_01.jpg" alt="">
                     </div>

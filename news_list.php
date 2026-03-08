@@ -13,6 +13,7 @@
             <h2 class="section-title">新聞總覽</h2>
 
             <div class="news-grid">
+                
                 <!-- 此篇置頂 -->
                 <article class="news-card">
                     <div class="news-img-box">
@@ -28,6 +29,19 @@
                     </div>
                 </article>
                 <!-- 新一則置前 -->
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/西門展區Baby Molly.jpg" alt="西門展區Baby Molly">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.03.03</div>
+                        <h3 class="news-list-title">「雙展區、雙IP」齊發光！台北燈節開幕6天吸360萬人潮 慶元宵、WBC應援、情人節三大主題日輪番上陣</h3>
+                        <p class="news-excerpt">
+                        臺北市年度最具代表性的節慶盛事「2026台北燈節」熱鬧開展中，臺北市政府觀光傳播局表示，今年首度以「雙展區、雙IP」策展模式 ...
+                        </p>
+                        <a href="news_260303" class="btn-more">閱讀更多</a>
+                    </div>
+                </article> 
                 <article class="news-card">
                     <div class="news-img-box">
                         <img src="images/news/n260226_01.jpg" alt="台北燈節西門展區點燈">

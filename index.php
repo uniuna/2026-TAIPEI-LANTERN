@@ -54,6 +54,10 @@
                     <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>
                 </a>
                 <!-- 新一則置前，維持四則新聞 -->
+                <a href="news_260303" class="news-item">
+                    <span class="news-date">2026.03.03</span>
+                    <span class="news-text">「雙展區、雙IP」齊發光！台北燈節開幕6天吸360萬人潮 慶元宵、WBC應援、情人節三大主題日輪番上陣 ...</span>
+                </a>
                 <a href="news_260226" class="news-item">
                     <span class="news-date">2026.02.26</span>
                     <span class="news-text">台北燈節西門展區點燈 Baby Molly主燈秀、IP燈組狂吸人潮 ...</span>
@@ -62,14 +66,14 @@
                     <span class="news-date">2026.02.25</span>
                     <span class="news-text">從2026台北燈節首創雙展區、雙IP 高10米的柯博文登陸花博公園 12行政區熊讚亮相 ...</span>
                 </a>
-                <a href="news_260223" class="news-item">
+                <!-- <a href="news_260223" class="news-item">
                     <span class="news-date">2026.02.23</span>
                     <span class="news-text">打造無菸城市 營造清新賞燈環境 2026台北燈節展區及周邊禁止吸菸 ...</span>
-                </a>
-                <a href="news_260220-2" class="news-item">
+                </a> -->
+                <!-- <a href="news_260220-2" class="news-item">
                     <span class="news-date">2026.02.20</span>
                     <span class="news-text">從潮流IP到傳統藝術 2026台北燈節點亮西門町年節魅力 ...</span>
-                </a>
+                </a> -->
                 <!-- <a href="news_260220-1" class="news-item">
                     <span class="news-date">2026.02.20</span>
                     <span class="news-text">不只變形金剛！2026台北燈節花博展區亮點一次看...</span>
@@ -183,6 +187,14 @@
         <section class="container">
             <h2 class="section-title">影音專區</h2>
             <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+                <iframe 
+                    style="position:absolute; top:0; left:0; width:100%; height:100%;" 
+                    src="https://www.youtube.com/embed/5YZINOGclOI?si=X9Owlt0SqR9M0Z4I" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-container" style="margin-top: 30px; position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
                 <iframe 
                     style="position:absolute; top:0; left:0; width:100%; height:100%;" 
                     src="https://www.youtube.com/embed/PnGHH5oSpIM?si=ttaGQ-Fll0N_D1V2&loop=1&playlist=PnGHH5oSpIM" 

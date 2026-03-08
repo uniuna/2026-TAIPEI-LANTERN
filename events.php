@@ -916,7 +916,7 @@
                         <div class="event-time minw-300">3/3 (二) 19:00-21:00</div>
                         <div class="event-details">
                             <h3 class="event-title">轉輪盤猜燈謎</h3>
-                            <p class="event-desc"><strong>地點：</strong>花博展區服務台旁攤位、西門展區1號服務台旁攤位（近捷運6號出口後側）</p>
+                            <p class="event-desc"><strong>地點：</strong>花博展區服務台旁攤位/西門展區2號服務台旁攤位（近中山堂）</p>
                             <p class="event-desc"><strong>活動方式：</strong>現場排隊轉輪盤猜燈謎，答對即可獲得超商商品卡。</p>
                             <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：限量發送，送完為止。</p>
                         </div>
@@ -951,8 +951,31 @@
                             <p class="event-desc"><strong>地點：</strong>北藝中心戶外廣場賽會轉播區＋燈節花博展區</p>
                             <p class="event-desc"><strong>活動方式：</strong>3/6(五)在北藝中心轉播WBC現場，到服務台旁領取台北燈節抽獎券，且在3/8(日)前到燈節花博展區賞燈，並到大會服務台(花博公園花牆前)憑券摸彩。</p>
                             <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：限量發送，送完為止。</p>
+                            <p class="event-desc"><strong>摸彩獎項：</strong>
+                                <p class="event-desc">1. <strong>iPhone 17</strong></p>
+                                <p class="event-desc">2. <strong>中山商圈_台北晶華酒店豪華客房住宿劵</strong></p>
+                                <p class="event-desc">3. <strong>中山商圈_Hana錵鐵板燒1,000元餐券</strong></p>
+                                <p class="event-desc">4. <strong>7-11 100元禮券</strong></p>
+                                <p class="event-desc">5. <strong>全家 100元禮券</strong></p>
+                                <p class="event-desc">6. <strong>WBC應援紋身貼紙</strong></p>               
+                            </p>
                         </div>
                     </div>
+
+                    <div class="event-gallery">
+                        <div class="event-gallery-item w20">
+                            <img src="images/wbc/晶華酒店外觀_0_0.jpg" alt="晶華酒店外觀">
+                        </div>
+                        <div class="event-gallery-item w20">
+                            <img src="images/wbc/晶華游泳池_0_0.jpg" alt="晶華游泳池">
+                        </div>
+                        <div class="event-gallery-item w20">
+                            <img src="images/wbc/Hana_LINE_NOTE_260228_1_0_0.jpg" alt="Hana錵鐵板燒">
+                        </div>
+                        <div class="event-gallery-item w20">
+                            <img src="images/wbc/Hana_LINE_NOTE_260228_2_0_0.jpg" alt="Hana錵鐵板燒">
+                        </div>
+                    </div> 
                 </div>
 
                 <!-- <div class="event-gallery">
