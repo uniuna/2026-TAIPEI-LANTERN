@@ -58,6 +58,10 @@
                     <span class="news-date">2026.03.03</span>
                     <span class="news-text">「雙展區、雙IP」齊發光！台北燈節開幕6天吸360萬人潮 慶元宵、WBC應援、情人節三大主題日輪番上陣 ...</span>
                 </a>
+                <a href="news_260227" class="news-item">
+                    <span class="news-date">2026.02.27</span>
+                    <span class="news-text">「馬」上出「國」！台北燈節花博展區城市燈組藝術盛宴 AIT首參展、國寶級大師匠心打造 ...</span>
+                </a>
                 <a href="news_260226" class="news-item">
                     <span class="news-date">2026.02.26</span>
                     <span class="news-text">台北燈節西門展區點燈 Baby Molly主燈秀、IP燈組狂吸人潮 ...</span>

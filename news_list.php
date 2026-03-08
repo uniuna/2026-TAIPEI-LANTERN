@@ -41,7 +41,20 @@
                         </p>
                         <a href="news_260303" class="btn-more">閱讀更多</a>
                     </div>
-                </article> 
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/n260227_01.jpg" alt="花博展區城市燈組">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.27</div>
+                        <h3 class="news-list-title">「馬」上出「國」！台北燈節花博展區城市燈組藝術盛宴 AIT首參展、國寶級大師匠心打造</h3>
+                        <p class="news-excerpt">
+                           「2026台北燈節」再掀國際交流熱潮，今年友好燈區首度邀請到美國在台協會（AIT）參展，共慶美國建國250周年里程碑，友好燈區集結臺日多位國寶級傳統燈藝大師共同操刀 ...
+                        </p>
+                        <a href="news_260227" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
                 <article class="news-card">
                     <div class="news-img-box">
                         <img src="images/news/n260226_01.jpg" alt="台北燈節西門展區點燈">
