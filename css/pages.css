@@ -1119,6 +1119,42 @@ html {
 }
 
 
+/*** 競賽燈區獨立頁面 (捲軸置中版) ***/
+.scroll-wrapper {
+  width: 100%;          
+  overflow-x: auto;     
+  -webkit-overflow-scrolling: touch; 
+  display: block;       
+  margin: 0;            
+  padding: 0;           
+}
+
+.svg-content {
+  width: 1280px;        /* 維持你的原稿寬度 */
+  margin: 0 auto;       /* 在大螢幕時，自動水平置中 */
+  display: block;
+}
+
+/* [關鍵新增] 當螢幕寬度小於 SVG 寬度 (1280px) 時的處理 */
+@media (max-width: 1280px) {
+  .svg-content {
+    margin: 0;          /* 強制靠左對齊，避免左側被推出螢幕外而遭到裁切 */
+  }
+}
+
+.svg-content object {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+svg text {
+  cursor: text;
+  user-select: all; 
+}
+
+
+
 /* --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ------ --- ---  */
 
 /* --- 貼心提醒 (reminder.php) --- */
