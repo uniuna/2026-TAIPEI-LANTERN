@@ -460,7 +460,7 @@
                     <div class="temple-content">
                         <div class="temple-text-full">
                             <h4>元宵燈飾</h4>
-                            <p>由艋舺龍山寺舉辦的元宵花燈展覽，以手工花燈展現宗教信仰與歷史典故等人文意涵，除了寺內設置平安燈、生肖主燈與瀑布區景觀造景燈外，宮廟周邊亦妝點小燈籠。另於艋舺公園設置值年生肖主燈及周邊光環境。 </p>
+                            <p>由艋舺龍山寺舉辦的元宵花燈展覽，以手工花燈展現宗教信仰與歷史典故等人文意涵；除寺內設置平安總燈、生肖祈福主燈與造景燈飾外，亦以小燈籠環繞寺外。2026年於艋舺公園設置「三面觀音」花燈，為人們帶來平安、傳承與智慧。 </p>
                             
                             <a href="https://www.google.com/maps/search/?api=1&query=臺北市萬華區廣州街211號" target="_blank" class="t-location-link">
                                 📍 地點：艋舺龍山寺、艋舺公園及其周邊人行道（臺北市萬華區廣州街211號）
@@ -468,7 +468,7 @@
                         </div>
 
                         <div class="temple-gallery">
-                            <img src="images/temple/財團法人台北市艋舺龍山寺.jpg" alt="活動花絮1" >
+                            <img src="images/temple/財團法人台北市艋舺龍山寺_v2.jpg" alt="活動花絮1" >
                         </div>
                         
                     </div>
