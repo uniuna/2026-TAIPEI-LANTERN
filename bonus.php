@@ -747,6 +747,39 @@
                         <p class="featured-desc">北門相機商圈以攝影與影像文化聞名，是拍照迷必訪的街區。本次妝點於北門小公園設置拍立得造型打卡裝置燈，於妝點上加入城中IP「內行仔」，裝置造型趣味十足，不僅提供民眾單人或多人拍照打卡的互動體驗，也呼應街區影像文化特色，增強商圈識別度。引導民眾停留、拍照與互動，讓民眾在拍照與互動中深度感受北門相機街的文化底蘊與影像魅力，留下專屬的街區回憶。</p>
                     </div>
                 </div>
+
+                <div class="featured-event-card">
+                    <div class="featured-img-box">
+                        <img src="images/events/趣味創意攝影比賽.jpg" alt="趣味創意攝影比賽">
+                    </div>
+                    <div class="featured-content">
+                        <h3 class="featured-title">2026臺北燈節趣味創意攝影比賽</h3>
+                        <hr class="card-divider">
+                        
+                        <p class="featured-desc">
+                            <ul style="line-height: 1.8; margin-bottom:60px;">
+                                <li>一、活動時間：2026/2/25-3/15 台北燈節期間 (依活動官方公告為準)</li>
+                                <li>二、收件日期：2026/3/2-3/22，以參賽者上傳至官方雲端或郵寄郵戳日期</li>
+                                <li>三、活動簡述：<br>元宵節提燈籠是傳統的民俗活動，在時空及科技的蛻變下，加入許多創新的應用，讓作品的創意與表現越來越特別。「臺北燈節趣味創意攝影比賽」希望邀請民眾捕捉節慶歡樂的感覺，記錄下臺北燈節多元趣味、創意十足以及賞燈歡樂的年節氣氛。</li>
+                                <br>
+                                <li>四、攝影主題 (攝影主題包含以上二項其中之一，即可參賽)
+                                    <ul>
+                                        <li>(一) 台北燈節期間現場之創意燈景、人文互動等特色，表現燈節歡樂氣氛，留下燈節美麗動人的一刻。</li>
+                                        <li>(二) 台北燈節雙展區<br>　　西門展區：捷運西門站周邊、中華路一段、中山堂廣場<br>　　花博展區：花博公園圓山園區戶外空間</li>
+                                        <li>(三) 臺灣省城隍廟燈景及街景拍攝，在燈會期間的景色做出特寫攝影，把傳統跟數位影像做結合。</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </p>
+
+                        <div class="featured-action">
+                             <a href="https://www.accupass.com/event/2601220936298649646430 " target="_blank" class="btn-main">
+                                了解更多 >
+                             </a>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
 
             <div id="shop-6" class="shop-content-block">

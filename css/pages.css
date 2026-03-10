@@ -1134,6 +1134,11 @@ html {
   margin: 0 auto;       /* 在大螢幕時，自動水平置中 */
   display: block;
 }
+.svg-content-s {
+  width: 1480px;        /* 維持你的原稿寬度 */
+  margin: 0 auto;       /* 在大螢幕時，自動水平置中 */
+  display: block;
+}
 
 /* [關鍵新增] 當螢幕寬度小於 SVG 寬度 (1280px) 時的處理 */
 @media (max-width: 1280px) {
