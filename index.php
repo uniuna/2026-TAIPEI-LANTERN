@@ -48,7 +48,11 @@
             </div>
 
             <div class="news-list">
-                <!-- 此篇置頂 -->
+                <!-- 此二篇置頂 -->
+                <a href="news_260309" class="news-item">
+                    <span class="news-date">2026.03.09</span>
+                    <span class="news-text">2026 台北燈節活動精彩花絮 ...</span>
+                </a>
                 <a href="news_260215" class="news-item">
                     <span class="news-date">2026.02.15</span>
                     <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>

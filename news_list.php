@@ -14,7 +14,20 @@
 
             <div class="news-grid">
                 
-                <!-- 此篇置頂 -->
+                <!-- 此二篇置頂 -->
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/n260309_1.jpg" alt="精彩花絮">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.03.09</div>
+                        <h3 class="news-list-title">2026 台北燈節活動精彩花絮</h3>
+                        <p class="news-excerpt">
+                           2026台北燈節自2月25日開幕以來，吸引大批民眾前來賞燈，花博與西門雙展區每日人潮絡繹不絕，現場洋溢濃厚節慶氛圍。燈節展出期間除了精彩燈組展演外，還有豐富的舞台表演、變形金剛小提燈發放、有趣的主題日活動等等，預告本周末即將壓軸登場的是白色情人節活動，歡迎有情人到台北燈節展區一起甜蜜歡慶喔 ...
+                        </p>
+                        <a href="news_260309" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
                 <article class="news-card">
                     <div class="news-img-box">
                         <img src="images/news/禁止吸菸.jpg" alt="禁止吸菸">
