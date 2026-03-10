@@ -70,10 +70,10 @@
                     <span class="news-date">2026.02.26</span>
                     <span class="news-text">台北燈節西門展區點燈 Baby Molly主燈秀、IP燈組狂吸人潮 ...</span>
                 </a>
-                <a href="news_260225" class="news-item">
+                <!-- <a href="news_260225" class="news-item">
                     <span class="news-date">2026.02.25</span>
                     <span class="news-text">從2026台北燈節首創雙展區、雙IP 高10米的柯博文登陸花博公園 12行政區熊讚亮相 ...</span>
-                </a>
+                </a> -->
                 <!-- <a href="news_260223" class="news-item">
                     <span class="news-date">2026.02.23</span>
                     <span class="news-text">打造無菸城市 營造清新賞燈環境 2026台北燈節展區及周邊禁止吸菸 ...</span>
