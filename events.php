@@ -997,10 +997,10 @@
                         <div class="event-time minw-300" >3/13 (五)-3/15 (日) 18:00-21:00</div>
                         <div class="event-details">
                             <h3 class="event-title">甜蜜印相 & 金莎傳情</h3>
-                            <p class="event-desc"><strong>地點：</strong>花博展區變形金剛主燈旁攤位、西門展區1號服務台旁攤位（近捷運6號出口後側）</p>
-                            <p class="event-desc">1. <strong>印相體驗：</strong>上傳與燈組合照，即可免費列印燈節限定相片。</p>
+                            <p class="event-desc"><strong>地點：</strong>花博展區變形金剛主燈旁攤位、西門展區近”A4 Hirono小野 馬上福到”、”A5台北雙面畫卷”燈組之攤位（近中華路1段160號）</p>
+                            <p class="event-desc">1. <strong>印相體驗：</strong>上傳2人與IP燈組合照，即可免費列印燈節限定相片。</p>
                             <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：免費列印限定相片，每人限 1張。</p>
-                            <p class="event-desc">2. <strong>送金莎花束：</strong>將印出的照片上傳社群並 #2026台北燈節，經工作人員確認後即贈金莎花束。</p>
+                            <p class="event-desc">2. <strong>送金莎花束：</strong>將印出的照片上傳社群並 #台北燈節 #情人節快樂，經工作人員確認後即贈金莎花束。</p>
                             <p class="event-desc" style="color: var(--accent-color); font-size: 0.9rem;">備註：金莎花束每人限 1束，限量發送，送完為止。</p>
                         </div>
                     </div>
