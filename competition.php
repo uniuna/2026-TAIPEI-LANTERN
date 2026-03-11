@@ -8,7 +8,7 @@
 <body class="no-ambient">
     <?php include 'nav.php'; ?>
 
-    <main style="padding-top: 60px;">
+    <main style="padding-top: 60px; padding-bottom: 60px;">
 
         <div class="scroll-wrapper">
         <div class="svg-content">
