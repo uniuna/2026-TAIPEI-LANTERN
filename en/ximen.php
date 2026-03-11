@@ -335,6 +335,26 @@ Wu Tsung-yi</span>
                                     Competition Lantern Display Area</h4>
                             </div>
                         </div>
+                        <a href="competition" target="_blank" class="btn-view-detail-g">
+                            More Details
+                        </a>
+                    </div>
+
+                    <!-- <div class="lantern-item" style="cursor: default;">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name" style="color:#b2e152;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                                        <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                                        <path d="M18 4H6v4.5c0 3.04 2.69 5.5 6 5.5s6-2.46 6-5.5V4z"></path>
+                                        <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                                        <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                                        <path d="M4 22h16"></path>
+                                    </svg>
+                                    Competition Lantern Display Area</h4>
+                            </div>
+                        </div>
                         <a href="../pdf/Competition-Lantern-Display-Area.pdf" target="_blank" class="btn-view-detail-g">
                             Competition Lantern Display Area Registry Download
                             <span style="vertical-align: middle; margin-left: 5px;">
@@ -345,7 +365,7 @@ Wu Tsung-yi</span>
                                 </svg>
                             </span>
                         </a>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
