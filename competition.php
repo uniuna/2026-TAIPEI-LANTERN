@@ -19,8 +19,8 @@
         </div>
 
         <div class="scroll-wrapper">
-        <div class="svg-content-s">
-            <object data="images/items/Competition-Lantern-S.svg" type="image/svg+xml">
+        <div class="svg-content">
+            <object data="images/items/Competition-Lantern-SO.svg" type="image/svg+xml">
             您的瀏覽器不支援 SVG
             </object>
         </div>

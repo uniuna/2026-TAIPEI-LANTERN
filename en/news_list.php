@@ -16,13 +16,13 @@
                 <!-- 此篇置頂 -->
                 <article class="news-card">
                     <div class="news-img-box">
-                        <img src="../images/news/n260215_01.jpg" alt="">
+                        <img src="../images/news/禁止吸菸.jpg" alt="">
                     </div>
                     <div class="news-content">
                         <div class="news-list-date">2026.02.15</div>
                         <h3 class="news-list-title">During the 2026 Taipei Lantern Festival, smoking, including e-cigarettes and heated tobacco products, is prohibited within festival zones and surrounding areas. Those who wish to smoke must use designated smoking areas. Violators may face fines of up to NT$10,000.</h3>
                         <p class="news-excerpt">
-                            During the 2026 Taipei Lantern Festival, smoking, including e-cigarettes and heated tobacco products, is prohibited within festival zones and surrounding areas ...
+                            During the 2026 Taipei Lantern Festival, smoking, including e-cigarettes and heated tobacco products ...
                         </p>
                         <a href="news_260215" class="btn-more">Explore More</a>
                     </div>
@@ -37,7 +37,7 @@
                         <div class="news-list-date">2026.03.03</div>
                         <h3 class="news-list-title">2026 Taipei Lantern Festival Draws 3.6 Million Visitors in First Six Days. Lantern Festival, WBC Cheer Events, and Valentine’s Theme Days Take Turns in the Spotlight</h3>
                         <p class="news-excerpt">
-                        Taipei’s most iconic annual celebration, the 2026 Taipei Lantern Festival, is in full swing. The Department of Information and Tourism (DOIT) announced that ...
+                            Taipei’s most iconic annual celebration, the 2026 Taipei Lantern Festival, is in full swing. The Department of Information and Tourism (DOIT) announced that this year marks the first adoption of a “Two Areas, Two IPs” curatorial model ...
                         </p>
                         <a href="news_260303" class="btn-more">Explore More</a>
                     </div>
@@ -50,7 +50,7 @@
                         <div class="news-list-date">2026.02.26</div>
                         <h3 class="news-list-title">Taipei Lantern Festival Ximen Area Illuminated: Baby Molly Main Lantern Show and IP Installations Draw Huge Crowds</h3>
                         <p class="news-excerpt">
-                            The 2026 Taipei Lantern Festival Ximen Area has partnered with internationally renowned designer toy brand “POP MART” to present five lantern ...
+                            The 2026 Taipei Lantern Festival Ximen Area has partnered with internationally renowned designer toy brand “POP MART” to present five lantern installations centered on Year of the Horse limited editions of six popular IP characters. Taipei Mayor Chiang Wan-an officially illuminated the Ximen Area this evening (Feb. 26) ...
                         </p>
                         <a href="news_260226" class="btn-more">Explore More</a>
                     </div>
@@ -63,7 +63,7 @@
                         <div class="news-list-date">2026.02.25</div>
                         <h3 class="news-list-title">Transformers, Bravo Bear, and a City in Lights: Taipei Unveils Its First-Ever “Two Areas, Two IPs” Lantern Festival</h3>
                         <p class="news-excerpt">
-                            The 2026 Taipei Lantern Festival introduces its first-ever “Two Areas, Two IPs” concept, uniting powerhouse characters to light up the city ...
+                            The 2026 Taipei Lantern Festival introduces its first-ever “Two Areas, Two IPs” concept, uniting powerhouse characters to light up the city. On the evening of February 25, Taipei Mayor Wan-an Chiang illuminated ...
                         </p>
                         <a href="news_260225" class="btn-more">Explore More</a>
                     </div>
@@ -148,13 +148,13 @@
                 </article>
                 <article class="news-card">
                     <div class="news-img-box">
-                        <img src="../images/news/n260211-2_01.jpg" alt="">
+                        <img src="../images/links/traffic_control_map.jpg" alt="">
                     </div>
                     <div class="news-content">
                         <div class="news-list-date">2026.02.11</div>
                         <h3 class="news-list-title">2026 Taipei Lantern Festival Traffic Controls - Public Transportation Is the Most Convenient Way to Get There</h3>
                         <p class="news-excerpt">
-                            The 2026 Taipei Lantern Festival will take place from February 25(Wed) to March 15(Sun) in Ximen and Yuanshan Expo Park ...
+                            The 2026 Taipei Lantern Festival will take place from February 25(Wed) to March 15(Sun) in Ximen and Yuanshan Expo Park. In addition to themed IP lantern installations, the festival will feature numerous lantern displays ...
                         </p>
                         <a href="news_260211-2" class="btn-more">Explore More</a>
                     </div>
@@ -246,7 +246,7 @@
                         <div class="news-list-date">2026.01.04</div>
                         <h3 class="news-list-title">Fo Guang Shan Taipei Vihara Joins the “2026 Taipei Lantern Festival,” Sharing Blessings of Harmony and Coexistence Through Light</h3>
                         <p class="news-excerpt">
-                            Under the theme “60 Years of Passing the Lamp, Honoring a 100-Year Legacy,” Fo Guang Shan Taipei Vihara held a “Lantern Painting Competition(彩繪燈籠比賽)” on December 21, 2025 ...
+                            Under the theme “60 Years of Passing the Lamp, Honoring a 100-Year Legacy,” Fo Guang Shan Taipei Vihara held a “Lantern Painting Competition(彩繪燈籠比賽)” on December 21, 2025. Through the interplay of light and brushstrokes, the event showcased the beauty of blending Buddhist teachings with artistic expression ...
                         </p>
                         <a href="news_260104" class="btn-more">Explore More</a>
                     </div>

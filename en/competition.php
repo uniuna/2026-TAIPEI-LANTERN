@@ -12,7 +12,7 @@
 
         <div class="scroll-wrapper">
         <div class="svg-content-s">
-            <object data="../images/items/Competition-Lantern-L-en.svg" type="image/svg+xml">
+            <object data="../images/items/Competition-Lantern-LO-en.svg" type="image/svg+xml">
             Your browser does not support SVG.
             </object>
         </div>
@@ -20,7 +20,7 @@
 
         <div class="scroll-wrapper">
         <div class="svg-content-s">
-            <object data="../images/items/Competition-Lantern-S-en.svg" type="image/svg+xml">
+            <object data="../images/items/Competition-Lantern-SO-en.svg" type="image/svg+xml">
             Your browser does not support SVG.
             </object>
         </div>

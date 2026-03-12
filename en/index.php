@@ -37,7 +37,7 @@
     </header>
 
      <div class="hero-transition">
-        <img src="images/hero-transition.png" alt="transition" class="transition-img">
+        <img src="../images/hero-transition.png" alt="transition" class="transition-img">
     </div>
 
     <main style="padding-bottom: 150px;">
@@ -77,8 +77,8 @@
                 <!-- <a href="news_260209" class="news-item">
                     <span class="news-date">2026.02.09</span>
                     <span class="news-text">Exclusive Collectible! Your Ultimate Guide to the 2026 Taipei Lantern Festival "Optimus Prime" Mini Lantern Distribution ...</span>
-                </a> -->
-                <!-- <a href="news_260130" class="news-item">
+                </a>
+                <a href="news_260130" class="news-item">
                     <span class="news-date">2026.01.30</span>
                     <span class="news-text">The 2026 Taipei Lantern Festival Ximen Area Partners with POP MART to Debut Six Popular IPs, Unveil Five Lantern Installations, and Reveal an 8 Meter Baby Molly Main Lantern ...</span>
                 </a> -->
@@ -156,6 +156,22 @@
 
         <section class="container">
             <h2 class="section-title">Audiovisual Area</h2>
+            <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+                <iframe 
+                    style="position:absolute; top:0; left:0; width:100%; height:100%;" 
+                    src="https://www.youtube.com/embed/FnqPtB3VmhE?si=Kqkm9S-LLtIvtVcl&loop=1&playlist=FnqPtB3VmhE" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-container" style="margin-top: 30px; position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+                <iframe 
+                    style="position:absolute; top:0; left:0; width:100%; height:100%;" 
+                    src="https://www.youtube.com/embed/5YZINOGclOI?si=X9Owlt0SqR9M0Z4I&loop=1&playlist=5YZINOGclOI" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
             <div class="video-container" style="margin-top: 30px; position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
                 <iframe 
                     style="position:absolute; top:0; left:0; width:100%; height:100%;" 
