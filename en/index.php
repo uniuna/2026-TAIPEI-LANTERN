@@ -46,9 +46,14 @@
             <div class="news-header">
                 <a href="news_list" class="news-more">News Archive ></a>
             </div>
-            
-            <!-- 新一則置前，維持五則新聞 -->
+
             <div class="news-list">
+                <!-- 此篇置頂 -->
+                <a href="news_260215" class="news-item">
+                    <span class="news-date">2026.02.15</span>
+                    <span class="news-text">During the 2026 Taipei Lantern Festival, smoking, including e-cigarettes and heated tobacco products, is prohibited within festival zones and surrounding areas. Those who wish to smoke must use designated smoking areas. Violators may face fines of up to NT$10,000 ...</span>
+                </a>  
+                <!-- 新一則置前，維持四則新聞 -->
                 <a href="news_260303" class="news-item">
                     <span class="news-date">2026.03.03</span>
                     <span class="news-text">“Two Areas, Two IPs” Shine Bright! 2026 Taipei Lantern Festival Draws 3.6 Million Visitors in First Six Days. Lantern Festival, WBC Cheer Events, and Valentine’s Theme Days ...</span>
@@ -61,14 +66,22 @@
                     <span class="news-date">2026.02.25</span>
                     <span class="news-text">Transformers, Bravo Bear, and a City in Lights: Taipei Unveils Its First-Ever “Two Areas, Two IPs” Lantern Festival ...</span>
                 </a>
-                <a href="news_260209" class="news-item">
+                <a href="news_260223" class="news-item">
+                    <span class="news-date">2026.02.23</span>
+                    <span class="news-text">Building a Smoke-Free City - Creating a Fresh Lantern-Viewing Environment<br>Smoking Prohibited in 2026 Taipei Lantern Festival Areas and Surroundings ...</span>
+                </a>
+                <!-- <a href="news_260220-2" class="news-item">
+                    <span class="news-date">2026.02.20</span>
+                    <span class="news-text">From Trendy IPs to Traditional Art - 2026 Taipei Lantern Festival Illuminates Ximending’s Lunar New Year Spirit ...</span>
+                </a> -->
+                <!-- <a href="news_260209" class="news-item">
                     <span class="news-date">2026.02.09</span>
                     <span class="news-text">Exclusive Collectible! Your Ultimate Guide to the 2026 Taipei Lantern Festival "Optimus Prime" Mini Lantern Distribution ...</span>
-                </a>
-                <a href="news_260130" class="news-item">
+                </a> -->
+                <!-- <a href="news_260130" class="news-item">
                     <span class="news-date">2026.01.30</span>
                     <span class="news-text">The 2026 Taipei Lantern Festival Ximen Area Partners with POP MART to Debut Six Popular IPs, Unveil Five Lantern Installations, and Reveal an 8 Meter Baby Molly Main Lantern ...</span>
-                </a>
+                </a> -->
                 <!-- <a href="news_260129" class="news-item">
                     <span class="news-date">2026.01.29</span>
                     <span class="news-text">Mayor Wan-an Chiang Announces Dual Exhibition Zones for the 2026 Taipei Lantern Festival; Ximending Partners with POP MART to Welcome Global Visitors ...</span>
@@ -143,8 +156,13 @@
 
         <section class="container">
             <h2 class="section-title">Audiovisual Area</h2>
-            <div class="video-container" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
-                <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/PnGHH5oSpIM?si=ttaGQ-Fll0N_D1V2" frameborder="0" allowfullscreen></iframe>
+            <div class="video-container" style="margin-top: 30px; position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+                <iframe 
+                    style="position:absolute; top:0; left:0; width:100%; height:100%;" 
+                    src="https://www.youtube.com/embed/PnGHH5oSpIM?si=ttaGQ-Fll0N_D1V2&loop=1&playlist=PnGHH5oSpIM" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
             </div>
             <div style="margin-top: 30px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); border: 1px solid rgba(255, 255, 255, 0.1); background: #000;">
                 <video width="100%" controls preload="metadata" poster="../images/lantern_install_cover.jpg" style="display: block; aspect-ratio: 16/9; object-fit: cover;">

@@ -12,7 +12,7 @@
 
         <div class="scroll-wrapper">
         <div class="svg-content">
-            <object data="images/items/Competition-Lantern-L.svg" type="image/svg+xml">
+            <object data="images/items/Competition-Lantern-LO.svg" type="image/svg+xml">
             您的瀏覽器不支援 SVG
             </object>
         </div>
