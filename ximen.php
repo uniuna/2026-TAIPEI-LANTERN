@@ -337,6 +337,23 @@
                             查看詳情
                         </a>
                     </div>
+
+                    <div class="lantern-item" style="cursor: default;">
+                        <div class="lantern-content">
+                            <div class="lantern-header-row">
+                                <h4 class="lantern-name" style="color:#b2e152;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                        <polygon points="12 11 13.5 14 17 14.5 14.5 17 15 20.5 12 19 9 20.5 9.5 17 7 14.5 10.5 14"></polygon>
+                                    </svg>
+                                    競賽燈區-得獎名單 </h4>
+                            </div>
+                        </div>
+                        <a href="ct-winners" target="_blank" class="btn-view-detail-g">
+                            查看詳情
+                        </a>
+                    </div>
                     
                     <!-- <div class="lantern-item" style="cursor: default;">
                         <div class="lantern-content">
