@@ -21,8 +21,6 @@
 
             <div class="article-body"> 
 
-                <img src="images/news/n260315_1.jpg" alt="新聞配圖">
-
                 <p>
                 「2026台北燈節」自2月25日開展，今（15）日圓滿畫下句點，期間吸引逾千萬人次參觀。臺北市政府觀光傳播局表示，今年台北燈節有多項突破，首度以「雙展區、雙IP」策展、首度實施展區全面禁菸措施，美國在台協會（AIT）今年也首度參展設置燈組，本次台北燈節結合藝術、傳統、潮流與國際，帶來專屬臺北的光影體驗，更為臺北城市觀光及商圈經濟注入新活力。
                 </p>
@@ -34,8 +32,6 @@
                 <p>
                 觀傳局指出，2026台北燈節19天展期間參觀人潮不斷，除超過千萬人次參觀外，更帶動周邊旅館住房率增加近3成，假日住房率近9成接近滿房，周邊商圈業績提升2成。今年小提燈也與IP合作打造柯博文小提燈，吸引民眾爭相排隊索取，12行政區免費發放1小時內便全數秒殺。
                 </p>
-
-                <img src="images/news/n260315_2.jpg" alt="新聞配圖">
 
                 <p>
                 台北燈節今年新增花博展區，更首度試行花博展區週六延長開展至晚間12時，促進夜間觀光及商圈活絡。臺北市會展基金會表示，花博公園腹地完整、設施完善，鄰近中山、大同及士林景點，本次燈節帶進觀光人潮，假日期間更可看到許多親子族群湧入花博公園，中山商圈的《集食行樂》酒吧餐廳一到周末更是人潮爆滿，民眾放鬆享受美好的夜生活。
@@ -53,10 +49,47 @@
                 觀傳局表示，「2026台北燈節」圓滿落幕，感謝所有藝術家、表演團隊與友好城市、企業夥伴、宮廟、商圈、場館等的參與響應，以及在地居民支持。觀傳局未來將持續打造精彩的台北燈節，為國內外遊客帶來更多歡樂。臺北市政府一年四季持續舉辦各項精彩活動，歡迎民眾一起參與，共享臺北美好生活。
                 </p>
 
-                <img src="images/news/n260315_3.jpg" alt="新聞配圖">
-                <img src="images/news/n260315_4.jpg" alt="新聞配圖">
-                <img src="images/news/n260315_5.jpg" alt="新聞配圖">
-                <img src="images/news/n260315_6.jpg" alt="新聞配圖">
+                <figure style="margin: 0 0 40px 0; text-align: left;">
+                    <img src="images/news/n260315_1.jpg" alt="西門展區的Baby Molly主燈秀歡樂現場" style="width: 100%; border-radius: 8px; margin-bottom: 0;">
+                    <figcaption style="font-size: 0.9rem; color: var(--text-sub); margin-top: 12px; line-height: 1.5;">
+                        西門展區的Baby Molly主燈秀歡樂現場，民眾紛紛舉起手機與雙手，迎接從空中飄落的煙霧泡泡。
+                    </figcaption>
+                </figure>
+
+                <figure style="margin: 0 0 40px 0; text-align: left;">
+                    <img src="images/news/n260315_2.jpg" alt="花博展區柯博文主燈" style="width: 100%; border-radius: 8px; margin-bottom: 0;">
+                    <figcaption style="font-size: 0.9rem; color: var(--text-sub); margin-top: 12px; line-height: 1.5;">
+                        花博展區柯博文主燈在燈光與煙霧效果中搭配專屬音樂震撼登場，吸引大批民眾駐足欣賞。
+                    </figcaption>
+                </figure>
+
+                <figure style="margin: 0 0 40px 0; text-align: left;">
+                    <img src="images/news/n260315_3.jpg" alt="小朋友開心展示在台北燈節展區領取的小提燈" style="width: 100%; border-radius: 8px; margin-bottom: 0;">
+                    <figcaption style="font-size: 0.9rem; color: var(--text-sub); margin-top: 12px; line-height: 1.5;">
+                        小朋友開心展示在台北燈節展區領取的小提燈，這也是台北燈節小提燈首度結合IP造型設計。
+                    </figcaption>
+                </figure>
+
+                <figure style="margin: 0 0 40px 0; text-align: left;">
+                    <img src="images/news/n260315_4.jpg" alt="美國在台協會(AIT)今年首度參與台北燈節" style="width: 100%; border-radius: 8px; margin-bottom: 0;">
+                    <figcaption style="font-size: 0.9rem; color: var(--text-sub); margin-top: 12px; line-height: 1.5;">
+                        美國在台協會(AIT)今年首度參與台北燈節設置燈組，共慶美國建國250周年里程碑，展現臺美長久以來深厚的友誼。
+                    </figcaption>
+                </figure>
+
+                <figure style="margin: 0 0 40px 0; text-align: left;">
+                    <img src="images/news/n260315_5.jpg" alt="熊讚12行政區限定造型燈組" style="width: 100%; border-radius: 8px; margin-bottom: 0;">
+                    <figcaption style="font-size: 0.9rem; color: var(--text-sub); margin-top: 12px; line-height: 1.5;">
+                        台北燈節推出臺北城市吉祥物「熊讚」12行政區限定造型燈組，熊讚本尊也來一起合照。
+                    </figcaption>
+                </figure>
+
+                <figure style="margin: 0 0 40px 0; text-align: left;">
+                    <img src="images/news/n260315_6.jpg" alt="2026台北燈節首度實施禁菸措施" style="width: 100%; border-radius: 8px; margin-bottom: 0;">
+                    <figcaption style="font-size: 0.9rem; color: var(--text-sub); margin-top: 12px; line-height: 1.5;">
+                        「2026台北燈節」首度實施禁菸措施，並規劃臨時吸菸區，現場可見許多工作人員及市府跨局處同仁協助勸導與稽查，提供民眾更舒適友善的賞燈環境。
+                    </figcaption>
+                </figure>
 
                 
             </div>

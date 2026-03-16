@@ -48,19 +48,17 @@
             </div>
 
             <div class="news-list">
-                <!-- 此二篇置頂 -->
-                <a href="news_260309" class="news-item">
-                    <span class="news-date">2026.03.09</span>
-                    <span class="news-text">2026 台北燈節活動精彩花絮 ...</span>
-                </a>
-                <a href="news_260215" class="news-item">
-                    <span class="news-date">2026.02.15</span>
-                    <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>
-                </a>
-                <!-- 新一則置前，維持三則新聞 -->
+                <!-- 此篇置頂 -->
                 <a href="news_260315" class="news-item">
                     <span class="news-date">2026.03.15</span>
                     <span class="news-text">2026台北燈節圓滿落幕！「雙展區、雙IP」及多項創新 為臺北城市觀光注入新活力 ...</span>
+                </a>
+                
+                <!-- 新一則置前，維持三則新聞 -->
+            
+                <a href="news_260309" class="news-item">
+                    <span class="news-date">2026.03.09</span>
+                    <span class="news-text">2026 台北燈節活動精彩花絮 ...</span>
                 </a>
                 <a href="news_260303" class="news-item">
                     <span class="news-date">2026.03.03</span>
@@ -74,6 +72,10 @@
                     <span class="news-date">2026.02.26</span>
                     <span class="news-text">台北燈節西門展區點燈 Baby Molly主燈秀、IP燈組狂吸人潮 ...</span>
                 </a>
+                <!-- <a href="news_260215" class="news-item">
+                    <span class="news-date">2026.02.15</span>
+                    <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>
+                </a> -->
                 <!-- <a href="news_260225" class="news-item">
                     <span class="news-date">2026.02.25</span>
                     <span class="news-text">從2026台北燈節首創雙展區、雙IP 高10米的柯博文登陸花博公園 12行政區熊讚亮相 ...</span>

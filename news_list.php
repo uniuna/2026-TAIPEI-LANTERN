@@ -17,34 +17,6 @@
                 <!-- 此二篇置頂 -->
                 <article class="news-card">
                     <div class="news-img-box">
-                        <img src="images/news/n260309_1.jpg" alt="精彩花絮">
-                    </div>
-                    <div class="news-content">
-                        <div class="news-list-date">2026.03.09</div>
-                        <h3 class="news-list-title">2026 台北燈節活動精彩花絮</h3>
-                        <p class="news-excerpt">
-                           2026台北燈節自2月25日開幕以來，吸引大批民眾前來賞燈，花博與西門雙展區每日人潮絡繹不絕，現場洋溢濃厚節慶氛圍。燈節展出期間除了精彩燈組展演外，還有豐富的舞台表演、變形金剛小提燈發放、有趣的主題日活動等 ...
-                        </p>
-                        <a href="news_260309" class="btn-more">閱讀更多</a>
-                    </div>
-                </article>
-                <article class="news-card">
-                    <div class="news-img-box">
-                        <img src="images/news/禁止吸菸.jpg" alt="禁止吸菸">
-                    </div>
-                    <div class="news-content">
-                        <div class="news-list-date">2026.02.15</div>
-                        <h3 class="news-list-title">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。違者最高處1萬元罰鍰。</h3>
-                        <p class="news-excerpt">
-                           2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區 ...
-                        </p>
-                        <a href="news_260215" class="btn-more">閱讀更多</a>
-                    </div>
-                </article>
-                
-                <!-- 新一則置前 -->
-                <article class="news-card">
-                    <div class="news-img-box">
                         <img src="images/news/n260315_1.jpg" alt="2026台北燈節圓滿落幕">
                     </div>
                     <div class="news-content">
@@ -54,6 +26,20 @@
                         「2026台北燈節」自2月25日開展，今（15）日圓滿畫下句點，期間吸引逾千萬人次參觀。臺北市政府觀光傳播局表示，今年台北燈節有多項突破 ...
                         </p>
                         <a href="news_260315" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <!-- 新一則置前 -->
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/n260309_1.jpg" alt="精彩花絮">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.03.09</div>
+                        <h3 class="news-list-title">2026 台北燈節活動精彩花絮</h3>
+                        <p class="news-excerpt">
+                           2026台北燈節自2月25日開幕以來，吸引大批民眾前來賞燈，花博與西門雙展區每日人潮絡繹不絕，現場洋溢濃厚節慶氛圍。燈節展出期間除了精彩燈組展演外，還有豐富的舞台表演、變形金剛小提燈發放、有趣的主題日活動等 ...
+                        </p>
+                        <a href="news_260309" class="btn-more">閱讀更多</a>
                     </div>
                 </article>
                 <article class="news-card">
@@ -145,6 +131,19 @@
                            「2026台北燈節」2月25日至3月15日在花博展區與西門展區盛大登場。今年燈節首度推出「雙展區、雙IP」策展模式，將人氣角色與創意藝術作品同時呈現 ...
                         </p>
                         <a href="news_260220-1" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
+                        <img src="images/news/禁止吸菸.jpg" alt="禁止吸菸">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.02.15</div>
+                        <h3 class="news-list-title">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。違者最高處1萬元罰鍰。</h3>
+                        <p class="news-excerpt">
+                           2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區 ...
+                        </p>
+                        <a href="news_260215" class="btn-more">閱讀更多</a>
                     </div>
                 </article>
                 <article class="news-card">
