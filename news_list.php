@@ -45,6 +45,19 @@
                 <!-- 新一則置前 -->
                 <article class="news-card">
                     <div class="news-img-box">
+                        <img src="images/news/n260315_1.jpg" alt="2026台北燈節圓滿落幕">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-list-date">2026.03.15</div>
+                        <h3 class="news-list-title">2026台北燈節圓滿落幕！「雙展區、雙IP」及多項創新 為臺北城市觀光注入新活力</h3>
+                        <p class="news-excerpt">
+                        「2026台北燈節」自2月25日開展，今（15）日圓滿畫下句點，期間吸引逾千萬人次參觀。臺北市政府觀光傳播局表示，今年台北燈節有多項突破 ...
+                        </p>
+                        <a href="news_260315" class="btn-more">閱讀更多</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-img-box">
                         <img src="images/news/西門展區Baby Molly.jpg" alt="西門展區Baby Molly">
                     </div>
                     <div class="news-content">

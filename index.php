@@ -58,6 +58,10 @@
                     <span class="news-text">2026台北燈節期間展區及周邊禁止吸菸(含電子菸及加熱菸)，如有吸菸需求請至指定吸菸區。<br>違者最高處1萬元罰鍰 ...</span>
                 </a>
                 <!-- 新一則置前，維持三則新聞 -->
+                <a href="news_260315" class="news-item">
+                    <span class="news-date">2026.03.15</span>
+                    <span class="news-text">2026台北燈節圓滿落幕！「雙展區、雙IP」及多項創新 為臺北城市觀光注入新活力 ...</span>
+                </a>
                 <a href="news_260303" class="news-item">
                     <span class="news-date">2026.03.03</span>
                     <span class="news-text">「雙展區、雙IP」齊發光！台北燈節開幕6天吸360萬人潮 慶元宵、WBC應援、情人節三大主題日輪番上陣 ...</span>
