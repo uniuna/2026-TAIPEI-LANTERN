@@ -19,7 +19,7 @@
         
         <section>
             
-            <h2 class="section-title reminder-intro">本活動已結束，<br>敬請期待 "2027台北燈節”。</h2>
+            <h2 class="section-title reminder-intro">本活動已結束，<br>敬請期待 "2027台北燈節”</h2>
             
         </section>
 
