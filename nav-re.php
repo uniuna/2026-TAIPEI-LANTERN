@@ -10,7 +10,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </a>
     </div>
 
-    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <!-- <div class="hamburger" onclick="toggleMenu()">☰</div>
     
     <ul class="nav-links" id="navLinks">
         
@@ -54,6 +54,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <li>
             <a href="https://www.travel.taipei/" target="_blank" class="t-travel">台北旅遊網</a>
         </li>
-    </ul>
+    </ul> -->
     
 </nav>
