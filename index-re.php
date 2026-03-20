@@ -19,7 +19,7 @@
         
         <section>
             
-            <h2 class="section-title reminder-intro">本活動已結束，<br>敬請期待 "2027台北燈節”</h2>
+            <h2 class="section-title reminder-intro" style="width: 100%;">本活動已結束，敬請期待 "2027台北燈節"<br>The event has ended. <br>Stay tuned for the 2027 Taipei Lantern Festival.</h2>
             
         </section>
 
